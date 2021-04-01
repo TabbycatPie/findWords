@@ -1,22 +1,17 @@
 
 
 import codecs
+import Output
 #FileName = r'c:\ls\1'
 #KeyStr = input("the key string: ")
 #KeyStr = '<dd class="info"><span>执业证号：'
-
-def outPut(preline,curline,filename):
-    filetype = getFiletype(filename)
-    if(filetype == "srt"):
-        print("movie:"+filename+"\ntime:"+preline + "content:"+ curline + "\n")
-    else:
-        print("movie:"+filename+"\ncontent:"+curline)
 
 def getFiletype(filename):
     temp=filename.split(".")
     return temp[len(temp)-1]
 
 def findKeyStringInFile(KeyStr,FileName):
+    found_count=0 #找到
     FoundFlag = False
     #用utf-8格式打开文件
     FileObj = codecs.open(FileName, 'r','utf-8')
@@ -25,6 +20,7 @@ def findKeyStringInFile(KeyStr,FileName):
         NextLine = FileObj.readline()
     except Exception as e:
        # print("file format error!\nfileName:"+FileName)
+        Output.logError("At "+ FileName+ ":file format error!" )
         LineTemp=""
         NextLine=""
     PreLine = ""
@@ -33,7 +29,8 @@ def findKeyStringInFile(KeyStr,FileName):
     while NextLine:
         if(LineTemp.upper().find(KeyStr.upper()) > 0):
             FoundFlag = True
-            outPut(PreLine,LineTemp,FileName)
+            Output.outPut(PreLine,LineTemp,FileName,KeyStr)
+            found_count = found_count + 1
         PreLine=LineTemp
         LineTemp = NextLine
         try:
@@ -41,6 +38,7 @@ def findKeyStringInFile(KeyStr,FileName):
         except Exception as e:
             NextLine =""
     FileObj.close()
-        
-   # if FoundFlag == False:
-        #print("Not found")
+    #没有找到
+    if FoundFlag == False:
+        Output.logError("At "+ FileName +": Word -  "+KeyStr+ "  Can not found !" )
+    return found_count

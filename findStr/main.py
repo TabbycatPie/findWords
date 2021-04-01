@@ -6,8 +6,13 @@ def getWordList():
     words = _input.split(",")
     return words
 
+def printScreen(info,total,current,pocess):
+    os.system("cls")
+    print(info)
+    print("\nCurrent pocession:"+(current/total)*100+"%")
 
 def main():
+
     #输入查找的单词
     words=getWordList()
 
