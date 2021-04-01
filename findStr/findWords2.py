@@ -17,28 +17,32 @@ def findKeyStringInFile(KeyStr,FileName):
     FileObj = codecs.open(FileName, 'r','utf-8')
     try:
         LineTemp = FileObj.readline()
-        NextLine = FileObj.readline()
     except Exception:
        # print("file format error!\nfileName:"+FileName)
         Output.logError("At "+ FileName+ ":file format error!" )
         LineTemp=""
-        NextLine=""
-    PreLine = ""
-    
+    PreLine1 = ""
+    PreLine2 = ""
+    PreLine3 = ""
+    PreLine4 = ""
     #print("finding "+ KeyStr +" in "+FileName)
-    while NextLine:
+    while LineTemp:
         if(LineTemp.upper().find(KeyStr.upper()) > 0):
-            #FoundFlag = True
+            #找到之后分析处理
+
+            #输出到文件
             Output.outPut(PreLine,LineTemp,FileName,KeyStr)
             found_count = found_count + 1
-        PreLine=LineTemp
-        LineTemp = NextLine
+        #滑动窗口遍历
+        #顺序如下
+        #preline1 > preline2 > preline3 > preline4 > linetemp 
+        PreLine1 = PreLine2
+        PreLine2 = PreLine3
+        PreLine3 = PreLine4
+        PreLine4 = LineTemp
         try:
-            NextLine = FileObj.readline()
+            LineTemp = FileObj.readline()
         except Exception:
-            NextLine = ""
+            LineTemp = ""
     FileObj.close()
-    #没有找到
-   # if FoundFlag == False:
-      #  Output.logError("At "+ FileName +": Word -  "+KeyStr+ "  Can not found !" )
     return found_count
