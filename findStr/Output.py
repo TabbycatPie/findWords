@@ -17,7 +17,10 @@ def outPut(preline,curline,filename,word):
 
 def logFound(word,movie,content):
     FileObj = codecs.open(output_path + word +"_Found.txt", 'a')
-    FileObj.write("movie:"+movie + content)
+    try:
+        FileObj.write("movie:"+movie + content)
+    except Exception as e:
+        FileObj.write("movie:"+movie + word)
 
 def logError(error_str):
     #获取时间

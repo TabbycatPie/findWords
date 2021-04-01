@@ -6,24 +6,29 @@ def getWordList():
     words = _input.split(",")
     return words
 
-def printScreen(info,total,current,pocess):
+def printScreen(info,total,current):
     os.system("cls")
+    #固定不变的东西
     print(info)
-    print("\nCurrent pocession:"+(current/total)*100+"%")
+    print("\nCurrent pocession:"+str((current/total)*100)+"%")
 
 def main():
 
     #输入查找的单词
     words=getWordList()
-
     #获取字幕文件路径
     libpath=os.getcwd()+"\subtitlelib\\"
     #print(libpath)
     #获取文件名列表
     files = os.listdir(libpath)
+    total=len(files)
+    current=0
     for word in words :
+        word_count=0
         for file in files :
-            findWords.findKeyStringInFile(word,libpath+file)
+            current = current + 1
+            word_count= word_count + findWords.findKeyStringInFile(word,libpath+file)
+            printScreen("Current Word:"+ word+"\nCurrent File:"+file+"\nFOUND:"+str(word_count),total,current)
     
 
     os.system("pause")
