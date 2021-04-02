@@ -45,7 +45,7 @@ def findKeyStringInFile(KeyStr,FileName):
     PreLine = ["","","",""]
     #print("finding "+ KeyStr +" in "+FileName)
     while LineTemp:
-        if(LineTemp.upper().find(KeyStr.upper()) > 0):
+        if(LineTemp.upper().find(KeyStr.upper()) >= 0):
             time = "??\n"
             content = LineTemp
             #找到之后分析处理

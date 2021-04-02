@@ -17,12 +17,13 @@ def printScreen(info,total,current):
 def loadConfig(config_name):
     line_num = 1
     try:
-        FileObj = codecs.open(config_file, 'a')
+        FileObj = codecs.open(config_file, 'r+')
         config = FileObj.readline()
         while config:
-            para=config_file.split(":")
+            para=config.split(":")
             if para[0] == config_name:
                 return para[1]
+            config = FileObj.readline()
             line_num = line_num + 1
         return "NULL"
     except Exception:
@@ -31,14 +32,8 @@ def loadConfig(config_name):
         return "ERROR"
 
 def modifyConfig(config_name,config_val):
-    con_val = loadConfig(config_name)
-    if (con_val != "ERROR"):
-        f= codecs.open(config_file, 'r+')
-        #修改参数
-        open(config_file, 'w').write(re.sub(config_name+":"+con_val, config_val, f.read()))
-    if (con_val == "NULL"):
-        open(config_file,'a').write(config_name+":"+con_val)
-
+    f= codecs.open(config_file, 'w')
+    f.write(config_name+":"+config_val)
 
 def convertFilenameToMoviename(filename):
     t_list = filename.split("/")
@@ -50,12 +45,11 @@ def getFiletype(filename):
     return temp[len(temp)-1]
 
 
-def outPut(time,text,filename,word):
-    filetype = getFiletype(filename)
-    logFound(word,filename,"\ntime:"+time + "content:"+ text + "\n")
+# def outPut(time,text,filename,word):
+#     filetype = getFiletype(filename)
+#     logFound(word,filename,"\ntime:"+time + "content:"+ text + "\n")
     
 def outPut(time,text,line_num,filename,word):
-    filetype = getFiletype(filename)
     logFound(word,convertFilenameToMoviename(filename),"\nline number:"+str(line_num)+"\ntime:"+time + "content:"+ text + "\n")
 
 def logFound(word,movie,content):
@@ -63,19 +57,29 @@ def logFound(word,movie,content):
     try:
         FileObj.write("movie:"+movie + content)
     except Exception:
-        FileObj.write("movie:"+movie + word,'utf-8')
+        FileObj.write("movie:"+movie + word)
 
-def logError(error_str):
+# def logError(error_str):
+#     #获取时间
+#     localtime = time.asctime( time.localtime(time.time()))
+#     #追加模式打开文件
+#     FileObj = codecs.open(logfile_path+"Error_log.txt", 'a')
+#     #print(logfile_path+"Error_log.txt")
+#     #追加日志
+#     try:
+#         FileObj.write("Time:"+localtime+"\nError:"+error_str+"\n")
+#     except Exception:
+#         FileObj.write("Time:"+localtime+"\nError: error_str is not gbk!\n")
+def log(log_str,at):
     #获取时间
     localtime = time.asctime( time.localtime(time.time()))
     #追加模式打开文件
-    FileObj = codecs.open(logfile_path+"Error_log.txt", 'a')
-    #print(logfile_path+"Error_log.txt")
+    FileObj = codecs.open(logfile_path+"sys_log.txt", 'a')
     #追加日志
     try:
-        FileObj.write("Time:"+localtime+"\nError:"+error_str+"\n")
+        FileObj.write("\nTime:"+localtime+"\nAT:"+at+"\nError:"+log_str+"\n")
     except Exception:
-        FileObj.write("Time:"+localtime+"\nError: error_str is not gbk!\n")
+        print("LOG FAILED!")
 
 def logError(error_str,line_num,at):
     #获取时间

@@ -1,4 +1,4 @@
-
+##此文件已经过期不在调用
 
 import codecs
 import Output
@@ -27,7 +27,7 @@ def findKeyStringInFile(KeyStr,FileName):
     
     #print("finding "+ KeyStr +" in "+FileName)
     while NextLine:
-        if(LineTemp.upper().find(KeyStr.upper()) > 0):
+        if(LineTemp.upper().find(KeyStr.upper()) >= 0):
             #FoundFlag = True
             Output.outPut(PreLine,LineTemp,FileName,KeyStr)
             found_count = found_count + 1

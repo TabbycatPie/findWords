@@ -1,0 +1,665 @@
+﻿[Script Info]
+; // The sub is created by AssToolkit
+; // AssToolkit is an ASS Converter designed by David C.
+; // 欢迎访问人人影视 http://www.YYeTs.com
+Title:YYeTs
+Original Script:YYeTs
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正黑体_GBK,20,&H00FFFFFF,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0.00,1,2,1,2,5,5,2,134
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.12,0:00:06.69,*Default,NTP,0000,0000,0000,,健康跑登记处在A楼\N{\fn微软雅黑\fs14}They're doing the race registration over in "A" Wing.
+Dialogue: 0,0:00:06.69,0:00:07.58,*Default,NTP,0000,0000,0000,,谢谢\N{\fn微软雅黑\fs14}Thank you.
+Dialogue: 0,0:00:09.48,0:00:10.86,*Default,NTP,0000,0000,0000,,这是我侄女佐伊\N{\fn微软雅黑\fs14}This is my niece Zoe.
+Dialogue: 0,0:00:10.86,0:00:13.39,*Default,NTP,0000,0000,0000,,你想去看他们搬卸放在爱心宠物园的小动物吗\N{\fn微软雅黑\fs14}Do you want to go see them unload the animals for the petting zoo?
+Dialogue: 0,0:00:16.13,0:00:17.83,*Default,NTP,0000,0000,0000,,气球真好看\N{\fn微软雅黑\fs14}Hey, I like the balloons.
+Dialogue: 0,0:00:23.93,0:00:25.53,*Default,NTP,0000,0000,0000,,孩子们  能听见我说话吗\N{\fn微软雅黑\fs14}Girls, can you hear me?
+Dialogue: 0,0:00:26.89,0:00:29.98,*Default,NTP,0000,0000,0000,,养兵千日用兵一时  各位\N{\fn微软雅黑\fs14}Every bit of training we've had was for today, boys.
+Dialogue: 0,0:00:31.36,0:00:33.56,*Default,NTP,0000,0000,0000,,如果有一个汽车炸弹  可能还有第二个\N{\fn微软雅黑\fs14}If there's one car bomb, there's probably a second.
+Dialogue: 0,0:00:33.79,0:00:35.59,*Default,NTP,0000,0000,0000,,看起来跟当时俄克拉荷马市的情况一样\N{\fn微软雅黑\fs14}It looks just like Oklahoma City.
+Dialogue: 0,0:00:36.72,0:00:37.72,*Default,NTP,0000,0000,0000,,道森呢\N{\fn微软雅黑\fs14}Where's Dawson?
+Dialogue: 0,0:00:37.80,0:00:39.83,*Default,NTP,0000,0000,0000,,-她进去了  -道森在里面吗\N{\fn微软雅黑\fs14}- She went inside. - Dawson's in there?
+Dialogue: 0,0:00:42.50,0:00:43.24,*Default,NTP,0000,0000,0000,,你没事吧\N{\fn微软雅黑\fs14}Are you okay?
+Dialogue: 0,0:00:43.24,0:00:45.45,*Default,NTP,0000,0000,0000,,就是擦伤了一点而已\N{\fn微软雅黑\fs14}Yeah, it's--it's just a little scratch.
+Dialogue: 0,0:00:45.67,0:00:47.77,*Default,NTP,0000,0000,0000,,伊莫金  快来人啊\N{\fn微软雅黑\fs14}Imogene! We need help over here!
+Dialogue: 0,0:00:48.65,0:00:50.10,*Default,NTP,0000,0000,0000,,加比  有人吗\N{\fn微软雅黑\fs14}Gabby! Hello?
+Dialogue: 0,0:00:50.53,0:00:52.30,*Default,NTP,0000,0000,0000,,她才九岁啊\N{\fn微软雅黑\fs14}She's only 9 years old!
+Dialogue: 0,0:00:53.00,0:00:54.00,*Default,NTP,0000,0000,0000,,你来救我了\N{\fn微软雅黑\fs14}You came.
+Dialogue: 0,0:00:55.46,0:00:56.81,*Default,NTP,0000,0000,0000,,我们发现了第二枚炸弹\N{\fn微软雅黑\fs14}We found our second bomb.
+Dialogue: 0,0:00:57.75,0:00:59.18,*Default,NTP,0000,0000,0000,,夏伊  找到道森了\N{\fn微软雅黑\fs14}Shay, we got Dawson.
+Dialogue: 0,0:00:59.98,0:01:00.94,*Default,NTP,0000,0000,0000,,夏伊\N{\fn微软雅黑\fs14}Shay?
+Dialogue: 0,0:01:03.95,0:01:04.79,*Default,NTP,0000,0000,0000,,快来人\N{\fn微软雅黑\fs14}Help!
+Dialogue: 0,0:01:04.79,0:01:06.15,*Default,NTP,0000,0000,0000,,这里需要医生\N{\fn微软雅黑\fs14}We need some help over here!
+Dialogue: 0,0:01:07.90,0:01:09.16,*Default,NTP,0000,0000,0000,,天呐\N{\fn微软雅黑\fs14}Oh, my God.
+Dialogue: 0,0:01:13.39,0:01:15.21,*Default,NTP,0000,0000,0000,,她失血过多\N{\fn微软雅黑\fs14}Oh, she's lost a lot of blood.
+Dialogue: 0,0:01:15.76,0:01:17.31,*Default,NTP,0000,0000,0000,,帮我把她抱到治疗诊断区\N{\fn微软雅黑\fs14}Help me get her into one of these bays.
+Dialogue: 0,0:01:17.59,0:01:18.50,*Default,NTP,0000,0000,0000,,好\N{\fn微软雅黑\fs14}All right.
+Dialogue: 0,0:01:23.55,0:01:25.19,*Default,NTP,0000,0000,0000,,马上准备静脉注射\N{\fn微软雅黑\fs14}I'm going to need to get an I.V. started.
+Dialogue: 0,0:01:25.19,0:01:26.14,*Default,NTP,0000,0000,0000,,好\N{\fn微软雅黑\fs14}Right away.
+Dialogue: 0,0:01:37.46,0:01:39.95,*Default,NTP,0000,0000,0000,,第一枚炸弹于八点整爆炸\N{\fn微软雅黑\fs14}First bomb detonated 8:00 a.m. on the dot.
+Dialogue: 0,0:01:41.44,0:01:43.66,*Default,NTP,0000,0000,0000,,第二枚被放在一辆租赁汽车里\N{\fn微软雅黑\fs14}Second bomb located in a rental car.
+Dialogue: 0,0:01:43.96,0:01:45.30,*Default,NTP,0000,0000,0000,,现在车还在那边\N{\fn微软雅黑\fs14}Car is still there.
+Dialogue: 0,0:01:46.35,0:01:48.93,*Default,NTP,0000,0000,0000,,-谁拆除的炸弹  -我们\N{\fn微软雅黑\fs14}- Who dismantled the bomb? - We did.
+Dialogue: 0,0:01:48.93,0:01:49.86,*Default,NTP,0000,0000,0000,,去看看\N{\fn微软雅黑\fs14}Check it out.
+Dialogue: 0,0:01:49.86,0:01:52.86,*Default,NTP,0000,0000,0000,,如果有线索  马上跟我汇报\N{\fn微软雅黑\fs14}If they got anything, I want to be notified first.
+Dialogue: 0,0:01:53.13,0:01:54.03,*Default,NTP,0000,0000,0000,,好\N{\fn微软雅黑\fs14}Yeah.
+Dialogue: 0,0:01:54.32,0:01:57.07,*Default,NTP,0000,0000,0000,,-多少人确认死亡  -18人死亡\N{\fn微软雅黑\fs14}- How many confirmed dead? - 18 dead...
+Dialogue: 0,0:01:57.22,0:02:00.77,*Default,NTP,0000,0000,0000,,15人情况危急  还有三名工作人员下落不明\N{\fn微软雅黑\fs14}15 in critical condition, 3 employees unaccounted for.
+Dialogue: 0,0:02:01.34,0:02:02.76,*Default,NTP,0000,0000,0000,,慈善赛跑的报名登记\N{\fn微软雅黑\fs14}The sign-ups for the charity race
+Dialogue: 0,0:02:02.76,0:02:04.88,*Default,NTP,0000,0000,0000,,在炸弹爆炸前刚开始\N{\fn微软雅黑\fs14}had just started before the bomb detonated.
+Dialogue: 0,0:02:05.50,0:02:07.99,*Default,NTP,0000,0000,0000,,可能废墟下面还有人被埋\N{\fn微软雅黑\fs14}We may have more civilians buried beneath the rubble,
+Dialogue: 0,0:02:07.99,0:02:10.05,*Default,NTP,0000,0000,0000,,但现在无法确认\N{\fn微软雅黑\fs14}but there's no real way of knowing right now.
+Dialogue: 0,0:02:10.92,0:02:12.69,*Default,NTP,0000,0000,0000,,负责此案的联调局特别探员让所有指挥人员\N{\fn微软雅黑\fs14}FBI special agent in charge wants all the bosses
+Dialogue: 0,0:02:12.69,0:02:13.91,*Default,NTP,0000,0000,0000,,去指挥中心\N{\fn微软雅黑\fs14}in the command center.
+Dialogue: 0,0:02:14.49,0:02:16.09,*Default,NTP,0000,0000,0000,,好  大家都进去\N{\fn微软雅黑\fs14}All right, everybody inside.
+Dialogue: 0,0:02:17.79,0:02:18.72,*Default,NTP,0000,0000,0000,,博伊特\N{\fn微软雅黑\fs14}Voight...
+Dialogue: 0,0:02:21.53,0:02:22.94,*Default,NTP,0000,0000,0000,,这种事只有禽兽才干得出来\N{\fn微软雅黑\fs14}Animals did this.
+Dialogue: 0,0:02:27.24,0:02:28.39,*Default,NTP,0000,0000,0000,,我们一定会抓到他们\N{\fn微软雅黑\fs14}We'll get 'em.
+Dialogue: 0,0:02:34.02,0:02:34.87,*Default,NTP,0000,0000,0000,,有什么发现吗\N{\fn微软雅黑\fs14}Anything?
+Dialogue: 0,0:02:35.96,0:02:38.16,*Default,NTP,0000,0000,0000,,应该没什么希望了  但大家还在挖\N{\fn微软雅黑\fs14}Not much left to recover, but we're still digging.
+Dialogue: 0,0:02:38.75,0:02:39.69,*Default,NTP,0000,0000,0000,,好吧\N{\fn微软雅黑\fs14}All right.
+Dialogue: 0,0:02:42.28,0:02:43.35,*Default,NTP,0000,0000,0000,,知道是谁干的吗\N{\fn微软雅黑\fs14}You know who did it?
+Dialogue: 0,0:02:43.97,0:02:45.68,*Default,NTP,0000,0000,0000,,不知道  调查才刚刚开始\N{\fn微软雅黑\fs14}No, we're just getting started.
+Dialogue: 0,0:02:45.75,0:02:46.64,*Default,NTP,0000,0000,0000,,一定要抓住他们\N{\fn微软雅黑\fs14}Find 'em.
+Dialogue: 0,0:02:54.43,0:02:56.25,*Default,NTP,0000,0000,0000,,听到请大声回答\N{\fn微软雅黑\fs14}Call out if you can hear me!
+Dialogue: 0,0:02:58.26,0:03:00.02,*Default,NTP,0000,0000,0000,,我们该先找谁谈  埃尔\N{\fn微软雅黑\fs14}Who do we talk to first, Al?
+Dialogue: 0,0:03:00.02,0:03:02.06,*Default,NTP,0000,0000,0000,,爆炸发生时在场并且活着的人\N{\fn微软雅黑\fs14}Whoever was closest to the blast and is still alive.
+Dialogue: 0,0:03:02.32,0:03:03.83,*Default,NTP,0000,0000,0000,,芝加哥警署情报部\N{\fn微软雅黑\fs14}Intelligence, C.P.D.
+Dialogue: 0,0:03:14.62,0:03:16.00,*Default,NTP,0000,0000,0000,,大家安静  安静  听我说\N{\fn微软雅黑\fs14}Quiet then, okay, everybody, listen up.
+Dialogue: 0,0:03:16.00,0:03:17.10,*Default,NTP,0000,0000,0000,,听我说\N{\fn微软雅黑\fs14}Listen up!
+Dialogue: 0,0:03:20.88,0:03:22.39,*Default,NTP,0000,0000,0000,,我是威廉·格拉夫\N{\fn微软雅黑\fs14}My name is William Graff.
+Dialogue: 0,0:03:22.39,0:03:23.80,*Default,NTP,0000,0000,0000,,联邦调查局派来的\N{\fn微软雅黑\fs14}I'm with the FBI.
+Dialogue: 0,0:03:23.99,0:03:25.39,*Default,NTP,0000,0000,0000,,我需要大家的帮助\N{\fn微软雅黑\fs14}I need all your help,
+Dialogue: 0,0:03:25.40,0:03:27.88,*Default,NTP,0000,0000,0000,,我也知道  大家都会积极提供帮助\N{\fn微软雅黑\fs14}and I know you're all eager to provide it.
+Dialogue: 0,0:03:27.97,0:03:28.99,*Default,NTP,0000,0000,0000,,但首先要注意\N{\fn微软雅黑\fs14}First rule...
+Dialogue: 0,0:03:30.37,0:03:32.06,*Default,NTP,0000,0000,0000,,一切都必须经过我\N{\fn微软雅黑\fs14}Everything goes through me.
+Dialogue: 0,0:03:32.20,0:03:35.33,*Default,NTP,0000,0000,0000,,现在我想知道目前的情况\N{\fn微软雅黑\fs14}Okay, I want to go over what we know right now.
+Dialogue: 0,0:03:36.40,0:03:37.72,*Default,NTP,0000,0000,0000,,血压上来了\N{\fn微软雅黑\fs14}Blood pressure coming up.
+Dialogue: 0,0:03:38.76,0:03:39.91,*Default,NTP,0000,0000,0000,,佐伊那边有消息吗\N{\fn微软雅黑\fs14}Any word on Zoe?
+Dialogue: 0,0:03:40.35,0:03:41.28,*Default,NTP,0000,0000,0000,,没有\N{\fn微软雅黑\fs14}Nothing.
+Dialogue: 0,0:03:44.72,0:03:47.17,*Default,NTP,0000,0000,0000,,生命体征稳定  无大脑活动\N{\fn微软雅黑\fs14}Vital signs are stable, no brain activity.
+Dialogue: 0,0:03:50.86,0:03:53.50,*Default,NTP,0000,0000,0000,,继续给她用生命维持系统  我去和她姐姐谈谈\N{\fn微软雅黑\fs14}Keep her on life support. I need to go talk to her sister.
+Dialogue: 0,0:03:59.87,0:04:01.60,*Default,NTP,0000,0000,0000,,-佐伊有消息吗  -还没有\N{\fn微软雅黑\fs14}- Anything on Zoe? - Not yet.
+Dialogue: 0,0:04:04.74,0:04:05.75,*Default,NTP,0000,0000,0000,,霍莉\N{\fn微软雅黑\fs14}Holly...
+Dialogue: 0,0:04:06.15,0:04:07.74,*Default,NTP,0000,0000,0000,,不\N{\fn微软雅黑\fs14}Oh, no.
+Dialogue: 0,0:04:14.37,0:04:15.76,*Default,NTP,0000,0000,0000,,我有这个准备\N{\fn微软雅黑\fs14}I've made this speech.
+Dialogue: 0,0:04:17.91,0:04:19.02,*Default,NTP,0000,0000,0000,,不用再说了\N{\fn微软雅黑\fs14}Don't say anymore.
+Dialogue: 0,0:04:20.09,0:04:21.00,*Default,NTP,0000,0000,0000,,天啊\N{\fn微软雅黑\fs14}Oh, God.
+Dialogue: 0,0:04:22.66,0:04:24.00,*Default,NTP,0000,0000,0000,,天啊\N{\fn微软雅黑\fs14}oh, God.
+Dialogue: 0,0:04:24.21,0:04:25.68,*Default,NTP,0000,0000,0000,,你妹妹还有呼吸\N{\fn微软雅黑\fs14}Your sister's still breathing,
+Dialogue: 0,0:04:27.16,0:04:30.88,*Default,NTP,0000,0000,0000,,但是有段时间没有大脑活动了\N{\fn微软雅黑\fs14}but there's been no brain activity for some time.
+Dialogue: 0,0:04:32.07,0:04:33.31,*Default,NTP,0000,0000,0000,,这么说她还活着\N{\fn微软雅黑\fs14}So she's alive.
+Dialogue: 0,0:04:37.86,0:04:39.05,*Default,NTP,0000,0000,0000,,我去看看她\N{\fn微软雅黑\fs14}I'm going to go see her.
+Dialogue: 0,0:04:40.90,0:04:42.56,*Default,NTP,0000,0000,0000,,阿利姆·阿尔·萨菲尔\N{\fn微软雅黑\fs14}Alim Al Safir,
+Dialogue: 0,0:04:42.56,0:04:45.13,*Default,NTP,0000,0000,0000,,叙利亚大使  来芝加哥进行秘密手术\N{\fn微软雅黑\fs14}Ambassador from Syria, is here for an off-the-books surgery.
+Dialogue: 0,0:04:45.13,0:04:46.88,*Default,NTP,0000,0000,0000,,我的人还有中情局格雷格·辛普森的人\N{\fn微软雅黑\fs14}My office and the office of Greg Simpson at CIA
+Dialogue: 0,0:04:46.88,0:04:48.14,*Default,NTP,0000,0000,0000,,会先从这个角度着手调查\N{\fn微软雅黑\fs14}will be spearheading this angle,
+Dialogue: 0,0:04:48.14,0:04:50.76,*Default,NTP,0000,0000,0000,,但如果你们有任何与此相关的信息\N{\fn微软雅黑\fs14}but if you encounter anything that waves near this,
+Dialogue: 0,0:04:50.76,0:04:51.89,*Default,NTP,0000,0000,0000,,记得跟我说\N{\fn微软雅黑\fs14}notify me.
+Dialogue: 0,0:04:53.00,0:04:54.55,*Default,NTP,0000,0000,0000,,我刚要做手术...\N{\fn微软雅黑\fs14}I was going to do the transplant...
+Dialogue: 0,0:04:54.56,0:04:55.87,*Default,NTP,0000,0000,0000,,给叙利亚大使做手术吗\N{\fn微软雅黑\fs14}On the Syrian ambassador?
+Dialogue: 0,0:04:56.66,0:04:57.19,*Default,NTP,0000,0000,0000,,好\N{\fn微软雅黑\fs14}All right.
+Dialogue: 0,0:04:57.19,0:04:58.96,*Default,NTP,0000,0000,0000,,你有没有发现什么异常情况\N{\fn微软雅黑\fs14}Did you see anything that looked out of place?
+Dialogue: 0,0:04:58.97,0:05:00.12,*Default,NTP,0000,0000,0000,,还记不记得\N{\fn微软雅黑\fs14}Do you remember?
+Dialogue: 0,0:05:01.39,0:05:03.75,*Default,NTP,0000,0000,0000,,-他手底下有好几个人  -好几个人\N{\fn微软雅黑\fs14}- Oh, he had his guys. - Guys?
+Dialogue: 0,0:05:04.08,0:05:05.65,*Default,NTP,0000,0000,0000,,他是个大使  身边带着保镖\N{\fn微软雅黑\fs14}He's an ambassador. He has guys.
+Dialogue: 0,0:05:06.18,0:05:06.94,*Default,NTP,0000,0000,0000,,接下来我就只知道\N{\fn微软雅黑\fs14}And the next thing I knew,
+Dialogue: 0,0:05:06.94,0:05:10.12,*Default,NTP,0000,0000,0000,,地面像发生地震一样摇晃\N{\fn微软雅黑\fs14}the ground shook like it was an earthquake.
+Dialogue: 0,0:05:11.36,0:05:13.83,*Default,NTP,0000,0000,0000,,一瞬间我还以为自己在旧金山呢\N{\fn微软雅黑\fs14}I thought for a second I was back in San Francisco.
+Dialogue: 0,0:05:13.84,0:05:15.95,*Default,NTP,0000,0000,0000,,威尔海特医生  7632\N{\fn微软雅黑\fs14}Dr. Willhite, 7632.
+Dialogue: 0,0:05:16.49,0:05:19.04,*Default,NTP,0000,0000,0000,,-威尔海特医生  7632  -去吧\N{\fn微软雅黑\fs14}- Dr. Willhite, 7632. - All right.
+Dialogue: 0,0:05:20.07,0:05:22.57,*Default,NTP,0000,0000,0000,,在这里工作的一名护理员\N{\fn微软雅黑\fs14}We also have an orderly who works here
+Dialogue: 0,0:05:22.57,0:05:25.62,*Default,NTP,0000,0000,0000,,还跟穆斯林激进分子有关系\N{\fn微软雅黑\fs14}with distant ties to a radical Muslim group.
+Dialogue: 0,0:05:27.43,0:05:29.29,*Default,NTP,0000,0000,0000,,我帮不了你  不是我做的\N{\fn微软雅黑\fs14}I can't help you. I didn't do it.
+Dialogue: 0,0:05:29.29,0:05:33.56,*Default,NTP,0000,0000,0000,,我也没看到是谁  我得专注于自己能做的事\N{\fn微软雅黑\fs14}I didn't see who did it, and I've got to focus on what I can do,
+Dialogue: 0,0:05:33.56,0:05:37.42,*Default,NTP,0000,0000,0000,,也就是尽可能拯救生命\N{\fn微软雅黑\fs14}which is save as many lives and limbs as I possibly can.
+Dialogue: 0,0:05:37.67,0:05:39.84,*Default,NTP,0000,0000,0000,,-知道了  谢谢  -好\N{\fn微软雅黑\fs14}- I got it. Thank you. - All right.
+Dialogue: 0,0:05:40.93,0:05:44.27,*Default,NTP,0000,0000,0000,,有两个家伙  戴着棒球帽太阳镜\N{\fn微软雅黑\fs14}There were two guys-- baseball caps on, sunglasses.
+Dialogue: 0,0:05:44.28,0:05:45.52,*Default,NTP,0000,0000,0000,,我注意到他们是因为当时大家都在\N{\fn微软雅黑\fs14}I noticed because everyone else was walking
+Dialogue: 0,0:05:45.53,0:05:47.14,*Default,NTP,0000,0000,0000,,往帐篷那边走  去报名登记\N{\fn微软雅黑\fs14}toward the tent to sign up for the race.
+Dialogue: 0,0:05:47.14,0:05:48.58,*Default,NTP,0000,0000,0000,,但他们却往反方向走\N{\fn微软雅黑\fs14}They were walking away from it.
+Dialogue: 0,0:05:48.62,0:05:50.21,*Default,NTP,0000,0000,0000,,他们还有什么特征吗\N{\fn微软雅黑\fs14}And what else did you notice about them?
+Dialogue: 0,0:05:50.21,0:05:53.73,*Default,NTP,0000,0000,0000,,棕色皮肤  橄榄色  深色的头发\N{\fn微软雅黑\fs14}Tan skin... olive, dark hair for sure.
+Dialogue: 0,0:05:53.73,0:05:56.78,*Default,NTP,0000,0000,0000,,但说不清是西班牙裔还是阿拉伯人或意大利人\N{\fn微软雅黑\fs14}But could have been Hispanic or Arab or Italian.
+Dialogue: 0,0:05:56.78,0:05:57.91,*Default,NTP,0000,0000,0000,,我不知道\N{\fn微软雅黑\fs14}I don't know.
+Dialogue: 0,0:05:58.60,0:06:00.25,*Default,NTP,0000,0000,0000,,打扰了  格拉夫探员\N{\fn微软雅黑\fs14}Excuse me. Agent Graff?
+Dialogue: 0,0:06:00.50,0:06:03.09,*Default,NTP,0000,0000,0000,,我是芝加哥警署情报部的汉克·博伊特警长\N{\fn微软雅黑\fs14}Sergeant Hank Voight, intelligence, C.P.D.
+Dialogue: 0,0:06:03.09,0:06:03.77,*Default,NTP,0000,0000,0000,,你好\N{\fn微软雅黑\fs14}How you doing?
+Dialogue: 0,0:06:03.77,0:06:05.53,*Default,NTP,0000,0000,0000,,听着  我希望你能好好配合我的工作\N{\fn微软雅黑\fs14}Listen, I'm really going to need your help--
+Dialogue: 0,0:06:05.53,0:06:07.74,*Default,NTP,0000,0000,0000,,做好防御工作  好好盘问信息  谢谢\N{\fn微软雅黑\fs14}securing the perimeter, conducting interviews. Thanks.
+Dialogue: 0,0:06:07.74,0:06:09.78,*Default,NTP,0000,0000,0000,,我的队伍要做的可比盘问医院工作人员\N{\fn微软雅黑\fs14}My unit is gonna be doing a hell of a lot more
+Dialogue: 0,0:06:09.78,0:06:13.34,*Default,NTP,0000,0000,0000,,围警戒线什么的多了去了\N{\fn微软雅黑\fs14}than interviewing hospital staff and setting out pylons.
+Dialogue: 0,0:06:13.34,0:06:16.61,*Default,NTP,0000,0000,0000,,这事发生在我的城市  我的地盘\N{\fn微软雅黑\fs14}This happened in my city, on my soil.
+Dialogue: 0,0:06:19.33,0:06:20.62,*Default,NTP,0000,0000,0000,,别妨碍我\N{\fn微软雅黑\fs14}Don't get in my way.
+Dialogue: 0,0:06:42.06,0:06:43.87,*Default,NTP,0000,0000,0000,,给我几分钟时间  比利\N{\fn微软雅黑\fs14}I'm gonna need a few minutes, Billy.
+Dialogue: 0,0:06:44.29,0:06:45.50,*Default,NTP,0000,0000,0000,,一定要把这些家伙抓住\N{\fn微软雅黑\fs14}Catch these guys.
+Dialogue: 0,0:06:46.29,0:06:47.16,*Default,NTP,0000,0000,0000,,是啊\N{\fn微软雅黑\fs14}Yeah.
+Dialogue: 0,0:07:04.70,0:07:07.84,*Default,NTP,0000,0000,0000,,两名男子上了一辆白色四门轿车\N{\fn微软雅黑\fs14}Both males enter a white four-door sedan
+Dialogue: 0,0:07:07.84,0:07:09.77,*Default,NTP,0000,0000,0000,,从停车场东南出口出去了\N{\fn微软雅黑\fs14}and head out the southeast exit of the lot.
+Dialogue: 0,0:07:10.23,0:07:11.56,*Default,NTP,0000,0000,0000,,能找到监控视频吗\N{\fn微软雅黑\fs14}And we have security video?
+Dialogue: 0,0:07:11.56,0:07:13.37,*Default,NTP,0000,0000,0000,,保安部在受袭击区域\N{\fn微软雅黑\fs14}The security office was in the impact zone.
+Dialogue: 0,0:07:13.37,0:07:15.81,*Default,NTP,0000,0000,0000,,数据库毁了  根本无法恢复\N{\fn微软雅黑\fs14}Database is gone, as in gone gone.
+Dialogue: 0,0:07:16.12,0:07:17.01,*Default,NTP,0000,0000,0000,,第二辆装有炸弹的车\N{\fn微软雅黑\fs14}Second car with a bomb
+Dialogue: 0,0:07:17.01,0:07:19.42,*Default,NTP,0000,0000,0000,,是从密尔沃基一家停车场租来的\N{\fn微软雅黑\fs14}was rented out of some dirt-lot company in Milwaukee.
+Dialogue: 0,0:07:19.42,0:07:22.05,*Default,NTP,0000,0000,0000,,租赁协议上的名字和信用卡号是伪造的\N{\fn微软雅黑\fs14}The name and the credit card on the rental agreement came back bogus.
+Dialogue: 0,0:07:22.06,0:07:23.50,*Default,NTP,0000,0000,0000,,据那家公司的人说\N{\fn微软雅黑\fs14}And there's no security video at the company,
+Dialogue: 0,0:07:23.50,0:07:24.18,*Default,NTP,0000,0000,0000,,他们没有监控视频\N{\fn微软雅黑\fs14}or so they're saying.
+Dialogue: 0,0:07:24.18,0:07:26.01,*Default,NTP,0000,0000,0000,,密尔沃基警署正去那里调查\N{\fn微软雅黑\fs14}So Milwaukee P.D.'s heading there to investigate.
+Dialogue: 0,0:07:26.01,0:07:28.18,*Default,NTP,0000,0000,0000,,萨姆纳  你做卧底对付北约反抗份子的时候\N{\fn微软雅黑\fs14}Sumner, you dealt with all those antigovernment nutcases
+Dialogue: 0,0:07:28.18,0:07:29.33,*Default,NTP,0000,0000,0000,,和这些反政府的疯子\N{\fn微软雅黑\fs14}when you were working undercover
+Dialogue: 0,0:07:29.33,0:07:30.88,*Default,NTP,0000,0000,0000,,有过接触对吧\N{\fn微软雅黑\fs14}at the NATO protests, am I right?
+Dialogue: 0,0:07:30.88,0:07:32.97,*Default,NTP,0000,0000,0000,,-是的  -到处去找找线索\N{\fn微软雅黑\fs14}- That's right. - All right, beat the bushes.
+Dialogue: 0,0:07:33.58,0:07:35.31,*Default,NTP,0000,0000,0000,,伙计们  我刚听说了一件事\N{\fn微软雅黑\fs14}Hey, guys, I just heard.
+Dialogue: 0,0:07:35.75,0:07:36.69,*Default,NTP,0000,0000,0000,,爆炸发生的时候  伯吉斯在场\N{\fn微软雅黑\fs14}Burgess was here when it happened,
+Dialogue: 0,0:07:36.69,0:07:38.38,*Default,NTP,0000,0000,0000,,她侄女现在在重症加护病房\N{\fn微软雅黑\fs14}and her niece is in the I.C.U.
+Dialogue: 0,0:07:41.86,0:07:44.05,*Default,NTP,0000,0000,0000,,-情况有多糟糕  -不妙\N{\fn微软雅黑\fs14}- How bad? - Not good.
+Dialogue: 0,0:07:57.15,0:07:58.11,*Default,NTP,0000,0000,0000,,出事的是佐伊\N{\fn微软雅黑\fs14}It's Zoe...
+Dialogue: 0,0:07:59.13,0:08:02.30,*Default,NTP,0000,0000,0000,,她  她还是个孩子\N{\fn微软雅黑\fs14}She's, um-- she's an only child.
+Dialogue: 0,0:08:03.79,0:08:05.96,*Default,NTP,0000,0000,0000,,她  我姐姐和姐夫不在城里\N{\fn微软雅黑\fs14}Her-- my sister and her husband are out of town.
+Dialogue: 0,0:08:05.96,0:08:07.55,*Default,NTP,0000,0000,0000,,所以她才和我住在一起\N{\fn微软雅黑\fs14}That's why she's staying with me.
+Dialogue: 0,0:08:09.10,0:08:10.31,*Default,NTP,0000,0000,0000,,现在伊莫金\N{\fn微软雅黑\fs14}And now Imogene...
+Dialogue: 0,0:08:24.04,0:08:25.65,*Default,NTP,0000,0000,0000,,我们听说了  医生怎么说\N{\fn微软雅黑\fs14}We just heard. What did they say?
+Dialogue: 0,0:08:27.13,0:08:28.42,*Default,NTP,0000,0000,0000,,肝脏破裂\N{\fn微软雅黑\fs14}A ruptured liver.
+Dialogue: 0,0:08:29.82,0:08:32.94,*Default,NTP,0000,0000,0000,,她  我看到了一个名单  捐献者名单\N{\fn微软雅黑\fs14}She's-- there's a list or something, a donor list.
+Dialogue: 0,0:08:32.94,0:08:34.67,*Default,NTP,0000,0000,0000,,他们正在找和她匹配的人\N{\fn微软雅黑\fs14}They're trying to match.
+Dialogue: 0,0:08:35.65,0:08:36.80,*Default,NTP,0000,0000,0000,,知道是谁做的吗\N{\fn微软雅黑\fs14}Do we know who did it?
+Dialogue: 0,0:08:37.49,0:08:38.81,*Default,NTP,0000,0000,0000,,有人能从中获益吗\N{\fn微软雅黑\fs14}Anybody taking credit?
+Dialogue: 0,0:08:40.77,0:08:41.67,*Default,NTP,0000,0000,0000,,好吧\N{\fn微软雅黑\fs14}Okay...
+Dialogue: 0,0:08:41.78,0:08:44.68,*Default,NTP,0000,0000,0000,,鉴定室从二号炸弹胶带上找到了一枚指纹\N{\fn微软雅黑\fs14}The lab got a print off the duct tape of bomb number two.
+Dialogue: 0,0:08:44.68,0:08:46.62,*Default,NTP,0000,0000,0000,,是一个叫保罗·瓦茨的人的\N{\fn微软雅黑\fs14}Came back to a Paul Watts.
+Dialogue: 0,0:08:46.62,0:08:49.95,*Default,NTP,0000,0000,0000,,车辆定位系统最后定位在南拉勒米5225号\N{\fn微软雅黑\fs14}V.L.D. has him registered at 5225 South Laramie.
+Dialogue: 0,0:08:49.95,0:08:51.69,*Default,NTP,0000,0000,0000,,我弄到了一份强行搜查令\N{\fn微软雅黑\fs14}I secured a no-knock search warrant.
+Dialogue: 0,0:08:51.69,0:08:55.28,*Default,NTP,0000,0000,0000,,过一会儿再告诉联邦探员指纹的事\N{\fn微软雅黑\fs14}Give us five minutes before you notify the Feds about that print.
+Dialogue: 0,0:08:55.83,0:08:56.73,*Default,NTP,0000,0000,0000,,好的\N{\fn微软雅黑\fs14}Yeah.
+Dialogue: 0,0:08:57.98,0:08:59.56,*Default,NTP,0000,0000,0000,,你先出去看看周边情况吧\N{\fn微软雅黑\fs14}They need you out on the perimeter.
+Dialogue: 0,0:09:01.52,0:09:02.44,*Default,NTP,0000,0000,0000,,我没事\N{\fn微软雅黑\fs14}I'm okay.
+Dialogue: 0,0:09:04.46,0:09:05.43,*Default,NTP,0000,0000,0000,,还有一件事\N{\fn微软雅黑\fs14}One more thing--
+Dialogue: 0,0:09:06.22,0:09:09.22,*Default,NTP,0000,0000,0000,,第二枚炸弹设定的爆炸时间是晚上八点半\N{\fn微软雅黑\fs14}The second bomb was set to go off at 8:30 p.m.
+Dialogue: 0,0:09:10.45,0:09:11.88,*Default,NTP,0000,0000,0000,,设炸弹的人肯定是哪里弄错了\N{\fn微软雅黑\fs14}The bomber screwed up somewhere.
+Dialogue: 0,0:09:14.87,0:09:16.59,*Default,NTP,0000,0000,0000,,我们今天需要的不是许可\N{\fn微软雅黑\fs14}We're gonna ask for forgiveness
+Dialogue: 0,0:09:16.59,0:09:18.81,*Default,NTP,0000,0000,0000,,而是原谅  懂吗\N{\fn微软雅黑\fs14}instead of permission today, you understand?
+Dialogue: 0,0:09:20.79,0:09:22.59,*Default,NTP,0000,0000,0000,,我们没有理由放松下来\N{\fn微软雅黑\fs14}We're not slowing down for anything.
+Dialogue: 0,0:09:24.22,0:09:25.50,*Default,NTP,0000,0000,0000,,没有任何理由\N{\fn微软雅黑\fs14}I mean anything.
+Dialogue: 0,0:09:27.03,0:09:29.87,*Default,NTP,0000,0000,0000,,除非抓住这些混蛋\N{\fn微软雅黑\fs14}No one's gonna give a damn once these bastards are caught.
+Dialogue: 0,0:09:34.55,0:09:35.72,*Default,NTP,0000,0000,0000,,好了  都行动起来\N{\fn微软雅黑\fs14}All right, let's go.
+Dialogue: 0,0:09:43.00,0:09:45.38,*Default,NTP,0000,0000,0000,,有什么新情况就告诉我们  好吗\N{\fn微软雅黑\fs14}You let us know if anything changes, okay?
+Dialogue: 0,0:09:47.60,0:09:48.53,*Default,NTP,0000,0000,0000,,好的\N{\fn微软雅黑\fs14}Okay.
+Dialogue: 0,0:09:50.04,0:09:51.00,*Default,NTP,0000,0000,0000,,谢谢\N{\fn微软雅黑\fs14}Thank you.
+Dialogue: 0,0:09:58.99,0:10:01.36,*Default,NTP,0000,0000,0000,,保罗·瓦茨最近在塔拉哈西的\N{\fn微软雅黑\fs14}Paul Watts-- most recently a dishwasher
+Dialogue: 0,0:10:01.36,0:10:03.30,*Default,NTP,0000,0000,0000,,一家龙虾餐馆做洗碗工\N{\fn微软雅黑\fs14}at a Red Lobster in Tallahassee.
+Dialogue: 0,0:10:03.65,0:10:07.02,*Default,NTP,0000,0000,0000,,没什么犯罪记录  几次持有毒品的指控\N{\fn微软雅黑\fs14}Minor sheet-- a couple possession charges,
+Dialogue: 0,0:10:07.03,0:10:07.99,*Default,NTP,0000,0000,0000,,酗酒闹事\N{\fn微软雅黑\fs14}D&D...
+Dialogue: 0,0:10:13.91,0:10:14.83,*Default,NTP,0000,0000,0000,,怎么了\N{\fn微软雅黑\fs14}What?
+Dialogue: 0,0:10:18.65,0:10:19.66,*Default,NTP,0000,0000,0000,,没事\N{\fn微软雅黑\fs14}Nothing.
+Dialogue: 0,0:10:35.87,0:10:37.09,*Default,NTP,0000,0000,0000,,我...\N{\fn微软雅黑\fs14}I'm, uh...
+Dialogue: 0,0:10:39.79,0:10:42.57,*Default,NTP,0000,0000,0000,,我试着联系我爸爸通知他\N{\fn微软雅黑\fs14}I'm trying to get a hold of my father to notify him.
+Dialogue: 0,0:10:43.39,0:10:44.37,*Default,NTP,0000,0000,0000,,我的...\N{\fn微软雅黑\fs14}My, um...
+Dialogue: 0,0:10:44.83,0:10:45.89,*Default,NTP,0000,0000,0000,,我理解\N{\fn微软雅黑\fs14}I understand.
+Dialogue: 0,0:10:50.46,0:10:52.61,*Default,NTP,0000,0000,0000,,我建议移除她的生命维持设备\N{\fn微软雅黑\fs14}I'll recommend we take her off life support.
+Dialogue: 0,0:10:54.08,0:10:55.60,*Default,NTP,0000,0000,0000,,我会从医学原理上给他解释的\N{\fn微软雅黑\fs14}I'll explain it to him medically.
+Dialogue: 0,0:10:56.11,0:10:57.00,*Default,NTP,0000,0000,0000,,好的\N{\fn微软雅黑\fs14}Okay.
+Dialogue: 0,0:11:28.57,0:11:30.47,*Default,NTP,0000,0000,0000,,我们要找的就是他\N{\fn微软雅黑\fs14}All right, that's who we're looking for.
+Dialogue: 0,0:11:30.47,0:11:31.62,*Default,NTP,0000,0000,0000,,1-a号公寓\N{\fn微软雅黑\fs14}Apartment 1-a.
+Dialogue: 0,0:11:32.68,0:11:34.61,*Default,NTP,0000,0000,0000,,小心电线或陷阱\N{\fn微软雅黑\fs14}Okay, careful of wires or traps.
+Dialogue: 0,0:11:34.62,0:11:36.08,*Default,NTP,0000,0000,0000,,做好一切准备\N{\fn微软雅黑\fs14}Anything's possible.
+Dialogue: 0,0:11:37.86,0:11:38.88,*Default,NTP,0000,0000,0000,,什么情况\N{\fn微软雅黑\fs14}Hey, what's this?
+Dialogue: 0,0:11:48.64,0:11:50.96,*Default,NTP,0000,0000,0000,,手放方向盘上  手放方向盘上\N{\fn微软雅黑\fs14}Hands on the wheel! Hands on the wheel!
+Dialogue: 0,0:11:50.96,0:11:53.09,*Default,NTP,0000,0000,0000,,转头看着我  不许动\N{\fn微软雅黑\fs14}Turn your head and look at me! Don't move!
+Dialogue: 0,0:11:53.09,0:11:54.26,*Default,NTP,0000,0000,0000,,看着我\N{\fn微软雅黑\fs14}Keep your eyes on me.
+Dialogue: 0,0:11:57.41,0:11:58.33,*Default,NTP,0000,0000,0000,,不是他\N{\fn微软雅黑\fs14}It's not him.
+Dialogue: 0,0:11:59.67,0:12:00.57,*Default,NTP,0000,0000,0000,,安全\N{\fn微软雅黑\fs14}Clear.
+Dialogue: 0,0:12:00.69,0:12:01.99,*Default,NTP,0000,0000,0000,,这到底是在搞什么\N{\fn微软雅黑\fs14}What the hell is going on?
+Dialogue: 0,0:12:02.86,0:12:04.88,*Default,NTP,0000,0000,0000,,不好意思  祝您今天愉快\N{\fn微软雅黑\fs14}It's our bad. Have a nice day.
+Dialogue: 0,0:12:18.31,0:12:19.70,*Default,NTP,0000,0000,0000,,安全\N{\fn微软雅黑\fs14}Well, it's clean.
+Dialogue: 0,0:12:21.41,0:12:22.97,*Default,NTP,0000,0000,0000,,但是我没法保证什么\N{\fn微软雅黑\fs14}I can't make any guarantees, though.
+Dialogue: 0,0:12:34.28,0:12:35.75,*Default,NTP,0000,0000,0000,,保罗·瓦茨  芝加哥警署\N{\fn微软雅黑\fs14}Paul Watts! C.P.D.!
+Dialogue: 0,0:12:37.89,0:12:38.51,*Default,NTP,0000,0000,0000,,安全\N{\fn微软雅黑\fs14}Clear!
+Dialogue: 0,0:12:38.51,0:12:39.47,*Default,NTP,0000,0000,0000,,尸体\N{\fn微软雅黑\fs14}Body!
+Dialogue: 0,0:12:40.44,0:12:41.33,*Default,NTP,0000,0000,0000,,安全\N{\fn微软雅黑\fs14}Clear!
+Dialogue: 0,0:12:42.24,0:12:43.14,*Default,NTP,0000,0000,0000,,安全\N{\fn微软雅黑\fs14}Clear.
+Dialogue: 0,0:12:51.65,0:12:53.00,*Default,NTP,0000,0000,0000,,-通知其他人  -好的\N{\fn微软雅黑\fs14}- Call it in. - All right.
+Dialogue: 0,0:12:53.14,0:12:56.58,*Default,NTP,0000,0000,0000,,这不是自杀  枪在右边\N{\fn微软雅黑\fs14}This wasn't a suicide. Gun's on the right.
+Dialogue: 0,0:12:56.98,0:12:59.49,*Default,NTP,0000,0000,0000,,手机和钱包别在皮带左侧\N{\fn微软雅黑\fs14}Cell phone clip and wallet are on the left side of the belt.
+Dialogue: 0,0:12:59.70,0:13:01.90,*Default,NTP,0000,0000,0000,,无枪口火舌灼伤痕迹\N{\fn微软雅黑\fs14}He has no burn from muzzle flash,
+Dialogue: 0,0:13:01.90,0:13:03.74,*Default,NTP,0000,0000,0000,,脸上没有弹药残渣\N{\fn微软雅黑\fs14}no gunshot residue on his face.
+Dialogue: 0,0:13:04.13,0:13:06.92,*Default,NTP,0000,0000,0000,,肯定是有人从五英尺开外枪杀了他\N{\fn微软雅黑\fs14}Somebody had to shoot him from five feet away.
+Dialogue: 0,0:13:07.14,0:13:08.19,*Default,NTP,0000,0000,0000,,然后布置了这一切\N{\fn微软雅黑\fs14}They set this up.
+Dialogue: 0,0:13:08.58,0:13:09.64,*Default,NTP,0000,0000,0000,,通知吉恩和萨姆纳\N{\fn微软雅黑\fs14}All right, call Jin and Sumner.
+Dialogue: 0,0:13:09.64,0:13:12.30,*Default,NTP,0000,0000,0000,,我要这人的一切信息\N{\fn微软雅黑\fs14}I want to know everything about this guy.
+Dialogue: 0,0:13:12.86,0:13:13.95,*Default,NTP,0000,0000,0000,,从他租借的第一张影碟\N{\fn微软雅黑\fs14}The first movie he rented
+Dialogue: 0,0:13:13.96,0:13:15.79,*Default,NTP,0000,0000,0000,,到他刚买的薄荷糖\N{\fn微软雅黑\fs14}right down to the last breath mint he bought.
+Dialogue: 0,0:13:15.79,0:13:16.74,*Default,NTP,0000,0000,0000,,事无巨细\N{\fn微软雅黑\fs14}Everything.
+Dialogue: 0,0:13:53.59,0:13:55.07,*Default,NTP,0000,0000,0000,,刚才发生了一起爆炸\N{\fn微软雅黑\fs14}There was an explosion.
+Dialogue: 0,0:13:59.25,0:14:00.14,*Default,NTP,0000,0000,0000,,你没准备\N{\fn微软雅黑\fs14}You weren't gonna tell anyone
+Dialogue: 0,0:14:00.14,0:14:02.21,*Default,NTP,0000,0000,0000,,告诉别人你受了重伤吗\N{\fn微软雅黑\fs14}about that enormous gash in your side?
+Dialogue: 0,0:14:03.18,0:14:04.00,*Default,NTP,0000,0000,0000,,我...\N{\fn微软雅黑\fs14}I...
+Dialogue: 0,0:14:04.58,0:14:06.73,*Default,NTP,0000,0000,0000,,我本来想说的  只是...\N{\fn微软雅黑\fs14}I kept meaning to. I just...
+Dialogue: 0,0:14:07.80,0:14:09.08,*Default,NTP,0000,0000,0000,,我不能停下来\N{\fn微软雅黑\fs14}I had to keep going.
+Dialogue: 0,0:14:10.50,0:14:13.22,*Default,NTP,0000,0000,0000,,我知道  我知道  但现在不用了\N{\fn微软雅黑\fs14}I know. I know. But not anymore.
+Dialogue: 0,0:14:16.29,0:14:17.95,*Default,NTP,0000,0000,0000,,你总是这么照顾我\N{\fn微软雅黑\fs14}Always looking out for me.
+Dialogue: 0,0:14:21.33,0:14:22.57,*Default,NTP,0000,0000,0000,,好好休息  好吗\N{\fn微软雅黑\fs14}Rest up, okay?
+Dialogue: 0,0:14:24.89,0:14:25.74,*Default,NTP,0000,0000,0000,,好的\N{\fn微软雅黑\fs14}Okay.
+Dialogue: 0,0:14:28.97,0:14:29.96,*Default,NTP,0000,0000,0000,,西弗莱德\N{\fn微软雅黑\fs14}Severide.
+Dialogue: 0,0:14:32.83,0:14:34.43,*Default,NTP,0000,0000,0000,,有两个年龄相仿的女孩\N{\fn微软雅黑\fs14}There were two little girls
+Dialogue: 0,0:14:34.64,0:14:36.48,*Default,NTP,0000,0000,0000,,应该是八岁左右吧\N{\fn微软雅黑\fs14}about the same age-- I think eight.
+Dialogue: 0,0:14:36.89,0:14:38.37,*Default,NTP,0000,0000,0000,,你知道她们得救了没有吗\N{\fn微软雅黑\fs14}Do you know if they made it?
+Dialogue: 0,0:14:39.58,0:14:41.68,*Default,NTP,0000,0000,0000,,我不知道...\N{\fn微软雅黑\fs14}I don't know. Um, it's...
+Dialogue: 0,0:14:42.87,0:14:44.05,*Default,NTP,0000,0000,0000,,现场情况不容乐观\N{\fn微软雅黑\fs14}It's bad out there.
+Dialogue: 0,0:14:45.37,0:14:46.65,*Default,NTP,0000,0000,0000,,好好休息  好吗\N{\fn微软雅黑\fs14}Just get some rest, okay?
+Dialogue: 0,0:14:53.92,0:14:55.45,*Default,NTP,0000,0000,0000,,胶带上发现了他的指纹\N{\fn微软雅黑\fs14}His prints were on the tape.
+Dialogue: 0,0:14:55.46,0:14:57.63,*Default,NTP,0000,0000,0000,,肯定是他的同伙杀了他\N{\fn微软雅黑\fs14}Whoever he was working with took him out.
+Dialogue: 0,0:14:57.76,0:15:00.19,*Default,NTP,0000,0000,0000,,鉴证组正在全面搜查他家\N{\fn微软雅黑\fs14}Crime scene is at his place doing a full workup.
+Dialogue: 0,0:15:00.79,0:15:02.68,*Default,NTP,0000,0000,0000,,关于我们在查的那个穆斯林护理员\N{\fn微软雅黑\fs14}The muslim orderly we've been looking into--
+Dialogue: 0,0:15:02.68,0:15:04.15,*Default,NTP,0000,0000,0000,,我们刚在他车的底盘里发现了\N{\fn微软雅黑\fs14}We just found traces of fertilizer
+Dialogue: 0,0:15:04.15,0:15:06.21,*Default,NTP,0000,0000,0000,,-少量肥料  -他跟这件事有什么关系\N{\fn微软雅黑\fs14}- in the bed of his truck. - How's he connected?
+Dialogue: 0,0:15:06.21,0:15:07.40,*Default,NTP,0000,0000,0000,,我们还没联系起来\N{\fn微软雅黑\fs14}We haven't put the dots together yet,
+Dialogue: 0,0:15:07.40,0:15:08.35,*Default,NTP,0000,0000,0000,,但我们现在主要查他\N{\fn微软雅黑\fs14}but he's our focus.
+Dialogue: 0,0:15:08.35,0:15:10.01,*Default,NTP,0000,0000,0000,,你继续盘问员工就好\N{\fn微软雅黑\fs14}Just keep interviewing staff.
+Dialogue: 0,0:15:17.29,0:15:18.17,*Default,NTP,0000,0000,0000,,查到什么了吗\N{\fn微软雅黑\fs14}What do you got?
+Dialogue: 0,0:15:18.58,0:15:20.89,*Default,NTP,0000,0000,0000,,吉恩把瓦茨和他的同事交叉匹配了\N{\fn微软雅黑\fs14}Jin did a cross-match on Watts for known associates.
+Dialogue: 0,0:15:20.89,0:15:23.44,*Default,NTP,0000,0000,0000,,-好吧  -瓦茨最近在浏览\N{\fn微软雅黑\fs14}- All right. - It turns out Watts was trolling the websites
+Dialogue: 0,0:15:23.44,0:15:25.97,*Default,NTP,0000,0000,0000,,某些大型反政府组织网站\N{\fn微软雅黑\fs14}of some pretty heavy-duty antigovernment groups.
+Dialogue: 0,0:15:25.97,0:15:26.97,*Default,NTP,0000,0000,0000,,我们查出了一些\N{\fn微软雅黑\fs14}We pulled the names of some people
+Dialogue: 0,0:15:26.97,0:15:28.47,*Default,NTP,0000,0000,0000,,他最近在频繁联系的人\N{\fn微软雅黑\fs14}that he had repeated contact with.
+Dialogue: 0,0:15:28.47,0:15:29.45,*Default,NTP,0000,0000,0000,,邮件具体内容\N{\fn微软雅黑\fs14}Haven't been able to actually
+Dialogue: 0,0:15:29.45,0:15:31.48,*Default,NTP,0000,0000,0000,,还未查出\N{\fn微软雅黑\fs14}access the contents of the emails.
+Dialogue: 0,0:15:31.48,0:15:33.63,*Default,NTP,0000,0000,0000,,但我查到邮箱地址了\N{\fn微软雅黑\fs14}I was just able to get addresses.
+Dialogue: 0,0:15:36.94,0:15:38.28,*Default,NTP,0000,0000,0000,,等等  等等  回去\N{\fn微软雅黑\fs14}Whoa. Wait a second. Wait a second. Go back.
+Dialogue: 0,0:15:38.28,0:15:41.04,*Default,NTP,0000,0000,0000,,回去  等等  别换\N{\fn微软雅黑\fs14}Go back. Wait, hold on, wait a sec.
+Dialogue: 0,0:15:43.39,0:15:44.54,*Default,NTP,0000,0000,0000,,没错  就是他  就是这个人\N{\fn微软雅黑\fs14}Yeah, that's him. That's the guy.
+Dialogue: 0,0:15:44.54,0:15:45.53,*Default,NTP,0000,0000,0000,,什么人\N{\fn微软雅黑\fs14}What guy?
+Dialogue: 0,0:15:45.97,0:15:47.63,*Default,NTP,0000,0000,0000,,就是他告诉我两个带着墨镜的\N{\fn微软雅黑\fs14}The guy who told me two dark-skinned guys
+Dialogue: 0,0:15:47.63,0:15:49.23,*Default,NTP,0000,0000,0000,,深色皮肤的人逃离了现场\N{\fn微软雅黑\fs14}in sunglasses were leaving the scene.
+Dialogue: 0,0:15:49.23,0:15:50.34,*Default,NTP,0000,0000,0000,,就是这个人\N{\fn微软雅黑\fs14}That's the guy.
+Dialogue: 0,0:15:50.77,0:15:51.68,*Default,NTP,0000,0000,0000,,他在这里\N{\fn微软雅黑\fs14}He's here.
+Dialogue: 0,0:15:55.91,0:15:57.48,*Default,NTP,0000,0000,0000,,谢谢你们的帮助\N{\fn微软雅黑\fs14}Thank you for everything,
+Dialogue: 0,0:15:57.67,0:16:00.54,*Default,NTP,0000,0000,0000,,你们太不容易了  我深表同情\N{\fn微软雅黑\fs14}And I am so sorry for what you guys have been through.
+Dialogue: 0,0:16:00.83,0:16:02.01,*Default,NTP,0000,0000,0000,,你们都是英雄\N{\fn微软雅黑\fs14}You're all heroes.
+Dialogue: 0,0:16:03.02,0:16:04.99,*Default,NTP,0000,0000,0000,,-帕特·沃恩  -是我\N{\fn微软雅黑\fs14}- Pat Vaughn? - Yeah?
+Dialogue: 0,0:16:05.15,0:16:06.96,*Default,NTP,0000,0000,0000,,能跟我走一趟吗\N{\fn微软雅黑\fs14}Would you mind coming with us for a minute?
+Dialogue: 0,0:16:08.52,0:16:09.74,*Default,NTP,0000,0000,0000,,我只是想出院\N{\fn微软雅黑\fs14}I just checked out.
+Dialogue: 0,0:16:09.74,0:16:11.85,*Default,NTP,0000,0000,0000,,我们还有几个问题要问\N{\fn微软雅黑\fs14}We just have a few follow-up questions.
+Dialogue: 0,0:16:12.06,0:16:12.99,*Default,NTP,0000,0000,0000,,当然\N{\fn微软雅黑\fs14}Of course.
+Dialogue: 0,0:16:13.36,0:16:14.18,*Default,NTP,0000,0000,0000,,当然\N{\fn微软雅黑\fs14}Sure.
+Dialogue: 0,0:16:18.10,0:16:19.07,*Default,NTP,0000,0000,0000,,别轻举妄动\N{\fn微软雅黑\fs14}Take it easy!
+Dialogue: 0,0:16:19.15,0:16:21.20,*Default,NTP,0000,0000,0000,,放我走\N{\fn微软雅黑\fs14}I am walking out of here.
+Dialogue: 0,0:16:27.67,0:16:29.83,*Default,NTP,0000,0000,0000,,-退后  -别再犯错了  沃恩\N{\fn微软雅黑\fs14}- Back up! - Don't go any further, Vaughn.
+Dialogue: 0,0:16:29.83,0:16:31.84,*Default,NTP,0000,0000,0000,,-反正我一无所有  -好的\N{\fn微软雅黑\fs14}- I got nothing to lose. - Okay.
+Dialogue: 0,0:16:32.04,0:16:33.52,*Default,NTP,0000,0000,0000,,那你想要什么\N{\fn微软雅黑\fs14}What are you hoping to gain?
+Dialogue: 0,0:16:33.68,0:16:35.77,*Default,NTP,0000,0000,0000,,你真的觉得我会放任你逃走吗\N{\fn微软雅黑\fs14}Do you think we're gonna let you drive out of here?
+Dialogue: 0,0:16:35.90,0:16:38.10,*Default,NTP,0000,0000,0000,,我可一点都不怕杀人  特别是警察\N{\fn微软雅黑\fs14}I got no problem slitting a throat, especially a cop's.
+Dialogue: 0,0:16:38.10,0:16:40.32,*Default,NTP,0000,0000,0000,,-冷静  -退后\N{\fn微软雅黑\fs14}- Easy. - Back up!
+Dialogue: 0,0:16:40.88,0:16:43.10,*Default,NTP,0000,0000,0000,,好吧  发生什么事了\N{\fn微软雅黑\fs14}Okay, man. What's going on here?
+Dialogue: 0,0:16:43.85,0:16:44.79,*Default,NTP,0000,0000,0000,,我们只是想救人性命\N{\fn微软雅黑\fs14}We're just trying to save some people.
+Dialogue: 0,0:16:44.79,0:16:46.70,*Default,NTP,0000,0000,0000,,-闭嘴  -听着\N{\fn微软雅黑\fs14}- Shut up! - Listen...
+Dialogue: 0,0:16:47.76,0:16:49.57,*Default,NTP,0000,0000,0000,,我们好好谈谈  好吗\N{\fn微软雅黑\fs14}Let's just talk this out, all right?
+Dialogue: 0,0:16:49.63,0:16:51.32,*Default,NTP,0000,0000,0000,,你要想完好无损地走出去  没问题\N{\fn微软雅黑\fs14}You want to walk out of here, you can walk out of here.
+Dialogue: 0,0:16:51.33,0:16:53.48,*Default,NTP,0000,0000,0000,,不要再说了\N{\fn微软雅黑\fs14}Don't say another word!
+Dialogue: 0,0:16:56.67,0:16:58.32,*Default,NTP,0000,0000,0000,,-你还好吗  -趴下\N{\fn微软雅黑\fs14}- You all right? - Stay down.
+Dialogue: 0,0:16:59.42,0:17:01.42,*Default,NTP,0000,0000,0000,,-你没事吧  -没事  谢谢\N{\fn微软雅黑\fs14}- You okay? - Yeah. Thank you.
+Dialogue: 0,0:17:01.42,0:17:02.67,*Default,NTP,0000,0000,0000,,-谢谢  -给我安排一间房\N{\fn微软雅黑\fs14}- Thank you. - I need a room.
+Dialogue: 0,0:17:02.67,0:17:03.77,*Default,NTP,0000,0000,0000,,别动\N{\fn微软雅黑\fs14}Don't move.
+Dialogue: 0,0:17:03.93,0:17:06.19,*Default,NTP,0000,0000,0000,,-这人参与爆炸事件了吗  -应该是的\N{\fn微软雅黑\fs14}- This guy involved? - Looks like it.
+Dialogue: 0,0:17:06.19,0:17:07.20,*Default,NTP,0000,0000,0000,,站起来\N{\fn微软雅黑\fs14}On your feet.
+Dialogue: 0,0:17:07.20,0:17:08.84,*Default,NTP,0000,0000,0000,,可以把他带到城里任何一家消防局\N{\fn微软雅黑\fs14}You can bring him in to any firehouse in the city.
+Dialogue: 0,0:17:08.84,0:17:10.28,*Default,NTP,0000,0000,0000,,我们用五分钟就够了\N{\fn微软雅黑\fs14}We'll take five minutes, all right?
+Dialogue: 0,0:17:10.96,0:17:12.81,*Default,NTP,0000,0000,0000,,我们会让他招的  我保证\N{\fn微软雅黑\fs14}We'll get some answers from him, I promise.
+Dialogue: 0,0:17:12.81,0:17:14.62,*Default,NTP,0000,0000,0000,,谢谢  谢谢\N{\fn微软雅黑\fs14}Thank you. Thank you.
+Dialogue: 0,0:17:22.43,0:17:23.27,*Default,NTP,0000,0000,0000,,博伊特\N{\fn微软雅黑\fs14}Voight.
+Dialogue: 0,0:17:23.94,0:17:24.82,*Default,NTP,0000,0000,0000,,我看着他\N{\fn微软雅黑\fs14}I got him.
+Dialogue: 0,0:17:25.16,0:17:26.01,*Default,NTP,0000,0000,0000,,探员\N{\fn微软雅黑\fs14}Sir?
+Dialogue: 0,0:17:26.06,0:17:27.80,*Default,NTP,0000,0000,0000,,穆斯林护理员的嫌疑洗清了\N{\fn微软雅黑\fs14}The Muslim orderly checks out.
+Dialogue: 0,0:17:27.81,0:17:29.55,*Default,NTP,0000,0000,0000,,在他车里找到的肥料残留\N{\fn微软雅黑\fs14}The fertilizer residue found in his truck traces
+Dialogue: 0,0:17:29.55,0:17:32.67,*Default,NTP,0000,0000,0000,,是他家附近的一处社区花园里的\N{\fn微软雅黑\fs14}to a community garden in his neighborhood.
+Dialogue: 0,0:17:32.67,0:17:34.61,*Default,NTP,0000,0000,0000,,我们找到有用的线索了\N{\fn微软雅黑\fs14}Well, we're onto something here.
+Dialogue: 0,0:17:35.37,0:17:38.31,*Default,NTP,0000,0000,0000,,好  但我不能就这样让你\N{\fn微软雅黑\fs14}Yeah, I can't let you traipse off with our only lead,
+Dialogue: 0,0:17:38.31,0:17:40.68,*Default,NTP,0000,0000,0000,,带走唯一的线索去瞎折腾\N{\fn微软雅黑\fs14}doing god knows what at all hours.
+Dialogue: 0,0:17:40.76,0:17:42.70,*Default,NTP,0000,0000,0000,,给我三十分钟\N{\fn微软雅黑\fs14}All I need is 30 minutes.
+Dialogue: 0,0:17:48.24,0:17:49.36,*Default,NTP,0000,0000,0000,,你只有二十分钟\N{\fn微软雅黑\fs14}You got 20.
+Dialogue: 0,0:18:05.31,0:18:07.54,*Default,NTP,0000,0000,0000,,我的肩膀骨折了\N{\fn微软雅黑\fs14}My shoulder is broken.
+Dialogue: 0,0:18:07.54,0:18:10.79,*Default,NTP,0000,0000,0000,,我需要治疗\N{\fn微软雅黑\fs14}I demand medical treatment.
+Dialogue: 0,0:18:10.79,0:18:13.44,*Default,NTP,0000,0000,0000,,那场爆炸  十八人死亡\N{\fn微软雅黑\fs14}18 people died in that bomb blast...
+Dialogue: 0,0:18:14.06,0:18:16.83,*Default,NTP,0000,0000,0000,,楼上还有十几个人生命垂危\N{\fn微软雅黑\fs14}A dozen more clinging to their life upstairs...
+Dialogue: 0,0:18:17.99,0:18:20.80,*Default,NTP,0000,0000,0000,,包括一个我辖区内警察的\N{\fn微软雅黑\fs14}9-year-old girl who's a niece of a cop
+Dialogue: 0,0:18:20.80,0:18:22.05,*Default,NTP,0000,0000,0000,,九岁的侄女\N{\fn微软雅黑\fs14}in my district.
+Dialogue: 0,0:18:24.34,0:18:27.91,*Default,NTP,0000,0000,0000,,你最好全盘托出  供出你的同伙\N{\fn微软雅黑\fs14}You tell me everything you know, every participant...
+Dialogue: 0,0:18:28.74,0:18:30.49,*Default,NTP,0000,0000,0000,,因为你是个懦夫  沃恩\N{\fn微软雅黑\fs14}Because as a coward, Vaughn--
+Dialogue: 0,0:18:31.50,0:18:32.62,*Default,NTP,0000,0000,0000,,我知道你是个懦夫\N{\fn微软雅黑\fs14}And I know you're a coward,
+Dialogue: 0,0:18:32.62,0:18:36.31,*Default,NTP,0000,0000,0000,,因为你炸死了癌症爱心募捐者\N{\fn微软雅黑\fs14}'cause that's who lays bombs at cancer fund-raisers--
+Dialogue: 0,0:18:37.46,0:18:39.10,*Default,NTP,0000,0000,0000,,我会让你生不如死\N{\fn微软雅黑\fs14}You will not endure the pain
+Dialogue: 0,0:18:39.10,0:18:40.90,*Default,NTP,0000,0000,0000,,你肯定受不了那种痛苦\N{\fn微软雅黑\fs14}that I'm going to put you through.
+Dialogue: 0,0:18:41.31,0:18:42.51,*Default,NTP,0000,0000,0000,,我需要...\N{\fn微软雅黑\fs14}I need to see a...
+Dialogue: 0,0:18:45.92,0:18:47.59,*Default,NTP,0000,0000,0000,,现在我来告诉你我想要什么\N{\fn微软雅黑\fs14}Now, let me tell you what I need.
+Dialogue: 0,0:18:49.22,0:18:52.19,*Default,NTP,0000,0000,0000,,我要知道你们晚上八点半的计划\N{\fn微软雅黑\fs14}I need to know about 8:30 P.M.
+Dialogue: 0,0:18:55.32,0:18:58.42,*Default,NTP,0000,0000,0000,,先让我得到治疗再说\N{\fn微软雅黑\fs14}Once I get medical treatment.
+Dialogue: 0,0:19:05.77,0:19:07.77,*Default,NTP,0000,0000,0000,,沃恩说他和瓦茨都和一个\N{\fn微软雅黑\fs14}Vaughn said him and Watts were both hooked up
+Dialogue: 0,0:19:07.77,0:19:09.19,*Default,NTP,0000,0000,0000,,叫泰德·鲍威尔的人有联系\N{\fn微软雅黑\fs14}with a guy named Ted Powell.
+Dialogue: 0,0:19:09.19,0:19:11.03,*Default,NTP,0000,0000,0000,,泰德·鲍威尔  我听过这个名字\N{\fn微软雅黑\fs14}Ted Powell-- I know that name.
+Dialogue: 0,0:19:11.03,0:19:13.02,*Default,NTP,0000,0000,0000,,他是反政府分子中的重要人物\N{\fn微软雅黑\fs14}He was big in the antigovernment fringe.
+Dialogue: 0,0:19:13.02,0:19:13.99,*Default,NTP,0000,0000,0000,,他父亲也是\N{\fn微软雅黑\fs14}So was his dad.
+Dialogue: 0,0:19:14.00,0:19:15.56,*Default,NTP,0000,0000,0000,,瓦茨为什么会被杀\N{\fn微软雅黑\fs14}Why did Watts get killed?
+Dialogue: 0,0:19:15.70,0:19:17.46,*Default,NTP,0000,0000,0000,,沃恩和瓦茨两人各负责\N{\fn微软雅黑\fs14}Vaughn and Watts were both in charge
+Dialogue: 0,0:19:17.46,0:19:19.51,*Default,NTP,0000,0000,0000,,设置一个汽车炸弹\N{\fn微软雅黑\fs14}of setting off two separate car bombs.
+Dialogue: 0,0:19:19.52,0:19:21.93,*Default,NTP,0000,0000,0000,,两个炸弹本来都应该在今晚爆炸\N{\fn微软雅黑\fs14}Both bombs were supposed to go off tonight--
+Dialogue: 0,0:19:21.97,0:19:24.24,*Default,NTP,0000,0000,0000,,瓦茨的在八点  沃恩的在八点半\N{\fn微软雅黑\fs14}Watts at 8:00, Vaughn at 8:30.
+Dialogue: 0,0:19:24.24,0:19:25.56,*Default,NTP,0000,0000,0000,,瓦茨一定是弄错了他那个\N{\fn微软雅黑\fs14}Watts must've rigged his wrong,
+Dialogue: 0,0:19:25.56,0:19:26.77,*Default,NTP,0000,0000,0000,,所以今天早晨就爆炸了\N{\fn微软雅黑\fs14}'cause it went off this morning.
+Dialogue: 0,0:19:26.77,0:19:28.07,*Default,NTP,0000,0000,0000,,八点是芝加哥警署和芝加哥消防局\N{\fn微软雅黑\fs14}8:00 P.M. was gonna be the gala
+Dialogue: 0,0:19:28.07,0:19:30.08,*Default,NTP,0000,0000,0000,,高层联欢会的时间  对吗\N{\fn微软雅黑\fs14}for the C.P.D. and the C.F.D. brass, right?
+Dialogue: 0,0:19:30.08,0:19:30.92,*Default,NTP,0000,0000,0000,,是的\N{\fn微软雅黑\fs14}Right.
+Dialogue: 0,0:19:31.10,0:19:32.68,*Default,NTP,0000,0000,0000,,第一个炸弹是要袭击他们\N{\fn微软雅黑\fs14}First bomb was set to get them.
+Dialogue: 0,0:19:33.57,0:19:35.62,*Default,NTP,0000,0000,0000,,第二个炸弹是要袭击救援人员\N{\fn微软雅黑\fs14}Second bomb was set to get the first responders.
+Dialogue: 0,0:19:35.92,0:19:37.21,*Default,NTP,0000,0000,0000,,你还问出什么了\N{\fn微软雅黑\fs14}What else you get out of him?
+Dialogue: 0,0:19:37.39,0:19:40.22,*Default,NTP,0000,0000,0000,,沃恩说鲍威尔还有什么终极计划\N{\fn微软雅黑\fs14}Vaughn said that Powell had some master plan
+Dialogue: 0,0:19:40.22,0:19:41.52,*Default,NTP,0000,0000,0000,,没有告诉他\N{\fn微软雅黑\fs14}that he didn't share with him.
+Dialogue: 0,0:19:41.52,0:19:43.14,*Default,NTP,0000,0000,0000,,所以这事还没完\N{\fn微软雅黑\fs14}So this wasn't the end of it.
+Dialogue: 0,0:19:43.37,0:19:44.40,*Default,NTP,0000,0000,0000,,这就是鲍威尔\N{\fn微软雅黑\fs14}Here's Powell.
+Dialogue: 0,0:19:50.13,0:19:52.55,*Default,NTP,0000,0000,0000,,我在医院外的人群里看到过他\N{\fn微软雅黑\fs14}I saw him outside the hospital with the crowd.
+Dialogue: 0,0:19:52.80,0:19:53.88,*Default,NTP,0000,0000,0000,,他也在这里\N{\fn微软雅黑\fs14}He was here too.
+Dialogue: 0,0:19:54.70,0:19:56.67,*Default,NTP,0000,0000,0000,,好了  先去查查他父亲\N{\fn微软雅黑\fs14}All right, let's check out his dad.
+Dialogue: 0,0:20:01.54,0:20:02.95,*Default,NTP,0000,0000,0000,,凯西\N{\fn微软雅黑\fs14}Casey!
+Dialogue: 0,0:20:03.62,0:20:05.02,*Default,NTP,0000,0000,0000,,-加比怎么样了  -她没事\N{\fn微软雅黑\fs14}- How's Gabby? - She's fine.
+Dialogue: 0,0:20:05.02,0:20:07.61,*Default,NTP,0000,0000,0000,,她回家了  还有点惊吓\N{\fn微软雅黑\fs14}She's home--a little rattled still,
+Dialogue: 0,0:20:07.61,0:20:09.12,*Default,NTP,0000,0000,0000,,不过也能理解\N{\fn微软雅黑\fs14}but who can blame her?
+Dialogue: 0,0:20:09.73,0:20:11.19,*Default,NTP,0000,0000,0000,,-给  -谢谢  伙计\N{\fn微软雅黑\fs14}- Here. - Oh, thanks, man.
+Dialogue: 0,0:20:11.51,0:20:12.69,*Default,NTP,0000,0000,0000,,多谢你救她出来\N{\fn微软雅黑\fs14}Thanks for getting her out.
+Dialogue: 0,0:20:14.62,0:20:16.37,*Default,NTP,0000,0000,0000,,我告诉她  她欠我一打啤酒\N{\fn微软雅黑\fs14}I told her she owes me a 12-pack.
+Dialogue: 0,0:20:17.99,0:20:19.91,*Default,NTP,0000,0000,0000,,还有从废墟里救出的幸存者吗\N{\fn微软雅黑\fs14}Any more survivors pulled out from the rubble?
+Dialogue: 0,0:20:20.23,0:20:21.28,*Default,NTP,0000,0000,0000,,情况不妙\N{\fn微软雅黑\fs14}Doesn't look good.
+Dialogue: 0,0:20:21.59,0:20:22.79,*Default,NTP,0000,0000,0000,,我们看见了一个女人的手\N{\fn微软雅黑\fs14}We saw a woman's hand,
+Dialogue: 0,0:20:22.79,0:20:24.60,*Default,NTP,0000,0000,0000,,刚花了一个小时把她挖出来\N{\fn微软雅黑\fs14}spent the last hour digging her out.
+Dialogue: 0,0:20:24.81,0:20:26.56,*Default,NTP,0000,0000,0000,,是会计部的一个单身母亲\N{\fn微软雅黑\fs14}It was a single mom from accounting--
+Dialogue: 0,0:20:26.56,0:20:27.73,*Default,NTP,0000,0000,0000,,家里有两个孩子\N{\fn微软雅黑\fs14}two kids at home.
+Dialogue: 0,0:20:29.94,0:20:31.45,*Default,NTP,0000,0000,0000,,什么样的人才会做出这种事\N{\fn微软雅黑\fs14}Who would do something like this?
+Dialogue: 0,0:20:31.94,0:20:33.48,*Default,NTP,0000,0000,0000,,我已经有眉目了\N{\fn微软雅黑\fs14}I've got a pretty good idea.
+Dialogue: 0,0:20:36.62,0:20:38.00,*Default,NTP,0000,0000,0000,,十年前  弗兰克·鲍威尔\N{\fn微软雅黑\fs14}Ten years ago, Frank Powell,
+Dialogue: 0,0:20:38.00,0:20:39.38,*Default,NTP,0000,0000,0000,,你们很多人可能还记得\N{\fn微软雅黑\fs14}many of you will remember,
+Dialogue: 0,0:20:39.38,0:20:41.63,*Default,NTP,0000,0000,0000,,在坎卡基县外他的牧场里\N{\fn微软雅黑\fs14}was arrested after a two-day standoff
+Dialogue: 0,0:20:41.63,0:20:43.42,*Default,NTP,0000,0000,0000,,与警方僵持两天后被捕\N{\fn微软雅黑\fs14}at his ranch outside of Kankakee.
+Dialogue: 0,0:20:43.45,0:20:45.25,*Default,NTP,0000,0000,0000,,他妻子在交火中身亡\N{\fn微软雅黑\fs14}His wife died in the gun battle.
+Dialogue: 0,0:20:45.25,0:20:47.16,*Default,NTP,0000,0000,0000,,他现在在斯泰特维尔监狱服无期徒刑\N{\fn微软雅黑\fs14}The old man is doing life at Stateville.
+Dialogue: 0,0:20:47.16,0:20:49.63,*Default,NTP,0000,0000,0000,,我手下两个警探正在去审问他的路上\N{\fn微软雅黑\fs14}Two of my detectives are on route to interview him.
+Dialogue: 0,0:20:49.92,0:20:52.60,*Default,NTP,0000,0000,0000,,牧场被攻陷的时候泰德·鲍威尔就在那里\N{\fn微软雅黑\fs14}Ted Powell was there when the ranch was raided.
+Dialogue: 0,0:20:52.60,0:20:54.76,*Default,NTP,0000,0000,0000,,他在那一天失去了他的双亲\N{\fn微软雅黑\fs14}He lost his mother and his father that day.
+Dialogue: 0,0:20:54.76,0:20:55.89,*Default,NTP,0000,0000,0000,,自那以后\N{\fn微软雅黑\fs14}He has been a fixture
+Dialogue: 0,0:20:55.89,0:20:58.64,*Default,NTP,0000,0000,0000,,他一直是过激反政府网站的常客\N{\fn微软雅黑\fs14}on radical antigovernment websites ever since.
+Dialogue: 0,0:21:01.20,0:21:02.19,*Default,NTP,0000,0000,0000,,{\an8}斯泰特维尔监狱人员记录
+Dialogue: 0,0:21:02.71,0:21:04.47,*Default,NTP,0000,0000,0000,,鲍威尔  就是他\N{\fn微软雅黑\fs14}Powell--correct.
+Dialogue: 0,0:21:04.47,0:21:06.93,*Default,NTP,0000,0000,0000,,好的  要多久以前的记录\N{\fn微软雅黑\fs14}Okay. How far back?
+Dialogue: 0,0:21:07.14,0:21:09.25,*Default,NTP,0000,0000,0000,,所有的都要  可以追朔到五年前吗\N{\fn微软雅黑\fs14}Far back as they go. Five years?
+Dialogue: 0,0:21:09.29,0:21:10.17,*Default,NTP,0000,0000,0000,,好的\N{\fn微软雅黑\fs14}Okay.
+Dialogue: 0,0:21:10.17,0:21:12.52,*Default,NTP,0000,0000,0000,,我需要得到上级的同意\N{\fn微软雅黑\fs14}I'm gonna just need my supervisor to approve.
+Dialogue: 0,0:21:12.52,0:21:13.13,*Default,NTP,0000,0000,0000,,他应该一会儿就回来\N{\fn微软雅黑\fs14}He should be back in--
+Dialogue: 0,0:21:13.13,0:21:14.93,*Default,NTP,0000,0000,0000,,你今天看新闻了吗  伙计\N{\fn微软雅黑\fs14}Have you been watching the news today, man?
+Dialogue: 0,0:21:16.21,0:21:18.05,*Default,NTP,0000,0000,0000,,需要我给你看遇难者名单吗\N{\fn微软雅黑\fs14}Do I need to run down a list of the dead?
+Dialogue: 0,0:21:20.50,0:21:21.48,*Default,NTP,0000,0000,0000,,谢谢\N{\fn微软雅黑\fs14}Thank you.
+Dialogue: 0,0:21:31.45,0:21:33.45,*Default,NTP,0000,0000,0000,,你知道今天在芝加哥医院发生了什么吗\N{\fn微软雅黑\fs14}You're aware of what happened at Chicago Med today?
+Dialogue: 0,0:21:33.76,0:21:34.78,*Default,NTP,0000,0000,0000,,我知道\N{\fn微软雅黑\fs14}I am.
+Dialogue: 0,0:21:35.73,0:21:38.82,*Default,NTP,0000,0000,0000,,你儿子泰德牵涉其中  有可能是主谋\N{\fn微软雅黑\fs14}Your son Ted was involved, possibly the mastermind,
+Dialogue: 0,0:21:38.82,0:21:40.13,*Default,NTP,0000,0000,0000,,不过你可能已经知道了\N{\fn微软雅黑\fs14}but you probably knew that.
+Dialogue: 0,0:21:40.27,0:21:41.79,*Default,NTP,0000,0000,0000,,这是你说的\N{\fn微软雅黑\fs14}So you allege.
+Dialogue: 0,0:21:43.10,0:21:45.23,*Default,NTP,0000,0000,0000,,听着  不管你和政府有什么问题\N{\fn微软雅黑\fs14}Look, whatever problems you've had with the government,
+Dialogue: 0,0:21:45.23,0:21:47.60,*Default,NTP,0000,0000,0000,,不管你失去过什么\N{\fn微软雅黑\fs14}whatever losses you've suffered,
+Dialogue: 0,0:21:47.60,0:21:50.03,*Default,NTP,0000,0000,0000,,都不能成为你儿子今天这些行为的借口\N{\fn微软雅黑\fs14}there's no way to excuse what your son did today.
+Dialogue: 0,0:21:52.38,0:21:53.81,*Default,NTP,0000,0000,0000,,我们有理由相信\N{\fn微软雅黑\fs14}Now, we have reason to believe
+Dialogue: 0,0:21:53.82,0:21:57.03,*Default,NTP,0000,0000,0000,,他的计划可能还有下一步\N{\fn微软雅黑\fs14}that there might be more to his plan, another step.
+Dialogue: 0,0:21:57.03,0:21:59.91,*Default,NTP,0000,0000,0000,,所以我们可以做笔交易\N{\fn微软雅黑\fs14}So we can work out a deal, okay?
+Dialogue: 0,0:22:00.18,0:22:01.82,*Default,NTP,0000,0000,0000,,这可是你提条件的好机会\N{\fn微软雅黑\fs14}It's a buyer's market right now.
+Dialogue: 0,0:22:01.96,0:22:03.60,*Default,NTP,0000,0000,0000,,你帮我们  我们就会帮你\N{\fn微软雅黑\fs14}You help us, and we'll help you.
+Dialogue: 0,0:22:04.87,0:22:06.70,*Default,NTP,0000,0000,0000,,我非常为他骄傲\N{\fn微软雅黑\fs14}I couldn't be more proud of him.
+Dialogue: 0,0:22:08.12,0:22:09.84,*Default,NTP,0000,0000,0000,,要知道有孩子被害死了\N{\fn微软雅黑\fs14}You know, children were killed.
+Dialogue: 0,0:22:10.13,0:22:12.87,*Default,NTP,0000,0000,0000,,还用我给你解释"附带损害"吗\N{\fn微软雅黑\fs14}I got to explain collateral damage to you?
+Dialogue: 0,0:22:13.34,0:22:14.59,*Default,NTP,0000,0000,0000,,我们是在战斗\N{\fn微软雅黑\fs14}We're in a war.
+Dialogue: 0,0:22:14.59,0:22:18.14,*Default,NTP,0000,0000,0000,,在战争中  总会有平民伤亡\N{\fn微软雅黑\fs14}And in a war, there are gonna be noncombatant casualties.
+Dialogue: 0,0:22:21.36,0:22:22.22,*Default,NTP,0000,0000,0000,,好吧\N{\fn微软雅黑\fs14}Okay.
+Dialogue: 0,0:22:26.21,0:22:27.29,*Default,NTP,0000,0000,0000,,你想要什么\N{\fn微软雅黑\fs14}What do you want?
+Dialogue: 0,0:22:27.59,0:22:29.30,*Default,NTP,0000,0000,0000,,总有什么是你想要的\N{\fn微软雅黑\fs14}There's got to be something you want.
+Dialogue: 0,0:22:31.00,0:22:33.54,*Default,NTP,0000,0000,0000,,你知道警察局是什么时候开始堕落的吗\N{\fn微软雅黑\fs14}You know when the police department started go south?
+Dialogue: 0,0:22:36.31,0:22:38.74,*Default,NTP,0000,0000,0000,,什么时候开始让少数裔也能加入的吗\N{\fn微软雅黑\fs14}When they started letting minorities in.
+Dialogue: 0,0:22:39.33,0:22:40.55,*Default,NTP,0000,0000,0000,,要还是不要  你想不想谈交易\N{\fn微软雅黑\fs14}Yes or no? You want to make a deal?
+Dialogue: 0,0:22:40.55,0:22:42.97,*Default,NTP,0000,0000,0000,,因为以前  所有警察都是白人的时候\N{\fn微软雅黑\fs14}'Cause before, see, when all the cops were white,
+Dialogue: 0,0:22:42.98,0:22:46.26,*Default,NTP,0000,0000,0000,,你可以像正常人一样和他们说话\N{\fn微软雅黑\fs14}you could talk to them like a normal person.
+Dialogue: 0,0:22:47.04,0:22:48.31,*Default,NTP,0000,0000,0000,,但是你让一个少数裔进来\N{\fn微软雅黑\fs14}But you get a minority in there,
+Dialogue: 0,0:22:48.32,0:22:51.57,*Default,NTP,0000,0000,0000,,然后他们就各种愤懑\N{\fn微软雅黑\fs14}and there's all this resentment
+Dialogue: 0,0:22:51.57,0:22:56.12,*Default,NTP,0000,0000,0000,,从历史问题到个人缺点\N{\fn微软雅黑\fs14}from historical and personal shortcomings
+Dialogue: 0,0:22:56.12,0:22:57.66,*Default,NTP,0000,0000,0000,,都跑到台面上来了\N{\fn微软雅黑\fs14}that comes to the fore.
+Dialogue: 0,0:22:57.85,0:22:59.97,*Default,NTP,0000,0000,0000,,现在该是他们\N{\fn微软雅黑\fs14}Now's their big chance
+Dialogue: 0,0:22:59.97,0:23:03.11,*Default,NTP,0000,0000,0000,,滚回他们的压迫者那里去的时候了\N{\fn微软雅黑\fs14}to get back at their oppressors.
+Dialogue: 0,0:23:12.09,0:23:13.29,*Default,NTP,0000,0000,0000,,你是说像这样吗\N{\fn微软雅黑\fs14}You mean like this?
+Dialogue: 0,0:24:05.25,0:24:06.64,*Default,NTP,0000,0000,0000,,我不管你需要做什么\N{\fn微软雅黑\fs14}I don't care what you have to do.
+Dialogue: 0,0:24:06.64,0:24:08.29,*Default,NTP,0000,0000,0000,,不管  你给我一个准确时间\N{\fn微软雅黑\fs14}No, you give me an exact time.
+Dialogue: 0,0:24:10.27,0:24:12.16,*Default,NTP,0000,0000,0000,,-我现在就要  -霍斯特德\N{\fn微软雅黑\fs14}- I need it now. - Halstead.
+Dialogue: 0,0:24:12.73,0:24:13.91,*Default,NTP,0000,0000,0000,,怎么了  等一下\N{\fn微软雅黑\fs14}Yeah. Hold on.
+Dialogue: 0,0:24:13.91,0:24:16.16,*Default,NTP,0000,0000,0000,,我觉得大家需要看看这个\N{\fn微软雅黑\fs14}I think everyone's gonna want to see this.
+Dialogue: 0,0:24:17.29,0:24:20.18,*Default,NTP,0000,0000,0000,,好了  好了  安静  安静  开始\N{\fn微软雅黑\fs14}Okay, okay, settle down. Settle down. Hit it.
+Dialogue: 0,0:24:20.80,0:24:22.32,*Default,NTP,0000,0000,0000,,泰德·鲍威尔刚刚\N{\fn微软雅黑\fs14}Ted Powell just posted this
+Dialogue: 0,0:24:22.32,0:24:24.97,*Default,NTP,0000,0000,0000,,在一个反政府网站上发布了这个\N{\fn微软雅黑\fs14}on a fringe antigovernment website.
+Dialogue: 0,0:24:27.61,0:24:30.99,*Default,NTP,0000,0000,0000,,2004年  我的家人在伊利诺伊州\N{\fn微软雅黑\fs14}In 2004, my family's home in Kankakee, Illinois--
+Dialogue: 0,0:24:30.99,0:24:33.97,*Default,NTP,0000,0000,0000,,坎卡基县家里遭到了芝加哥警署的\N{\fn微软雅黑\fs14}we came under attack, without justification,
+Dialogue: 0,0:24:33.97,0:24:36.21,*Default,NTP,0000,0000,0000,,非正当攻击\N{\fn微软雅黑\fs14}by the Chicago Police Department.
+Dialogue: 0,0:24:36.40,0:24:40.05,*Default,NTP,0000,0000,0000,,他们向我们开火  我们家被大火吞没\N{\fn微软雅黑\fs14}We were fired upon, and our home was engulfed in flames.
+Dialogue: 0,0:24:40.27,0:24:43.21,*Default,NTP,0000,0000,0000,,芝加哥消防局袖手旁观  无所作为\N{\fn微软雅黑\fs14}The Chicago Fire Department stood by and did nothing.
+Dialogue: 0,0:24:44.64,0:24:46.24,*Default,NTP,0000,0000,0000,,我母亲那天死了\N{\fn微软雅黑\fs14}My mother died that day,
+Dialogue: 0,0:24:46.24,0:24:48.19,*Default,NTP,0000,0000,0000,,我父亲被抓进监狱\N{\fn微软雅黑\fs14}and my father sits in prison.
+Dialogue: 0,0:24:48.86,0:24:52.80,*Default,NTP,0000,0000,0000,,我等芝加哥警署和芝加哥消防局认错\N{\fn微软雅黑\fs14}I have waited ten years for the C.P.D. and C.F.D.
+Dialogue: 0,0:24:52.80,0:24:56.06,*Default,NTP,0000,0000,0000,,并撤销对我父亲的全部指控已经等了十年\N{\fn微软雅黑\fs14}to admit wrongdoing and to drop all charges against my father.
+Dialogue: 0,0:24:56.06,0:24:58.26,*Default,NTP,0000,0000,0000,,我不会再等下去了\N{\fn微软雅黑\fs14}I will wait no longer.
+Dialogue: 0,0:24:58.48,0:25:01.30,*Default,NTP,0000,0000,0000,,我在此向芝加哥警署\N{\fn微软雅黑\fs14}I'm declaring war on the Chicago Police Department
+Dialogue: 0,0:25:01.30,0:25:03.30,*Default,NTP,0000,0000,0000,,和芝加哥消防局宣战\N{\fn微软雅黑\fs14}and Chicago Fire Department.
+Dialogue: 0,0:25:03.48,0:25:06.32,*Default,NTP,0000,0000,0000,,如果你是这两个部门的一员  你就有危险\N{\fn微软雅黑\fs14}If you are a member of either department, you are not safe.
+Dialogue: 0,0:25:06.34,0:25:08.81,*Default,NTP,0000,0000,0000,,如果你是这两个部门成员的家属\N{\fn微软雅黑\fs14}If you are a family member of someone in either department,
+Dialogue: 0,0:25:08.81,0:25:11.54,*Default,NTP,0000,0000,0000,,你也不安全\N{\fn微软雅黑\fs14}You are not safe.
+Dialogue: 0,0:25:12.47,0:25:14.04,*Default,NTP,0000,0000,0000,,这只是开始\N{\fn微软雅黑\fs14}This is just the beginning.
+Dialogue: 0,0:25:14.82,0:25:16.05,*Default,NTP,0000,0000,0000,,我警告过你们了\N{\fn微软雅黑\fs14}You've been warned.
+Dialogue: 0,0:25:20.60,0:25:22.72,*Default,NTP,0000,0000,0000,,好  知道了  我再打给你\N{\fn微软雅黑\fs14}Yep, I got it. I'll call you back.
+Dialogue: 0,0:25:23.63,0:25:25.92,*Default,NTP,0000,0000,0000,,一个名叫赖安·威克斯的人在过去半年\N{\fn微软雅黑\fs14}A Ryan Wilcox visited Powell's dad in prison
+Dialogue: 0,0:25:25.92,0:25:27.53,*Default,NTP,0000,0000,0000,,三次去监狱探访了鲍威尔的父亲\N{\fn微软雅黑\fs14}three times in the last six months.
+Dialogue: 0,0:25:27.53,0:25:28.76,*Default,NTP,0000,0000,0000,,琳德赛调查了他一下\N{\fn微软雅黑\fs14}Lindsay did a workup on him.
+Dialogue: 0,0:25:28.76,0:25:31.67,*Default,NTP,0000,0000,0000,,他跟很多反政府组织都有联系\N{\fn微软雅黑\fs14}He's loosely affiliated with various antigovernment groups--
+Dialogue: 0,0:25:31.67,0:25:33.20,*Default,NTP,0000,0000,0000,,在军队学会的爆破技能\N{\fn微软雅黑\fs14}explosives background from a stint in the army.
+Dialogue: 0,0:25:33.20,0:25:34.33,*Default,NTP,0000,0000,0000,,吉恩  她要给你发一些东西\N{\fn微软雅黑\fs14}Jin, she was gonna to send you something.
+Dialogue: 0,0:25:34.34,0:25:35.51,*Default,NTP,0000,0000,0000,,我收到了\N{\fn微软雅黑\fs14}Yeah, I got it.
+Dialogue: 0,0:25:35.51,0:25:37.78,*Default,NTP,0000,0000,0000,,威克斯在96街和卡柳梅特河街交汇的\N{\fn微软雅黑\fs14}Wilcox owns a garage in an industrial area
+Dialogue: 0,0:25:37.78,0:25:39.49,*Default,NTP,0000,0000,0000,,工业区有个车库\N{\fn微软雅黑\fs14}where 96th meets the Calumet River.
+Dialogue: 0,0:25:39.49,0:25:41.96,*Default,NTP,0000,0000,0000,,好  让安东尼奥和琳德赛在车库跟我们碰头\N{\fn微软雅黑\fs14}All right, have Antonio and Lindsay meet us at the garage.
+Dialogue: 0,0:25:41.96,0:25:44.22,*Default,NTP,0000,0000,0000,,你待着这里  做我们的后备\N{\fn微软雅黑\fs14}You stay here. Feed us what we need.
+Dialogue: 0,0:25:44.22,0:25:45.95,*Default,NTP,0000,0000,0000,,把情况告诉格拉夫\N{\fn微软雅黑\fs14}And keep Graff in the loop.
+Dialogue: 0,0:25:45.99,0:25:47.86,*Default,NTP,0000,0000,0000,,你的意思是毫无机会吗\N{\fn微软雅黑\fs14}So you're saying zero chance?
+Dialogue: 0,0:25:53.01,0:25:53.86,*Default,NTP,0000,0000,0000,,是的\N{\fn微软雅黑\fs14}Yes.
+Dialogue: 0,0:25:55.43,0:25:57.43,*Default,NTP,0000,0000,0000,,是的  迪兰先生  我们就是这个意思\N{\fn微软雅黑\fs14}Yes, Mr. Thelan, that's what we're saying--
+Dialogue: 0,0:25:57.43,0:25:58.33,*Default,NTP,0000,0000,0000,,完全没有\N{\fn微软雅黑\fs14}Zero.
+Dialogue: 0,0:26:00.46,0:26:02.12,*Default,NTP,0000,0000,0000,,但你还是可以做一件事\N{\fn微软雅黑\fs14}But there's something you can do
+Dialogue: 0,0:26:03.03,0:26:05.42,*Default,NTP,0000,0000,0000,,一件三十年前不可能做的事\N{\fn微软雅黑\fs14}that couldn't have been done even 30 years ago.
+Dialogue: 0,0:26:07.65,0:26:09.89,*Default,NTP,0000,0000,0000,,你女儿的血型是O型阴性血\N{\fn微软雅黑\fs14}Your daughter's blood type is "O" negative.
+Dialogue: 0,0:26:09.89,0:26:12.97,*Default,NTP,0000,0000,0000,,跟楼下一个爆炸中肝脏被损坏的女孩\N{\fn微软雅黑\fs14}That's a match for another girl that got hit by the same blast
+Dialogue: 0,0:26:12.97,0:26:15.84,*Default,NTP,0000,0000,0000,,血型相符\N{\fn微软雅黑\fs14}with a ruptured liver, right down the hall.
+Dialogue: 0,0:26:17.46,0:26:20.10,*Default,NTP,0000,0000,0000,,如果不能移植新的肝脏  她就会死\N{\fn微软雅黑\fs14}She's going to die if she doesn't get a new one.
+Dialogue: 0,0:26:21.51,0:26:24.55,*Default,NTP,0000,0000,0000,,那么将有两个九岁女孩因为\N{\fn微软雅黑\fs14}That'll be two 9-year-olds killed by...
+Dialogue: 0,0:26:25.70,0:26:27.17,*Default,NTP,0000,0000,0000,,那样的事而丧命\N{\fn微软雅黑\fs14}something like this.
+Dialogue: 0,0:26:28.69,0:26:31.72,*Default,NTP,0000,0000,0000,,在正常情况下  你可以跟政府慢慢谈\N{\fn微软雅黑\fs14}Under normal circumstances, you'd have time to work
+Dialogue: 0,0:26:31.72,0:26:34.46,*Default,NTP,0000,0000,0000,,来捐献你女儿的器官\N{\fn微软雅黑\fs14}with the state to donate your daughter's organs.
+Dialogue: 0,0:26:35.44,0:26:36.47,*Default,NTP,0000,0000,0000,,今天\N{\fn微软雅黑\fs14}Today...
+Dialogue: 0,0:26:38.14,0:26:40.98,*Default,NTP,0000,0000,0000,,我请求你做出定向捐赠\N{\fn微软雅黑\fs14}I'm asking you to make a targeted donation.
+Dialogue: 0,0:26:42.30,0:26:43.70,*Default,NTP,0000,0000,0000,,如果你同意\N{\fn微软雅黑\fs14}If you agree...
+Dialogue: 0,0:26:45.33,0:26:47.88,*Default,NTP,0000,0000,0000,,你女儿的死就不会毫无意义\N{\fn微软雅黑\fs14}your daughter's death won't be meaningless.
+Dialogue: 0,0:26:54.02,0:26:56.77,*Default,NTP,0000,0000,0000,,这一点我可以肯定\N{\fn微软雅黑\fs14}That I know to be true.
+Dialogue: 0,0:27:04.91,0:27:06.55,*Default,NTP,0000,0000,0000,,你来决定吧  爸爸\N{\fn微软雅黑\fs14}It's your decision, Dad.
+Dialogue: 0,0:27:10.66,0:27:11.98,*Default,NTP,0000,0000,0000,,但如果要我说\N{\fn微软雅黑\fs14}But if it were me...
+Dialogue: 0,0:27:14.25,0:27:15.69,*Default,NTP,0000,0000,0000,,让她去吧\N{\fn微软雅黑\fs14}let's let her go.
+Dialogue: 0,0:27:23.56,0:27:26.94,*Default,NTP,0000,0000,0000,,我们时间不多  你们尽快\N{\fn微软雅黑\fs14}We need to know in minutes, not hours.
+Dialogue: 0,0:27:44.38,0:27:45.30,*Default,NTP,0000,0000,0000,,医生\N{\fn微软雅黑\fs14}Doctor...
+Dialogue: 0,0:27:47.84,0:27:49.48,*Default,NTP,0000,0000,0000,,伊莫金会希望这样的\N{\fn微软雅黑\fs14}Imogene would want this.
+Dialogue: 0,0:28:06.96,0:28:08.63,*Default,NTP,0000,0000,0000,,里面有人说话吗\N{\fn微软雅黑\fs14}Is that people talking in there?
+Dialogue: 0,0:28:12.74,0:28:13.98,*Default,NTP,0000,0000,0000,,收音机开着\N{\fn微软雅黑\fs14}A radio's on.
+Dialogue: 0,0:28:20.70,0:28:22.58,*Default,NTP,0000,0000,0000,,硝酸钡[炸药成分]检测呈阳性\N{\fn微软雅黑\fs14}It's positive for barium nitrate.
+Dialogue: 0,0:28:23.76,0:28:24.96,*Default,NTP,0000,0000,0000,,试试从屋顶攻入吧\N{\fn微软雅黑\fs14}Let's try the roof.
+Dialogue: 0,0:28:24.96,0:28:26.89,*Default,NTP,0000,0000,0000,,好  拿好光纤\N{\fn微软雅黑\fs14}All right, grab the fiber-optic.
+Dialogue: 0,0:28:32.53,0:28:36.06,*Default,NTP,0000,0000,0000,,如果灰泥落下引爆了炸弹会怎样\N{\fn微软雅黑\fs14}Now, what happens if the plaster falls and sets off the bomb?
+Dialogue: 0,0:28:36.06,0:28:37.53,*Default,NTP,0000,0000,0000,,你会第一个知道的\N{\fn微软雅黑\fs14}You'll be the first to know.
+Dialogue: 0,0:28:39.35,0:28:41.16,*Default,NTP,0000,0000,0000,,-好吧  -做你该做的\N{\fn微软雅黑\fs14}- All right. - Do your thing.
+Dialogue: 0,0:28:51.82,0:28:54.82,*Default,NTP,0000,0000,0000,,前门  侧门和后门都装上了炸药\N{\fn微软雅黑\fs14}Front, side, rear door are all rigged.
+Dialogue: 0,0:28:55.32,0:28:56.66,*Default,NTP,0000,0000,0000,,整个包围了起来\N{\fn微软雅黑\fs14}So is the roll-up.
+Dialogue: 0,0:28:56.88,0:28:59.57,*Default,NTP,0000,0000,0000,,每扇门都连着线和50加仑的桶\N{\fn微软雅黑\fs14}Wires and 50-gallon drums attached to each.
+Dialogue: 0,0:28:59.57,0:29:01.49,*Default,NTP,0000,0000,0000,,简单地说  就是不要硬闯\N{\fn微软雅黑\fs14}Short version-- do not breach.
+Dialogue: 0,0:29:02.65,0:29:04.03,*Default,NTP,0000,0000,0000,,我们可以垂降\N{\fn微软雅黑\fs14}We could rappel down.
+Dialogue: 0,0:29:07.40,0:29:09.63,*Default,NTP,0000,0000,0000,,我们不需要整个队伍都进去\N{\fn微软雅黑\fs14}All right, we don't need the whole team going in.
+Dialogue: 0,0:29:10.52,0:29:11.61,*Default,NTP,0000,0000,0000,,我来\N{\fn微软雅黑\fs14}I'll do it.
+Dialogue: 0,0:29:12.45,0:29:14.92,*Default,NTP,0000,0000,0000,,我在学校学过这门课  成绩很好\N{\fn微软雅黑\fs14}I just took the class in the academy. Aced it.
+Dialogue: 0,0:29:16.64,0:29:17.59,*Default,NTP,0000,0000,0000,,好吧\N{\fn微软雅黑\fs14}Okay.
+Dialogue: 0,0:29:18.23,0:29:20.86,*Default,NTP,0000,0000,0000,,好吧  我需要两个人  还有志愿者吗\N{\fn微软雅黑\fs14}All right, well, I need two. Any volunteers?
+Dialogue: 0,0:29:21.75,0:29:22.80,*Default,NTP,0000,0000,0000,,你\N{\fn微软雅黑\fs14}You.
+Dialogue: 0,0:29:23.82,0:29:25.41,*Default,NTP,0000,0000,0000,,不要开灯\N{\fn微软雅黑\fs14}Don't turn on any lights.
+Dialogue: 0,0:29:25.41,0:29:26.72,*Default,NTP,0000,0000,0000,,-好  -好\N{\fn微软雅黑\fs14}- Yeah. - Yeah.
+Dialogue: 0,0:29:26.72,0:29:29.05,*Default,NTP,0000,0000,0000,,来  干吧\N{\fn微软雅黑\fs14}Come on. Let's do this.
+Dialogue: 0,0:29:38.34,0:29:39.28,*Default,NTP,0000,0000,0000,,安全\N{\fn微软雅黑\fs14}Clear.
+Dialogue: 0,0:29:50.21,0:29:51.92,*Default,NTP,0000,0000,0000,,赖安·威克斯在这里\N{\fn微软雅黑\fs14}Ryan Wilcox is here...
+Dialogue: 0,0:29:52.29,0:29:53.91,*Default,NTP,0000,0000,0000,,多处枪伤\N{\fn微软雅黑\fs14}Multiple gunshot wounds.
+Dialogue: 0,0:29:53.92,0:29:55.30,*Default,NTP,0000,0000,0000,,他死了多久\N{\fn微软雅黑\fs14}How long's he been dead?
+Dialogue: 0,0:29:56.51,0:29:58.88,*Default,NTP,0000,0000,0000,,-我估计有一天  -最多\N{\fn微软雅黑\fs14}- I'd say a day? - Max.
+Dialogue: 0,0:30:00.08,0:30:02.24,*Default,NTP,0000,0000,0000,,应该是鲍威尔在灭口\N{\fn微软雅黑\fs14}It's Powell tying up more loose ends.
+Dialogue: 0,0:30:02.39,0:30:04.10,*Default,NTP,0000,0000,0000,,他们留下了很多东西\N{\fn微软雅黑\fs14}They left a lot of stuff behind.
+Dialogue: 0,0:30:04.10,0:30:05.27,*Default,NTP,0000,0000,0000,,他们没想到会被发现\N{\fn微软雅黑\fs14}They never thought it'd be found.
+Dialogue: 0,0:30:05.27,0:30:07.86,*Default,NTP,0000,0000,0000,,他们以为整个街区会被炸成个大坑\N{\fn微软雅黑\fs14}They figured this whole block would be a crater.
+Dialogue: 0,0:30:10.62,0:30:14.60,*Default,NTP,0000,0000,0000,,威克斯两个月前订购了一辆白色货车\N{\fn微软雅黑\fs14}Wilcox purchased a white cargo van about two months ago.
+Dialogue: 0,0:30:19.07,0:30:21.34,*Default,NTP,0000,0000,0000,,还订购了三个定时装置\N{\fn微软雅黑\fs14}There were three timing devices purchased.
+Dialogue: 0,0:30:21.99,0:30:23.62,*Default,NTP,0000,0000,0000,,我不是个悲观主义者  但是\N{\fn微软雅黑\fs14}I'm not a pessimist, but...
+Dialogue: 0,0:30:24.17,0:30:24.85,*Default,NTP,0000,0000,0000,,很有可能\N{\fn微软雅黑\fs14}there's a damn good shot
+Dialogue: 0,0:30:24.85,0:30:27.86,*Default,NTP,0000,0000,0000,,还有第三个汽车炸弹在一辆白色货车里\N{\fn微软雅黑\fs14}that there's a third car bomb out there in a white cargo van.
+Dialogue: 0,0:30:28.08,0:30:30.79,*Default,NTP,0000,0000,0000,,如果第二个炸弹定在晚上八点半爆炸\N{\fn微软雅黑\fs14}If the second bomb was supposed to go off at 8:30 P.M.,
+Dialogue: 0,0:30:30.79,0:30:33.73,*Default,NTP,0000,0000,0000,,那也许第三个炸弹也会定在相同的时间\N{\fn微软雅黑\fs14}maybe the third bomb was set to go off at that time as well.
+Dialogue: 0,0:30:33.73,0:30:36.25,*Default,NTP,0000,0000,0000,,-现在几点了  -七点五十五\N{\fn微软雅黑\fs14}- What time is it now? - 7:55.
+Dialogue: 0,0:30:41.13,0:30:42.56,*Default,NTP,0000,0000,0000,,还有29分钟\N{\fn微软雅黑\fs14}29 minutes and counting.
+Dialogue: 0,0:30:42.56,0:30:44.30,*Default,NTP,0000,0000,0000,,但目前没有听到任何消息\N{\fn微软雅黑\fs14}I'm listening, but I don't hear dick.
+Dialogue: 0,0:30:44.31,0:30:46.92,*Default,NTP,0000,0000,0000,,-医院停车场呢  -全面检查过了\N{\fn微软雅黑\fs14}- Hospital parking lot? - Fully vetted.
+Dialogue: 0,0:30:46.92,0:30:48.63,*Default,NTP,0000,0000,0000,,炸掉一个区太冒险了\N{\fn微软雅黑\fs14}Blowing up a district would be too risky.
+Dialogue: 0,0:30:48.63,0:30:50.43,*Default,NTP,0000,0000,0000,,炸弹很快就会被发现\N{\fn微软雅黑\fs14}A bomb would be sniffed out in seconds.
+Dialogue: 0,0:30:50.43,0:30:52.41,*Default,NTP,0000,0000,0000,,-消防站  -受害者不够多\N{\fn微软雅黑\fs14}- A firehouse? - Not enough victims.
+Dialogue: 0,0:30:52.41,0:30:54.77,*Default,NTP,0000,0000,0000,,鲍威尔想炸死警察高管和消防员\N{\fn微软雅黑\fs14}Powell wanted high-ranking police and firefighters dead.
+Dialogue: 0,0:30:54.77,0:30:56.98,*Default,NTP,0000,0000,0000,,他们中的大部分都会参加万米跑\N{\fn微软雅黑\fs14}Most of them planned on attending the 10k gala.
+Dialogue: 0,0:30:56.98,0:30:59.07,*Default,NTP,0000,0000,0000,,其他人今晚会在哪里\N{\fn微软雅黑\fs14}Yeah, and where would the rest be tonight?
+Dialogue: 0,0:30:59.30,0:31:00.22,*Default,NTP,0000,0000,0000,,总部\N{\fn微软雅黑\fs14}Headquarters.
+Dialogue: 0,0:31:00.22,0:31:01.36,*Default,NTP,0000,0000,0000,,就是那儿了\N{\fn微软雅黑\fs14}Bull's-eye.
+Dialogue: 0,0:31:08.89,0:31:10.96,*Default,NTP,0000,0000,0000,,-准备好了吗  格莉塔  -好了  医生\N{\fn微软雅黑\fs14}- You ready, Greta? - Ready, doctor.
+Dialogue: 0,0:31:11.70,0:31:14.67,*Default,NTP,0000,0000,0000,,我们让今天发生一件好事吧\N{\fn微软雅黑\fs14}Let's have one good thing come out of this day.
+Dialogue: 0,0:31:35.34,0:31:36.45,*Default,NTP,0000,0000,0000,,谢谢你\N{\fn微软雅黑\fs14}Thank you.
+Dialogue: 0,0:31:52.74,0:31:55.69,*Default,NTP,0000,0000,0000,,正在前门附近找一辆货车\N{\fn微软雅黑\fs14}Be on the lookout for a van near the front door.
+Dialogue: 0,0:31:57.13,0:32:01.05,*Default,NTP,0000,0000,0000,,吉恩  把那辆车的车牌号和照片发给所有人\N{\fn微软雅黑\fs14}Jin, text everyone the photo and plate number of the van purchased.
+Dialogue: 0,0:32:01.05,0:32:03.24,*Default,NTP,0000,0000,0000,,你们要找一辆白色伊克诺莱恩\N{\fn微软雅黑\fs14}You're looking for a white Econoline.
+Dialogue: 0,0:32:03.83,0:32:04.80,*Default,NTP,0000,0000,0000,,爆破组出发\N{\fn微软雅黑\fs14}Bomb squad en route.
+Dialogue: 0,0:32:04.81,0:32:06.30,*Default,NTP,0000,0000,0000,,我们应该让他们离开\N{\fn微软雅黑\fs14}We should have made that left.
+Dialogue: 0,0:32:08.14,0:32:10.81,*Default,NTP,0000,0000,0000,,霍斯特德  琳德赛  支路清理了吗\N{\fn微软雅黑\fs14}Halstead, Lindsay, those back roads pay off?
+Dialogue: 0,0:32:12.41,0:32:13.99,*Default,NTP,0000,0000,0000,,是的  但是因为爆炸导致\N{\fn微软雅黑\fs14}Yeah, but traffic patterns are all screwed up
+Dialogue: 0,0:32:13.99,0:32:16.50,*Default,NTP,0000,0000,0000,,-交通模式全变了  -还有15分钟\N{\fn微软雅黑\fs14}- because of the bombing. - 15 minutes out.
+Dialogue: 0,0:32:18.93,0:32:21.87,*Default,NTP,0000,0000,0000,,埃尔文  拜托告诉我点好消息\N{\fn微软雅黑\fs14}Alvin, please, give me some good news.
+Dialogue: 0,0:32:25.99,0:32:27.06,*Default,NTP,0000,0000,0000,,埃尔文\N{\fn微软雅黑\fs14}Alvin?
+Dialogue: 0,0:32:27.98,0:32:29.02,*Default,NTP,0000,0000,0000,,正在减速查看\N{\fn微软雅黑\fs14}Pulling up now.
+Dialogue: 0,0:32:30.40,0:32:33.23,*Default,NTP,0000,0000,0000,,-看见那辆车了吗  -还没\N{\fn微软雅黑\fs14}- Any eyes on the vehicle? - Not yet.
+Dialogue: 0,0:32:40.73,0:32:42.39,*Default,NTP,0000,0000,0000,,确定车是白色的吗\N{\fn微软雅黑\fs14}We're sure this van is white?
+Dialogue: 0,0:33:07.15,0:33:08.99,*Default,NTP,0000,0000,0000,,找到车了  在南面出口\N{\fn微软雅黑\fs14}Vehicle located, south side entrance.
+Dialogue: 0,0:33:08.99,0:33:11.27,*Default,NTP,0000,0000,0000,,是蓝的  不是白的  没有车牌\N{\fn微软雅黑\fs14}It's blue, not white-- no tags.
+Dialogue: 0,0:33:11.49,0:33:15.28,*Default,NTP,0000,0000,0000,,-还有12分钟  -吉恩  拆弹小组到哪了\N{\fn微软雅黑\fs14}- 12 minutes. - Jin, bomb squad update.
+Dialogue: 0,0:33:15.37,0:33:16.49,*Default,NTP,0000,0000,0000,,还有三个街区\N{\fn微软雅黑\fs14}Three blocks away.
+Dialogue: 0,0:33:16.49,0:33:17.62,*Default,NTP,0000,0000,0000,,如果鲍威尔进医院\N{\fn微软雅黑\fs14}Hey, if Powell was at the hospital
+Dialogue: 0,0:33:17.62,0:33:19.30,*Default,NTP,0000,0000,0000,,是因为他喜欢观赏自己的杰作...\N{\fn微软雅黑\fs14}because he likes to watch his handiwork...
+Dialogue: 0,0:33:19.30,0:33:20.35,*Default,NTP,0000,0000,0000,,那是什么\N{\fn微软雅黑\fs14}What's that?
+Dialogue: 0,0:33:21.64,0:33:23.51,*Default,NTP,0000,0000,0000,,-那边  -顶上吗\N{\fn微软雅黑\fs14}- Right there. - Up top?
+Dialogue: 0,0:33:23.51,0:33:26.88,*Default,NTP,0000,0000,0000,,-对  就那 看见没  -看屋顶上\N{\fn微软雅黑\fs14}- Yeah, right there. See? - Hey, on the roof.
+Dialogue: 0,0:33:26.88,0:33:29.00,*Default,NTP,0000,0000,0000,,-什么情况  -看屋顶上\N{\fn微软雅黑\fs14}- What do we got? - On the roof!
+Dialogue: 0,0:33:47.92,0:33:49.37,*Default,NTP,0000,0000,0000,,-不许动  -放下枪\N{\fn微软雅黑\fs14}- Freeze! - Drop it!
+Dialogue: 0,0:33:52.00,0:33:53.22,*Default,NTP,0000,0000,0000,,快出去  离开这幢大厦\N{\fn微软雅黑\fs14}Get out! Get out of the building!
+Dialogue: 0,0:33:53.22,0:33:54.60,*Default,NTP,0000,0000,0000,,-快  -快走\N{\fn微软雅黑\fs14}- Now! - Go! Go! Go!
+Dialogue: 0,0:33:57.49,0:33:58.45,*Default,NTP,0000,0000,0000,,走楼梯\N{\fn微软雅黑\fs14}Stairs.
+Dialogue: 0,0:34:05.32,0:34:06.35,*Default,NTP,0000,0000,0000,,他上去了\N{\fn微软雅黑\fs14}He's going up.
+Dialogue: 0,0:34:15.34,0:34:16.71,*Default,NTP,0000,0000,0000,,博伊特来了  走\N{\fn微软雅黑\fs14}There's Voight. Come on.
+Dialogue: 0,0:34:21.58,0:34:22.69,*Default,NTP,0000,0000,0000,,还有九分钟\N{\fn微软雅黑\fs14}Nine minutes!
+Dialogue: 0,0:34:23.03,0:34:24.50,*Default,NTP,0000,0000,0000,,鲍威尔在公寓楼里\N{\fn微软雅黑\fs14}We think Powell is on the apartment building!
+Dialogue: 0,0:34:24.50,0:34:25.77,*Default,NTP,0000,0000,0000,,正在追捕他\N{\fn微软雅黑\fs14}In pursuit!
+Dialogue: 0,0:34:26.58,0:34:29.28,*Default,NTP,0000,0000,0000,,拆弹小组来了  你留下看着炸弹\N{\fn微软雅黑\fs14}There's the bomb squad! You stay with the bomb!
+Dialogue: 0,0:34:35.61,0:34:37.53,*Default,NTP,0000,0000,0000,,我是21区的萨姆纳警官\N{\fn微软雅黑\fs14}Officer Sumner, District 21.
+Dialogue: 0,0:34:37.53,0:34:40.44,*Default,NTP,0000,0000,0000,,爆炸物在货车里  离爆炸时间还有8分半\N{\fn微软雅黑\fs14}Explosive is inside the van, set to go off in 8 1/2 minutes.
+Dialogue: 0,0:34:40.44,0:34:42.14,*Default,NTP,0000,0000,0000,,明白  麻烦你疏散人群\N{\fn微软雅黑\fs14}All right, clear the area, please.
+Dialogue: 0,0:34:42.38,0:34:45.41,*Default,NTP,0000,0000,0000,,回去  回去  快走\N{\fn微软雅黑\fs14}Get back! Back! Move!
+Dialogue: 0,0:34:58.85,0:35:00.51,*Default,NTP,0000,0000,0000,,疑犯上了屋顶\N{\fn微软雅黑\fs14}Suspect's entered roof!
+Dialogue: 0,0:35:17.51,0:35:18.99,*Default,NTP,0000,0000,0000,,放下武器\N{\fn微软雅黑\fs14}Drop your weapon!
+Dialogue: 0,0:35:19.80,0:35:20.91,*Default,NTP,0000,0000,0000,,掩护我\N{\fn微软雅黑\fs14}Cover me.
+Dialogue: 0,0:35:33.54,0:35:35.73,*Default,NTP,0000,0000,0000,,你赢不了的  放下武器\N{\fn微软雅黑\fs14}You can't win! Drop your weapon!
+Dialogue: 0,0:35:37.19,0:35:38.22,*Default,NTP,0000,0000,0000,,放下\N{\fn微软雅黑\fs14}Put it down!
+Dialogue: 0,0:35:38.53,0:35:40.04,*Default,NTP,0000,0000,0000,,我要抓活的\N{\fn微软雅黑\fs14}I want him alive!
+Dialogue: 0,0:35:45.84,0:35:46.86,*Default,NTP,0000,0000,0000,,起来\N{\fn微软雅黑\fs14}Get up.
+Dialogue: 0,0:35:47.20,0:35:49.29,*Default,NTP,0000,0000,0000,,我今天葬送了你多少人\N{\fn微软雅黑\fs14}How many of your boys did I put in the dirt today?
+Dialogue: 0,0:35:49.29,0:35:50.68,*Default,NTP,0000,0000,0000,,其中有你的好朋友吗\N{\fn微软雅黑\fs14}Any of 'em good friends?
+Dialogue: 0,0:35:52.37,0:35:53.40,*Default,NTP,0000,0000,0000,,你想看吗\N{\fn微软雅黑\fs14}You wanna watch?
+Dialogue: 0,0:35:55.84,0:35:57.05,*Default,NTP,0000,0000,0000,,-那就看着吧  -不要 不要\N{\fn微软雅黑\fs14}- Watch it. - No! No, no!
+Dialogue: 0,0:35:57.05,0:35:58.18,*Default,NTP,0000,0000,0000,,剩余时间\N{\fn微软雅黑\fs14}Time check!
+Dialogue: 0,0:35:59.10,0:36:00.52,*Default,NTP,0000,0000,0000,,60秒\N{\fn微软雅黑\fs14}60 seconds!
+Dialogue: 0,0:36:06.99,0:36:08.49,*Default,NTP,0000,0000,0000,,炸弹已被拆卸\N{\fn微软雅黑\fs14}Bomb dismantled.
+Dialogue: 0,0:36:08.57,0:36:10.54,*Default,NTP,0000,0000,0000,,重复  炸弹已被拆卸\N{\fn微软雅黑\fs14}Repeat-- bomb dismantled.
+Dialogue: 0,0:36:12.77,0:36:14.03,*Default,NTP,0000,0000,0000,,你的计划失败了\N{\fn微软雅黑\fs14}Plan failed.
+Dialogue: 0,0:36:14.48,0:36:17.16,*Default,NTP,0000,0000,0000,,可是我还是觉得今天过得不错\N{\fn微软雅黑\fs14}Actually, I think it was a pretty good day.
+Dialogue: 0,0:36:36.82,0:36:38.11,*Default,NTP,0000,0000,0000,,今晚干得漂亮\N{\fn微软雅黑\fs14}That's good work tonight.
+Dialogue: 0,0:36:50.56,0:36:51.55,*Default,NTP,0000,0000,0000,,博伊特\N{\fn微软雅黑\fs14}Voight.
+Dialogue: 0,0:36:52.66,0:36:53.98,*Default,NTP,0000,0000,0000,,很高兴能与你共事\N{\fn微软雅黑\fs14}Good working with you...
+Dialogue: 0,0:36:54.42,0:36:57.02,*Default,NTP,0000,0000,0000,,或者该说  很高兴能看你工作\N{\fn微软雅黑\fs14}Or, uh, watching you work, I should say.
+Dialogue: 0,0:36:57.02,0:36:58.24,*Default,NTP,0000,0000,0000,,我也是  探员\N{\fn微软雅黑\fs14}You too, Sir.
+Dialogue: 0,0:37:06.69,0:37:07.54,*Default,NTP,0000,0000,0000,,你没事吧\N{\fn微软雅黑\fs14}You all right?
+Dialogue: 0,0:37:08.68,0:37:09.63,*Default,NTP,0000,0000,0000,,生龙活虎\N{\fn微软雅黑\fs14}Solid.
+Dialogue: 0,0:37:10.39,0:37:11.35,*Default,NTP,0000,0000,0000,,是条汉子\N{\fn微软雅黑\fs14}Tough guy.
+Dialogue: 0,0:37:16.19,0:37:17.10,*Default,NTP,0000,0000,0000,,抽吸\N{\fn微软雅黑\fs14}Suction.
+Dialogue: 0,0:37:19.29,0:37:20.56,*Default,NTP,0000,0000,0000,,我当住院医生的第四年\N{\fn微软雅黑\fs14}As a senior resident,
+Dialogue: 0,0:37:20.56,0:37:21.66,*Default,NTP,0000,0000,0000,,有一次值班\N{\fn微软雅黑\fs14}I was on call.
+Dialogue: 0,0:37:23.28,0:37:25.89,*Default,NTP,0000,0000,0000,,我和创伤外科主任共事\N{\fn微软雅黑\fs14}I was working with the chief trauma surgeon.
+Dialogue: 0,0:37:27.10,0:37:28.62,*Default,NTP,0000,0000,0000,,我知道就是由他来决定\N{\fn微软雅黑\fs14}I knew he'd be the one deciding
+Dialogue: 0,0:37:28.63,0:37:31.83,*Default,NTP,0000,0000,0000,,我能否得到梦寐以求的创伤研究员职位\N{\fn微软雅黑\fs14}if I got the coveted trauma fellowship position.
+Dialogue: 0,0:37:32.90,0:37:36.05,*Default,NTP,0000,0000,0000,,但晚上九点  我们正全神贯注医治病人时\N{\fn微软雅黑\fs14}But 9:00 P.M., we were up to our eyeballs in trauma cases,
+Dialogue: 0,0:37:36.05,0:37:39.65,*Default,NTP,0000,0000,0000,,我接到电话说我父亲犯了心脏病\N{\fn微软雅黑\fs14}and I got a call that my dad suffered a heart attack.
+Dialogue: 0,0:37:39.88,0:37:41.88,*Default,NTP,0000,0000,0000,,正在送往另一家医院\N{\fn微软雅黑\fs14}Was rushed to another hospital.
+Dialogue: 0,0:37:42.61,0:37:43.52,*Default,NTP,0000,0000,0000,,夹钳\N{\fn微软雅黑\fs14}Clamp.
+Dialogue: 0,0:37:45.56,0:37:48.08,*Default,NTP,0000,0000,0000,,我问他能不能去陪陪我父亲\N{\fn微软雅黑\fs14}I asked if I could leave to be with my father.
+Dialogue: 0,0:37:48.15,0:37:49.28,*Default,NTP,0000,0000,0000,,他盯着我看  然后说\N{\fn微软雅黑\fs14}He looked me in the eye and said,
+Dialogue: 0,0:37:49.28,0:37:50.58,*Default,NTP,0000,0000,0000,,你可以走\N{\fn微软雅黑\fs14}"Yeah, you can go,
+Dialogue: 0,0:37:50.58,0:37:53.23,*Default,NTP,0000,0000,0000,,不过走了就别想要那个研究员职位了\N{\fn微软雅黑\fs14}but you'll never get the trauma fellowship."
+Dialogue: 0,0:37:53.93,0:37:56.57,*Default,NTP,0000,0000,0000,,我不敢相信这家伙居然如此冷血无情\N{\fn微软雅黑\fs14}I couldn't believe how insensitive this guy was.
+Dialogue: 0,0:37:56.89,0:37:59.47,*Default,NTP,0000,0000,0000,,心率150  血压下降\N{\fn微软雅黑\fs14}Heart rate 150. Pressure is dropping.
+Dialogue: 0,0:38:00.22,0:38:02.33,*Default,NTP,0000,0000,0000,,那晚  我们救了16个人\N{\fn微软雅黑\fs14}We saved 16 people that night,
+Dialogue: 0,0:38:02.77,0:38:04.81,*Default,NTP,0000,0000,0000,,可我父亲却去世了\N{\fn微软雅黑\fs14}but my dad passed away.
+Dialogue: 0,0:38:05.91,0:38:07.36,*Default,NTP,0000,0000,0000,,生理盐水\N{\fn微软雅黑\fs14}Heparinized saline.
+Dialogue: 0,0:38:11.42,0:38:13.42,*Default,NTP,0000,0000,0000,,夹钳拿走\N{\fn微软雅黑\fs14}Removing proximal clamp.
+Dialogue: 0,0:38:13.42,0:38:14.81,*Default,NTP,0000,0000,0000,,收缩压80\N{\fn微软雅黑\fs14}80 systolic.
+Dialogue: 0,0:38:15.01,0:38:17.74,*Default,NTP,0000,0000,0000,,76  70\N{\fn微软雅黑\fs14}76, 70.
+Dialogue: 0,0:38:17.98,0:38:18.69,*Default,NTP,0000,0000,0000,,那天  就跟今天一样\N{\fn微软雅黑\fs14}It's a day like today
+Dialogue: 0,0:38:18.69,0:38:21.65,*Default,NTP,0000,0000,0000,,我明白了那个医生为何那么做\N{\fn微软雅黑\fs14}when I understand why that surgeon did that.
+Dialogue: 0,0:38:23.01,0:38:25.12,*Default,NTP,0000,0000,0000,,这就是我们选择的生活\N{\fn微软雅黑\fs14}This is the life we've chosen.
+Dialogue: 0,0:38:25.49,0:38:27.83,*Default,NTP,0000,0000,0000,,我们能做的就在此时此刻\N{\fn微软雅黑\fs14}And what we can do is right here and now.
+Dialogue: 0,0:38:28.62,0:38:30.53,*Default,NTP,0000,0000,0000,,眼下最重要的事\N{\fn微软雅黑\fs14}It's the most important thing.
+Dialogue: 0,0:38:31.90,0:38:35.13,*Default,NTP,0000,0000,0000,,就是尽力挽救这个女孩\N{\fn微软雅黑\fs14}And that is to try and save this little girl.
+Dialogue: 0,0:39:16.39,0:39:19.55,*Default,NTP,0000,0000,0000,,手术非常顺利\N{\fn微软雅黑\fs14}The operation went as well as could be expected.
+Dialogue: 0,0:39:20.75,0:39:24.00,*Default,NTP,0000,0000,0000,,血液顺利流向了肝脏\N{\fn微软雅黑\fs14}There's, uh, good blood flow to the liver,
+Dialogue: 0,0:39:24.01,0:39:26.34,*Default,NTP,0000,0000,0000,,另一处出血也止住了\N{\fn微软雅黑\fs14}and the other bleeding has stopped.
+Dialogue: 0,0:39:30.00,0:39:31.49,*Default,NTP,0000,0000,0000,,她还有很长的路要走\N{\fn微软雅黑\fs14}She's got a long road ahead of her,
+Dialogue: 0,0:39:31.49,0:39:34.01,*Default,NTP,0000,0000,0000,,不过目前看来情况不错\N{\fn微软雅黑\fs14}but, uh, it's looking good.
+Dialogue: 0,0:39:50.24,0:39:52.21,*Default,NTP,0000,0000,0000,,消防部门仍在努力工作\N{\fn微软雅黑\fs14}Where the fire department is still working hard
+Dialogue: 0,0:39:52.21,0:39:54.15,*Default,NTP,0000,0000,0000,,清理今早八点\N{\fn微软雅黑\fs14}to clean up the mess left by a bomb
+Dialogue: 0,0:39:54.15,0:39:56.47,*Default,NTP,0000,0000,0000,,爆炸引起的混乱场面\N{\fn微软雅黑\fs14}that went off at 8 o'clock this morning,
+Dialogue: 0,0:39:56.60,0:39:57.82,*Default,NTP,0000,0000,0000,,爆炸中有18人丧生...\N{\fn微软雅黑\fs14}leaving 18 dead...
+Dialogue: 0,0:39:57.82,0:39:59.67,*Default,NTP,0000,0000,0000,,他们救出了多少幸存者\N{\fn微软雅黑\fs14}How many survivors they pull out?
+Dialogue: 0,0:40:00.31,0:40:01.87,*Default,NTP,0000,0000,0000,,听说有二十多人\N{\fn微软雅黑\fs14}I just heard over two dozen.
+Dialogue: 0,0:40:04.33,0:40:05.39,*Default,NTP,0000,0000,0000,,谢谢\N{\fn微软雅黑\fs14}Thanks.
+Dialogue: 0,0:40:07.38,0:40:09.03,*Default,NTP,0000,0000,0000,,芝加哥会重整旗鼓的\N{\fn微软雅黑\fs14}Chicago will bounce back.
+Dialogue: 0,0:40:10.70,0:40:11.52,*Default,NTP,0000,0000,0000,,当然\N{\fn微软雅黑\fs14}Yeah.
+Dialogue: 0,0:40:12.25,0:40:13.75,*Default,NTP,0000,0000,0000,,一如既往\N{\fn微软雅黑\fs14}She always does.
+Dialogue: 0,0:40:16.99,0:40:19.32,*Default,NTP,0000,0000,0000,,一有新消息我们就会告诉大家\N{\fn微软雅黑\fs14}We'll give you more information as we get it.
+Dialogue: 0,0:40:19.56,0:40:21.70,*Default,NTP,0000,0000,0000,,今晚我们会留在这里...\N{\fn微软雅黑\fs14}We're here--we're gonna be here all night...
+Dialogue: 0,0:40:56.22,0:40:58.92,*Default,NTP,0000,0000,0000,,我该先打个电话的\N{\fn微软雅黑\fs14}I should have called. I know.
+Dialogue: 0,0:41:00.99,0:41:02.70,*Default,NTP,0000,0000,0000,,你永远不必先打电话\N{\fn微软雅黑\fs14}You don't ever have to call.
+Dialogue: 0,0:41:49.26,0:41:51.02,*Default,NTP,0000,0000,0000,,我只有一个请求\N{\fn微软雅黑\fs14}I just have one request.
+Dialogue: 0,0:41:52.89,0:41:54.02,*Default,NTP,0000,0000,0000,,什么  你说\N{\fn微软雅黑\fs14}Yeah? Name it.
+Dialogue: 0,0:41:56.38,0:41:57.59,*Default,NTP,0000,0000,0000,,今晚留下来\N{\fn微软雅黑\fs14}Stay the night.
+Dialogue: 0,0:41:58.97,0:42:02.26,*Default,NTP,0000,0000,0000,,-过了今天...  -我哪儿也不去\N{\fn微软雅黑\fs14}- After today, I... - I'm not going anywhere.
+
