@@ -89,7 +89,7 @@ def fileCheck():
             #字幕没有英文文件判断
             if "eng" not in mf_language and len(mf_language)!=0:
                 print("None English subtitle!\n")
-                deleteFile(file,files,"Delete None English file")
+                deleteFile(mfile,files,"Delete None English file")
                 file_del = file_del + 1
             #相似文件扫描
             for file in files:
@@ -99,7 +99,7 @@ def fileCheck():
                         #相似文件
                         print("Duplicate file found!")
                         print(file+"\n"+mfile+"\nmaybe the same\n")
-                        deleteFile(file,files,"Delete duplicate file\nOriginal:"+mfile+"\nDeleted :"+file)
+                        deleteFile(mfile,files,"Delete duplicate file\nOriginal:"+file+"\nDeleted :"+mfile)
                         file_del = file_del + 1
                         file_dup = file_dup + 1
         print("\nScan finish!"+"\nRedundant Files:"+str(file_dup)+"\nDeleted Files:"+str(file_del))
