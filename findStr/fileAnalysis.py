@@ -91,6 +91,7 @@ def fileCheck():
                 print("None English subtitle!\n")
                 deleteFile(mfile,files,"Delete None English file")
                 file_del = file_del + 1
+                continue
             #相似文件扫描
             for file in files:
                 f_language,f_id_name = getInfo(file)
@@ -99,7 +100,7 @@ def fileCheck():
                         #相似文件
                         print("Duplicate file found!")
                         print(file+"\n"+mfile+"\nmaybe the same\n")
-                        deleteFile(mfile,files,"Delete duplicate file\nOriginal:"+file+"\nDeleted :"+mfile)
+                        deleteFile(file,files,"Delete duplicate file\nOriginal:"+mfile+"\nDeleted :"+file)
                         file_del = file_del + 1
                         file_dup = file_dup + 1
         print("\nScan finish!"+"\nRedundant Files:"+str(file_dup)+"\nDeleted Files:"+str(file_del))
