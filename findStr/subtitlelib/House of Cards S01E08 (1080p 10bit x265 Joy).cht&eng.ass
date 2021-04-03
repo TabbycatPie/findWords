@@ -1,0 +1,622 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial Narrow,13,&H00FFFFFF,&H0000FFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,2,1,2,20,20,13,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:46.92,0:01:49.01,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}氣候管理，節約能源{\r}\N{\fn微软雅黑\fs12}Climate controlled stacks, energy efficient,
+Dialogue: 0,0:01:49.09,0:01:51.55,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}整個收藏可能  可以都塞進電子書內{\r}\N{\fn微软雅黑\fs12}now mind you the whole collection  could probably fit on a Kindle,
+Dialogue: 0,0:01:51.66,0:01:54.59,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不過至少學生們  又多了個躲雨的地方{\r}\N{\fn微软雅黑\fs12}but at least the cadets will have  another place to get out of the rain.
+Dialogue: 0,0:01:54.66,0:01:56.09,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你有參與設計嗎？{\r}\N{\fn微软雅黑\fs12}Did you have much input on the design?
+Dialogue: 0,0:01:56.16,0:01:57.46,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}藍圖有經過我的認可{\r}\N{\fn微软雅黑\fs12}I approved the blue prints.
+Dialogue: 0,0:01:57.53,0:02:00.90,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}如果要簽上我的名字  就必須保證蓋得很好{\r}\N{\fn微软雅黑\fs12}If something's gonna have my name on it,  I want to make damn sure they build it right.
+Dialogue: 0,0:02:01.00,0:02:03.63,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我老公大概自以為是建築師吧{\r}\N{\fn微软雅黑\fs12}I think my husband fancies himself a bit  of an architect.
+Dialogue: 0,0:02:03.77,0:02:05.63,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}傑弗遜設計了蒙蒂塞洛…{\r}\N{\fn微软雅黑\fs12}Well, Jefferson designed Monticello...
+Dialogue: 0,0:02:05.70,0:02:07.26,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他也跟自己的奴隸上床{\r}\N{\fn微软雅黑\fs12}He also fucked his slaves.
+Dialogue: 0,0:02:07.44,0:02:08.77,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}幸好我沒有奴隸{\r}\N{\fn微软雅黑\fs12}Luckily I don't have any,
+Dialogue: 0,0:02:08.84,0:02:11.24,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}所以這種誘惑還沒出現{\r}\N{\fn微软雅黑\fs12}so that particular temptation  hasn't presented itself.
+Dialogue: 0,0:02:13.28,0:02:16.97,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}山特諾  南卡羅來納州第一軍事學院{\r}\N{\fn微软雅黑\fs12}The Sentinel,  South Carolina's premiere military college.
+Dialogue: 0,0:02:17.05,0:02:20.31,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}教會我榮譽、責任和尊重{\r}\N{\fn微软雅黑\fs12}They taught me the values of honor,  duty and respect.
+Dialogue: 0,0:02:20.38,0:02:23.88,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}也迷惑我，試圖擊垮我  大四的時候差點把我退學{\r}\N{\fn微软雅黑\fs12}They also hazed me, tried to break me,  and senior year, nearly expelled me
+Dialogue: 0,0:02:24.05,0:02:27.68,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}因為我去當參議員競選志工  導致成績下滑{\r}\N{\fn微软雅黑\fs12}when I volunteered for a Senate race  and my studies suffered.
+Dialogue: 0,0:02:27.76,0:02:30.42,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但這沒阻止他們在30年後{\r}\N{\fn微软雅黑\fs12}But that didn't stop them  from soliciting a hefty sum
+Dialogue: 0,0:02:30.49,0:02:32.76,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}來向我募款興建新圖書館{\r}\N{\fn微软雅黑\fs12}for their new library 30 years later.
+Dialogue: 0,0:02:32.93,0:02:36.80,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}在權力和金錢的影響下  壞成績很快就被遺忘了{\r}\N{\fn微软雅黑\fs12}How quickly poor grades are forgotten  in the shadow of power and wealth.
+Dialogue: 0,0:02:37.90,0:02:41.36,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你的酒才半滿，法蘭{\r}\N{\fn微软雅黑\fs12}Your drink is only about half as full  as it should be, Frank.
+Dialogue: 0,0:02:41.44,0:02:43.03,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你想把我灌醉嗎？{\r}\N{\fn微软雅黑\fs12}Are you trying to get me drunk?
+Dialogue: 0,0:02:43.11,0:02:46.34,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}醉倒在水溝裏  這樣我才能偷走你老婆{\r}\N{\fn微软雅黑\fs12}Drunk, passed out in the gutter  so I can steal your wife.
+Dialogue: 0,0:02:47.21,0:02:49.34,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你有收到關於  步槍兵的電子郵件嗎？{\r}\N{\fn微软雅黑\fs12}Did you get the email about the Riflemen?
+Dialogue: 0,0:02:49.41,0:02:50.44,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}什麼電子郵件？{\r}\N{\fn微软雅黑\fs12}What email?
+Dialogue: 0,0:02:50.51,0:02:53.35,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我辦公室發的邀請函  我本來希望能看到他們{\r}\N{\fn微软雅黑\fs12}From my office. About the invitations.  I was hoping they would be here.
+Dialogue: 0,0:02:53.48,0:02:55.75,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我再查一下名單  但我不記得有電子郵件…{\r}\N{\fn微软雅黑\fs12}I'll check the list,  but I don't remember any email...
+Dialogue: 0,0:02:55.82,0:02:58.05,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}沒關係，我只是好奇而已{\r}\N{\fn微软雅黑\fs12}Oh, not a problem. I was just wondering.
+Dialogue: 0,0:02:58.12,0:02:59.61,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}法蘭，對不起…{\r}\N{\fn微软雅黑\fs12}Shit, Frank, I'm sorry...
+Dialogue: 0,0:02:59.69,0:03:01.02,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}別想太多{\r}\N{\fn微软雅黑\fs12}Don't you sweat it for a second.
+Dialogue: 0,0:03:01.09,0:03:02.99,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你現在就可以補償我{\r}\N{\fn微软雅黑\fs12}In fact, here's how you can make it up to me,
+Dialogue: 0,0:03:03.06,0:03:04.99,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 幫我把酒倒滿  - 沒問題{\r}\N{\fn微软雅黑\fs12}-freshen my drink.  -That I can do.
+Dialogue: 0,0:03:32.96,0:03:34.82,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}恭喜你，議員{\r}\N{\fn微软雅黑\fs12}Congratulations, Congressman.
+Dialogue: 0,0:03:34.99,0:03:37.59,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}瑞米，很高興在這裏見到你{\r}\N{\fn微软雅黑\fs12}Remy, nice to see you here.
+Dialogue: 0,0:03:37.80,0:03:40.06,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}蓋瑞和善可工業的人  要我問候你{\r}\N{\fn微软雅黑\fs12}Gerry and all the folks at SanCorp  give you their regards.
+Dialogue: 0,0:03:40.13,0:03:41.76,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}真遺憾他們不能來{\r}\N{\fn微软雅黑\fs12}Well, I'm sorry they couldn't make it.
+Dialogue: 0,0:03:41.83,0:03:42.86,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}克萊兒呢？{\r}\N{\fn微软雅黑\fs12}Where's Claire?
+Dialogue: 0,0:03:42.93,0:03:45.87,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}她在附近拒絕她的仰慕者{\r}\N{\fn微软雅黑\fs12}She's here somewhere, fending off admirers.
+Dialogue: 0,0:03:46.07,0:03:49.04,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}善可工業對於  她謝絕捐款的事很失望{\r}\N{\fn微软雅黑\fs12}SanCorp was very disappointed  she turned down their donation.
+Dialogue: 0,0:03:49.11,0:03:50.27,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我想也是{\r}\N{\fn微软雅黑\fs12}I can imagine.
+Dialogue: 0,0:03:50.37,0:03:53.57,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他們對於彼得魯索  競選州長也有顧慮{\r}\N{\fn微软雅黑\fs12}And they're also concerned  about Peter Russo running for governor.
+Dialogue: 0,0:03:55.58,0:03:57.21,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你怎麼知道？{\r}\N{\fn微软雅黑\fs12}Now, how do you know about that?
+Dialogue: 0,0:03:57.35,0:04:00.72,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}四分之三個賓州  都在馬塞勒斯頁岩上{\r}\N{\fn微软雅黑\fs12}Three-quarters of Pennsylvania  sits on top of the Marcellus Shale.
+Dialogue: 0,0:04:00.82,0:04:02.79,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}如果我連誰要選州長都不知道{\r}\N{\fn微软雅黑\fs12}If I can't find out  who's running for governor,
+Dialogue: 0,0:04:02.85,0:04:04.32,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}那我根本不配領薪水{\r}\N{\fn微软雅黑\fs12}I don't deserve a dime  of what they're paying me.
+Dialogue: 0,0:04:04.39,0:04:05.41,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}法蘭斯安德沃圖書館{\r}\N{\fn微软雅黑\fs12}This Watershed Bill Russo sponsors  places a lot of restrictions on drilling...
+Dialogue: 0,0:04:05.49,0:04:08.29,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}魯索支持的分水嶺提案  在鑽井方面設置很多限制…{\r}
+Dialogue: 0,0:04:08.36,0:04:11.56,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}瑞米，國會現在休會  這週末也不談工作{\r}\N{\fn微软雅黑\fs12}Remy, Congress is in recess  and this weekend is not about work.
+Dialogue: 0,0:04:11.66,0:04:13.72,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}抱歉，你說的有道理{\r}\N{\fn微软雅黑\fs12}I apologize, you are absolutely right.
+Dialogue: 0,0:04:13.80,0:04:17.29,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 善可工業是你唯一的客戶嗎？  - 我有很多客戶{\r}\N{\fn微软雅黑\fs12}-ls SanCorp your only account?  -I have plenty.
+Dialogue: 0,0:04:17.43,0:04:20.87,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但別的客戶沒贊助你的圖書館  也沒出我的機票錢{\r}\N{\fn微软雅黑\fs12}But my other clients didn't pay for  your library, or my plane ticket down here.
+Dialogue: 0,0:04:20.94,0:04:24.77,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}一次難得的觀光機會  希望你喜歡這裏的景色{\r}\N{\fn微软雅黑\fs12}Yes, nice little junket for you.  I do hope you're taking in the sights.
+Dialogue: 0,0:04:24.88,0:04:26.47,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我不是第一次來查爾斯頓{\r}\N{\fn微软雅黑\fs12}This isn't my first trip to Charleston.
+Dialogue: 0,0:04:26.54,0:04:29.41,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但我相信是第一次  不以我的新聞秘書身份來吧{\r}\N{\fn微软雅黑\fs12}But I'll bet it's your first time  not as my Press Secretary.
+Dialogue: 0,0:04:29.48,0:04:30.57,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}對{\r}\N{\fn微软雅黑\fs12}It is.
+Dialogue: 0,0:04:31.25,0:04:32.34,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}今晚還要見誰？{\r}\N{\fn微软雅黑\fs12}Who else you have coming in?
+Dialogue: 0,0:04:32.48,0:04:34.35,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我不想讓今晚太忙{\r}\N{\fn微软雅黑\fs12}I didn't want to pack tonight too much.
+Dialogue: 0,0:04:34.42,0:04:37.88,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這種酒會常是  為了你這種金主辦的{\r}\N{\fn微软雅黑\fs12}You know, these receptions are usually  just for the money people, like yourself.
+Dialogue: 0,0:04:40.46,0:04:42.76,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}一般我會站在這裏{\r}\N{\fn微软雅黑\fs12}Normally, this is where I would start
+Dialogue: 0,0:04:42.83,0:04:46.35,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}講一些山特諾的歷史  或哲學之類的廢話…{\r}\N{\fn微软雅黑\fs12}to drone on about the Sentinel's history,  its philosophy, its yadda, yadda, yadda...
+Dialogue: 0,0:04:48.93,0:04:51.03,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但這些話  我要留到明天演講時說{\r}\N{\fn微软雅黑\fs12}But I'm gonna save that  for my big speech tomorrow,
+Dialogue: 0,0:04:51.10,0:04:53.76,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}免得你們要無聊兩次{\r}\N{\fn微软雅黑\fs12}and that way I'm not gonna  bore y'all to tears twice.
+Dialogue: 0,0:04:54.44,0:04:57.74,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}今晚我們邀請到這位  不用我介紹的人{\r}\N{\fn微软雅黑\fs12}Tonight we're gonna turn it over  to a man who needs no introduction,
+Dialogue: 0,0:04:57.84,0:05:01.04,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}因為我們都知道他這小賤人{\r}\N{\fn微软雅黑\fs12}'cause we all know  what a son of a bitch he is.
+Dialogue: 0,0:05:01.11,0:05:02.10,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}說真的{\r}\N{\fn微软雅黑\fs12}Seriously, though,
+Dialogue: 0,0:05:02.18,0:05:06.58,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}法蘭安德沃  是我們教導學生德行的榜樣{\r}\N{\fn微软雅黑\fs12}Frank Underwood exemplifies all the virtues  we try to instill in our graduates.
+Dialogue: 0,0:05:07.08,0:05:09.78,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}法蘭，很榮幸能稱你為校友{\r}\N{\fn微软雅黑\fs12}We're so proud to call you  an alumnus, Frank,
+Dialogue: 0,0:05:09.92,0:05:13.29,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}把你的名字  永遠留在我們校園裏{\r}\N{\fn微软雅黑\fs12}and to have your name  as a permanent fixture on our campus.
+Dialogue: 0,0:05:13.79,0:05:16.28,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}法蘭安德沃議員{\r}\N{\fn微软雅黑\fs12}Congressman Frank Underwood.
+Dialogue: 0,0:05:31.78,0:05:33.14,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}謝謝，希更斯校長{\r}\N{\fn微软雅黑\fs12}Thank you, President Higgins.
+Dialogue: 0,0:05:34.08,0:05:35.74,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我要先感謝善可工業{\r}\N{\fn微软雅黑\fs12}I first want to thank SanCorp Industries
+Dialogue: 0,0:05:35.81,0:05:39.08,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他們提供資金  實現新圖書館的想法{\r}\N{\fn微软雅黑\fs12}for providing the funds  to make the library possible.
+Dialogue: 0,0:05:39.18,0:05:42.35,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我剛入學時{\r}\N{\fn微软雅黑\fs12}When I matriculated here as a young cadet,
+Dialogue: 0,0:05:42.52,0:05:44.95,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}吉米卡特剛當選總統{\r}\N{\fn微软雅黑\fs12}Jimmy Carter had just been  elected President.
+Dialogue: 0,0:05:45.02,0:05:46.22,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我畢業時{\r}\N{\fn微软雅黑\fs12}After I graduated,
+Dialogue: 0,0:05:46.32,0:05:48.62,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我和吉米有同樣的願望  希望能再待四年{\r}\N{\fn微软雅黑\fs12}I wished that I could have had  another four years, just like Jimmy.
+Dialogue: 0,0:05:50.46,0:05:55.09,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們兩人都未能如願  但我帶著美好回憶畢業{\r}\N{\fn微软雅黑\fs12}Well, neither of us got our wish,  but I left this campus with fond memories.
+Dialogue: 0,0:05:55.23,0:05:57.20,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我第一次…{\r}\N{\fn微软雅黑\fs12}The first time I ever...
+Dialogue: 0,0:06:05.58,0:06:07.41,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我有收到你的電子郵件{\r}\N{\fn微软雅黑\fs12}I got your damn email.
+Dialogue: 0,0:06:57.29,0:06:58.45,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這燈閃多久了？{\r}\N{\fn微软雅黑\fs12}How long has that light been like that?
+Dialogue: 0,0:06:58.53,0:06:59.52,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}大概一個月了{\r}\N{\fn微软雅黑\fs12}I don't know. A month, maybe.
+Dialogue: 0,0:07:01.37,0:07:02.46,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}沒人來修嗎？{\r}\N{\fn微软雅黑\fs12}And nobody's come to fix it?
+Dialogue: 0,0:07:02.53,0:07:04.00,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這裏不會有人來修東西{\r}\N{\fn微软雅黑\fs12}Nobody don't fix nothing around here.
+Dialogue: 0,0:07:04.07,0:07:06.59,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 你有叫人修嗎？  - 我在看電視{\r}\N{\fn微软雅黑\fs12}-Well have you asked?  -I'm watching.
+Dialogue: 0,0:07:11.28,0:07:13.18,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}別管了，我習慣了{\r}\N{\fn微软雅黑\fs12}Leave it alone. I'm used to it now.
+Dialogue: 0,0:07:21.49,0:07:23.48,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 好多了吧？  - 現在太暗了{\r}\N{\fn微软雅黑\fs12}-Better, huh?  -Now it's too dark.
+Dialogue: 0,0:07:30.56,0:07:32.22,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 為什麼關電視？  - 媽，聽著{\r}\N{\fn微软雅黑\fs12}-What'd you do that for?  -Listen, Ma.
+Dialogue: 0,0:07:32.30,0:07:33.56,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我要競選州長{\r}\N{\fn微软雅黑\fs12}I'm running for governor.
+Dialogue: 0,0:07:33.63,0:07:36.93,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}過幾天就會宣佈  所以我才回來費城{\r}\N{\fn微软雅黑\fs12}I'm gonna announce in a few days.  That's why I came up to Philly.
+Dialogue: 0,0:07:37.00,0:07:38.26,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}明天有個社區會議{\r}\N{\fn微软雅黑\fs12}There's a community meeting tomorrow.
+Dialogue: 0,0:07:38.34,0:07:40.86,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我要跟造船工人談  計劃幫他們爭回工作{\r}\N{\fn微软雅黑\fs12}I'm gonna talk to the shipbuilders  about a plan to bring their jobs back,
+Dialogue: 0,0:07:40.94,0:07:42.60,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}讓他們在選舉中支持我{\r}\N{\fn微软雅黑\fs12}so they support me in the election.
+Dialogue: 0,0:07:42.67,0:07:45.70,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我完全聽不懂{\r}\N{\fn微软雅黑\fs12}I don't know nothing about that stuff.  It's over my head.
+Dialogue: 0,0:07:50.01,0:07:53.64,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}新聞裏會出現關於我的報導{\r}\N{\fn微软雅黑\fs12}Okay, listen, there's gonna be some stories  coming out about me, in the news,
+Dialogue: 0,0:07:53.82,0:07:55.34,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}關於我的過去{\r}\N{\fn微软雅黑\fs12}about my past.
+Dialogue: 0,0:07:55.49,0:07:57.98,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我只想先提醒你  以免你嚇一跳{\r}\N{\fn微软雅黑\fs12}I just wanted to give you a heads up,  so it doesn't catch you off guard.
+Dialogue: 0,0:07:58.06,0:08:00.25,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我早就不看新聞了，都是垃圾{\r}\N{\fn微软雅黑\fs12}I don't watch the news no more.  Bunch of garbage.
+Dialogue: 0,0:08:02.53,0:08:04.26,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你想看凱文和莎拉的照片嗎？{\r}\N{\fn微软雅黑\fs12}You want to see some pictures  of Kevin and Sarah?
+Dialogue: 0,0:08:04.36,0:08:05.89,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}太暗了看不到{\r}\N{\fn微软雅黑\fs12}Too dark to look at pictures.
+Dialogue: 0,0:08:05.96,0:08:07.90,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}在我手機上，不用開燈{\r}\N{\fn微软雅黑\fs12}No, no, it's on my phone,  you don't need any light.
+Dialogue: 0,0:08:08.00,0:08:10.43,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}拿走，我討厭那些東西{\r}\N{\fn微软雅黑\fs12}Get it away from me. I hate those things.
+Dialogue: 0,0:08:10.50,0:08:12.03,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}會得腦癌{\r}\N{\fn微软雅黑\fs12}Brain cancer.
+Dialogue: 0,0:08:32.82,0:08:35.99,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不只是在樓上，還是三樓{\r}\N{\fn微软雅黑\fs12}It wasn't just up the stairs,  it was up three flights of stairs,
+Dialogue: 0,0:08:36.06,0:08:38.05,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}在科學大樓裏{\r}\N{\fn微软雅黑\fs12}in the science building.
+Dialogue: 0,0:08:38.63,0:08:41.46,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}古丘肯海默說…{\r}\N{\fn微软雅黑\fs12}And Gluckenheimer, what he did...
+Dialogue: 0,0:08:41.97,0:08:43.96,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}「你今天真美，州長夫人」{\r}\N{\fn微软雅黑\fs12}"Well, you look lovely today, Mrs. Governor."
+Dialogue: 0,0:08:44.03,0:08:46.09,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}然後它拉了坨屎{\r}\N{\fn微软雅黑\fs12}And the thing took a dump.
+Dialogue: 0,0:08:46.47,0:08:47.63,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他們牽不回來…{\r}\N{\fn微软雅黑\fs12}Right. And they couldn't get it back...
+Dialogue: 0,0:08:48.24,0:08:52.20,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你可以把一頭牛牽上三樓  但牽不下來！{\r}\N{\fn微软雅黑\fs12}You can get a cow up three flights of stairs,  but you can't get it down!
+Dialogue: 0,0:08:52.28,0:08:56.58,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}所以最後他才說  「誰晚餐想吃牛排？」{\r}\N{\fn微软雅黑\fs12}And that's why in the end he said,  "Who wants steak for dinner?"
+Dialogue: 0,0:08:57.35,0:08:59.41,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 你們玩得開心嗎？  - 我們很好{\r}\N{\fn微软雅黑\fs12}-How are you boys doing?  -We're good.
+Dialogue: 0,0:08:59.48,0:09:00.71,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 我胖嗎？  - 拒答{\r}\N{\fn微软雅黑\fs12}-You think I'm fat?  -Take the Fifth.
+Dialogue: 0,0:09:00.82,0:09:03.22,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}菲爾覺得我又老又胖{\r}\N{\fn微软雅黑\fs12}Seriously, Phil here thinks  I got fat with old age.
+Dialogue: 0,0:09:04.12,0:09:06.02,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你是宰相肚裏能撐船{\r}\N{\fn微软雅黑\fs12}You're a big man with an even bigger heart.
+Dialogue: 0,0:09:06.09,0:09:08.79,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 看吧！  - 她說你胖{\r}\N{\fn微软雅黑\fs12}-There you go!  -She says you're chubby.
+Dialogue: 0,0:09:08.89,0:09:11.95,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我先回旅館了，好嗎？  玩得開心{\r}\N{\fn微软雅黑\fs12}I think I'm going to go back to the hotel.  Okay? Have fun.
+Dialogue: 0,0:09:12.03,0:09:13.05,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我喜歡這女人{\r}\N{\fn微软雅黑\fs12}I love this woman.
+Dialogue: 0,0:09:13.90,0:09:15.30,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}別讓他惹太多麻煩{\r}\N{\fn微软雅黑\fs12}Don't let him get into too much trouble.
+Dialogue: 0,0:09:15.40,0:09:19.27,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}等我們結束後  他一定會被彈劾{\r}\N{\fn微软雅黑\fs12}They'll have grounds for impeachment  when we're done with him.
+Dialogue: 0,0:09:19.37,0:09:20.73,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}趁他們關門前再拿酒來{\r}\N{\fn微软雅黑\fs12}We better get another drink  before they close up.
+Dialogue: 0,0:09:20.80,0:09:22.07,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你來幫我拿{\r}\N{\fn微软雅黑\fs12}You're comin' with me to help carry them.
+Dialogue: 0,0:09:22.17,0:09:23.50,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你今晚就是服務生了{\r}\N{\fn微软雅黑\fs12}You're gonna be the waiter tonight.
+Dialogue: 0,0:09:23.57,0:09:26.91,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}真懶惰{\r}\N{\fn微软雅黑\fs12}Lazy-ass cadet. Lazy-ass cadet.
+Dialogue: 0,0:09:29.91,0:09:32.07,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}幫我撐著{\r}\N{\fn微软雅黑\fs12}Hold on a second there, partner.
+Dialogue: 0,0:09:34.95,0:09:37.51,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 你不知道我們要來嗎？  - 完全沒想到{\r}\N{\fn微软雅黑\fs12}-You had no idea we were coming?  -Complete surprise.
+Dialogue: 0,0:09:37.62,0:09:39.71,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 我以為希更斯…  - 他演得很好{\r}\N{\fn微软雅黑\fs12}-I thought Higgins might've...  -No, he played it perfectly.
+Dialogue: 0,0:09:39.86,0:09:41.98,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 讓我以為你們不來了  - 開什麼玩笑？{\r}\N{\fn微软雅黑\fs12}-Made me think you weren't coming at all.  -Are you kidding?
+Dialogue: 0,0:09:42.06,0:09:43.29,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們不可能錯過的{\r}\N{\fn微软雅黑\fs12}We wouldn't have missed it for the world.
+Dialogue: 0,0:09:44.19,0:09:46.49,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}圖書館的題字  是寫法蘭還是法蘭斯？{\r}\N{\fn微软雅黑\fs12}On the library,  are they gonna put Frank or Francis?
+Dialogue: 0,0:09:46.56,0:09:47.66,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}法蘭斯{\r}\N{\fn微软雅黑\fs12}Francis.
+Dialogue: 0,0:09:47.73,0:09:51.29,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}和我國會大樓辦公室  門上的名字一樣{\r}\N{\fn微软雅黑\fs12}It's the same as the name above the door  in my office in the Capitol.
+Dialogue: 0,0:09:51.37,0:09:54.86,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}圖書館用法蘭斯比較好  法蘭像是保險桿貼紙{\r}\N{\fn微软雅黑\fs12}Francis is better for libraries.  Frank is better for bumper stickers.
+Dialogue: 0,0:09:54.94,0:09:56.74,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我有一些{\r}\N{\fn微软雅黑\fs12}I got a few of those.
+Dialogue: 0,0:09:56.81,0:09:58.07,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}有人叫你法蘭斯嗎？{\r}\N{\fn微软雅黑\fs12}Does anybody ever actually call you Francis?
+Dialogue: 0,0:09:58.68,0:10:00.14,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}只有克萊兒{\r}\N{\fn微软雅黑\fs12}Claire does. She's the only one.
+Dialogue: 0,0:10:00.64,0:10:01.94,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}娶到她是你的福氣{\r}\N{\fn微软雅黑\fs12}She seems like a real prize.
+Dialogue: 0,0:10:03.31,0:10:04.34,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}沒錯{\r}\N{\fn微软雅黑\fs12}She is.
+Dialogue: 0,0:10:04.95,0:10:08.21,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}酒吧已經關了  但看我找到什麼{\r}\N{\fn微软雅黑\fs12}Bar was already shut down,  but look what I scored.
+Dialogue: 0,0:10:35.48,0:10:36.78,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你好，卡羅琳{\r}\N{\fn微软雅黑\fs12}Hey, Caroline.
+Dialogue: 0,0:10:37.11,0:10:38.14,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你想做什麼？{\r}\N{\fn微软雅黑\fs12}What do you want?
+Dialogue: 0,0:10:38.22,0:10:39.34,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}保羅在嗎？{\r}\N{\fn微软雅黑\fs12}Is Paul around?
+Dialogue: 0,0:10:44.15,0:10:46.38,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}保羅，是你請他來的嗎？{\r}\N{\fn微软雅黑\fs12}Paul, did you invite him here?
+Dialogue: 0,0:10:46.52,0:10:48.39,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們討論過別再讓他煩你{\r}\N{\fn微软雅黑\fs12}Did you ask him here  after we said all those times
+Dialogue: 0,0:10:48.46,0:10:50.12,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你還請他來？{\r}\N{\fn微软雅黑\fs12}that we're not gonna let him bother you?
+Dialogue: 0,0:10:50.19,0:10:52.49,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 他把你害得太慘了  - 你在說什麼？{\r}\N{\fn微软雅黑\fs12}-He screwed you over one too many times.  -Who you talking about?
+Dialogue: 0,0:10:52.56,0:10:54.29,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}彼得魯索在門外{\r}\N{\fn微软雅黑\fs12}I'm talking about Peter Russo  at the front door.
+Dialogue: 0,0:10:54.36,0:10:56.89,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}是你請他來的？  還是他自己來的？{\r}\N{\fn微软雅黑\fs12}Did you ask him here,  or did he just come on his own?
+Dialogue: 0,0:10:56.97,0:10:58.49,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他知道我們跟他撇清後…{\r}\N{\fn微软雅黑\fs12}Does he know as soon as  we're finished with him...
+Dialogue: 0,0:10:58.57,0:10:59.59,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}閉嘴{\r}\N{\fn微软雅黑\fs12}Stop.
+Dialogue: 0,0:10:59.67,0:11:02.50,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}在你跟他講清楚  叫他滾蛋前我不會閉嘴的{\r}\N{\fn微软雅黑\fs12}No, I'm not gonna stop until you  actually deal with it and get rid of him.
+Dialogue: 0,0:11:09.71,0:11:12.94,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 保羅，能談談嗎？  - 沒什麼好談的{\r}\N{\fn微软雅黑\fs12}-Paul, you got a minute to talk?  -There's nothing to talk about.
+Dialogue: 0,0:11:14.82,0:11:17.75,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我想為上次  在華府見面時的事道歉{\r}\N{\fn微软雅黑\fs12}I want to apologize for when  I saw you last time in Washington,
+Dialogue: 0,0:11:17.82,0:11:18.88,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我對你的態度{\r}\N{\fn微软雅黑\fs12}how I treated you.
+Dialogue: 0,0:11:20.06,0:11:21.08,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}就這樣？{\r}\N{\fn微软雅黑\fs12}Is that it?
+Dialogue: 0,0:11:22.93,0:11:25.22,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我想談談造船廠的事{\r}\N{\fn微软雅黑\fs12}And I want to talk about the shipyard.
+Dialogue: 0,0:11:25.83,0:11:27.80,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我有個計劃能彌補{\r}\N{\fn微软雅黑\fs12}I got a plan to fix it.
+Dialogue: 0,0:11:30.43,0:11:32.80,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不要把錢都放在退休帳戶{\r}\N{\fn微软雅黑\fs12}You don't want everything going  into the Roth lRA.
+Dialogue: 0,0:11:32.87,0:11:34.23,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}一年存個五千至一萬{\r}\N{\fn微软雅黑\fs12}Five, ten grand a year,
+Dialogue: 0,0:11:34.30,0:11:36.77,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我會幫你安排多元投資計劃{\r}\N{\fn微软雅黑\fs12}and I'll set you up with  a nice diversified package,
+Dialogue: 0,0:11:36.94,0:11:38.97,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}低風險，高收益{\r}\N{\fn微软雅黑\fs12}Iow risk, high yield.
+Dialogue: 0,0:11:39.04,0:11:41.57,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我和克萊兒已經有計劃了{\r}\N{\fn微软雅黑\fs12}I think Claire and I have things  pretty well under control.
+Dialogue: 0,0:11:42.45,0:11:45.54,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}如果我能讓資深議員  投資我的基金{\r}\N{\fn微软雅黑\fs12}If I brought a senior U.S. Congressman  into the fund,
+Dialogue: 0,0:11:46.08,0:11:48.31,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我在公司的地位就不一樣了{\r}\N{\fn微软雅黑\fs12}that would really up my stock  in the company.
+Dialogue: 0,0:11:48.42,0:11:50.11,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你們在後面聊什麼？{\r}\N{\fn微软雅黑\fs12}What're you all gabbing about back there?
+Dialogue: 0,0:11:50.39,0:11:51.98,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}在聊舊圖書館{\r}\N{\fn微软雅黑\fs12}We were talkin' about the old library.
+Dialogue: 0,0:11:52.06,0:11:53.25,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}舊館會怎麼處理？{\r}\N{\fn微软雅黑\fs12}Yeah, what's happening to it?
+Dialogue: 0,0:11:53.32,0:11:54.79,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 拆掉嗎？  - 不知道{\r}\N{\fn微软雅黑\fs12}-They gonna tear it down?  -I don't know.
+Dialogue: 0,0:11:54.86,0:11:58.26,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}可以改造成學生中心{\r}\N{\fn微软雅黑\fs12}They could gut it,  they could turn it into a student center.
+Dialogue: 0,0:11:58.36,0:12:00.33,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們應該溜進去{\r}\N{\fn微软雅黑\fs12}Hey, we should sneak in there.
+Dialogue: 0,0:12:01.43,0:12:03.16,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}就像以前一樣{\r}\N{\fn微软雅黑\fs12}Like we used to.
+Dialogue: 0,0:12:03.27,0:12:04.73,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 好  - 我加入{\r}\N{\fn微软雅黑\fs12}-Do it.  -I'm game.
+Dialogue: 0,0:12:04.80,0:12:06.29,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}有何不可？{\r}\N{\fn微软雅黑\fs12}What the hell, why not?
+Dialogue: 0,0:12:12.14,0:12:13.77,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}可以了{\r}\N{\fn微软雅黑\fs12}There you go, that's it.
+Dialogue: 0,0:12:23.35,0:12:24.88,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這裏是圖書館！{\r}\N{\fn微软雅黑\fs12}It's a library!
+Dialogue: 0,0:12:43.34,0:12:46.43,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}工業會大約有  三百萬元的緊急預備金{\r}\N{\fn微软雅黑\fs12}The Association had about $3 million  saved up in reserve for emergencies.
+Dialogue: 0,0:12:46.54,0:12:50.07,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但分給一萬兩千人後  就剩沒多少了{\r}\N{\fn微软雅黑\fs12}But you split that up  between 12,000 members, it's nothing.
+Dialogue: 0,0:12:50.25,0:12:52.22,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}只夠兩周的買菜錢{\r}\N{\fn微软雅黑\fs12}Couple weeks' groceries.
+Dialogue: 0,0:12:52.45,0:12:53.85,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我在計劃一個提案{\r}\N{\fn微软雅黑\fs12}There's a bill I'm working on.
+Dialogue: 0,0:12:53.95,0:12:56.21,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}會有大量聯邦補助{\r}\N{\fn微软雅黑\fs12}Major federal funds going towards
+Dialogue: 0,0:12:56.29,0:13:00.35,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}建設公園、綠色商業用地  重整廢棄地區{\r}\N{\fn微软雅黑\fs12}public parks, green commercial spaces,  cleaning up waste sites.
+Dialogue: 0,0:13:00.52,0:13:02.65,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}會有建地工作  公園管理，零售業…{\r}\N{\fn微软雅黑\fs12}That's construction jobs,  park management, retail...
+Dialogue: 0,0:13:02.73,0:13:03.95,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}有多少機會？{\r}\N{\fn微软雅黑\fs12}How many?
+Dialogue: 0,0:13:04.09,0:13:05.99,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 五千  - 一半都不到…{\r}\N{\fn微软雅黑\fs12}-Five thousand jobs.  -That's not even half...
+Dialogue: 0,0:13:06.06,0:13:07.12,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 只是開始  - 多快？{\r}\N{\fn微软雅黑\fs12}-It's a start.  -How soon?
+Dialogue: 0,0:13:07.26,0:13:10.26,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 一到兩年…  - 兩年？{\r}\N{\fn微软雅黑\fs12}-A year, maybe two...  -Two fucking years?
+Dialogue: 0,0:13:10.33,0:13:12.27,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這期間我們要怎麼辦？{\r}\N{\fn微软雅黑\fs12}What're we supposed to do until then?
+Dialogue: 0,0:13:12.34,0:13:13.86,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}明天有個社區會議…{\r}\N{\fn微软雅黑\fs12}Listen, there's a community  meeting tomorrow...
+Dialogue: 0,0:13:13.94,0:13:16.20,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 我有聽說  - 我會解釋所有細節{\r}\N{\fn微软雅黑\fs12}-I heard.  -I'm gonna go over everything in detail.
+Dialogue: 0,0:13:16.27,0:13:17.64,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 你會去嗎？  - 沒打算{\r}\N{\fn微软雅黑\fs12}-You gonna be there?  -I wasn't planning on it.
+Dialogue: 0,0:13:17.71,0:13:19.17,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我希望你能去{\r}\N{\fn微软雅黑\fs12}I'd like you to be there.
+Dialogue: 0,0:13:19.24,0:13:21.47,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 大家都很尊敬你  - 你要我替你擔保？{\r}\N{\fn微软雅黑\fs12}-Everybody respects you.  -You want me to vouch for you?
+Dialogue: 0,0:13:22.88,0:13:26.28,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}聽著，我告訴一件事  只有少數人知道{\r}\N{\fn微软雅黑\fs12}Listen, I'm gonna tell you something  that only a handful of people know.
+Dialogue: 0,0:13:27.95,0:13:29.21,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我要競選州長{\r}\N{\fn微软雅黑\fs12}I'm running for governor.
+Dialogue: 0,0:13:30.19,0:13:31.75,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不久就會宣佈{\r}\N{\fn微软雅黑\fs12}I announce soon.
+Dialogue: 0,0:13:31.82,0:13:34.09,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但我要先得到工業會的支持{\r}\N{\fn微软雅黑\fs12}But I need the Association behind me  before I do that.
+Dialogue: 0,0:13:34.26,0:13:35.95,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我知道造船廠的事  我讓你失望{\r}\N{\fn微软雅黑\fs12}Now I know I let you down with the shipyard,
+Dialogue: 0,0:13:36.03,0:13:39.15,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但如果我贏得州長選舉  就可以導正所有事{\r}\N{\fn微软雅黑\fs12}but if I win the governor's race  I can get everything back on track.
+Dialogue: 0,0:13:39.23,0:13:40.66,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你來我家要我原諒你{\r}\N{\fn微软雅黑\fs12}You show up on my doorstep  asking for my forgiveness,
+Dialogue: 0,0:13:40.73,0:13:41.92,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}還要我當哈巴狗？{\r}\N{\fn微软雅黑\fs12}and now you want me to be your lapdog?
+Dialogue: 0,0:13:42.00,0:13:43.99,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}在我失業之後？{\r}\N{\fn微软雅黑\fs12}After I lost my fucking job?
+Dialogue: 0,0:13:44.07,0:13:45.50,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}分水嶺提案只是開始{\r}\N{\fn微软雅黑\fs12}Okay, this Watershed Bill  is just the beginning.
+Dialogue: 0,0:13:45.60,0:13:47.66,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我當上州長，就能做更多{\r}\N{\fn微软雅黑\fs12}If I'm governor, there's so much I can do.
+Dialogue: 0,0:13:47.80,0:13:50.47,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}放屁，你只想利用我{\r}\N{\fn微软雅黑\fs12}Yeah, it's bullshit. You just want to use me.
+Dialogue: 0,0:13:50.74,0:13:53.47,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 不是這樣  - 就是這樣{\r}\N{\fn微软雅黑\fs12}-It's not like that.  -Yeah, it's exactly like that.
+Dialogue: 0,0:13:53.54,0:13:57.00,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}天啊，你這個政客{\r}\N{\fn微软雅黑\fs12}Jesus Christ. You fucking politicians.
+Dialogue: 0,0:13:58.11,0:13:59.34,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}保羅…{\r}\N{\fn微软雅黑\fs12}Paul...
+Dialogue: 0,0:14:13.53,0:14:14.72,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}克萊兒{\r}\N{\fn微软雅黑\fs12}Claire.
+Dialogue: 0,0:14:15.53,0:14:18.16,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}沒想到你和法蘭住在這裏{\r}\N{\fn微软雅黑\fs12}I didn't realize you and Frank  were staying here.
+Dialogue: 0,0:14:19.14,0:14:21.54,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們每次來查爾斯頓  都住這裏{\r}\N{\fn微软雅黑\fs12}We always stay here  when we're in Charleston.
+Dialogue: 0,0:14:21.64,0:14:24.40,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你知道的，瑞米  2008年的選舉…{\r}\N{\fn微软雅黑\fs12}You know that, Remy. The '08 campaign...
+Dialogue: 0,0:14:25.31,0:14:27.97,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我發誓這只是巧合  是我助理訂的{\r}\N{\fn微软雅黑\fs12}I promise it was a coincidence.  My assistant booked it.
+Dialogue: 0,0:14:30.08,0:14:31.51,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}法蘭在嗎？{\r}\N{\fn微软雅黑\fs12}Is Frank around?
+Dialogue: 0,0:14:31.62,0:14:33.88,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不在，他和老同學出去玩了{\r}\N{\fn微软雅黑\fs12}He's not. He's off cavorting  with his old classmates.
+Dialogue: 0,0:14:35.92,0:14:37.72,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}要坐下喝一杯嗎？{\r}\N{\fn微软雅黑\fs12}You want to sit down and have a drink?
+Dialogue: 0,0:14:39.19,0:14:42.49,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他們幫我訂了新娘套房  還有冰香檳…{\r}\N{\fn微软雅黑\fs12}They booked me the bridal suite.  There's champagne on ice...
+Dialogue: 0,0:14:43.93,0:14:46.73,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}天啊，你比替法蘭斯工作時  有自信多了{\r}\N{\fn微软雅黑\fs12}My, my, you've grown very confident  since you worked for Francis.
+Dialogue: 0,0:14:46.83,0:14:48.49,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我一直都很有自信，克萊兒{\r}\N{\fn微软雅黑\fs12}I've always been confident, Claire.
+Dialogue: 0,0:14:48.60,0:14:51.97,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 你以前絕不敢邀我上樓  - 我沒住過新娘套房{\r}\N{\fn微软雅黑\fs12}-You never would've invited me upstairs.  -Never had the bridal suite.
+Dialogue: 0,0:14:52.04,0:14:54.77,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}隨扈只能住  在四條街外的平價旅館{\r}\N{\fn微软雅黑\fs12}The staff always stayed  in the Best Western four blocks away.
+Dialogue: 0,0:14:54.91,0:14:56.70,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}好好享受你的香檳吧{\r}\N{\fn微软雅黑\fs12}Enjoy your champagne.
+Dialogue: 0,0:14:56.81,0:14:59.10,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我只想邀你喝一杯  沒別的意思{\r}\N{\fn微软雅黑\fs12}I wasn't suggesting anything more  than a drink.
+Dialogue: 0,0:14:59.21,0:15:00.37,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}真的嗎？{\r}\N{\fn微软雅黑\fs12}Weren't you?
+Dialogue: 0,0:15:00.74,0:15:01.80,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}只是出於禮貌{\r}\N{\fn微软雅黑\fs12}Purely being polite.
+Dialogue: 0,0:15:02.51,0:15:03.77,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}晚安，瑞米{\r}\N{\fn微软雅黑\fs12}Good night, Remy.
+Dialogue: 0,0:15:04.98,0:15:07.68,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}如果你改變主意  新娘套房就在頂樓{\r}\N{\fn微软雅黑\fs12}The bridal suite's on the top floor,  at the end of the hallway,
+Dialogue: 0,0:15:07.78,0:15:08.77,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}走廊的盡頭{\r}\N{\fn微软雅黑\fs12}ifyou change your mind.
+Dialogue: 0,0:15:17.09,0:15:18.19,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}晚安，克萊兒{\r}\N{\fn微软雅黑\fs12}Good night, Claire.
+Dialogue: 0,0:15:46.76,0:15:49.02,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}肯尼，你現在太大只了{\r}\N{\fn微软雅黑\fs12}Hey, Kenny, I think you got  a little too big for this.
+Dialogue: 0,0:15:49.16,0:15:51.18,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我覺得洞變小了{\r}\N{\fn微软雅黑\fs12}I think the hole got a lot smaller.
+Dialogue: 0,0:15:54.80,0:15:57.23,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}別讓你的肚子阻止你{\r}\N{\fn微软雅黑\fs12}Don't let a little girth stop you.
+Dialogue: 0,0:15:58.44,0:15:59.66,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你們看{\r}\N{\fn微软雅黑\fs12}Look, look, look.
+Dialogue: 0,0:16:00.27,0:16:02.36,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 你找到了  - 看，還在{\r}\N{\fn微软雅黑\fs12}-You found it.  -Yeah, look, it's still there.
+Dialogue: 0,0:16:09.18,0:16:10.48,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你們看{\r}\N{\fn微软雅黑\fs12}Wow, look at that.
+Dialogue: 0,0:16:12.95,0:16:14.01,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}步槍兵1981{\r}
+Dialogue: 0,0:16:14.08,0:16:16.58,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}菲爾藍登- 法蘭安德沃  提姆考伯- 肯卡斯威{\r}
+Dialogue: 0,0:17:27.62,0:17:28.92,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你好{\r}\N{\fn微软雅黑\fs12}Hey.
+Dialogue: 0,0:17:30.36,0:17:31.45,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}很好，你呢？{\r}\N{\fn微软雅黑\fs12}Good, and you?
+Dialogue: 0,0:17:36.07,0:17:38.00,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我在查爾斯頓{\r}\N{\fn微软雅黑\fs12}I'm in Charleston, actually.
+Dialogue: 0,0:18:00.72,0:18:01.85,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你在這裏做什麼？{\r}\N{\fn微软雅黑\fs12}What are you doing here?
+Dialogue: 0,0:18:03.99,0:18:05.22,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}想給你驚喜{\r}\N{\fn微软雅黑\fs12}I thought I'd surprise you.
+Dialogue: 0,0:18:07.66,0:18:08.69,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}驚喜{\r}\N{\fn微软雅黑\fs12}Surprise.
+Dialogue: 0,0:18:39.16,0:18:42.60,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}來吧，讓你看看  我度過青春期的地方{\r}\N{\fn微软雅黑\fs12}Come on, let me show you  where I went through puberty.
+Dialogue: 0,0:18:53.88,0:18:56.57,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我完全能想像  你16歲住在這裏的樣子{\r}\N{\fn微软雅黑\fs12}I can totally see you here at 16.
+Dialogue: 0,0:18:58.68,0:19:00.62,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}在這床上惹過不少麻煩吧？{\r}\N{\fn微软雅黑\fs12}Got in some trouble on this bed, huh?
+Dialogue: 0,0:19:00.75,0:19:02.27,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}把整條街都吵醒了{\r}\N{\fn微软雅黑\fs12}Woke up the whole block.
+Dialogue: 0,0:19:02.75,0:19:03.81,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}保羅的事如何？{\r}\N{\fn微软雅黑\fs12}Hey, how'd it go with Paul?
+Dialogue: 0,0:19:04.82,0:19:06.38,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他叫我滾{\r}\N{\fn微软雅黑\fs12}He told me to fuck off.
+Dialogue: 0,0:19:06.52,0:19:09.01,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我媽也用她獨特的方式  對我這樣說{\r}\N{\fn微软雅黑\fs12}Which is what my mother told me,  in her own special way.
+Dialogue: 0,0:19:10.69,0:19:12.79,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 我會見到她嗎？  - 你不會想見她的{\r}\N{\fn微软雅黑\fs12}-Am I gonna meet her?  -You don't want to meet her.
+Dialogue: 0,0:19:12.86,0:19:15.89,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我只想過去問候她，看看她{\r}\N{\fn微软雅黑\fs12}I just want to stop by, say hey, see her face.
+Dialogue: 0,0:19:16.67,0:19:19.90,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}克裏絲汀娜  你來找我真的很貼心{\r}\N{\fn微软雅黑\fs12}Christina, it was really sweet  of you to come up here.
+Dialogue: 0,0:19:20.00,0:19:21.20,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}說真的{\r}\N{\fn微软雅黑\fs12}Seriously.
+Dialogue: 0,0:19:21.27,0:19:24.43,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我深信  你是我交往過最棒的女人{\r}\N{\fn微软雅黑\fs12}I'm officially convinced that you're  the most amazing woman I've ever been with.
+Dialogue: 0,0:19:24.51,0:19:26.87,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但我說我要獨自來這裏時  也是認真的{\r}\N{\fn微软雅黑\fs12}But I meant it when I said  I wanted to take this trip alone.
+Dialogue: 0,0:19:27.91,0:19:29.61,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}明天會是場硬仗{\r}\N{\fn微软雅黑\fs12}This thing tomorrow isn't gonna be pleasant.
+Dialogue: 0,0:19:29.68,0:19:33.74,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}所以我才來，給你精神支持{\r}\N{\fn微软雅黑\fs12}Which is why I came.  To be here for you. Moral support.
+Dialogue: 0,0:19:33.85,0:19:36.34,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我瞭解這些人  他們一定會狠狠教訓我{\r}\N{\fn微软雅黑\fs12}I know these people,  they're going to lay into me big time.
+Dialogue: 0,0:19:37.85,0:19:39.91,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}明天對競選很重要{\r}\N{\fn微软雅黑\fs12}Tomorrow's an important day  for the campaign.
+Dialogue: 0,0:19:40.52,0:19:41.89,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}別跟我爭{\r}\N{\fn微软雅黑\fs12}Don't fight me on this.
+Dialogue: 0,0:19:47.76,0:19:48.82,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}好吧{\r}\N{\fn微软雅黑\fs12}Okay.
+Dialogue: 0,0:19:50.00,0:19:52.59,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我是去住旅館呢？{\r}\N{\fn微软雅黑\fs12}So do I get a hotel?
+Dialogue: 0,0:19:53.50,0:19:55.20,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}還是留在這裏？{\r}\N{\fn微软雅黑\fs12}Do I stay here?
+Dialogue: 0,0:19:55.41,0:19:57.64,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}別這樣{\r}\N{\fn微软雅黑\fs12}Come on, don't be like that.
+Dialogue: 0,0:19:57.91,0:19:59.67,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}旅館舒服多了{\r}\N{\fn微软雅黑\fs12}A hotel would be more comfortable.
+Dialogue: 0,0:19:59.84,0:20:04.64,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}別浪費寶貴的競選資金{\r}\N{\fn微软雅黑\fs12}But it would be a waste  of valuable campaign funds.
+Dialogue: 0,0:20:05.15,0:20:07.08,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}競選資金{\r}\N{\fn微软雅黑\fs12}Oh, campaign funds.
+Dialogue: 0,0:20:08.82,0:20:10.79,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}有看到天花板上的裂痕嗎？{\r}\N{\fn微软雅黑\fs12}You see that crack up in the ceiling?
+Dialogue: 0,0:20:13.06,0:20:16.49,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我以前每晚都盯著它入睡{\r}\N{\fn微软雅黑\fs12}I used to fall asleep staring at it every night.
+Dialogue: 0,0:20:18.93,0:20:20.86,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}對它瞭若指掌{\r}\N{\fn微软雅黑\fs12}I know every inch and curve.
+Dialogue: 0,0:20:32.04,0:20:35.70,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這裏好暗，我怕黑！{\r}\N{\fn微软雅黑\fs12}It's dark in here. I'm scared of the dark!
+Dialogue: 0,0:20:35.81,0:20:37.37,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}走開！{\r}\N{\fn微软雅黑\fs12}Get out of the way!
+Dialogue: 0,0:20:37.45,0:20:40.42,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 小心！  - 賭注很大{\r}\N{\fn微软雅黑\fs12}-Hey, hey!  -Big fucking gamble, my man.
+Dialogue: 0,0:20:47.22,0:20:48.92,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}光來了！{\r}\N{\fn微软雅黑\fs12}Let there be light!
+Dialogue: 0,0:20:53.10,0:20:55.03,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你在想什麼？{\r}\N{\fn微软雅黑\fs12}What are you thinking about?
+Dialogue: 0,0:20:57.30,0:21:01.00,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你和法蘭怎麼沒有小孩？{\r}\N{\fn微软雅黑\fs12}How come you and Frank  have never had kids?
+Dialogue: 0,0:21:01.47,0:21:03.91,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 你也沒有小孩  - 但我沒結婚{\r}\N{\fn微软雅黑\fs12}-You've never had kids.  -Yeah, but I'm not married.
+Dialogue: 0,0:21:04.04,0:21:05.63,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}回答問題{\r}\N{\fn微软雅黑\fs12}Answer the question.
+Dialogue: 0,0:21:07.91,0:21:09.85,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}是我們決定的{\r}\N{\fn微软雅黑\fs12}We just decided not to.
+Dialogue: 0,0:21:10.98,0:21:12.64,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}沒有討論很久{\r}\N{\fn微软雅黑\fs12}There wasn't some big conversation.
+Dialogue: 0,0:21:13.08,0:21:14.55,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我覺得你在說謊{\r}\N{\fn微软雅黑\fs12}I think you're lying.
+Dialogue: 0,0:21:14.98,0:21:16.42,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}隨你怎麼想{\r}\N{\fn微软雅黑\fs12}Think whatever you want.
+Dialogue: 0,0:21:18.69,0:21:20.38,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你真的沒想過嗎？{\r}\N{\fn微软雅黑\fs12}You honestly never thought about it?
+Dialogue: 0,0:21:21.86,0:21:24.33,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}有過一兩次吧{\r}\N{\fn微软雅黑\fs12}I mean, yeah, maybe once or twice.
+Dialogue: 0,0:21:27.10,0:21:28.93,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我不覺得遺憾{\r}\N{\fn微软雅黑\fs12}I mean, I don't feel there's some void.
+Dialogue: 0,0:21:29.63,0:21:30.93,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}沒有小孩我也很幸福{\r}\N{\fn微软雅黑\fs12}I'm perfectly happy without.
+Dialogue: 0,0:21:32.80,0:21:33.83,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你呢？{\r}\N{\fn微软雅黑\fs12}What about you?
+Dialogue: 0,0:21:34.77,0:21:38.40,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你能想像我  幫小孩擦屁股、換尿布嗎？{\r}\N{\fn微软雅黑\fs12}Can you imagine me wiping a baby's ass  and changing nappies?
+Dialogue: 0,0:21:39.88,0:21:41.28,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不能{\r}\N{\fn微软雅黑\fs12}No, I can't.
+Dialogue: 0,0:21:41.34,0:21:44.11,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}其實我剛想像了一下  我得掛電話了{\r}\N{\fn微软雅黑\fs12}Actually, yes, I just did,  I'm going to have to get off the phone.
+Dialogue: 0,0:21:44.18,0:21:45.98,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}那畫面太糟了{\r}\N{\fn微软雅黑\fs12}You've ruined everything.
+Dialogue: 0,0:21:49.95,0:21:53.79,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}真的該掛了  已經講一個多小時了{\r}\N{\fn微软雅黑\fs12}We really should get off.  It's been over an hour I think.
+Dialogue: 0,0:21:53.92,0:21:54.91,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}好{\r}\N{\fn微软雅黑\fs12}Okay.
+Dialogue: 0,0:21:57.19,0:21:58.25,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}掛吧{\r}\N{\fn微软雅黑\fs12}Go on then.
+Dialogue: 0,0:21:58.33,0:22:00.19,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 我現在就掛  - 我先掛{\r}\N{\fn微软雅黑\fs12}-I'm hanging up right now.  -No, I am.
+Dialogue: 0,0:22:16.75,0:22:19.41,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 衝啊，肯  - 衝啊{\r}\N{\fn微软雅黑\fs12}-Yeah! Let's go, Ken, let's go.  -Go, go, go.
+Dialogue: 0,0:22:32.73,0:22:36.22,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}加油，別放棄{\r}\N{\fn微软雅黑\fs12}Yeah, come on. Giddy up, come on.  Don't quit on me.
+Dialogue: 0,0:22:37.30,0:22:40.74,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 不知道數幾下了  - 加油，別放棄{\r}\N{\fn微软雅黑\fs12}-I lost count.  -Come on, don't quit on me. Don't quit.
+Dialogue: 0,0:22:41.27,0:22:43.50,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}天啊{\r}\N{\fn微软雅黑\fs12}No. Oh, God.
+Dialogue: 0,0:22:47.08,0:22:48.27,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你贏了{\r}\N{\fn微软雅黑\fs12}You win.
+Dialogue: 0,0:22:49.31,0:22:51.37,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但這不公平{\r}\N{\fn微软雅黑\fs12}But it's not a fair fight.
+Dialogue: 0,0:22:51.75,0:22:54.84,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你開泛舟公司  我整天坐在辦公桌前{\r}\N{\fn微软雅黑\fs12}You run a rafting company.  I sit behind a desk all day.
+Dialogue: 0,0:22:55.02,0:22:59.01,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}很想看你拿著槳  劃過四級激流的樣子{\r}\N{\fn微软雅黑\fs12}I'd love to see your ass with a paddle  bouncing through a class-four rapid.
+Dialogue: 0,0:22:59.79,0:23:03.32,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}如果我能讓國會屈服  一點小激流算不上什麼{\r}\N{\fn微软雅黑\fs12}If I can whip Congress into submission,  I'm not afraid of a little white water.
+Dialogue: 0,0:23:03.46,0:23:05.39,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你無法馴服激流的，法蘭{\r}\N{\fn微软雅黑\fs12}You can't tame a rapid, Frank.
+Dialogue: 0,0:23:06.86,0:23:11.63,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我心跳得好快  我如果心臟病發是你害的{\r}\N{\fn微软雅黑\fs12}My heart is beating so fast.  If I have a heart attack it's your fault.
+Dialogue: 0,0:23:11.77,0:23:13.07,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我的也是{\r}\N{\fn微软雅黑\fs12}Mine too.
+Dialogue: 0,0:23:13.84,0:23:14.83,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}摸摸看{\r}\N{\fn微软雅黑\fs12}Here.
+Dialogue: 0,0:23:20.91,0:23:22.43,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我需要再喝一杯{\r}\N{\fn微软雅黑\fs12}I need another drink.
+Dialogue: 0,0:23:26.55,0:23:28.88,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我也是{\r}\N{\fn微软雅黑\fs12}I think I'll have another, too.
+Dialogue: 0,0:23:47.84,0:23:49.27,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}別喝光了{\r}\N{\fn微软雅黑\fs12}Don't bogart that.
+Dialogue: 0,0:23:56.18,0:23:58.15,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這個地方造就我們嗎？{\r}\N{\fn微软雅黑\fs12}Do you think this place made us?
+Dialogue: 0,0:23:58.41,0:23:59.54,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}什麼意思？{\r}\N{\fn微软雅黑\fs12}How do you mean?
+Dialogue: 0,0:24:01.25,0:24:05.19,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我今天走過校園時在想  這裏有意義嗎？{\r}\N{\fn微软雅黑\fs12}When I walked on campus today I wondered,  did it mean anything?
+Dialogue: 0,0:24:05.79,0:24:09.95,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這只是我們生活四年的地方  還有更深的意義嗎？{\r}\N{\fn微软雅黑\fs12}If it's just a place we spent four years  of our lives or was there more?
+Dialogue: 0,0:24:10.03,0:24:11.02,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我不知道{\r}\N{\fn微软雅黑\fs12}I don't know.
+Dialogue: 0,0:24:11.13,0:24:12.32,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但我知道{\r}\N{\fn微软雅黑\fs12}I do know you were always the guy
+Dialogue: 0,0:24:12.40,0:24:13.83,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}會有建築物以你命名{\r}\N{\fn微软雅黑\fs12}who was going to get  a building named after him.
+Dialogue: 0,0:24:14.30,0:24:17.43,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}當我看到你罵那個訓練中士  就知道了{\r}\N{\fn微软雅黑\fs12}I knew that the moment I saw you  cuss out the drill sergeant
+Dialogue: 0,0:24:17.50,0:24:18.87,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們當時還是小毛頭{\r}\N{\fn微软雅黑\fs12}when we were knobs.
+Dialogue: 0,0:24:21.44,0:24:22.96,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}圖書館是個騙局{\r}\N{\fn微软雅黑\fs12}The library is a sham.
+Dialogue: 0,0:24:25.44,0:24:28.54,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}希更斯找我幫忙  我找別人幫忙{\r}\N{\fn微软雅黑\fs12}Higgins asked me a favor,  I asked someone else a favor,
+Dialogue: 0,0:24:28.68,0:24:30.41,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他們就把我的名字放上去了{\r}\N{\fn微软雅黑\fs12}they slapped my name on it.
+Dialogue: 0,0:24:30.48,0:24:32.28,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}政治跟其他事情都一樣{\r}\N{\fn微软雅黑\fs12}Politics. Like everything else.
+Dialogue: 0,0:24:32.35,0:24:34.82,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不是每個人都能幫這種忙{\r}\N{\fn微软雅黑\fs12}Not everybody gets asked those favors.
+Dialogue: 0,0:24:34.88,0:24:36.41,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}或是知道怎麼達成{\r}\N{\fn微软雅黑\fs12}Or knows how to deliver on them.
+Dialogue: 0,0:24:36.52,0:24:38.82,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}50年後，他們就會換掉匾額{\r}\N{\fn微软雅黑\fs12}In 50 years, they'll just replace it  with something else,
+Dialogue: 0,0:24:38.92,0:24:40.82,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}就像他們把我換掉一樣{\r}\N{\fn微软雅黑\fs12}just like they're doing with this for mine.
+Dialogue: 0,0:24:40.89,0:24:44.72,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你還是有建樹，不管維持多久{\r}\N{\fn微软雅黑\fs12}You still built something.  However long it lasts.
+Dialogue: 0,0:24:44.79,0:24:46.96,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}圖書館不重要{\r}\N{\fn微软雅黑\fs12}The library doesn't matter.
+Dialogue: 0,0:24:47.03,0:24:49.02,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但我希望這個地方有意義{\r}\N{\fn微软雅黑\fs12}But I want to think that this place did.
+Dialogue: 0,0:24:51.43,0:24:54.84,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}對當年的我們意義深遠{\r}\N{\fn微软雅黑\fs12}I think it meant a lot to us, then.
+Dialogue: 0,0:24:58.04,0:24:59.37,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}那我們呢？{\r}\N{\fn微软雅黑\fs12}And what about us?
+Dialogue: 0,0:25:00.78,0:25:03.71,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}老實說，我沒想那麼多{\r}\N{\fn微软雅黑\fs12}Honestly, I haven't really  thought about it that much.
+Dialogue: 0,0:25:04.98,0:25:06.24,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}都是陳年往事了{\r}\N{\fn微软雅黑\fs12}It's a long time ago.
+Dialogue: 0,0:25:06.32,0:25:07.87,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們之前那麼親密{\r}\N{\fn微软雅黑\fs12}We were so close.
+Dialogue: 0,0:25:09.69,0:25:10.71,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}像兄弟一樣{\r}\N{\fn微软雅黑\fs12}Like brothers.
+Dialogue: 0,0:25:10.85,0:25:12.22,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}比兄弟更親{\r}\N{\fn微软雅黑\fs12}More than brothers.
+Dialogue: 0,0:25:12.32,0:25:13.69,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們只是孩子，法蘭{\r}\N{\fn微软雅黑\fs12}We were kids, Frank.
+Dialogue: 0,0:25:14.52,0:25:16.25,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}胡搞了幾次{\r}\N{\fn微软雅黑\fs12}We messed around a couple of times.
+Dialogue: 0,0:25:16.39,0:25:18.36,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我深深被你吸引…{\r}\N{\fn微软雅黑\fs12}I was so drawn to you...
+Dialogue: 0,0:25:20.26,0:25:22.06,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我總是能逗你笑{\r}\N{\fn微软雅黑\fs12}I could always make you laugh.
+Dialogue: 0,0:25:25.17,0:25:26.66,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們怎麼會失去連絡？{\r}\N{\fn微软雅黑\fs12}How did we lose touch?
+Dialogue: 0,0:25:26.74,0:25:29.76,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你進了法學院，我去從軍{\r}\N{\fn微软雅黑\fs12}You went to law school. I joined the army.
+Dialogue: 0,0:25:31.07,0:25:34.41,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你去競選議員  我搬去科羅拉多州{\r}\N{\fn微软雅黑\fs12}You ran for Congress. I moved to Colorado.
+Dialogue: 0,0:25:35.31,0:25:36.84,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}30年過去了{\r}\N{\fn微软雅黑\fs12}Thirty years goes by.
+Dialogue: 0,0:25:36.91,0:25:39.85,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我的孩子都比我們當年大了{\r}\N{\fn微软雅黑\fs12}I got children older than we were back then.
+Dialogue: 0,0:25:41.12,0:25:42.64,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}法蘭，你有對象嗎？{\r}\N{\fn微软雅黑\fs12}Do you have anyone, Frank?
+Dialogue: 0,0:25:43.12,0:25:44.31,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我有克萊兒{\r}\N{\fn微软雅黑\fs12}I have Claire.
+Dialogue: 0,0:25:44.89,0:25:46.22,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}除了她之外{\r}\N{\fn微软雅黑\fs12}Besides Claire.
+Dialogue: 0,0:25:47.72,0:25:50.12,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}有時候有{\r}\N{\fn微软雅黑\fs12}I have, from time to time.
+Dialogue: 0,0:25:51.93,0:25:53.86,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}如果我要誰，就會得到{\r}\N{\fn微软雅黑\fs12}If I want someone, I want them.
+Dialogue: 0,0:25:55.43,0:25:56.52,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這是吸引力{\r}\N{\fn微软雅黑\fs12}It's attraction.
+Dialogue: 0,0:25:59.24,0:26:01.70,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你能快樂我就快樂，法蘭{\r}\N{\fn微软雅黑\fs12}It made me happy to make you happy, Frank.
+Dialogue: 0,0:26:01.94,0:26:04.07,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}沒什麼不好的{\r}\N{\fn微软雅黑\fs12}Didn't see any harm in it.
+Dialogue: 0,0:26:06.31,0:26:07.57,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}知道我為何喜歡泛舟？{\r}\N{\fn微软雅黑\fs12}You know why I love rafting?
+Dialogue: 0,0:26:08.34,0:26:09.50,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}在水上的時候{\r}\N{\fn微软雅黑\fs12}When you're on the water,
+Dialogue: 0,0:26:09.61,0:26:12.74,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你只會想著眼前的一切{\r}\N{\fn微软雅黑\fs12}all you're thinking about  is what's right in front of you.
+Dialogue: 0,0:26:13.48,0:26:15.42,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}一切都在當下{\r}\N{\fn微软雅黑\fs12}Everything is in the moment.
+Dialogue: 0,0:26:15.48,0:26:17.68,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我沒時間去想過去{\r}\N{\fn微软雅黑\fs12}I don't really have time  to think about the past.
+Dialogue: 0,0:26:25.93,0:26:27.99,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你對我意義重大{\r}\N{\fn微软雅黑\fs12}You meant something to me.
+Dialogue: 0,0:26:29.23,0:26:30.56,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我相信{\r}\N{\fn微软雅黑\fs12}I believe that.
+Dialogue: 0,0:26:46.75,0:26:48.22,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}喝完了{\r}\N{\fn微软雅黑\fs12}All gone.
+Dialogue: 0,0:26:55.49,0:26:58.02,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 我不太舒服…  - 你要吐嗎？{\r}\N{\fn微软雅黑\fs12}-I don't feel so well...  -You gonna be sick?
+Dialogue: 0,0:27:01.53,0:27:03.36,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不，我只是…{\r}\N{\fn微软雅黑\fs12}No. No, I just...
+Dialogue: 0,0:27:05.10,0:27:06.36,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}休息一下{\r}\N{\fn微软雅黑\fs12}Take a break.
+Dialogue: 0,0:27:06.87,0:27:11.24,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們可以休息一下嗎？  等我舒服一點{\r}\N{\fn微软雅黑\fs12}Can we just stay here for a little bit?  Until I feel better.
+Dialogue: 0,0:27:13.21,0:27:15.01,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}慢慢休息吧{\r}\N{\fn微软雅黑\fs12}Take as long as you like.
+Dialogue: 0,0:27:17.08,0:27:18.88,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我也沒地方去{\r}\N{\fn微软雅黑\fs12}I got nowhere to go.
+Dialogue: 0,0:27:22.55,0:27:25.82,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 再過幾周就解脫了  - 再過幾周就解脫了{\r}\N{\fn微软雅黑\fs12}-A few more weeks and we'll be through.  -A few more weeks and we'll be through.
+Dialogue: 0,0:27:25.89,0:27:29.52,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 我就不必再看到你  - 我就不必再看到你{\r}\N{\fn微软雅黑\fs12}-And I won't have to look at you.  -And I won't have to look at you.
+Dialogue: 0,0:27:29.76,0:27:33.79,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 你長得真醜  - 你長得真醜{\r}\N{\fn微软雅黑\fs12}-Ugly, ugly, ugly you.  -Ugly, ugly, ugly you.
+Dialogue: 0,0:27:38.10,0:27:39.40,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}克萊兒{\r}
+Dialogue: 0,0:27:42.17,0:27:43.87,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}快7點了{\r}\N{\fn微软雅黑\fs12}It's almost 7:00.
+Dialogue: 0,0:27:46.21,0:27:48.57,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我根本不記得自己有睡著…{\r}\N{\fn微软雅黑\fs12}I don't even remember going to sleep...
+Dialogue: 0,0:27:49.21,0:27:50.47,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}走吧{\r}\N{\fn微软雅黑\fs12}Come on.
+Dialogue: 0,0:28:08.23,0:28:10.20,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 1100英畝的開發案  - 對{\r}\N{\fn微软雅黑\fs12}-1,100 acres of development.  -Yes.
+Dialogue: 0,0:28:10.27,0:28:12.26,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 30%是公園  - 對{\r}\N{\fn微软雅黑\fs12}-30% public parks.  -Yep.
+Dialogue: 0,0:28:12.34,0:28:14.63,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 45%是購物辦公空間  - 對{\r}\N{\fn微软雅黑\fs12}-45% shopping and office space.  -Yes.
+Dialogue: 0,0:28:17.81,0:28:19.43,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}25%是中產階級住宅{\r}\N{\fn微软雅黑\fs12}25% middle-income housing.
+Dialogue: 0,0:28:24.68,0:28:25.84,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你要去嗎？{\r}\N{\fn微软雅黑\fs12}You going?
+Dialogue: 0,0:28:25.95,0:28:28.21,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 一定要嗎？  - 應該不是{\r}\N{\fn微软雅黑\fs12}-ls it required?  -I don't think so.
+Dialogue: 0,0:28:28.38,0:28:30.44,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他們用來命名圖書館的  那個人是誰？{\r}\N{\fn微软雅黑\fs12}Who is he that they're  naming the place after?
+Dialogue: 0,0:28:30.52,0:28:32.82,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}以前在這裏讀書的校友  我猜已經死了{\r}\N{\fn微软雅黑\fs12}Some guy who went here. I think he's dead.
+Dialogue: 0,0:28:32.92,0:28:35.55,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們昨天得去排椅子  熱得要死{\r}\N{\fn微软雅黑\fs12}We had to set up the chairs yesterday.  It was hot as shit.
+Dialogue: 0,0:28:35.62,0:28:37.02,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}真慘{\r}\N{\fn微软雅黑\fs12}That sucks.
+Dialogue: 0,0:28:40.06,0:28:42.53,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}儀式前我要瞇一下{\r}\N{\fn微软雅黑\fs12}I'm gonna try to get some shut-eye  before the ceremony.
+Dialogue: 0,0:28:42.63,0:28:43.86,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}等會見？{\r}\N{\fn微软雅黑\fs12}I'll see you all later?
+Dialogue: 0,0:28:43.97,0:28:45.90,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 等會見  - 法蘭，趁我還記得{\r}\N{\fn微软雅黑\fs12}-Later it is.  -Hey, Frank, before I forget,
+Dialogue: 0,0:28:46.00,0:28:48.97,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這是我的名片  請你的理財經理打給我{\r}\N{\fn微软雅黑\fs12}here's my card,  so your money manager can call me.
+Dialogue: 0,0:28:52.07,0:28:53.20,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}休息一下{\r}\N{\fn微软雅黑\fs12}Get some rest.
+Dialogue: 0,0:29:10.66,0:29:11.99,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}克萊兒{\r}\N{\fn微软雅黑\fs12}Claire.
+Dialogue: 0,0:29:16.63,0:29:18.12,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你看起來好痛苦{\r}\N{\fn微软雅黑\fs12}You look like you're hurting.
+Dialogue: 0,0:29:18.23,0:29:19.67,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}玩了整晚{\r}\N{\fn微软雅黑\fs12}It was an all-nighter.
+Dialogue: 0,0:29:19.74,0:29:22.90,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 至少很開心吧？  - 很開心，我得去休息一下{\r}\N{\fn微软雅黑\fs12}-Was it fun at least?  -lt was fun. I need to get some shut-eye.
+Dialogue: 0,0:29:23.44,0:29:24.70,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}瑞米住在這裏{\r}\N{\fn微软雅黑\fs12}Remy's staying here.
+Dialogue: 0,0:29:30.05,0:29:31.71,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他又拿募款的事騷擾你了？{\r}\N{\fn微软雅黑\fs12}He harassing you about the donation?
+Dialogue: 0,0:29:31.81,0:29:34.37,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}沒有我不能應付的事  去休息一下吧{\r}\N{\fn微软雅黑\fs12}Oh, nothing I can't handle. Go get some rest.
+Dialogue: 0,0:29:38.65,0:29:40.82,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 你厲害嗎？  - 還不錯{\r}\N{\fn微软雅黑\fs12}-Were you good?  -Not bad.
+Dialogue: 0,0:29:41.06,0:29:43.55,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我不是先發球員  但還是有常上場{\r}\N{\fn微软雅黑\fs12}I wasn't a starter,  but I got my time on the court.
+Dialogue: 0,0:29:43.79,0:29:46.66,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你長大後比較性感{\r}\N{\fn微软雅黑\fs12}I think you look sexier now, all grown up.
+Dialogue: 0,0:29:46.76,0:29:48.02,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}議員？{\r}\N{\fn微软雅黑\fs12}Congressman?
+Dialogue: 0,0:29:49.17,0:29:50.22,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們準備好了{\r}\N{\fn微软雅黑\fs12}We're ready for you.
+Dialogue: 0,0:30:22.70,0:30:23.96,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你說兩年{\r}\N{\fn微软雅黑\fs12}You said two years.
+Dialogue: 0,0:30:24.13,0:30:26.43,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我相信兩年是合理的評估{\r}\N{\fn微软雅黑\fs12}Yeah, I think two years is a realistic estimate.
+Dialogue: 0,0:30:26.54,0:30:28.66,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 如果有通過的話  - 我相信會的{\r}\N{\fn微软雅黑\fs12}-If it passes at all.  -Which I think it will.
+Dialogue: 0,0:30:28.74,0:30:29.83,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}相信還是知道？{\r}\N{\fn微软雅黑\fs12}You think or you know?
+Dialogue: 0,0:30:30.74,0:30:32.80,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我不敢說百分之百  但我有信心{\r}\N{\fn微软雅黑\fs12}I can't predict 100%, but I'm confident it will.
+Dialogue: 0,0:30:32.91,0:30:35.54,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你相信，你有信心  你不敢說百分之百{\r}\N{\fn微软雅黑\fs12}You think, you're confident,  you can't predict 100%,
+Dialogue: 0,0:30:35.61,0:30:36.77,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}對我們有幫助嗎？{\r}\N{\fn微软雅黑\fs12}how does any of that help us?
+Dialogue: 0,0:30:36.85,0:30:38.01,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我告訴你{\r}\N{\fn微软雅黑\fs12}I'll tell you something,
+Dialogue: 0,0:30:38.11,0:30:41.08,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我百分之百付不出房貸{\r}\N{\fn微软雅黑\fs12}I'm 100% unable  to pay my mortgage right now.
+Dialogue: 0,0:30:41.15,0:30:44.52,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我百分之百沒辦法  幫我孩子買文具{\r}\N{\fn微软雅黑\fs12}I'm 100% unable to buy  my kids school supplies.
+Dialogue: 0,0:30:44.65,0:30:46.99,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們該靠先生的殘障津貼  過日子嗎？{\r}\N{\fn微软雅黑\fs12}We supposed to live off  my husband's disability?
+Dialogue: 0,0:30:47.06,0:30:48.42,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}會有支薪的訓練課程{\r}\N{\fn微软雅黑\fs12}There'll be paid training programs available.
+Dialogue: 0,0:30:48.52,0:30:50.05,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}薪水多少？{\r}\N{\fn微软雅黑\fs12}How much will they pay?
+Dialogue: 0,0:30:52.33,0:30:54.32,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}比你們在造船廠的工資少{\r}\N{\fn微软雅黑\fs12}Granted, it's less than you made  at the shipyard.
+Dialogue: 0,0:30:54.40,0:30:56.76,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 多少？  - 一小時六塊錢{\r}\N{\fn微软雅黑\fs12}-So how much?  -It's about $6 an hour.
+Dialogue: 0,0:30:57.37,0:30:59.39,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}還不到最低工資{\r}\N{\fn微软雅黑\fs12}That's not even minimum wage.
+Dialogue: 0,0:30:59.57,0:31:01.59,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 放屁，魯索！  - 你們要把這當成投資{\r}\N{\fn微软雅黑\fs12}-Horseshit, Russo!  -You have to see it as an investment.
+Dialogue: 0,0:31:01.67,0:31:04.30,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}訓練課程也是珍貴資源…{\r}\N{\fn微软雅黑\fs12}The training programs  are a valuable resource...
+Dialogue: 0,0:31:04.37,0:31:05.57,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你沒聽懂{\r}\N{\fn微软雅黑\fs12}You're not getting it.
+Dialogue: 0,0:31:05.64,0:31:07.91,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我沒辦法投資{\r}\N{\fn微软雅黑\fs12}I can't afford to make investments.
+Dialogue: 0,0:31:08.04,0:31:10.31,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}一小時六塊錢  等於叫我全家流落街頭{\r}\N{\fn微软雅黑\fs12}$6 an hour puts my family on the street.
+Dialogue: 0,0:31:10.71,0:31:11.91,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你要我打五份工嗎？{\r}\N{\fn微软雅黑\fs12}What, do you want me to work five jobs?
+Dialogue: 0,0:31:11.98,0:31:15.11,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}如果你們有一份兼職  加上訓練課程…{\r}\N{\fn微软雅黑\fs12}If you get a part-time job,  that and the training program...
+Dialogue: 0,0:31:15.18,0:31:16.48,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}想知道我的想法嗎？{\r}\N{\fn微软雅黑\fs12}You want to know what I think?
+Dialogue: 0,0:31:16.55,0:31:21.32,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你坐在華府  想出一堆漂亮數字的提案{\r}\N{\fn微软雅黑\fs12}I think you sit around in Washington  coming up with all sorts of fancy numbers
+Dialogue: 0,0:31:21.46,0:31:25.55,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}都是紙上談兵  但對我們都沒有幫助{\r}\N{\fn微软雅黑\fs12}and solutions that look good on paper,  but that doesn't cut it for the rest of us.
+Dialogue: 0,0:31:25.73,0:31:28.49,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你說過支持我們，說謊！{\r}\N{\fn微软雅黑\fs12}You said you had our backs,  you lying piece of shit!
+Dialogue: 0,0:31:28.63,0:31:33.13,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}紙不能吃，也不能遮風避雨{\r}\N{\fn微软雅黑\fs12}We don't eat paper for dinner.  You can't put a paper roof over your head.
+Dialogue: 0,0:31:33.74,0:31:35.60,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們投票給你的時候{\r}\N{\fn微软雅黑\fs12}When we all voted for you,
+Dialogue: 0,0:31:35.67,0:31:39.66,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}沒想到這些選票  都是我們自己棺材上的釘子{\r}\N{\fn微软雅黑\fs12}I didn't think that every one of those votes  was another nail in our own coffins.
+Dialogue: 0,0:31:41.04,0:31:43.53,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}拜託大家坐下，十分鐘就好{\r}\N{\fn微软雅黑\fs12}Please, everybody,  just sit down for 10 minutes,
+Dialogue: 0,0:31:43.68,0:31:46.24,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們能逐項討論這個提案{\r}\N{\fn微软雅黑\fs12}we can go over this proposal point-by-point.
+Dialogue: 0,0:31:46.32,0:31:50.72,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這樣你們就會  有足夠的資訊和資源…{\r}\N{\fn微软雅黑\fs12}And you can get the information you need  to get the resources that you want...
+Dialogue: 0,0:31:53.16,0:31:56.18,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 他們好像不想解決  - 他們是害怕{\r}\N{\fn微软雅黑\fs12}-It's like they don't want to find a solution.  -They're scared.
+Dialogue: 0,0:31:56.36,0:31:59.29,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我知道他們害怕  但不表示不能聽你說…{\r}\N{\fn微软雅黑\fs12}I understand that they're scared,  but that doesn't mean they can't listen...
+Dialogue: 0,0:31:59.36,0:32:00.83,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你不瞭解他們，克裏絲汀娜{\r}\N{\fn微软雅黑\fs12}You don't know these people, Christina.
+Dialogue: 0,0:32:01.26,0:32:03.06,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我替你工作三年了{\r}\N{\fn微软雅黑\fs12}I worked in your office for three years.
+Dialogue: 0,0:32:03.13,0:32:06.03,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我跟他們講話，接他們的電話  回他們的郵件…{\r}\N{\fn微软雅黑\fs12}I spoke to them, I took their calls,  I replied to their emails...
+Dialogue: 0,0:32:06.10,0:32:07.59,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你沒有和他們一起長大{\r}\N{\fn微软雅黑\fs12}You didn't grow up with them.
+Dialogue: 0,0:32:07.67,0:32:10.16,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我不需要和他們一起長大  才能同情他們的處境…{\r}\N{\fn微软雅黑\fs12}I don't need to grow up hand-to-mouth  to empathize with the fact that...
+Dialogue: 0,0:32:10.24,0:32:12.23,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他們不需要同情{\r}\N{\fn微软雅黑\fs12}They're not interested in empathy.
+Dialogue: 0,0:32:18.15,0:32:20.17,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}房間鑰匙在我外套裏{\r}\N{\fn微软雅黑\fs12}The house keys are in my jacket.
+Dialogue: 0,0:32:20.25,0:32:21.74,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我再打給你{\r}\N{\fn微软雅黑\fs12}I'll call you.
+Dialogue: 0,0:32:23.92,0:32:26.68,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 彼得  - 我說我會再打給你{\r}\N{\fn微软雅黑\fs12}-Peter.  -I said I'll call you.
+Dialogue: 0,0:32:28.39,0:32:31.29,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}寫功課之類的…{\r}\N{\fn微软雅黑\fs12}Do your homework or Sister Mary Joseph...
+Dialogue: 0,0:32:31.89,0:32:35.85,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你根本沒做…別騙我  我以前用一樣的藉口騙我父母{\r}\N{\fn微软雅黑\fs12}You didn't do it... Don't lie to me.  I used to use the same ploy with my parents.
+Dialogue: 0,0:32:36.33,0:32:37.86,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}胡扯{\r}\N{\fn微软雅黑\fs12}Baloney.
+Dialogue: 0,0:32:38.70,0:32:40.46,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}寫完功課再吃飯{\r}\N{\fn微软雅黑\fs12}We do the homework,  and then we eat.
+Dialogue: 0,0:32:40.54,0:32:41.80,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}誰餓了？{\r}\N{\fn微软雅黑\fs12}Who's hungry?
+Dialogue: 0,0:32:42.07,0:32:43.83,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 你們想吃什麼？  - 漢堡{\r}\N{\fn微软雅黑\fs12}-What do you guys want?  -Hamburger.
+Dialogue: 0,0:32:47.88,0:32:49.34,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 披薩  - 不行{\r}\N{\fn微软雅黑\fs12}-Pizza.  -No.
+Dialogue: 0,0:32:49.41,0:32:51.88,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不吃披薩，你們每天都…{\r}\N{\fn微软雅黑\fs12}No pizza, you guys can eat that every...
+Dialogue: 0,0:32:54.85,0:32:57.01,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}親愛的，帶孩子們上樓{\r}\N{\fn微软雅黑\fs12}Sweetheart, take the kids upstairs.
+Dialogue: 0,0:33:03.13,0:33:04.32,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你怎麼進來的？{\r}\N{\fn微软雅黑\fs12}How'd you get in here?
+Dialogue: 0,0:33:05.16,0:33:08.19,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你還是把鑰匙  放在門廊的鬆動磚頭後面{\r}\N{\fn微软雅黑\fs12}You still keep the spare key behind  the loose brick on the porch.
+Dialogue: 0,0:33:08.36,0:33:11.86,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你闖進我家？  那樣嚇壞我的孩子？{\r}\N{\fn微软雅黑\fs12}You break into my house?  You scare my kids like that?
+Dialogue: 0,0:33:11.93,0:33:13.70,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 我們得談談，保羅  - 昨晚談過了{\r}\N{\fn微软雅黑\fs12}-We gotta talk, Paul.  -We talked last night.
+Dialogue: 0,0:33:13.77,0:33:14.79,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}馬上滾{\r}\N{\fn微软雅黑\fs12}Now get out.
+Dialogue: 0,0:33:14.90,0:33:16.77,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我可以說服他們  但我需要你的幫忙{\r}\N{\fn微软雅黑\fs12}I can convince these people,  but I need your help.
+Dialogue: 0,0:33:16.87,0:33:18.53,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 離開我家  - 坐下{\r}\N{\fn微软雅黑\fs12}-Leave my house.  -Sit down.
+Dialogue: 0,0:33:20.01,0:33:22.17,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我孩子在樓上  我不想打你，彼得{\r}\N{\fn微软雅黑\fs12}I don't want to have to hurt you  with my children upstairs, Petey.
+Dialogue: 0,0:33:22.24,0:33:23.23,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}那就幫我{\r}\N{\fn微软雅黑\fs12}Then help me.
+Dialogue: 0,0:33:25.35,0:33:26.41,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}最後一次機會{\r}\N{\fn微软雅黑\fs12}This is your last chance.
+Dialogue: 0,0:33:26.48,0:33:27.47,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我不走{\r}\N{\fn微软雅黑\fs12}I'm not going anywhere.
+Dialogue: 0,0:33:39.36,0:33:40.76,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}回樓上！{\r}\N{\fn微软雅黑\fs12}Get back upstairs!
+Dialogue: 0,0:34:10.26,0:34:11.75,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們在做什麼？{\r}\N{\fn微软雅黑\fs12}What are we doing?
+Dialogue: 0,0:34:12.63,0:34:14.10,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我不想跟你打架，彼得{\r}\N{\fn微软雅黑\fs12}I don't want to fight you, Petey.
+Dialogue: 0,0:34:16.90,0:34:19.09,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我也不想{\r}\N{\fn微软雅黑\fs12}I don't want to fight you either.
+Dialogue: 0,0:34:20.10,0:34:22.30,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我可以，但我們不需要這樣{\r}\N{\fn微软雅黑\fs12}I will, but we don't have to.
+Dialogue: 0,0:34:28.84,0:34:30.33,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你要我做什麼？{\r}\N{\fn微软雅黑\fs12}What do you want me to do?
+Dialogue: 0,0:34:30.98,0:34:34.14,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你們選我來代表你們  但我無法阻止不可避免的事{\r}\N{\fn微软雅黑\fs12}You elected me to represent you.  But I couldn't forestall the inevitable.
+Dialogue: 0,0:34:34.22,0:34:36.55,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}造船廠關閉了{\r}\N{\fn微软雅黑\fs12}The shipyard was closing.
+Dialogue: 0,0:34:39.02,0:34:43.19,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}就算今年不關，明後年也會關  我們心知肚明{\r}\N{\fn微软雅黑\fs12}If not this year, then next, or the year after.  We all know that.
+Dialogue: 0,0:34:44.09,0:34:46.62,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我可以騙你們  我可以假裝多做一些事{\r}\N{\fn微软雅黑\fs12}I could have lied to you.  I could have pretended to do more.
+Dialogue: 0,0:34:46.73,0:34:48.25,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但我不想活在過去{\r}\N{\fn微软雅黑\fs12}But I don't believe in living in the past.
+Dialogue: 0,0:34:48.66,0:34:50.60,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我只關心未來{\r}\N{\fn微软雅黑\fs12}I only care about the future.
+Dialogue: 0,0:34:51.40,0:34:54.27,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}接下來的事實可能不好聽…{\r}\N{\fn微软雅黑\fs12}Here's another truth  that's gonna be hard to swallow...
+Dialogue: 0,0:34:55.47,0:34:57.23,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你們只能靠我了{\r}\N{\fn微软雅黑\fs12}I'm all you've got.
+Dialogue: 0,0:34:58.07,0:35:02.34,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}華府沒人管你們的死活{\r}\N{\fn微软雅黑\fs12}Nobody in Washington gives  a fuck about you. No one.
+Dialogue: 0,0:35:03.51,0:35:04.84,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他說得對{\r}\N{\fn微软雅黑\fs12}He's right.
+Dialogue: 0,0:35:05.01,0:35:08.51,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不管你們對彼得有何想法  我們不跟著他，就一無所有{\r}\N{\fn微软雅黑\fs12}Whatever you think of Petey,  we either go with him or we got nothing.
+Dialogue: 0,0:35:10.32,0:35:13.35,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我的提議符合  你們的需要或標準嗎？{\r}\N{\fn微软雅黑\fs12}Now does what I'm offering you come  anywhere near what you want or deserve?
+Dialogue: 0,0:35:13.42,0:35:14.45,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}沒有{\r}\N{\fn微软雅黑\fs12}No.
+Dialogue: 0,0:35:14.52,0:35:17.29,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但你們得睜大雙眼  把握眼前的東西{\r}\N{\fn微软雅黑\fs12}But you gotta open your eyes  and take what's in front of you.
+Dialogue: 0,0:35:17.39,0:35:18.52,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們能慢慢發展{\r}\N{\fn微软雅黑\fs12}We can build on that.
+Dialogue: 0,0:35:18.63,0:35:22.36,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}五千份工作變成一萬  然後變成一萬五千{\r}\N{\fn微软雅黑\fs12}5,000 jobs becomes 10, then 15.
+Dialogue: 0,0:35:22.43,0:35:26.49,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這不會一夕成真  但總比什麼都不做來得好{\r}\N{\fn微软雅黑\fs12}Not in the snap of a finger,  but faster than doing nothing will.
+Dialogue: 0,0:35:30.77,0:35:32.76,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我可以指望你們嗎？{\r}\N{\fn微软雅黑\fs12}Can I count on all ofyou?
+Dialogue: 0,0:35:44.45,0:35:46.61,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我就當你們答應了{\r}\N{\fn微软雅黑\fs12}All right, I'll take that as a yes.
+Dialogue: 0,0:35:47.39,0:35:48.75,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們要你們的連絡方式{\r}\N{\fn微软雅黑\fs12}We'll need your contact information,
+Dialogue: 0,0:35:48.82,0:35:50.82,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}才能把資料傳給你們  分享給朋友{\r}\N{\fn微软雅黑\fs12}so we can send you materials  to share with your friends.
+Dialogue: 0,0:35:51.43,0:35:53.86,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}現在討論資金要怎麼引入{\r}\N{\fn微软雅黑\fs12}Now, let's talk about the way  the money's gonna get phased in.
+Dialogue: 0,0:35:53.96,0:35:55.83,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}總共有六階段，第一階段…{\r}\N{\fn微软雅黑\fs12}It's gonna happen in six stages. Stage one...
+Dialogue: 0,0:36:21.22,0:36:24.42,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}左轉，齊步走{\r}\N{\fn微软雅黑\fs12}Left face, forward march.
+Dialogue: 0,0:36:32.30,0:36:35.57,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}法蘭斯安德沃的職業生涯  哈佛法學院{\r}\N{\fn微软雅黑\fs12}Francis Underwood's career,  Harvard Law degree,
+Dialogue: 0,0:36:36.24,0:36:40.07,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}南卡羅來納州史上  最年輕的州議員之一{\r}\N{\fn微软雅黑\fs12}one of the youngest state legislators  in the history of South Carolina,
+Dialogue: 0,0:36:40.14,0:36:42.87,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}美國國會22年的資深議員{\r}\N{\fn微软雅黑\fs12}a 22-year veteran of the U.S. Congress,
+Dialogue: 0,0:36:42.95,0:36:45.35,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}眾議院多數黨黨鞭{\r}\N{\fn微软雅黑\fs12}House Majority Whip,
+Dialogue: 0,0:36:45.41,0:36:51.48,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}充分證明年輕人  在山特諾學到的價值觀{\r}\N{\fn微软雅黑\fs12}speaks volumes about the values  young people learn here at the Sentinel,
+Dialogue: 0,0:36:52.25,0:36:57.19,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}像是榮譽、責任、紀律{\r}\N{\fn微软雅黑\fs12}values like honor, duty, discipline,
+Dialogue: 0,0:36:57.26,0:37:01.20,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}犧牲、服務和尊敬{\r}\N{\fn微软雅黑\fs12}Iike sacrifice, service and respect.
+Dialogue: 0,0:37:01.80,0:37:05.86,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}女士先生們  法蘭斯安德沃圖書館{\r}\N{\fn微软雅黑\fs12}Ladies and Gentlemen,  the Francis J. Underwood library.
+Dialogue: 0,0:37:22.12,0:37:23.52,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}議員？{\r}\N{\fn微软雅黑\fs12}Congressman?
+Dialogue: 0,0:37:30.29,0:37:31.45,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}謝謝{\r}\N{\fn微软雅黑\fs12}Thank you.
+Dialogue: 0,0:37:34.30,0:37:35.92,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我寫了一段演講稿{\r}\N{\fn微软雅黑\fs12}I wrote a speech.
+Dialogue: 0,0:37:36.23,0:37:38.10,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但我不打算念{\r}\N{\fn微软雅黑\fs12}But I'm not gonna read it.
+Dialogue: 0,0:37:44.41,0:37:47.00,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}沒有什麼是永恆的  這棟建築物也一樣{\r}\N{\fn微软雅黑\fs12}Nothing is permanent.  Not even this building.
+Dialogue: 0,0:37:48.54,0:37:50.41,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我無意顯得忘恩負義{\r}\N{\fn微软雅黑\fs12}I don't mean to sound ungrateful.
+Dialogue: 0,0:37:50.48,0:37:53.28,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我很感恩，也非常榮幸{\r}\N{\fn微软雅黑\fs12}I am very grateful, I'm deeply honored,
+Dialogue: 0,0:37:56.85,0:37:58.44,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}非常感動{\r}\N{\fn微软雅黑\fs12}and I am very moved.
+Dialogue: 0,0:38:08.13,0:38:12.79,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我這週末有幸  能和一群朋友一起度過{\r}\N{\fn微软雅黑\fs12}I had the good fortune of spending most  of this weekend with a group of friends.
+Dialogue: 0,0:38:14.17,0:38:16.87,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}一群好久不見的老友{\r}\N{\fn微软雅黑\fs12}Friends I haven't seen in a very long time.
+Dialogue: 0,0:38:17.24,0:38:19.00,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}一群我在這裏交的朋友{\r}\N{\fn微软雅黑\fs12}Friends I made here.
+Dialogue: 0,0:38:22.61,0:38:26.91,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}大部分的年輕學生  可能不知道我是誰{\r}\N{\fn微软雅黑\fs12}Most of you young cadets  probably don't know who I am.
+Dialogue: 0,0:38:27.58,0:38:31.11,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}只是政客  一個有少數成就的名字{\r}\N{\fn微软雅黑\fs12}Politician. A name. A few accomplishments.
+Dialogue: 0,0:38:31.19,0:38:32.35,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但我不怪你們{\r}\N{\fn微软雅黑\fs12}But I don't blame you.
+Dialogue: 0,0:38:32.45,0:38:34.12,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我和你們一樣大的時候{\r}\N{\fn微软雅黑\fs12}When I was your age, why,
+Dialogue: 0,0:38:34.19,0:38:37.99,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我也不太在乎  那些老頭子做過什麼{\r}\N{\fn微软雅黑\fs12}I didn't care much for what  men in gray hair did
+Dialogue: 0,0:38:38.13,0:38:39.92,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}或是要說什麼{\r}\N{\fn微软雅黑\fs12}or what they had to say.
+Dialogue: 0,0:38:48.77,0:38:51.47,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我希望我能形容…{\r}\N{\fn微软雅黑\fs12}I wish I could describe...
+Dialogue: 0,0:39:00.48,0:39:04.32,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}和諧  這個詞在我腦中揮之不去{\r}\N{\fn微软雅黑\fs12}Harmony.  That's the word that's stuck in my mind.
+Dialogue: 0,0:39:04.49,0:39:05.71,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}和諧{\r}\N{\fn微软雅黑\fs12}Harmony.
+Dialogue: 0,0:39:06.86,0:39:09.79,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這和永恆的事物無關{\r}\N{\fn微软雅黑\fs12}It's not about what's lasting or permanent.
+Dialogue: 0,0:39:11.66,0:39:14.39,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}而是個人的聲音{\r}\N{\fn微软雅黑\fs12}It is about individual voices
+Dialogue: 0,0:39:15.70,0:39:19.22,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}在一瞬間集結在一起{\r}\N{\fn微软雅黑\fs12}coming together for a moment,
+Dialogue: 0,0:39:20.44,0:39:23.10,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}那一瞬間{\r}\N{\fn微软雅黑\fs12}and that moment lasts
+Dialogue: 0,0:39:25.34,0:39:27.27,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}只有一口氣那麼長{\r}\N{\fn微软雅黑\fs12}the length of a breath.
+Dialogue: 0,0:39:31.85,0:39:34.21,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這就是我對這個地方的感覺{\r}\N{\fn微软雅黑\fs12}That's what I think about my time here.
+Dialogue: 0,0:39:39.59,0:39:43.15,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}請原諒我  我昨晚多喝了幾杯威士忌{\r}\N{\fn微软雅黑\fs12}You'll have to forgive me.  I had more than a few whiskeys last night.
+Dialogue: 0,0:39:43.56,0:39:45.58,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}當我還是學生  我們可以喝整晚的酒{\r}\N{\fn微软雅黑\fs12}You know, when I was a cadet,  we could drink all night,
+Dialogue: 0,0:39:45.66,0:39:48.32,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}然後早上起來行軍30公里{\r}\N{\fn微软雅黑\fs12}then get up in the morning  and march 20 miles,
+Dialogue: 0,0:39:48.40,0:39:50.66,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}現在能走上這三階樓梯  就不錯了{\r}\N{\fn微软雅黑\fs12}but these days I'm lucky  I got up these three steps.
+Dialogue: 0,0:39:54.74,0:39:56.29,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}非常感謝你們{\r}\N{\fn微软雅黑\fs12}I want to thank you very much.
+Dialogue: 0,0:39:57.37,0:39:58.90,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這是至高的榮耀{\r}\N{\fn微软雅黑\fs12}This is a great honor.
+Dialogue: 0,0:39:58.97,0:40:01.24,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}感謝希更斯校長{\r}\N{\fn微软雅黑\fs12}I want to thank President Higgins,
+Dialogue: 0,0:40:01.31,0:40:04.54,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}當然還有我此生的摯愛  克萊兒{\r}\N{\fn微软雅黑\fs12}and of course, the love of my life, Claire.
+Dialogue: 0,0:40:07.08,0:40:08.38,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}謝謝各位{\r}\N{\fn微软雅黑\fs12}Thank you all very much.
+Dialogue: 0,0:40:16.19,0:40:17.92,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 你還好吧？  - 還好{\r}\N{\fn微软雅黑\fs12}-Are you okay?  -Yes.
+Dialogue: 0,0:40:29.44,0:40:31.03,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}媽{\r}\N{\fn微软雅黑\fs12}Hey, Ma.
+Dialogue: 0,0:40:33.78,0:40:35.83,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這是克裏絲汀娜  我昨天跟你提過她{\r}\N{\fn微软雅黑\fs12}This is Christina.  I told you about her yesterday.
+Dialogue: 0,0:40:35.91,0:40:37.50,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 你好，魯索太太  - 你好{\r}\N{\fn微软雅黑\fs12}-Hi, Mrs. Russo.  -Hey.
+Dialogue: 0,0:40:38.38,0:40:41.44,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們只是來跟你說再見  火車一小時後就要開了{\r}\N{\fn微软雅黑\fs12}We just came by to say goodbye.  We have to catch a train in about an hour.
+Dialogue: 0,0:40:41.52,0:40:42.61,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}好{\r}\N{\fn微软雅黑\fs12}Okay.
+Dialogue: 0,0:40:48.09,0:40:49.75,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他們還是沒來修燈嗎？{\r}\N{\fn微软雅黑\fs12}They still haven't fixed that light?
+Dialogue: 0,0:40:51.36,0:40:52.35,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}今天蠻順利的{\r}\N{\fn微软雅黑\fs12}Things went well today.
+Dialogue: 0,0:40:52.43,0:40:54.49,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我覺得造船廠的人會支持我{\r}\N{\fn微软雅黑\fs12}I think the folks in the yard  are going to get behind me.
+Dialogue: 0,0:40:54.66,0:40:55.72,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}彼得做得很棒{\r}\N{\fn微软雅黑\fs12}Peter did a great job.
+Dialogue: 0,0:40:55.80,0:40:57.49,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}把毯子拿給我{\r}\N{\fn微软雅黑\fs12}Hand me that blanket.
+Dialogue: 0,0:40:58.17,0:41:00.16,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這裏的冷氣瘋了{\r}\N{\fn微软雅黑\fs12}AC in here is nuts.
+Dialogue: 0,0:41:05.57,0:41:06.97,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你的手怎麼了？{\r}\N{\fn微软雅黑\fs12}What happened to your hand?
+Dialogue: 0,0:41:08.11,0:41:10.08,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 跟人打架  - 贏了嗎？{\r}\N{\fn微软雅黑\fs12}-I got in a fight.  -Did you win?
+Dialogue: 0,0:41:11.65,0:41:12.91,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}算是吧{\r}\N{\fn微软雅黑\fs12}Yeah. I guess I did.
+Dialogue: 0,0:41:13.75,0:41:14.84,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這才是我的彼得{\r}\N{\fn微软雅黑\fs12}That's my Peter.
+Dialogue: 0,0:41:17.99,0:41:19.82,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你跟我兒子上床了嗎？{\r}\N{\fn微软雅黑\fs12}So you're fucking my son?
+Dialogue: 0,0:41:21.46,0:41:22.95,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}笑一個，我在鬧你而已{\r}\N{\fn微软雅黑\fs12}Lighten up. I'm just messing with ya.
+Dialogue: 0,0:41:27.10,0:41:29.19,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 不好意思  - 等一下{\r}\N{\fn微软雅黑\fs12}-Excuse me?  -Hold on a second.
+Dialogue: 0,0:41:29.36,0:41:31.26,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 什麼事？  - 我媽媽在409號病房{\r}\N{\fn微软雅黑\fs12}-Yeah?  -Yeah, my mother's in room 409.
+Dialogue: 0,0:41:31.37,0:41:32.96,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}她有個燈管需要換{\r}\N{\fn微软雅黑\fs12}She has a light out that needs to be replaced.
+Dialogue: 0,0:41:33.03,0:41:34.97,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 我會去換  - 謝謝{\r}\N{\fn微软雅黑\fs12}-All right. I'll take care of it.  -Okay, thanks.
+Dialogue: 0,0:41:35.04,0:41:37.90,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}寶貝，如果你穿粉紅色  我告訴你…{\r}\N{\fn微软雅黑\fs12}Look, baby, you put that pink thing on,  I'm telling you. It's just...
+Dialogue: 0,0:41:37.97,0:41:40.74,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你要我穿什麼？  你要我穿那件小…{\r}\N{\fn微软雅黑\fs12}What you want me to wear?  You want me to wear that little...
+Dialogue: 0,0:41:42.48,0:41:44.04,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}等一下，怎麼了？{\r}\N{\fn微软雅黑\fs12}Hold on. What is it?
+Dialogue: 0,0:41:44.61,0:41:46.01,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我媽媽病房裏的燈{\r}\N{\fn微软雅黑\fs12}The light in my mother's room.
+Dialogue: 0,0:41:46.11,0:41:47.45,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我說了等等就去換{\r}\N{\fn微软雅黑\fs12}Right. I told you I'll take care of it later.
+Dialogue: 0,0:41:47.52,0:41:49.14,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}現在就去{\r}\N{\fn微软雅黑\fs12}No. You'll take care of it now.
+Dialogue: 0,0:41:51.22,0:41:52.31,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我得掛了{\r}\N{\fn微软雅黑\fs12}I gotta go.
+Dialogue: 0,0:41:53.26,0:41:55.75,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}順便把冷氣溫度調高一點{\r}\N{\fn微软雅黑\fs12}And turn the AC down  while you're in there, too.
+Dialogue: 0,0:41:56.12,0:41:57.15,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}好{\r}\N{\fn微软雅黑\fs12}Yes, sir.
+Dialogue: 0,0:42:04.03,0:42:05.12,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}謝謝{\r}\N{\fn微软雅黑\fs12}Thank you very much.
+Dialogue: 0,0:42:05.20,0:42:07.46,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 不客氣  - 保重{\r}\N{\fn微软雅黑\fs12}-You're very welcome, sir.  -Take care of yourselves.
+Dialogue: 0,0:42:12.91,0:42:14.74,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們真為你驕傲，法蘭{\r}\N{\fn微软雅黑\fs12}Real proud of you, Frank.
+Dialogue: 0,0:42:15.71,0:42:18.30,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}雖然不想承認  但我也這麼認為{\r}\N{\fn微软雅黑\fs12}I hate to admit it, but I feel the same.
+Dialogue: 0,0:42:18.88,0:42:21.25,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你們來參加  才會讓一切這麼特別{\r}\N{\fn微软雅黑\fs12}Well, having all you here  is what made it special.
+Dialogue: 0,0:42:21.38,0:42:23.28,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 保持連絡  - 一定{\r}\N{\fn微软雅黑\fs12}-Now, you stay in touch.  -Will do.
+Dialogue: 0,0:42:23.72,0:42:25.24,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}再見{\r}\N{\fn微软雅黑\fs12}See you, buddy.
+Dialogue: 0,0:42:28.86,0:42:30.22,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}很美的儀式，法蘭{\r}\N{\fn微软雅黑\fs12}Beautiful ceremony, Frank.
+Dialogue: 0,0:42:31.56,0:42:33.12,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他們辦得不錯{\r}\N{\fn微软雅黑\fs12}Yeah, they did a good job.
+Dialogue: 0,0:42:33.20,0:42:34.46,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你的演講{\r}\N{\fn微软雅黑\fs12}Your speech.
+Dialogue: 0,0:42:35.13,0:42:36.46,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}很高興我能在現場聽到{\r}\N{\fn微软雅黑\fs12}I'm glad I was here for that.
+Dialogue: 0,0:42:36.60,0:42:37.66,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我也是{\r}\N{\fn微软雅黑\fs12}Me too.
+Dialogue: 0,0:42:37.80,0:42:40.77,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你應該找時間來薩利達  我帶你去阿肯色河{\r}\N{\fn微软雅黑\fs12}You should come out to Salida sometime.  I'll take you out on the Arkansas River.
+Dialogue: 0,0:42:40.90,0:42:41.96,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}是應該這麼做{\r}\N{\fn微软雅黑\fs12}I should do that.
+Dialogue: 0,0:42:42.04,0:42:43.13,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}隨時歡迎{\r}\N{\fn微软雅黑\fs12}Anytime you want.
+Dialogue: 0,0:42:47.71,0:42:48.77,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}好{\r}\N{\fn微软雅黑\fs12}Yep.
+Dialogue: 0,0:42:49.41,0:42:50.64,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}好{\r}\N{\fn微软雅黑\fs12}All right.
+Dialogue: 0,0:43:12.97,0:43:14.33,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}法蘭斯…{\r}\N{\fn微软雅黑\fs12}Francis...
+Dialogue: 0,0:43:15.40,0:43:16.89,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}愛德華把車準備好了{\r}\N{\fn微软雅黑\fs12}Edward has the car ready.
+Dialogue: 0,0:43:17.14,0:43:18.37,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我馬上來{\r}\N{\fn微软雅黑\fs12}I'll be right there.
+Dialogue: 0,0:43:19.74,0:43:21.30,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}慢慢來{\r}\N{\fn微软雅黑\fs12}Take your time.
+Dialogue: 0,0:43:50.27,0:43:54.07,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 有彼得的消息嗎？  - 已經拉攏造船廠的人了{\r}\N{\fn微软雅黑\fs12}-You hear from Peter?  -Looks like the shipbuilders are on board.
+Dialogue: 0,0:43:54.14,0:43:57.08,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}明早開始寫  他宣佈參選的演講稿{\r}\N{\fn微软雅黑\fs12}Tomorrow morning we start working  on his draft for his announcement speech.
+Dialogue: 0,0:43:57.15,0:43:58.17,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}好{\r}\N{\fn微软雅黑\fs12}Got it.
+Dialogue: 0,0:43:58.28,0:44:00.65,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我要分水嶺提案的審議簡報…{\r}\N{\fn微软雅黑\fs12}And I want the brief on the mark-up  for the Watershed Bill...
+Dialogue: 0,0:44:00.72,0:44:02.24,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我準備好了{\r}\N{\fn微软雅黑\fs12}I got that with me.
+Dialogue: 0,0:44:02.32,0:44:05.25,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}跟我一起去機場  我們在車裏討論{\r}\N{\fn微软雅黑\fs12}Ride with me to the airport,  we can go through it in the car.
+

@@ -1,0 +1,733 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial Narrow,16,&H00FFFFFF,&H0000FFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,2,1,2,20,20,3,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.83,0:00:10.02,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你知道我最喜歡人類什麼嗎？  屍骨很好堆疊{\r}\N{\fn微软雅黑\fs12}You know what I like about people?  They stack so well.
+Dialogue: 0,0:00:11.90,0:00:13.89,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我幫你收一下{\r}\N{\fn微软雅黑\fs12}Let me get this for you.
+Dialogue: 0,0:00:15.97,0:00:17.94,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 還要看嗎？  - 不了{\r}\N{\fn微软雅黑\fs12}-Want the paper?  -No.
+Dialogue: 0,0:00:20.81,0:00:22.30,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 太多了  - 根本不夠{\r}\N{\fn微软雅黑\fs12}-This is too much.  -It's not half enough.
+Dialogue: 0,0:00:22.38,0:00:23.60,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}多謝你特別為我營業{\r}\N{\fn微软雅黑\fs12}Thanks for opening up for me.
+Dialogue: 0,0:00:23.68,0:00:26.34,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}隨時隨地，你知道的{\r}\N{\fn微软雅黑\fs12}Anytime day or night. You know that.
+Dialogue: 0,0:00:26.88,0:00:29.82,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}整個城市的人都拼了命要創新{\r}\N{\fn微软雅黑\fs12}In a town where everyone  is so carefully reinventing themselves,
+Dialogue: 0,0:00:29.88,0:00:34.15,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我就喜歡弗萊迪連裝都懶得裝{\r}\N{\fn微软雅黑\fs12}what I like about Freddy is  that he doesn't even pretend to change.
+Dialogue: 0,0:00:35.02,0:00:36.25,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我遲到了{\r}\N{\fn微软雅黑\fs12}I'm late.
+Dialogue: 0,0:00:36.32,0:00:39.69,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}每週二我都和發言人  和多數黨領袖會面{\r}\N{\fn微软雅黑\fs12}Every Tuesday I sit down with  the Speaker and the Majority Leader
+Dialogue: 0,0:00:39.76,0:00:43.35,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}討論當周的議程  討論這個詞或許不恰當{\r}\N{\fn微软雅黑\fs12}to discuss the week's agenda.  Well, discuss is probably the wrong word.
+Dialogue: 0,0:00:43.46,0:00:49.23,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}是他倆滔滔不絕，我靜坐在旁  想像這兩人下油鍋的模樣{\r}\N{\fn微软雅黑\fs12}They talk while I sit quietly and imagine  their lightly-salted faces frying in a skillet.
+Dialogue: 0,0:02:27.97,0:02:30.03,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}瓦克斯一定在挫著等吧{\r}\N{\fn微软雅黑\fs12}Vasquez must be shitting herself.
+Dialogue: 0,0:02:30.57,0:02:32.80,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}她和沃克兩人都是{\r}\N{\fn微软雅黑\fs12}Shitting herselfwhile Walker is  shitting himself
+Dialogue: 0,0:02:32.91,0:02:34.46,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}然後她再幫他擦屁股{\r}\N{\fn微软雅黑\fs12}then shoveling his shit on her shit.
+Dialogue: 0,0:02:34.54,0:02:35.97,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}鮑伯，我還想吃飯{\r}\N{\fn微软雅黑\fs12}Bob, I'm planning on eating.
+Dialogue: 0,0:02:36.04,0:02:37.27,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}決定好後補提案了嗎？{\r}\N{\fn微软雅黑\fs12}Do we have a back-up on the docket?
+Dialogue: 0,0:02:37.34,0:02:39.37,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 你搞得定吧，法蘭？  - 我和我的人在…{\r}\N{\fn微软雅黑\fs12}-You're on that, right, Frank?  -I'm working with my staff...
+Dialogue: 0,0:02:39.45,0:02:41.61,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}共和黨的那些傢伙  一定會拿這事堵我們{\r}\N{\fn微软雅黑\fs12}The Republicans are gonna  ram this up our ass.
+Dialogue: 0,0:02:41.68,0:02:42.74,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}要是我就會{\r}\N{\fn微软雅黑\fs12}I would if I was them.
+Dialogue: 0,0:02:42.85,0:02:45.72,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}就算眾議院勉強通過  參議院也會毀了提案{\r}\N{\fn微软雅黑\fs12}Well, even if we squeak it through the House,  watch them mangle it in the Senate.
+Dialogue: 0,0:02:45.79,0:02:48.38,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 或是阻礙  - 若是這提案一定如此{\r}\N{\fn微软雅黑\fs12}-Or filibuster it.  -Well, sure, if it looks anything like this.
+Dialogue: 0,0:02:48.45,0:02:51.18,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我不知道沃克為何硬要螳臂擋車{\r}\N{\fn微软雅黑\fs12}I don't know why Walker's  trying to tackle a charging elephant.
+Dialogue: 0,0:02:51.26,0:02:52.35,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}簡直是瘋了{\r}\N{\fn微软雅黑\fs12}It's madness.
+Dialogue: 0,0:02:52.43,0:02:55.42,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}議員，很抱歉打擾你  但我看到你坐在這…{\r}\N{\fn微软雅黑\fs12}Congressman, sorry to interrupt,  but I saw you sitting over here and...
+Dialogue: 0,0:02:55.53,0:02:57.83,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}瑞米，各位，這位是瑞米丹頓{\r}\N{\fn微软雅黑\fs12}Remy. Gentlemen, this is Remy Danton.
+Dialogue: 0,0:02:57.90,0:02:59.63,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}瑞米，這位是發言人柏許  和議員…{\r}\N{\fn微软雅黑\fs12}Remy, this is Speaker Birch,  and Congressman...
+Dialogue: 0,0:02:59.73,0:03:01.63,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我早久仰大名  發言人先生、議員{\r}\N{\fn微软雅黑\fs12}I'm well aware.  Mister Speaker, Congressman.
+Dialogue: 0,0:03:01.90,0:03:04.06,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}瑞米升上葛蘭頓希爾的合夥人{\r}\N{\fn微软雅黑\fs12}Remy just made partner at Glendon Hill.
+Dialogue: 0,0:03:04.37,0:03:06.96,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}葛蘭頓希爾？  很優秀的團隊，恭喜你{\r}\N{\fn微软雅黑\fs12}Glendon Hill?  Great team over there. Congratulations.
+Dialogue: 0,0:03:07.07,0:03:07.90,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}謝謝{\r}\N{\fn微软雅黑\fs12}Thank you.
+Dialogue: 0,0:03:07.97,0:03:09.74,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他們上次找合夥人是何時？{\r}\N{\fn微软雅黑\fs12}When was the last time they added a partner?
+Dialogue: 0,0:03:09.81,0:03:12.37,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 有一陣子了  - 他們是不會放過人才的{\r}\N{\fn微软雅黑\fs12}-It's been a while.  -Well, they know a winner when they see one.
+Dialogue: 0,0:03:12.45,0:03:15.11,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}瑞米是我所見過最好的新聞秘書{\r}\N{\fn微软雅黑\fs12}Remy was the best press  secretary I ever had.
+Dialogue: 0,0:03:15.18,0:03:17.84,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 那你怎麼放他走？  - 我沒有，是他們來挖角{\r}\N{\fn微软雅黑\fs12}-Why'd you let him go?  -I didn't. They stole him away.
+Dialogue: 0,0:03:17.92,0:03:19.32,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你的客戶有哪些人？{\r}\N{\fn微软雅黑\fs12}What accounts do you have?
+Dialogue: 0,0:03:19.39,0:03:21.82,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}善可工業是主要客戶之一{\r}\N{\fn微软雅黑\fs12}SanCorp lndustries is my main one.
+Dialogue: 0,0:03:21.89,0:03:23.48,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}現在由我接管{\r}\N{\fn微软雅黑\fs12}I run that account now.
+Dialogue: 0,0:03:23.56,0:03:26.12,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不打擾你了，真抱歉{\r}\N{\fn微软雅黑\fs12}Anyhow, I'll let you get back to it.  Sorry again to interrupt.
+Dialogue: 0,0:03:26.19,0:03:28.46,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 沒問題  - 幸會{\r}\N{\fn微软雅黑\fs12}-No problem.  -Very nice to meet you both.
+Dialogue: 0,0:03:29.66,0:03:32.29,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}老天，這些政治掮客越來越年輕了{\r}\N{\fn微软雅黑\fs12}Christ, these lobbyists keep  getting younger and younger.
+Dialogue: 0,0:03:32.37,0:03:34.49,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他賺的搞不好比我們加起來還要多{\r}\N{\fn微软雅黑\fs12}He's probably making more than  all of us combined.
+Dialogue: 0,0:03:34.57,0:03:38.03,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這餐我請吧，我去買單{\r}\N{\fn微软雅黑\fs12}Gentlemen, this one's on me.  I'm gonna track down that check.
+Dialogue: 0,0:03:38.10,0:03:40.87,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}葛蘭頓希爾代表善可工業{\r}\N{\fn微软雅黑\fs12}Glendon Hill fronts SanCorp lndustries.
+Dialogue: 0,0:03:40.94,0:03:44.34,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}善可工業涉入自然氣  我對自然氣一點興趣也沒有{\r}\N{\fn微软雅黑\fs12}SanCorp is deep into natural gas.  I don't give a hoot about natural gas.
+Dialogue: 0,0:03:44.41,0:03:48.40,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但我下頭還有67個副黨鞭  他們可都需要競選資金{\r}\N{\fn微软雅黑\fs12}But I have 67 deputy whips  and they all need cash to win races.
+Dialogue: 0,0:03:48.48,0:03:51.92,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}善可工業幫我收買人心  條件是收買我的心{\r}\N{\fn微软雅黑\fs12}SanCorp helps me purchase loyalty  and in return, they expect mine.
+Dialogue: 0,0:03:51.98,0:03:55.78,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}很不要臉，我知道  但口袋這麼深時，人人都想排隊{\r}\N{\fn微软雅黑\fs12}It's degrading, I know. But when the tit's  that big, everybody gets in line.
+Dialogue: 0,0:03:59.89,0:04:01.42,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}跟他們說我搞定{\r}\N{\fn微软雅黑\fs12}Tell them I'm on top of it.
+Dialogue: 0,0:04:01.49,0:04:02.76,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}光一句話可不夠{\r}\N{\fn微软雅黑\fs12}I need more than that.
+Dialogue: 0,0:04:02.83,0:04:06.56,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你很清楚這種事  我是不會搞砸的，瑞米{\r}\N{\fn微软雅黑\fs12}You are well aware that I do not drop the  ball on things like this, Remy.
+Dialogue: 0,0:04:06.63,0:04:08.07,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}承諾，法蘭{\r}\N{\fn微软雅黑\fs12}Promises, Frank.
+Dialogue: 0,0:04:08.13,0:04:10.80,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}國務卿、阿根廷  海外石油開採客戶…{\r}\N{\fn微软雅黑\fs12}The Secretary of State, Argentina,  the offshore drilling accounts...
+Dialogue: 0,0:04:10.87,0:04:12.00,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}等我解決問題後再說{\r}\N{\fn微软雅黑\fs12}Talk to me when I've solved the problem.
+Dialogue: 0,0:04:12.07,0:04:13.70,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我在解決問題時別浪費我時間{\r}\N{\fn微软雅黑\fs12}Don't waste my time  when I'm working on solving it.
+Dialogue: 0,0:04:13.77,0:04:15.87,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這可是上億的資金  你不能不回我電話{\r}\N{\fn微软雅黑\fs12}When there's billions on the line,  you can't not call me back
+Dialogue: 0,0:04:15.94,0:04:18.64,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 我也不能不來  - 好啦，幸苦你了{\r}\N{\fn微软雅黑\fs12}-and I can't not show up.  -Fine. Thank you for your diligence.
+Dialogue: 0,0:04:18.71,0:04:20.44,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}給你和民主黨  國會競選委員會八位數{\r}\N{\fn微软雅黑\fs12}Eight figures to you and the D triple C.
+Dialogue: 0,0:04:20.51,0:04:22.45,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}六百萬給你建以你命名的圖書館{\r}\N{\fn微软雅黑\fs12}Six million to build that library ofyours,  in your name.
+Dialogue: 0,0:04:22.52,0:04:23.61,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我知道{\r}\N{\fn微软雅黑\fs12}I know.
+Dialogue: 0,0:04:23.68,0:04:26.38,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}別逼他們下次選舉時  送錢給你的對手{\r}\N{\fn微软雅黑\fs12}Don't make them throw money  at your challenger next cycle.
+Dialogue: 0,0:04:26.85,0:04:29.34,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 你說得很清楚了  - 是嗎？{\r}\N{\fn微软雅黑\fs12}-You've made your point.  -Have l?
+Dialogue: 0,0:04:29.42,0:04:31.65,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}最好是這樣{\r}\N{\fn微软雅黑\fs12}I hope so.
+Dialogue: 0,0:04:33.83,0:04:35.92,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}真浪費人才{\r}\N{\fn微软雅黑\fs12}Such a waste of talent.
+Dialogue: 0,0:04:36.00,0:04:38.52,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他選擇金錢過於權勢{\r}\N{\fn微软雅黑\fs12}He chose money over power.
+Dialogue: 0,0:04:38.63,0:04:41.33,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這城市幾乎所有人都會犯的錯{\r}\N{\fn微软雅黑\fs12}In this town, a mistake  nearly everyone makes.
+Dialogue: 0,0:04:41.40,0:04:46.34,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}金錢只是買了十年  就開始毀壞的別墅{\r}\N{\fn微软雅黑\fs12}Money is the McMansion in Sarasota  that starts falling apart after 10 years.
+Dialogue: 0,0:04:46.44,0:04:52.00,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}權勢卻是幾世紀  都屹立不搖的石造建築{\r}\N{\fn微软雅黑\fs12}Power is the old stone building  that stands for centuries.
+Dialogue: 0,0:04:52.08,0:04:54.95,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我無法尊敬那些  看不清這點的人{\r}\N{\fn微软雅黑\fs12}I cannot respect someone  who doesn't see the difference.
+Dialogue: 0,0:04:57.42,0:04:58.58,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這是什麼？{\r}\N{\fn微软雅黑\fs12}What am I looking at?
+Dialogue: 0,0:04:58.72,0:05:00.24,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 《威廉學報》  - 威廉…{\r}\N{\fn微软雅黑\fs12}-The Williams Register.  -Williams...
+Dialogue: 0,0:05:00.32,0:05:03.69,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 大學，1978年9月  - 為什麼要看這個？{\r}\N{\fn微软雅黑\fs12}-College. September '78.  -And why am I looking at it?
+Dialogue: 0,0:05:03.76,0:05:05.19,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}社論{\r}\N{\fn微软雅黑\fs12}The editorial.
+Dialogue: 0,0:05:10.50,0:05:11.62,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}沒什麼啊{\r}\N{\fn微软雅黑\fs12}Not that interesting.
+Dialogue: 0,0:05:11.70,0:05:15.50,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}麥克凱恩母校威廉大學  看看刊頭{\r}\N{\fn微软雅黑\fs12}Michael Kern went to Williams.  Check out the masthead.
+Dialogue: 0,0:05:18.24,0:05:20.36,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}還有這個{\r}\N{\fn微软雅黑\fs12}And then there's this.
+Dialogue: 0,0:05:22.28,0:05:23.26,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這太牽拖了吧{\r}\N{\fn微软雅黑\fs12}It's thin.
+Dialogue: 0,0:05:23.38,0:05:25.44,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他太完美了，完美無瑕{\r}\N{\fn微软雅黑\fs12}The guy's a unicorn. He pisses rainbows.
+Dialogue: 0,0:05:25.55,0:05:27.78,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 你認為這能引起關注嗎？  - 我認為你可以{\r}\N{\fn微软雅黑\fs12}-You think we can get traction with this?  -I think you could.
+Dialogue: 0,0:05:27.85,0:05:29.28,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}琳達瓦克斯在電話上{\r}\N{\fn微软雅黑\fs12}Linda Vasquez is on the phone.
+Dialogue: 0,0:05:29.58,0:05:31.71,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}沒想到這麼久才打來{\r}\N{\fn微软雅黑\fs12}I'm surprised it took her this long.
+Dialogue: 0,0:05:32.72,0:05:33.88,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}才9點6分{\r}\N{\fn微软雅黑\fs12}It's only six past 9:00.
+Dialogue: 0,0:05:33.95,0:05:35.82,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}表示她三小時前讀完《先軀報》{\r}\N{\fn微软雅黑\fs12}Which means she read the Herald  three hours ago
+Dialogue: 0,0:05:35.89,0:05:38.88,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}然後給總統罵了兩個半小時{\r}\N{\fn微软雅黑\fs12}and spent the past two and a half  getting reamed by the President.
+Dialogue: 0,0:05:38.96,0:05:40.19,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}跟她說我這就過去{\r}\N{\fn微软雅黑\fs12}Tell her I'm on my way.
+Dialogue: 0,0:05:40.26,0:05:42.82,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你應該要管好唐納的  你向我保證…{\r}\N{\fn微软雅黑\fs12}You were supposed to keep Donald in line.  You assured me...
+Dialogue: 0,0:05:42.90,0:05:45.63,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他推行這議程已經25年了{\r}\N{\fn微软雅黑\fs12}Twenty-five years he's been pushing  this particular agenda.
+Dialogue: 0,0:05:45.70,0:05:48.67,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們只是掃到颱風尾  小挫折罷了{\r}\N{\fn微软雅黑\fs12}We got between the mother bear and her cub.  It's a setback, that's all.
+Dialogue: 0,0:05:48.73,0:05:50.29,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這是就職第一天{\r}\N{\fn微软雅黑\fs12}On our first day in office.
+Dialogue: 0,0:05:50.37,0:05:52.10,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}琳達，我在四位總統下任職過{\r}\N{\fn微软雅黑\fs12}Linda, I've worked with four presidents.
+Dialogue: 0,0:05:52.17,0:05:54.44,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這麼大的提案  一定會碰到很多挫折的{\r}\N{\fn微软雅黑\fs12}Setbacks are a dime a dozen  with a bill of this size.
+Dialogue: 0,0:05:54.51,0:05:55.60,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}法蘭，你若管不住…{\r}\N{\fn微软雅黑\fs12}Frank, if you can't control this...
+Dialogue: 0,0:05:55.68,0:05:57.91,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我很不喜歡  被人指使該怎麼做事，琳達{\r}\N{\fn微软雅黑\fs12}I don't take well to being  micromanaged, Linda.
+Dialogue: 0,0:05:57.98,0:06:00.84,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不然你來做我的工作好嗎？{\r}\N{\fn微软雅黑\fs12}You want to do my job for me  and run the White House?
+Dialogue: 0,0:06:00.91,0:06:02.81,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}祝你好運，我不會擋你路{\r}\N{\fn微软雅黑\fs12}Good luck. I won't stand in your way.
+Dialogue: 0,0:06:02.88,0:06:06.34,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}好，法蘭，由你全權負責{\r}\N{\fn微软雅黑\fs12}Okay, Frank. Fine. This is yours now.
+Dialogue: 0,0:06:06.42,0:06:09.22,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}若這提案在百日內  不能在國會通過決議{\r}\N{\fn微软雅黑\fs12}If this thing can't make it to the floor  in the first hundred days,
+Dialogue: 0,0:06:09.29,0:06:12.45,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我就讓你去跟總統解釋  他為什麼欺騙美國人民{\r}\N{\fn微软雅黑\fs12}then I'll let you explain to the President  why he lied to the American people.
+Dialogue: 0,0:06:12.53,0:06:13.86,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我要回去上班了{\r}\N{\fn微软雅黑\fs12}I'm gonna get back to work.
+Dialogue: 0,0:06:13.93,0:06:14.98,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}請自便{\r}\N{\fn微软雅黑\fs12}Please do.
+Dialogue: 0,0:06:34.21,0:06:37.98,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們應該改約週五  而不是週三{\r}\N{\fn微软雅黑\fs12}We really should be doing this  on a Friday instead of a Wednesday.
+Dialogue: 0,0:06:38.05,0:06:40.48,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}因為週五的話  大家還有週末可以消化{\r}\N{\fn微软雅黑\fs12}Because if we do it on a Friday,  people have the weekend.
+Dialogue: 0,0:06:40.55,0:06:41.88,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}好吧，那就週五{\r}\N{\fn微软雅黑\fs12}Fine, we'll do it on Friday.
+Dialogue: 0,0:06:41.95,0:06:43.51,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}文件都準備好了嗎？{\r}\N{\fn微软雅黑\fs12}Is all the paperwork ready?
+Dialogue: 0,0:06:43.59,0:06:47.15,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}資深員工比較麻煩  有資遣費以及…{\r}\N{\fn微软雅黑\fs12}Some of the more senior people are trickier.  There's severance and...
+Dialogue: 0,0:06:47.23,0:06:49.79,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 但不該有法律問題  - 沒有{\r}\N{\fn微软雅黑\fs12}-But we shouldn't run into any legal issues.  -No, no.
+Dialogue: 0,0:06:49.86,0:06:53.92,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們和員工簽訂的  都是自由僱傭合約{\r}\N{\fn微软雅黑\fs12}We use at-will employment contracts  across the board.
+Dialogue: 0,0:06:54.57,0:06:55.97,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}週五一早就開始{\r}\N{\fn微软雅黑\fs12}We'll get started first thing Friday.
+Dialogue: 0,0:06:56.67,0:06:59.93,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}午餐前要完成  所有員工的離職面談{\r}\N{\fn微软雅黑\fs12}I want all of the  exit interviews done by lunch.
+Dialogue: 0,0:07:00.01,0:07:04.03,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}克萊兒，我真的覺得這樣不妥{\r}\N{\fn微软雅黑\fs12}Claire, I just can't help but think  that this is a mistake.
+Dialogue: 0,0:07:04.11,0:07:06.48,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 我們已經談過，艾薇琳  - 我知道{\r}\N{\fn微软雅黑\fs12}-We've discussed this already, Evelyn.  -I know, I know.
+Dialogue: 0,0:07:06.55,0:07:10.00,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我這麼說只是為了我的良知{\r}\N{\fn微软雅黑\fs12}But I just have to say it  for the sake of my conscience.
+Dialogue: 0,0:07:10.08,0:07:12.98,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我覺得你這樣做{\r}\N{\fn微软雅黑\fs12}I think that you are dismantling
+Dialogue: 0,0:07:13.05,0:07:16.75,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}拆散了我們十年來的努力，我…{\r}\N{\fn微软雅黑\fs12}what we have built over  the past 10 years and l...
+Dialogue: 0,0:07:23.33,0:07:27.23,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我覺得你處理這事的方法…{\r}\N{\fn微软雅黑\fs12}And I think the way you're handling this is...
+Dialogue: 0,0:07:28.94,0:07:31.23,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 很殘忍  - 這不是件易事，艾薇琳{\r}\N{\fn微软雅黑\fs12}-ls cruel.  -It's not easy, Evelyn.
+Dialogue: 0,0:07:33.24,0:07:34.60,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但是必要的{\r}\N{\fn微软雅黑\fs12}But it's necessary.
+Dialogue: 0,0:07:34.67,0:07:38.08,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你總是要我對你誠實以待{\r}\N{\fn微软雅黑\fs12}You have always asked me  to be honest with you.
+Dialogue: 0,0:07:38.14,0:07:39.84,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這是我們的工作模式{\r}\N{\fn微软雅黑\fs12}That's how we work together.
+Dialogue: 0,0:07:39.91,0:07:42.14,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我若不認同就直說{\r}\N{\fn微软雅黑\fs12}I disagree with something, I say it.
+Dialogue: 0,0:07:42.21,0:07:44.98,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我全然不認同{\r}\N{\fn微软雅黑\fs12}Well, I disagree 100 percent.
+Dialogue: 0,0:07:45.72,0:07:48.24,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}拜託你，克萊兒，別這麼做{\r}\N{\fn微软雅黑\fs12}Please, Claire, don't do this.
+Dialogue: 0,0:07:48.32,0:07:50.38,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我尊重你的想法，艾薇琳{\r}\N{\fn微软雅黑\fs12}I respect your opinion, Evelyn.
+Dialogue: 0,0:07:50.46,0:07:55.39,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我也感謝你告訴我  但我是不會改變心意的{\r}\N{\fn微软雅黑\fs12}And I appreciate you sharing it with me.  But I'm not going to change my mind.
+Dialogue: 0,0:07:58.23,0:07:59.66,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}那就週五吧{\r}\N{\fn微软雅黑\fs12}Friday, then.
+Dialogue: 0,0:08:02.03,0:08:03.87,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}若這是你的意思{\r}\N{\fn微软雅黑\fs12}If that's what you want.
+Dialogue: 0,0:08:11.24,0:08:14.21,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這是大改革，全然的革新{\r}\N{\fn微软雅黑\fs12}This is major reform. A complete overhaul.
+Dialogue: 0,0:08:14.28,0:08:16.04,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}通常要好幾個月時間{\r}\N{\fn微软雅黑\fs12}That would usually take months.
+Dialogue: 0,0:08:16.12,0:08:18.02,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們只有幾天，沒有幾個月{\r}\N{\fn微软雅黑\fs12}Well, we only have days, not months.
+Dialogue: 0,0:08:18.12,0:08:19.64,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但過程不能直接…{\r}\N{\fn微软雅黑\fs12}But think about the process. We can't just...
+Dialogue: 0,0:08:19.72,0:08:22.65,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}當我詢問我的同事  你們的老闆們{\r}\N{\fn微软雅黑\fs12}When I asked my colleagues, your bosses,
+Dialogue: 0,0:08:22.72,0:08:25.66,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}也是教育界的佼佼者{\r}\N{\fn微软雅黑\fs12}who are the smartest minds in education,
+Dialogue: 0,0:08:25.76,0:08:28.63,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你們是從百人當中挑選出來的{\r}\N{\fn微软雅黑\fs12}out of hundreds, we arrived at you.
+Dialogue: 0,0:08:28.69,0:08:30.42,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}在場的這六個人{\r}\N{\fn微软雅黑\fs12}The six of you in this room.
+Dialogue: 0,0:08:30.50,0:08:32.33,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我知道這是個苦差事{\r}\N{\fn微软雅黑\fs12}Now I realize it is a difficult task.
+Dialogue: 0,0:08:32.40,0:08:35.49,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但我們有改變歷史的機會{\r}\N{\fn微软雅黑\fs12}But we have the opportunity  to make history here.
+Dialogue: 0,0:08:35.57,0:08:38.50,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我希望我們一起完成{\r}\N{\fn微软雅黑\fs12}And I want all of us to make it together.
+Dialogue: 0,0:08:39.41,0:08:41.60,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}祝你們好運，萬事拜託了{\r}\N{\fn微软雅黑\fs12}So, good luck. We're counting on you.
+Dialogue: 0,0:08:43.34,0:08:44.83,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}第一頁{\r}\N{\fn微软雅黑\fs12}Page one.
+Dialogue: 0,0:08:44.94,0:08:48.71,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這些要點反映提案的中心思想{\r}\N{\fn微软雅黑\fs12}These bullet points reflect the  key planks at the center of our bill.
+Dialogue: 0,0:08:48.81,0:08:52.22,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}快適應吧  我們要搞定草案初稿才能離開{\r}\N{\fn微软雅黑\fs12}Get comfy. This is your home  until we have a presentable first draft.
+Dialogue: 0,0:08:55.76,0:08:57.62,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}唐納，今早真是瘋狂{\r}\N{\fn微软雅黑\fs12}Donald, what a morning.
+Dialogue: 0,0:08:57.69,0:08:59.59,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我真不知道他們怎麼弄到手的{\r}\N{\fn微软雅黑\fs12}I have no idea how they got this.
+Dialogue: 0,0:08:59.66,0:09:02.32,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我特別交代下去  要處理得乾乾淨淨{\r}\N{\fn微软雅黑\fs12}I specifically told my staff  to destroy everything.
+Dialogue: 0,0:09:02.40,0:09:04.02,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 真想不到…  - 無所謂{\r}\N{\fn微软雅黑\fs12}-I can't imagine...  -lt doesn't matter how it happened.
+Dialogue: 0,0:09:04.10,0:09:06.12,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}現在為時已晚  我們只好見招拆招了{\r}\N{\fn微软雅黑\fs12}We can't make it un-happen.  So now we have to adapt.
+Dialogue: 0,0:09:06.20,0:09:08.13,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他們不知道這只是草案初稿嗎？{\r}\N{\fn微软雅黑\fs12}Don't they realize that this is a first draft?
+Dialogue: 0,0:09:08.20,0:09:10.33,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}其實說穿了只是角度問題{\r}\N{\fn微软雅黑\fs12}All we have here really  is a perception problem.
+Dialogue: 0,0:09:10.44,0:09:13.46,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但第一印象只有一次機會  你明白的，唐納{\r}\N{\fn微软雅黑\fs12}We don't get a second chance at  a first impression, Donald. You know that.
+Dialogue: 0,0:09:13.71,0:09:15.94,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我跟你可是同一陣線{\r}\N{\fn微软雅黑\fs12}Now, look, I'm on your side.
+Dialogue: 0,0:09:16.01,0:09:17.81,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但琳達氣瘋了{\r}\N{\fn微软雅黑\fs12}But Linda is furious.
+Dialogue: 0,0:09:18.01,0:09:21.10,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 她說什麼？  - 他們需要待罪羔羊{\r}\N{\fn微软雅黑\fs12}-What's she saying?  -They want to point fingers.
+Dialogue: 0,0:09:21.35,0:09:23.54,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 我嗎？  - 我跟她說不行{\r}\N{\fn微软雅黑\fs12}-At me?  -I told her we cannot do that.
+Dialogue: 0,0:09:23.62,0:09:26.11,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這個過程不能沒有你{\r}\N{\fn微软雅黑\fs12}I mean, you are vital to this process.
+Dialogue: 0,0:09:26.19,0:09:28.62,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我真的受夠他們了，唐納{\r}\N{\fn微软雅黑\fs12}I'm up to here with them, Donald.
+Dialogue: 0,0:09:28.69,0:09:31.62,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}欺騙，棄你於不顧{\r}\N{\fn微软雅黑\fs12}For lying, for turning their back on you.
+Dialogue: 0,0:09:31.69,0:09:34.18,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我甚至想說「去他的」{\r}\N{\fn微软雅黑\fs12}You know, I'm of a mind to say "screw it."
+Dialogue: 0,0:09:34.26,0:09:38.29,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我來頂算了，氣氣他們{\r}\N{\fn微软雅黑\fs12}I'll fall on this grenade myself  just to piss them off.
+Dialogue: 0,0:09:38.46,0:09:40.02,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}幫我接CNN的約翰金{\r}\N{\fn微软雅黑\fs12}Get me John King at CNN.
+Dialogue: 0,0:09:40.13,0:09:41.96,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}等等，法蘭，這不是你的錯{\r}\N{\fn微软雅黑\fs12}Wait, Frank. This is not your fault.
+Dialogue: 0,0:09:42.03,0:09:43.90,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不，我們必須保護你的名聲{\r}\N{\fn微软雅黑\fs12}No, we have to protect your reputation.
+Dialogue: 0,0:09:43.97,0:09:45.96,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但你才是要在眾議院  推行此提案的人{\r}\N{\fn微软雅黑\fs12}But you're the man that needs to get  the bill through the House.
+Dialogue: 0,0:09:46.07,0:09:48.20,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我會的，等等  我會交給下面的副手{\r}\N{\fn微软雅黑\fs12}I will. Hang on.  I will assign it to one of my deputies
+Dialogue: 0,0:09:48.31,0:09:50.74,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}私下搞定  我會告訴你該怎麼做{\r}\N{\fn微软雅黑\fs12}and quietly manage it.  And I'll help guide you through the process.
+Dialogue: 0,0:09:50.81,0:09:53.84,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 我覺得不是很妥當  - 不然你說該怎麼辦？{\r}\N{\fn微软雅黑\fs12}-I am not comfortable with this.  -Well, then, what do you suggest we do?
+Dialogue: 0,0:09:57.45,0:10:00.61,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}烈士最希望的就是能壯烈犧牲{\r}\N{\fn微软雅黑\fs12}What a martyr craves more than  anything is a sword to fall on.
+Dialogue: 0,0:10:00.75,0:10:04.25,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}劍就由你來拿{\r}\N{\fn微软雅黑\fs12}So, you sharpen the blade,  hold it at just the right angle,
+Dialogue: 0,0:10:04.36,0:10:07.12,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}然後，3、2、1…{\r}\N{\fn微软雅黑\fs12}and then, three, two, one...
+Dialogue: 0,0:10:07.19,0:10:08.32,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}應該是我{\r}\N{\fn微软雅黑\fs12}It should be me.
+Dialogue: 0,0:10:08.53,0:10:10.59,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 這是我的提案  - 不行{\r}\N{\fn微软雅黑\fs12}-lt was my bill.  -No, impossible.
+Dialogue: 0,0:10:10.70,0:10:14.72,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}唐納，教育是你畢生的心血{\r}\N{\fn微软雅黑\fs12}Donald, education has been your life's work.
+Dialogue: 0,0:10:16.67,0:10:19.97,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}老實說，我早沒了鬥志{\r}\N{\fn微软雅黑\fs12}The truth is my heart is not in this fight.
+Dialogue: 0,0:10:20.27,0:10:25.07,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你也知道我不擅長談判  我可以寫政策{\r}\N{\fn微软雅黑\fs12}You know me. I'm not a wheeler-dealer.  I can put my mind to policy,
+Dialogue: 0,0:10:25.14,0:10:27.17,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但政治的勾心鬥角  不是我的強項{\r}\N{\fn微软雅黑\fs12}but I'm no good at this brand of politics.
+Dialogue: 0,0:10:27.28,0:10:29.87,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}捨你其誰呢？{\r}\N{\fn微软雅黑\fs12}Well, if not you, then who?
+Dialogue: 0,0:10:35.52,0:10:37.68,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}應該是你，法蘭{\r}\N{\fn微软雅黑\fs12}It should be you, Frank.
+Dialogue: 0,0:10:37.79,0:10:39.99,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你很傑出，大家都敬重你{\r}\N{\fn微软雅黑\fs12}You're formidable. People respect you.
+Dialogue: 0,0:10:40.06,0:10:43.65,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他們會跟隨你  這次讓我靠邊站就好{\r}\N{\fn微软雅黑\fs12}They will follow your lead.  Let me be on the sidelines for this.
+Dialogue: 0,0:10:48.47,0:10:52.43,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}要我答應這件事  我必須先知道{\r}\N{\fn微软雅黑\fs12}Well, I could only consider that  as an option if I knew
+Dialogue: 0,0:10:52.54,0:10:54.94,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我還能尋求你的幫助{\r}\N{\fn微软雅黑\fs12}that I could still come to you for counsel.
+Dialogue: 0,0:10:55.01,0:10:56.77,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}當然{\r}\N{\fn微软雅黑\fs12}Of course.
+Dialogue: 0,0:10:56.84,0:10:58.14,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}只要你有需要{\r}\N{\fn微软雅黑\fs12}Whatever you need.
+Dialogue: 0,0:11:00.35,0:11:03.78,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}某部分的我暗自竊喜  這次新聞走漏的事{\r}\N{\fn微软雅黑\fs12}Part of me is glad this got leaked.
+Dialogue: 0,0:11:05.52,0:11:07.88,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}沒走漏當然比較理想{\r}\N{\fn微软雅黑\fs12}Well, it would've been better if it hadn't
+Dialogue: 0,0:11:07.95,0:11:10.98,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但至少大家都清楚我的立場{\r}\N{\fn微软雅黑\fs12}but at least people know where I stand.
+Dialogue: 0,0:11:12.73,0:11:13.92,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}謝謝你，唐納{\r}\N{\fn微软雅黑\fs12}Thank you, Donald.
+Dialogue: 0,0:11:13.99,0:11:15.72,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我很樂意，法蘭{\r}\N{\fn微软雅黑\fs12}Happy to do it, Frank.
+Dialogue: 0,0:11:22.27,0:11:24.50,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他根本不知道隔壁有六個小子{\r}\N{\fn微软雅黑\fs12}He has no idea we got  six kids in the next room
+Dialogue: 0,0:11:24.57,0:11:26.80,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}已經在寫新草案了，史坦普！{\r}\N{\fn微软雅黑\fs12}already working on a new draft. Stamper!
+Dialogue: 0,0:11:26.87,0:11:30.04,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}幹嘛壞了他的好心情？  我們剛送了他一份大禮{\r}\N{\fn微软雅黑\fs12}But why dampen his mood by telling him?  We just gave him a great gift.
+Dialogue: 0,0:11:30.14,0:11:32.24,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}完成他的使命{\r}\N{\fn微软雅黑\fs12}The chance to fulfill his destiny.
+Dialogue: 0,0:11:32.31,0:11:33.84,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}幫布萊斯寫份新聞稿{\r}\N{\fn微软雅黑\fs12}Write up a statement for Blythe.
+Dialogue: 0,0:11:33.91,0:11:36.61,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}讓位、新點子，諸如此類的{\r}\N{\fn微软雅黑\fs12}Stepping aside, fresh ideas,  et cetera, et cetera.
+Dialogue: 0,0:11:36.68,0:11:38.81,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}要慎重一點，他是個好人{\r}\N{\fn微软雅黑\fs12}Make it dignified. He's a good man.
+Dialogue: 0,0:11:38.92,0:11:40.89,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}把《威廉學報》的社論給我{\r}\N{\fn微软雅黑\fs12}And bring me that Williams editorial.
+Dialogue: 0,0:11:40.99,0:11:44.18,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我有東西給你，今晚見  已傳送給喬伊邦斯{\r}
+Dialogue: 0,0:11:45.69,0:11:48.39,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}在鄭重考慮  以及和身邊的人討論後{\r}\N{\fn微软雅黑\fs12}After careful thought and  discussion with my staff,
+Dialogue: 0,0:11:48.46,0:11:51.95,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我決定讓出  教育改革法案的管理權{\r}\N{\fn微软雅黑\fs12}I am relinquishing my management  of the Education Reform Act.
+Dialogue: 0,0:11:52.06,0:11:54.76,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我希望能夠繼續參與這過程  但我將不會直接…{\r}\N{\fn微软雅黑\fs12}I hope to remain a part of the process,  but I won't be working...
+Dialogue: 0,0:11:54.83,0:11:56.99,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你為何洩出草案？{\r}\N{\fn微软雅黑\fs12}Why did you leak the draft?
+Dialogue: 0,0:11:57.10,0:11:59.59,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我不是很清楚是如何洩漏的{\r}\N{\fn微软雅黑\fs12}I'm not exactly sure how it got leaked
+Dialogue: 0,0:11:59.71,0:12:02.77,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 但這確實代表…  - 但是從你辦公室洩出，是嗎？{\r}\N{\fn微软雅黑\fs12}-but it does represent...  -lt came from your office though, correct?
+Dialogue: 0,0:12:02.88,0:12:05.24,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 是我們寫的…  - 那提案將由誰接管？{\r}\N{\fn微软雅黑\fs12}-We wrote it...  -Who will be managing the bill now?
+Dialogue: 0,0:12:05.34,0:12:07.11,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 法蘭安德沃  - 是你的人選嗎？{\r}\N{\fn微软雅黑\fs12}-Frank Underwood.  -Was that your choice?
+Dialogue: 0,0:12:07.21,0:12:08.44,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}還是總統府…{\r}\N{\fn微软雅黑\fs12}Or did the administration...
+Dialogue: 0,0:12:08.51,0:12:12.54,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}將提案交託給法蘭  我非常有信心{\r}\N{\fn微软雅黑\fs12}I feel very confident  placing the bill in Frank's capable hands.
+Dialogue: 0,0:12:50.76,0:12:52.22,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}邦斯小姐{\r}\N{\fn微软雅黑\fs12}Ms. Barnes.
+Dialogue: 0,0:12:52.32,0:12:53.76,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你胃口還真大{\r}\N{\fn微软雅黑\fs12}How very Deep Throat of you.
+Dialogue: 0,0:12:53.83,0:12:57.89,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我是沒法幫你搞掉總統  參議員如何？{\r}\N{\fn微软雅黑\fs12}Well, I can't help you dispatch a president.  How about a senator?
+Dialogue: 0,0:12:57.96,0:12:59.95,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}關於大衛營協議的社論{\r}\N{\fn微软雅黑\fs12}The editorial on the Camp David Accords.
+Dialogue: 0,0:13:00.33,0:13:03.96,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}「此報認為卡特總統  應該要求以色列{\r}\N{\fn微软雅黑\fs12}"lt is the opinion of this newspaper  that President Carter demand lsrael
+Dialogue: 0,0:13:04.04,0:13:07.47,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}「從加薩走廊和約旦河西岸  撤離所有市民…{\r}\N{\fn微软雅黑\fs12}"withdraw all its citizens from  the Gaza Strip and West Bank..."
+Dialogue: 0,0:13:07.54,0:13:10.27,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}「他們自1967年  就非法侵佔此地區」{\r}\N{\fn微软雅黑\fs12}"Which it has illegally occupied since 1967."
+Dialogue: 0,0:13:10.38,0:13:11.90,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}「非法侵佔」{\r}\N{\fn微软雅黑\fs12}"lllegally occupied."
+Dialogue: 0,0:13:11.98,0:13:13.88,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}很煽動的言論，不是嗎？{\r}\N{\fn微软雅黑\fs12}That's quite an incendiary quote,  don't you think?
+Dialogue: 0,0:13:13.98,0:13:17.85,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}對於一個自稱  中東是外交首要的總統府{\r}\N{\fn微软雅黑\fs12}For an administration that says the  Middle East is its top foreign policy priority.
+Dialogue: 0,0:13:17.92,0:13:19.78,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}麥克凱恩？{\r}\N{\fn微软雅黑\fs12}Michael Kern?
+Dialogue: 0,0:13:19.89,0:13:21.48,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}是他親筆寫的？{\r}\N{\fn微软雅黑\fs12}Did he personally write the editorial?
+Dialogue: 0,0:13:21.59,0:13:23.38,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他當時是編輯{\r}\N{\fn微软雅黑\fs12}He was the editor.
+Dialogue: 0,0:13:23.49,0:13:25.05,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但是他自己寫的嗎？{\r}\N{\fn微软雅黑\fs12}But did he write it himself?
+Dialogue: 0,0:13:27.23,0:13:28.99,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不然就沒新聞性了{\r}\N{\fn微软雅黑\fs12}Then there's no story.
+Dialogue: 0,0:13:29.83,0:13:32.42,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我只是說這是個值得問的問題{\r}\N{\fn微软雅黑\fs12}I'm saying it's a question worth asking.
+Dialogue: 0,0:13:32.70,0:13:34.39,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}若他否認有關聯呢？{\r}\N{\fn微软雅黑\fs12}And if he denies involvement?
+Dialogue: 0,0:13:34.47,0:13:35.96,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他一定會，就讓他{\r}\N{\fn微软雅黑\fs12}He will. Let him.
+Dialogue: 0,0:13:36.04,0:13:39.80,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這人想要獲准出任國務卿{\r}\N{\fn微软雅黑\fs12}This is a man trying to be confirmed  as Secretary of State.
+Dialogue: 0,0:13:39.91,0:13:41.46,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}任何故事都有新聞性{\r}\N{\fn微软雅黑\fs12}Everything is a story.
+Dialogue: 0,0:13:41.54,0:13:43.17,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}沒有直接的連接{\r}\N{\fn微软雅黑\fs12}There's no direct link.
+Dialogue: 0,0:13:43.24,0:13:45.51,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}翰默史密不會批的{\r}\N{\fn微软雅黑\fs12}I can't get this past Hammerschmidt.
+Dialogue: 0,0:13:46.75,0:13:50.08,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}牢牢記住你反抗我的這一刻{\r}\N{\fn微软雅黑\fs12}Remember this moment  when you resisted me.
+Dialogue: 0,0:13:50.15,0:13:54.21,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}當你說出  「不然就沒新聞性了」{\r}\N{\fn微软雅黑\fs12}When you said the words,  "Then there is no story."
+Dialogue: 0,0:13:56.36,0:13:58.41,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}好好睡一覺吧，邦斯小姐{\r}\N{\fn微软雅黑\fs12}Get a good night's sleep, Ms. Barnes.
+Dialogue: 0,0:13:58.52,0:14:00.12,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}明天可有你忙的{\r}\N{\fn微软雅黑\fs12}You have a big day tomorrow.
+Dialogue: 0,0:14:23.02,0:14:24.61,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}法蘭斯？{\r}\N{\fn微软雅黑\fs12}Francis?
+Dialogue: 0,0:14:35.26,0:14:37.92,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這是什麼？{\r}\N{\fn微软雅黑\fs12}What is this?
+Dialogue: 0,0:14:38.03,0:14:39.05,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}看來像什麼？{\r}\N{\fn微软雅黑\fs12}What does it look like?
+Dialogue: 0,0:14:39.16,0:14:40.83,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但地下室是我的地盤{\r}\N{\fn微软雅黑\fs12}But the basement is mine.
+Dialogue: 0,0:14:40.90,0:14:42.09,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我知道{\r}\N{\fn微软雅黑\fs12}I know.
+Dialogue: 0,0:14:42.20,0:14:44.36,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 不是給我的  - 那是誰的？{\r}\N{\fn微软雅黑\fs12}-It's not for me.  -So who's it for?
+Dialogue: 0,0:14:44.47,0:14:45.73,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你啊{\r}\N{\fn微软雅黑\fs12}For you.
+Dialogue: 0,0:14:45.80,0:14:47.50,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}國會大樓有健身房{\r}\N{\fn微软雅黑\fs12}There's a gym in the Capitol.
+Dialogue: 0,0:14:47.57,0:14:48.90,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你從來不去{\r}\N{\fn微软雅黑\fs12}Which you never use.
+Dialogue: 0,0:14:48.97,0:14:51.47,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}因為我忙著治理國家{\r}\N{\fn微软雅黑\fs12}Because I'm a tad busy running the country.
+Dialogue: 0,0:14:51.58,0:14:53.48,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但在家時沒有啊  你現在可沒藉口了{\r}\N{\fn微软雅黑\fs12}But not at home.  So now you have no excuse.
+Dialogue: 0,0:14:53.58,0:14:55.67,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 搬出去  - 先試試嘛{\r}\N{\fn微软雅黑\fs12}-I want it out.  -Give it a try first.
+Dialogue: 0,0:14:55.75,0:14:58.55,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你是想暗示我中年發福嗎？{\r}\N{\fn微软雅黑\fs12}Is this your subtle way  of saying that I'm out of shape?
+Dialogue: 0,0:14:59.95,0:15:02.65,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不，我只是想建議你  身材可以更好{\r}\N{\fn微软雅黑\fs12}No. It's my way of suggesting  you could be in better shape.
+Dialogue: 0,0:15:02.72,0:15:05.52,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}那聽起來很後恭前倨  也很自視甚高{\r}\N{\fn微软雅黑\fs12}That sounds both passive-aggressive  and condescending.
+Dialogue: 0,0:15:05.59,0:15:07.15,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}只是很直接了當{\r}\N{\fn微软雅黑\fs12}Just plain aggressive and true.
+Dialogue: 0,0:15:07.29,0:15:09.73,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 別等我了  - 你現在要去跑步？{\r}\N{\fn微软雅黑\fs12}-Don't wait up for me.  -Are you going running now?
+Dialogue: 0,0:15:11.33,0:15:14.03,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}對，我今早因為開會  所以沒時間去{\r}\N{\fn微软雅黑\fs12}Yes, because I couldn't this morning.  I had an early meeting.
+Dialogue: 0,0:15:14.10,0:15:16.59,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}用這玩意吧，外面很冷{\r}\N{\fn微软雅黑\fs12}Use the monstrosity. It's freezing out.
+Dialogue: 0,0:15:16.67,0:15:18.23,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}留給你去適應吧{\r}\N{\fn微软雅黑\fs12}You break it in.
+Dialogue: 0,0:15:21.57,0:15:24.04,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}真的很像中古世紀的刑具{\r}\N{\fn微软雅黑\fs12}It looks positively medieval, doesn't it?
+Dialogue: 0,0:15:24.14,0:15:27.91,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}把我唯一的私人空間  變成健身地牢，我絕不允許{\r}\N{\fn微软雅黑\fs12}Trying to turn my only sanctuary  into a fitness dungeon. I won't have it.
+Dialogue: 0,0:15:30.08,0:15:31.34,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}有點扯{\r}\N{\fn微软雅黑\fs12}It's a stretch.
+Dialogue: 0,0:15:31.42,0:15:33.54,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們沒有在誤導別人  他當時是編輯{\r}\N{\fn微软雅黑\fs12}We're not misleading anyone.  He was the editor.
+Dialogue: 0,0:15:33.65,0:15:35.35,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 打電話問發言了嗎？  - 試了三次{\r}\N{\fn微软雅黑\fs12}-Did you call for comment?  -I tried three times.
+Dialogue: 0,0:15:35.42,0:15:37.41,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}新聞秘書說會回我電話  結果都沒有{\r}\N{\fn微软雅黑\fs12}The press secretary said he'd get  back to me, he didn't.
+Dialogue: 0,0:15:37.52,0:15:40.46,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}背景調查呢？  沒有支持這社論的東西嗎？{\r}\N{\fn微软雅黑\fs12}What about research? You couldn't  find anything to echo the editorial?
+Dialogue: 0,0:15:40.56,0:15:42.19,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}發言？其他相關新聞？{\r}\N{\fn微软雅黑\fs12}No quotes? No op-ed pieces?
+Dialogue: 0,0:15:42.29,0:15:45.92,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}如果有的話  你不覺得早有人登了嗎？{\r}\N{\fn微软雅黑\fs12}Don't you think if something like that existed  someone would have printed it by now?
+Dialogue: 0,0:15:46.03,0:15:47.43,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}別人沒有這消息，盧卡斯{\r}\N{\fn微软雅黑\fs12}Nobody else has this, Lucas.
+Dialogue: 0,0:15:47.53,0:15:49.76,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 我不認為這具有新聞性  - 我沒說這有{\r}\N{\fn微软雅黑\fs12}-I don't think there's a story here.  -I'm not saying there's a story.
+Dialogue: 0,0:15:49.84,0:15:52.60,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我只是說  這裏有個需要解答的問題{\r}\N{\fn微软雅黑\fs12}All I'm saying is that there's a question  that needs to be answered.
+Dialogue: 0,0:15:54.14,0:15:56.47,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這可是國務卿人選{\r}\N{\fn微软雅黑\fs12}This is a nominee for Secretary of State.
+Dialogue: 0,0:15:56.58,0:15:58.84,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們手上有關於  巴勒斯坦跟以色列的社論{\r}\N{\fn微软雅黑\fs12}We have an editorial on Palestine and lsrael.
+Dialogue: 0,0:15:58.91,0:16:01.94,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 不是他寫的  - 這點還不清楚{\r}\N{\fn微软雅黑\fs12}-Which he didn't write.  -Which we don't know he didn't write.
+Dialogue: 0,0:16:02.55,0:16:03.54,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}正是{\r}\N{\fn微软雅黑\fs12}Exactly.
+Dialogue: 0,0:16:03.65,0:16:04.78,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們不一定要登{\r}\N{\fn微软雅黑\fs12}We don't have to print it.
+Dialogue: 0,0:16:04.85,0:16:07.68,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我可以掃瞄後上傳  然後再推文{\r}\N{\fn微软雅黑\fs12}I could just scan the thing,  stick it on a site and tweet the link.
+Dialogue: 0,0:16:07.75,0:16:09.45,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不過別家報社可能會…{\r}\N{\fn微软雅黑\fs12}But if I did that, some other paper might...
+Dialogue: 0,0:16:11.02,0:16:12.15,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}別耍賤{\r}\N{\fn微软雅黑\fs12}Don't be a bitch.
+Dialogue: 0,0:16:13.49,0:16:14.62,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我會跟湯姆說{\r}\N{\fn微软雅黑\fs12}I'll talk to Tom.
+Dialogue: 0,0:16:14.93,0:16:16.56,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我也只有這點要求{\r}\N{\fn微软雅黑\fs12}That's all I was asking.
+Dialogue: 0,0:16:16.63,0:16:18.03,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們不能讓…{\r}\N{\fn微软雅黑\fs12}We simply can't afford to allow...
+Dialogue: 0,0:16:18.10,0:16:20.29,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我有個人選，非常適合{\r}\N{\fn微软雅黑\fs12}I got a guy, he's almost perfect.
+Dialogue: 0,0:16:20.40,0:16:23.84,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}自由意志主義的毒蟲  泡在活動房屋中{\r}\N{\fn微软雅黑\fs12}He's a libertarian drug fiend  marinating in a mobile home.
+Dialogue: 0,0:16:23.90,0:16:26.34,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}有許多事我和雷根總統  都是立場相左{\r}\N{\fn微软雅黑\fs12}I didn't agree with  President Reagan on many things.
+Dialogue: 0,0:16:26.44,0:16:29.67,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但所謂的滴流經濟學  確實有優點{\r}\N{\fn微软雅黑\fs12}But there was some merit  to the notion of trickle-down economics.
+Dialogue: 0,0:16:29.78,0:16:34.51,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我認為滴流外交也是如此{\r}\N{\fn微软雅黑\fs12}And I feel there is much merit  to the idea of trickle-down diplomacy.
+Dialogue: 0,0:16:35.25,0:16:37.91,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這原本是我的詞  一定是瓦克斯給他的{\r}\N{\fn微软雅黑\fs12}Those are my lines.  Vasquez must have given them to him.
+Dialogue: 0,0:16:37.98,0:16:39.75,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}解決巴勒斯坦  和以色列膠著的關係{\r}\N{\fn微软雅黑\fs12}...solve the stalemate between  Israel and Palestine,
+Dialogue: 0,0:16:39.85,0:16:43.75,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}此成功將滴流到  許多其他的外交矛盾{\r}\N{\fn微软雅黑\fs12}that success will trickle down to a hundred  other diplomatic dilemmas
+Dialogue: 0,0:16:43.86,0:16:45.88,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}存在於回教徒  猶太人與基督徒之間…{\r}\N{\fn微软雅黑\fs12}between Muslims, Jews, Christians...
+Dialogue: 0,0:16:45.96,0:16:49.12,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}很高興你提到以色列和巴勒斯坦  因為就在轉播前{\r}\N{\fn微软雅黑\fs12}I'm glad you brought up Israel and Palestine,  because just before we came on the air,
+Dialogue: 0,0:16:49.23,0:16:51.72,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我收到了一份還未出刊的報導{\r}\N{\fn微软雅黑\fs12}I received an advance copy of an article  that's going to be
+Dialogue: 0,0:16:51.83,0:16:54.09,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}明天《華府先軀報》的頭條{\r}\N{\fn微软雅黑\fs12}in tomorrow's Washington Herald.  It's front page.
+Dialogue: 0,0:16:54.17,0:16:55.76,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}出自喬伊邦斯之筆{\r}\N{\fn微软雅黑\fs12}And it was written by Zoe Barnes.
+Dialogue: 0,0:16:55.87,0:16:59.96,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}她引述《威廉大學學報》  一篇社論{\r}\N{\fn微软雅黑\fs12}And in it she quotes an editorial that ran  in the Williams College Register
+Dialogue: 0,0:17:00.04,0:17:03.10,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}1978年9月  當時你是擔任編輯{\r}\N{\fn微软雅黑\fs12}when you were editor,  back in September 1978,
+Dialogue: 0,0:17:03.21,0:17:06.47,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}聲稱以色列在加薩走廊  和約旦河西岸的市民{\r}\N{\fn微软雅黑\fs12}which called the Israeli presence  in the Gaza Strip and West Bank, quote,
+Dialogue: 0,0:17:06.55,0:17:08.67,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}「是非法侵佔」{\r}\N{\fn微软雅黑\fs12}"An illegal occupation. "
+Dialogue: 0,0:17:08.75,0:17:10.84,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 可以讓我看看嗎？  - 當然{\r}\N{\fn微软雅黑\fs12}-May I see that?  -Sure.
+Dialogue: 0,0:17:10.95,0:17:12.75,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你是否寫下「非法侵佔」？{\r}\N{\fn微软雅黑\fs12}Did you write those words,  "Illegal occupation"?
+Dialogue: 0,0:17:13.05,0:17:14.38,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不{\r}\N{\fn微软雅黑\fs12}No.
+Dialogue: 0,0:17:14.45,0:17:16.61,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 不記得有這事  - 但你當時是此報的編輯{\r}\N{\fn微软雅黑\fs12}-I have no memory of this.  -But you were the editor of the paper.
+Dialogue: 0,0:17:16.72,0:17:17.75,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}是{\r}\N{\fn微软雅黑\fs12}Yes.
+Dialogue: 0,0:17:17.82,0:17:19.72,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}所以這一定得經過你的批准{\r}\N{\fn微软雅黑\fs12}So it couldn't have gone out  without your approval.
+Dialogue: 0,0:17:19.79,0:17:22.76,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}當然不，但我下面的人…{\r}\N{\fn微软雅黑\fs12}No, of course not. But my staff...
+Dialogue: 0,0:17:22.83,0:17:26.32,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}通常都是由別人寫…  然後我們再投票…{\r}\N{\fn微软雅黑\fs12}Somebody else usually wrote the...  And then we'd vote...
+Dialogue: 0,0:17:26.43,0:17:28.02,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你當時支持這篇社論嗎？{\r}\N{\fn微软雅黑\fs12}Well, did you vote for it?
+Dialogue: 0,0:17:28.13,0:17:30.60,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}說真的，喬治，我不記得了  都35年前的事了…{\r}\N{\fn微软雅黑\fs12}Honestly, George, I can't remember.  It was 35 years ago...
+Dialogue: 0,0:17:30.70,0:17:33.26,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}所以你也不確定  當時有沒有支持這些話{\r}\N{\fn微软雅黑\fs12}So you're not sure whether or not  you supported these words.
+Dialogue: 0,0:17:33.34,0:17:37.40,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我可以很確定地告訴你  那不是我寫的{\r}\N{\fn微软雅黑\fs12}I can tell you without a shadow of a doubt,  I did not write these words.
+Dialogue: 0,0:17:37.51,0:17:40.14,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但那是否符合你當時的想法？{\r}\N{\fn微软雅黑\fs12}But were they in line  with your thinking at the time?
+Dialogue: 0,0:17:41.58,0:17:43.78,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}荒謬，太荒謬了{\r}\N{\fn微软雅黑\fs12}This is ludicrous. It's ludicrous.
+Dialogue: 0,0:17:43.88,0:17:46.08,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}太好了，他竟然還笑{\r}\N{\fn微软雅黑\fs12}That's all we need, him laughing.
+Dialogue: 0,0:17:46.18,0:17:48.88,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}南茜，幫我打給  反誹謗聯盟的丹尼斯曼德{\r}\N{\fn微软雅黑\fs12}Nancy, get me Dennis Mendel at the ADL.
+Dialogue: 0,0:17:48.95,0:17:51.35,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 中東是美國重要的利益  - 是{\r}\N{\fn微软雅黑\fs12}-The Middle East is a vital American interest.  -Yes.
+Dialogue: 0,0:17:51.42,0:17:53.45,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你對中東的看法至關緊要{\r}\N{\fn微软雅黑\fs12}What you think about the Middle East  is relevant.
+Dialogue: 0,0:17:53.53,0:17:55.25,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你可以去查我的投票紀錄{\r}\N{\fn微软雅黑\fs12}You can look at my voting record.
+Dialogue: 0,0:17:55.36,0:17:57.59,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}每一票都是捍衛以色列{\r}\N{\fn微软雅黑\fs12}Every single vote has  been in defense of Israel.
+Dialogue: 0,0:17:57.70,0:17:59.36,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你的看法何時改變的？{\r}\N{\fn微软雅黑\fs12}So when did your views change?
+Dialogue: 0,0:17:59.43,0:18:02.70,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我要說的是…  現在重要的是，喬治{\r}\N{\fn微软雅黑\fs12}What I'm saying to you is...  What's important now, George,
+Dialogue: 0,0:18:02.77,0:18:06.26,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我在代表科羅拉多州時  如何投票{\r}\N{\fn微软雅黑\fs12}is how I have voted while I have  represented the great state of Colorado.
+Dialogue: 0,0:18:06.37,0:18:07.34,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這是你的立場{\r}\N{\fn微软雅黑\fs12}I understand that's your position.
+Dialogue: 0,0:18:07.41,0:18:09.14,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但許多人看了或許會覺得{\r}\N{\fn微软雅黑\fs12}But a lot of other people  are going to look at it and think
+Dialogue: 0,0:18:09.24,0:18:10.67,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你當時的想法也很重要{\r}\N{\fn微软雅黑\fs12}what you thought then is relevant as well.
+Dialogue: 0,0:18:10.74,0:18:12.94,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}那我問你，你的觀點  自大學後是否有改變？{\r}\N{\fn微软雅黑\fs12}Let me ask you this, have you  ever changed your views since college?
+Dialogue: 0,0:18:13.01,0:18:15.78,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}當然，但我不是國務卿候選人{\r}\N{\fn微软雅黑\fs12}Certainly. But I'm not  the nominee for Secretary of State.
+Dialogue: 0,0:18:17.02,0:18:19.75,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 就算我真有這種觀點…  - 太棒了{\r}\N{\fn微软雅黑\fs12}-Even if I did have this viewpoint...  -It's golden.
+Dialogue: 0,0:18:20.62,0:18:22.28,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}正中要害{\r}\N{\fn微软雅黑\fs12}It's a bull's-eye.
+Dialogue: 0,0:18:22.35,0:18:24.48,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你剛才說什麼來著？{\r}\N{\fn微软雅黑\fs12}What were you saying when you came in?
+Dialogue: 0,0:18:24.56,0:18:25.85,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}所以…{\r}\N{\fn微软雅黑\fs12}So...
+Dialogue: 0,0:18:26.69,0:18:30.32,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我找到凱恩  在大學當編輯時的同事{\r}\N{\fn微软雅黑\fs12}I found a guy who was on the  college editorial staff when Kern was there.
+Dialogue: 0,0:18:30.43,0:18:33.16,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這傢伙還在活動房屋裏{\r}\N{\fn微软雅黑\fs12}This burn-out still pumping  mimeograph manifestos
+Dialogue: 0,0:18:33.23,0:18:34.70,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}油印一大堆宣言{\r}\N{\fn微软雅黑\fs12}out of a trailer park in the Berkshires.
+Dialogue: 0,0:18:34.77,0:18:36.73,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但你不打算找他談話{\r}\N{\fn微软雅黑\fs12}But you're not planning on talking to him.
+Dialogue: 0,0:18:37.27,0:18:38.26,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}彼得魯索{\r}\N{\fn微软雅黑\fs12}Peter Russo.
+Dialogue: 0,0:18:38.84,0:18:39.93,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}很好{\r}\N{\fn微软雅黑\fs12}Good.
+Dialogue: 0,0:18:40.34,0:18:42.31,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}聽起來再適合不過了{\r}\N{\fn微软雅黑\fs12}Sounds like a perfect match.
+Dialogue: 0,0:18:45.01,0:18:46.48,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}丹尼斯{\r}\N{\fn微软雅黑\fs12}Dennis.
+Dialogue: 0,0:18:47.18,0:18:50.05,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你在看斯特凡諾普洛斯嗎？{\r}\N{\fn微软雅黑\fs12}Any chance  you're watching Stephanopoulos?
+Dialogue: 0,0:18:59.46,0:19:03.42,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你在改善勤勞賓州人的生活時  看起來真性感{\r}\N{\fn微软雅黑\fs12}You look sexy when you're improving the  lives of hardworking Pennsylvanians.
+Dialogue: 0,0:19:03.76,0:19:06.49,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}是改善生活這件事  還是因為這條運動褲？{\r}\N{\fn微软雅黑\fs12}Is it the improving lives,  or is it these fetching sweat pants?
+Dialogue: 0,0:19:07.33,0:19:10.79,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不如你把電腦拿開  讓我好好看看？{\r}\N{\fn微软雅黑\fs12}Why don't you move that computer out  of the way, let me see what that looks like?
+Dialogue: 0,0:19:13.61,0:19:16.01,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 用電腦遮住比較好看  - 去死啦{\r}\N{\fn微软雅黑\fs12}-Yeah, it's better with the laptop.  -Fuck off.
+Dialogue: 0,0:19:17.18,0:19:18.40,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你都不理我{\r}\N{\fn微软雅黑\fs12}You're not paying enough attention to me.
+Dialogue: 0,0:19:18.48,0:19:21.61,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我每天在公司看你還不夠嗎？{\r}\N{\fn微软雅黑\fs12}I pay attention to you all day at the office.
+Dialogue: 0,0:19:23.55,0:19:26.18,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但我好像從未看過你刷牙{\r}\N{\fn微软雅黑\fs12}Hey, you know, I don't think  I've ever seen you brush your teeth before.
+Dialogue: 0,0:19:26.25,0:19:27.58,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 一定有吧  - 沒有印象{\r}\N{\fn微软雅黑\fs12}-Sure you have.  -No, I don't think so.
+Dialogue: 0,0:19:27.69,0:19:31.12,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我知道你會刷牙  只是從來沒看過{\r}\N{\fn微软雅黑\fs12}I mean, I know that you do brush. But I don't  think I've ever actually witnessed it before.
+Dialogue: 0,0:19:31.19,0:19:33.42,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}就是這個樣子{\r}\N{\fn微软雅黑\fs12}Well, here it is in all its glory.
+Dialogue: 0,0:19:34.46,0:19:35.55,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}那是我的牙刷嗎？{\r}\N{\fn微软雅黑\fs12}Is that my toothbrush?
+Dialogue: 0,0:19:35.86,0:19:37.85,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 不知道，是嗎？  - 是{\r}\N{\fn微软雅黑\fs12}-I don't know, is it?  -Yes, it is.
+Dialogue: 0,0:19:37.93,0:19:39.69,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 你留在這的？  - 彼得，好噁心{\r}\N{\fn微软雅黑\fs12}-You left it here.  -Peter, gross.
+Dialogue: 0,0:19:39.80,0:19:43.79,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}拜託，我們吃了對方不少口水吧{\r}\N{\fn微软雅黑\fs12}Come on.  We've exchanged plenty of fluids by now.
+Dialogue: 0,0:19:44.97,0:19:46.27,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不要{\r}\N{\fn微软雅黑\fs12}No, no, no, no.
+Dialogue: 0,0:19:46.37,0:19:48.40,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 不，牙膏啊！  - 那不是牙膏{\r}\N{\fn微软雅黑\fs12}-No. Toothpaste!  -It's not toothpaste.
+Dialogue: 0,0:19:48.47,0:19:51.00,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 我有狂犬病！  - 不要啊！{\r}\N{\fn微软雅黑\fs12}-I'm rabid!  -No!
+Dialogue: 0,0:19:55.08,0:19:56.51,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}去接吧{\r}\N{\fn微软雅黑\fs12}Go get it.
+Dialogue: 0,0:19:57.35,0:19:59.21,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我必須要接{\r}\N{\fn微软雅黑\fs12}I have to take this.
+Dialogue: 0,0:20:00.09,0:20:01.45,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我是魯索{\r}\N{\fn微软雅黑\fs12}This is Russo.
+Dialogue: 0,0:20:08.33,0:20:11.26,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}現在12點53分{\r}\N{\fn微软雅黑\fs12}Yeah. Right now, it's 1 2:53.
+Dialogue: 0,0:20:18.00,0:20:19.60,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}好的{\r}\N{\fn微软雅黑\fs12}Okay, okay, okay.
+Dialogue: 0,0:20:24.48,0:20:25.64,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我得走了{\r}\N{\fn微软雅黑\fs12}I have to go.
+Dialogue: 0,0:20:26.04,0:20:27.17,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}怎麼了？{\r}\N{\fn微软雅黑\fs12}Is everything okay?
+Dialogue: 0,0:20:27.58,0:20:29.88,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 公事  - 什麼公事？{\r}\N{\fn微软雅黑\fs12}-It's work stuff.  -What kind of work stuff?
+Dialogue: 0,0:20:29.98,0:20:34.54,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}是威倫斯基議員  他要跟我討論稅收優惠的事{\r}\N{\fn微软雅黑\fs12}Congressman Wilensky. He wants to  go over the tax incentive stuff we sent him.
+Dialogue: 0,0:20:34.62,0:20:36.64,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}彼得，現在是凌晨1點{\r}\N{\fn微软雅黑\fs12}Peter, it's 1:00 in the morning.
+Dialogue: 0,0:20:37.46,0:20:39.29,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}彼得！{\r}\N{\fn微软雅黑\fs12}Hey, Peter!
+Dialogue: 0,0:20:45.90,0:20:48.80,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我明天要開會  還有委員會的聽證會…{\r}\N{\fn微软雅黑\fs12}I have meetings tomorrow.  I have a committee hearing...
+Dialogue: 0,0:20:48.87,0:20:51.23,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}國會少你一天不會垮的{\r}\N{\fn微软雅黑\fs12}Congress will survive without you.
+Dialogue: 0,0:20:51.30,0:20:55.83,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}地址和路線，幫你買的機票{\r}\N{\fn微软雅黑\fs12}Address. Directions.  There's an e-ticket in your name.
+Dialogue: 0,0:21:00.78,0:21:04.15,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}6點半的飛機  你該出發去機場了{\r}\N{\fn微软雅黑\fs12}Your flight leaves at 6:30.  You should head to the airport.
+Dialogue: 0,0:21:04.22,0:21:05.27,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}法蘭的意思？{\r}\N{\fn微软雅黑\fs12}This is coming from Frank?
+Dialogue: 0,0:21:05.35,0:21:07.51,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不，不是任何人的意思{\r}\N{\fn微软雅黑\fs12}No. This is coming from no one.
+Dialogue: 0,0:21:07.62,0:21:09.68,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你今天感冒要請病假{\r}\N{\fn微软雅黑\fs12}You have the flu and you're calling in sick.
+Dialogue: 0,0:21:10.89,0:21:12.88,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 那是什麼？  - 什麼是什麼？{\r}\N{\fn微软雅黑\fs12}-What's that?  -What's what?
+Dialogue: 0,0:21:13.16,0:21:14.82,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}那是吻痕嗎？{\r}\N{\fn微软雅黑\fs12}Is that a hickey?
+Dialogue: 0,0:21:16.13,0:21:17.46,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你又開始嫖妓了？{\r}\N{\fn微软雅黑\fs12}Are you whoring around again?
+Dialogue: 0,0:21:17.53,0:21:18.79,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不，我有女朋友{\r}\N{\fn微软雅黑\fs12}No. I have a girlfriend.
+Dialogue: 0,0:21:20.33,0:21:21.89,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你是指你的辦公室戀情{\r}\N{\fn微软雅黑\fs12}You mean your little office romance.
+Dialogue: 0,0:21:23.74,0:21:25.00,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你知道些什麼？{\r}\N{\fn微软雅黑\fs12}What do you know about that?
+Dialogue: 0,0:21:25.10,0:21:27.40,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}彼得，就我對你人生的瞭解程度{\r}\N{\fn微软雅黑\fs12}When it comes to your life, Peter,  and what I know about it,
+Dialogue: 0,0:21:27.47,0:21:29.84,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你應該是沒什麼秘密{\r}\N{\fn微软雅黑\fs12}you should assume that  there's no such thing as a secret.
+Dialogue: 0,0:21:31.38,0:21:33.04,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}保持連絡{\r}\N{\fn微软雅黑\fs12}Stay in touch.
+Dialogue: 0,0:21:33.11,0:21:35.64,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}有事打我手機  千萬別打到公司{\r}\N{\fn微软雅黑\fs12}You call me on my cell, never at the office.
+Dialogue: 0,0:21:37.12,0:21:38.61,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}祝你好運{\r}\N{\fn微软雅黑\fs12}Good luck.
+Dialogue: 0,0:21:41.15,0:21:42.85,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}加油{\r}\N{\fn微软雅黑\fs12}Knock 'em dead, tiger.
+Dialogue: 0,0:22:00.91,0:22:02.17,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}怎麼樣？{\r}\N{\fn微软雅黑\fs12}How are we?
+Dialogue: 0,0:22:02.61,0:22:05.94,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}很累、喝很多咖啡  但有進展{\r}\N{\fn微软雅黑\fs12}Over-tired, under-caffeinated,  but we're making progress.
+Dialogue: 0,0:22:06.01,0:22:07.48,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}剩不到一周了{\r}\N{\fn微软雅黑\fs12}Less than a week to go.
+Dialogue: 0,0:22:07.95,0:22:09.97,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 我們會盡力  - 你們會怎樣？{\r}\N{\fn微软雅黑\fs12}-Yeah, we'll do our best.  -You what?
+Dialogue: 0,0:22:10.18,0:22:11.21,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們會完成{\r}\N{\fn微软雅黑\fs12}We'll get it done.
+Dialogue: 0,0:22:11.85,0:22:13.91,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}誰把窗戶打開吧  裏面臭氣薰天{\r}\N{\fn微软雅黑\fs12}And somebody open a window.  It's rancid in here.
+Dialogue: 0,0:22:13.99,0:22:16.95,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}六個人三、四天不洗澡  就是這個樣子{\r}\N{\fn微软雅黑\fs12}That is what happens when six people  don't shower for half a week.
+Dialogue: 0,0:22:18.39,0:22:20.12,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}除了除臭劑還需要什麼？{\r}\N{\fn微软雅黑\fs12}Anything you need, other than deodorant?
+Dialogue: 0,0:22:20.23,0:22:22.02,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}成績標準這塊{\r}\N{\fn微软雅黑\fs12}Yeah, this performance standards thing.
+Dialogue: 0,0:22:22.13,0:22:23.86,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 教師工會恐怕會…  - 留著{\r}\N{\fn微软雅黑\fs12}-The teachers unions are gonna...  -Leave it in.
+Dialogue: 0,0:22:23.93,0:22:25.56,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 或許措辭…  - 工會我來搞定{\r}\N{\fn微软雅黑\fs12}-But we could dilute it a bit...  -I'll handle the unions.
+Dialogue: 0,0:22:25.63,0:22:27.46,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 還有什麼嗎？  - 開放配偶探視？{\r}\N{\fn微软雅黑\fs12}-What else, anything?  -Conjugal visits?
+Dialogue: 0,0:22:29.00,0:22:30.90,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我繼續工作{\r}\N{\fn微软雅黑\fs12}I'll get back to work.
+Dialogue: 0,0:22:33.17,0:22:36.07,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}南茜，下面行程是什麼？{\r}\N{\fn微软雅黑\fs12}Nancy, what do I have next?
+Dialogue: 0,0:22:36.41,0:22:39.90,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}2點10分到35分接聽選民電話  募款活動到3點50分{\r}\N{\fn微软雅黑\fs12}Constituent calls from 2:10 to 2:35,  fundraising until 3:50,
+Dialogue: 0,0:22:40.01,0:22:41.81,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 4點副黨鞭會議  - 電話名冊？{\r}\N{\fn微软雅黑\fs12}-deputy caucus at 4:00.  -The call list?
+Dialogue: 0,0:22:41.91,0:22:43.78,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 在你桌上  - 會議的簡報呢？{\r}\N{\fn微软雅黑\fs12}-It's on your desk.  -My briefing for the caucus?
+Dialogue: 0,0:22:43.85,0:22:45.94,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 在名冊旁邊  - 你去過會議室了嗎？{\r}\N{\fn微软雅黑\fs12}-Next to the call list.  -Have you been in the conference room?
+Dialogue: 0,0:22:46.05,0:22:47.45,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}週末找人來蒸汽清潔{\r}\N{\fn微软雅黑\fs12}Have it steam-cleaned over the weekend.
+Dialogue: 0,0:22:47.52,0:22:49.58,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}給這些可憐的小鬼們  幾罐芳香劑{\r}\N{\fn微软雅黑\fs12}In the meantime, get those poor kids  some Febreze or something.
+Dialogue: 0,0:22:49.69,0:22:51.05,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}味道像動物園一樣{\r}\N{\fn微软雅黑\fs12}It's like a petting zoo.
+Dialogue: 0,0:22:52.59,0:22:54.35,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你快來看{\r}\N{\fn微软雅黑\fs12}You gotta see this.
+Dialogue: 0,0:22:55.96,0:22:58.33,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但那是否符合你當時的立場？{\r}\N{\fn微软雅黑\fs12}But were they in line with  your thinking at the time?
+Dialogue: 0,0:23:00.00,0:23:04.09,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們不認為  以色列和巴勒斯坦關係是兒戲{\r}\N{\fn微软雅黑\fs12}We do not consider the issue of  Israel and Palestine a laughing matter.
+Dialogue: 0,0:23:04.17,0:23:08.70,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他說以色列「非法」？  他是反猶分子，也有失道德{\r}\N{\fn微软雅黑\fs12}And he calls Israel "illegal"?  Well, he's an anti-Semite and he is wrong.
+Dialogue: 0,0:23:09.11,0:23:12.30,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}要指派這人出任下屆國務卿{\r}\N{\fn微软雅黑\fs12}We would have grave, grave concerns  about appointing such a man
+Dialogue: 0,0:23:12.38,0:23:14.17,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}非常令人擔憂{\r}\N{\fn微软雅黑\fs12}our next Secretary of State.
+Dialogue: 0,0:23:15.78,0:23:17.65,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}輕而易舉{\r}\N{\fn微软雅黑\fs12}It's too easy.
+Dialogue: 0,0:23:22.19,0:23:25.28,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}真正的事實  羅伊卡普奈的部落格{\r}
+Dialogue: 0,0:24:23.95,0:24:28.94,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}羅伊，你好  我是彼得魯索議員{\r}\N{\fn微软雅黑\fs12}Roy. Hi, my name is Peter Russo.  Congressman Russo.
+Dialogue: 0,0:24:29.09,0:24:30.68,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我想跟你聊一下…{\r}\N{\fn微软雅黑\fs12}I'd like to just speak to you for just...
+Dialogue: 0,0:24:32.82,0:24:36.39,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 先生？  - 你要不就在撒謊，快給我滾{\r}\N{\fn微软雅黑\fs12}-Sir?  -Either you're lying, and you can fuck off,
+Dialogue: 0,0:24:36.46,0:24:39.76,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不然就在說實話  這樣你就更該給我滾{\r}\N{\fn微软雅黑\fs12}or you're telling the truth,  and you can absolutely fuck off.
+Dialogue: 0,0:24:39.83,0:24:43.43,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我拜讀了你的網站  我是你的粉絲{\r}\N{\fn微软雅黑\fs12}I saw your web site. I'm a fan.
+Dialogue: 0,0:24:46.91,0:24:48.40,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我有東西要給你{\r}\N{\fn微软雅黑\fs12}And I brought you something.
+Dialogue: 0,0:25:00.69,0:25:02.35,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}寶貝，把衣服穿上{\r}\N{\fn微软雅黑\fs12}Babe, put some clothes on.
+Dialogue: 0,0:25:02.42,0:25:03.61,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}什麼？{\r}\N{\fn微软雅黑\fs12}What?
+Dialogue: 0,0:25:03.72,0:25:05.49,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 我們有客人  - 那又怎樣？{\r}\N{\fn微软雅黑\fs12}-We got a guest.  -So?
+Dialogue: 0,0:25:05.59,0:25:07.62,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 你好  - 把衣服穿上{\r}\N{\fn微软雅黑\fs12}-Hey.  -Put some clothes on.
+Dialogue: 0,0:25:09.39,0:25:10.92,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}要不要冰塊？{\r}\N{\fn微软雅黑\fs12}Ice or no ice?
+Dialogue: 0,0:25:12.13,0:25:13.39,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不要{\r}\N{\fn微软雅黑\fs12}No ice.
+Dialogue: 0,0:25:13.47,0:25:15.66,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}很好，要也沒有{\r}\N{\fn微软雅黑\fs12}Good, 'cause we don't have any.
+Dialogue: 0,0:25:23.21,0:25:26.30,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 該死，艾可！我叫你把…  - 不要緊{\r}\N{\fn微软雅黑\fs12}-Fuck. Echo! I told you to put the...  -It's okay.
+Dialogue: 0,0:25:28.65,0:25:30.55,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}若你幫我保密  我就幫你保密{\r}\N{\fn微软雅黑\fs12}I'll keep your secret if you keep mine.
+Dialogue: 0,0:25:31.92,0:25:33.58,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你說你是議員？{\r}\N{\fn微软雅黑\fs12}A congressman, you say?
+Dialogue: 0,0:25:33.65,0:25:35.81,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}現在我只是個酒伴{\r}\N{\fn微软雅黑\fs12}Right now, I'm just a drinking companion.
+Dialogue: 0,0:25:35.89,0:25:38.52,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}好吧，酒伴，喝一杯吧{\r}\N{\fn微软雅黑\fs12}Well all right, companion,  have yourself a drink.
+Dialogue: 0,0:25:52.07,0:25:53.33,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}進來{\r}\N{\fn微软雅黑\fs12}Come on in.
+Dialogue: 0,0:26:10.92,0:26:12.45,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}一萬元{\r}\N{\fn微软雅黑\fs12}$10,000.
+Dialogue: 0,0:26:13.76,0:26:15.45,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}有什麼服務？{\r}\N{\fn微软雅黑\fs12}What will that get me?
+Dialogue: 0,0:26:16.19,0:26:19.22,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我有特殊怪僻，但不知道  你是不是要找這種女人{\r}\N{\fn微软雅黑\fs12}I mean, I'm kinky, but I don't know  if I'm the girl you're looking for.
+Dialogue: 0,0:26:19.86,0:26:22.63,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你果然是我要找的女人{\r}\N{\fn微软雅黑\fs12}You're definitely the girl that I'm looking for.
+Dialogue: 0,0:26:25.90,0:26:27.53,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}抱歉{\r}\N{\fn微软雅黑\fs12}Excuse me.
+Dialogue: 0,0:26:27.61,0:26:29.80,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這錢是遮口費{\r}\N{\fn微软雅黑\fs12}All I want for that money is your silence.
+Dialogue: 0,0:26:31.48,0:26:33.60,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 什麼？  - 那天跟你一起的那個男的{\r}\N{\fn微软雅黑\fs12}-My what?  -The guy you were with the other night,
+Dialogue: 0,0:26:33.95,0:26:35.97,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}被警察逮捕的那個  你知道他是誰嗎？{\r}\N{\fn微软雅黑\fs12}the one who was arrested.  Do you know who he was?
+Dialogue: 0,0:26:36.92,0:26:38.38,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你是指那個議員？{\r}\N{\fn微软雅黑\fs12}You mean the congressman?
+Dialogue: 0,0:26:38.45,0:26:39.75,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}從來就沒什麼議員{\r}\N{\fn微软雅黑\fs12}There was no congressman.
+Dialogue: 0,0:26:40.02,0:26:42.54,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}也沒人被逮捕  這些全都沒發生過{\r}\N{\fn微软雅黑\fs12}There was no arrest. None of that exists.
+Dialogue: 0,0:26:42.62,0:26:46.08,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}唯一真實的只有你眼前的錢{\r}\N{\fn微软雅黑\fs12}All that exists is the money  sitting right there in front of you.
+Dialogue: 0,0:26:46.86,0:26:48.55,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}明白嗎？{\r}\N{\fn微软雅黑\fs12}Do you understand?
+Dialogue: 0,0:26:50.73,0:26:51.85,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}明白{\r}\N{\fn微软雅黑\fs12}Yeah.
+Dialogue: 0,0:26:53.26,0:26:54.23,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}很好{\r}\N{\fn微软雅黑\fs12}Good.
+Dialogue: 0,0:27:00.07,0:27:01.37,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}張開嘴{\r}\N{\fn微软雅黑\fs12}Open your mouth.
+Dialogue: 0,0:27:19.06,0:27:20.52,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這是為我做的{\r}\N{\fn微软雅黑\fs12}Last little bit's for me.
+Dialogue: 0,0:27:33.94,0:27:35.63,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你在罵我{\r}\N{\fn微软雅黑\fs12}You're scolding me.
+Dialogue: 0,0:27:36.84,0:27:37.97,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}有嗎？{\r}\N{\fn微软雅黑\fs12}Am l?
+Dialogue: 0,0:27:38.51,0:27:40.44,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}在你心裏{\r}\N{\fn微软雅黑\fs12}You are. Silently.
+Dialogue: 0,0:27:43.88,0:27:45.35,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}因為健身器材的事？{\r}\N{\fn微软雅黑\fs12}Is it the rowing machine?
+Dialogue: 0,0:27:45.42,0:27:47.85,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 你說呢？  - 果然是為了健身器材{\r}\N{\fn微软雅黑\fs12}-You tell me.  -It's the rowing machine.
+Dialogue: 0,0:27:48.35,0:27:49.38,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你都沒用{\r}\N{\fn微软雅黑\fs12}You haven't used it.
+Dialogue: 0,0:27:49.49,0:27:50.85,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你怎麼知道？{\r}\N{\fn微软雅黑\fs12}How do you know I haven't?
+Dialogue: 0,0:27:50.92,0:27:52.12,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}法蘭斯{\r}\N{\fn微软雅黑\fs12}Francis.
+Dialogue: 0,0:27:52.19,0:27:54.49,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你知道我不喜歡被操控{\r}\N{\fn微软雅黑\fs12}You know I don't like to be managed.
+Dialogue: 0,0:27:54.59,0:27:56.53,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我沒有操控你{\r}\N{\fn微软雅黑\fs12}I'm not trying to manage you.
+Dialogue: 0,0:27:56.59,0:27:59.83,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我只是不想比你多活25年{\r}\N{\fn微软雅黑\fs12}I just don't want to outlive you by 25 years.
+Dialogue: 0,0:27:59.93,0:28:03.80,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我每天在國會大樓走五公里  成天在走動{\r}\N{\fn微软雅黑\fs12}I must walk three miles a day around  that Capitol. I'm constantly on my feet.
+Dialogue: 0,0:28:03.87,0:28:06.84,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你知道用腦要消耗多少大卡嗎？{\r}\N{\fn微软雅黑\fs12}And do you know how many calories  the brain burns?
+Dialogue: 0,0:28:06.91,0:28:08.24,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我不擔心你的腦{\r}\N{\fn微软雅黑\fs12}I'm not worried about your brain.
+Dialogue: 0,0:28:09.37,0:28:11.93,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}是你的心臟{\r}\N{\fn微软雅黑\fs12}It's your heart we're talking about.
+Dialogue: 0,0:28:15.01,0:28:16.48,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}用健身器材{\r}\N{\fn微软雅黑\fs12}Use the machine.
+Dialogue: 0,0:28:20.75,0:28:23.78,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}她說得對  我是該好好照顧身體{\r}\N{\fn微软雅黑\fs12}She's right.  I should take better care of myself.
+Dialogue: 0,0:28:24.32,0:28:25.91,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但這是原則問題{\r}\N{\fn微软雅黑\fs12}But it's the principle.
+Dialogue: 0,0:28:26.02,0:28:30.19,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我絕不成為任何人  或是郵購東西的奴隸{\r}\N{\fn微软雅黑\fs12}I won't be a slave to anybody or anything  you can order with a toll-free number.
+Dialogue: 0,0:28:42.54,0:28:44.67,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}共享這個共和國的財富{\r}\N{\fn微软雅黑\fs12}We share the wealth in this republic.
+Dialogue: 0,0:28:53.18,0:28:55.65,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我以為整個編輯部都有貢獻{\r}\N{\fn微软雅黑\fs12}I thought the whole editorial team pitched in.
+Dialogue: 0,0:28:56.52,0:28:58.51,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}有時是這樣，但那次沒有{\r}\N{\fn微软雅黑\fs12}Sometimes. Not that time, though.
+Dialogue: 0,0:28:58.89,0:29:00.19,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但一定有部分是他寫的{\r}\N{\fn微软雅黑\fs12}But he must've written some of it.
+Dialogue: 0,0:29:00.26,0:29:01.82,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不，整篇都是我寫的{\r}\N{\fn微软雅黑\fs12}No, that was all me.
+Dialogue: 0,0:29:07.27,0:29:08.70,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}若大家認為是他寫的呢？{\r}\N{\fn微软雅黑\fs12}What if people thought he wrote it.
+Dialogue: 0,0:29:08.87,0:29:10.83,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}去他的，他是個虛偽的人{\r}\N{\fn微软雅黑\fs12}Fuck that, he's a fraud.
+Dialogue: 0,0:29:11.07,0:29:13.90,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不，比虛偽還要糟  他是場該死的鬧劇{\r}\N{\fn微软雅黑\fs12}No, he's worse than a fraud,  he's a fucking farce.
+Dialogue: 0,0:29:13.97,0:29:15.70,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我告訴你{\r}\N{\fn微软雅黑\fs12}And I'll tell you something.
+Dialogue: 0,0:29:15.81,0:29:18.37,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他以前比我還要瘋狂{\r}\N{\fn微软雅黑\fs12}He used to be even more  of a maniac than I am.
+Dialogue: 0,0:29:18.74,0:29:20.97,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 吸毒？  - 不，政治{\r}\N{\fn微软雅黑\fs12}-Chemicals?  -No, politics.
+Dialogue: 0,0:29:21.05,0:29:22.67,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}有些晚上真的很誇張{\r}\N{\fn微软雅黑\fs12}We had some nights, man.
+Dialogue: 0,0:29:22.75,0:29:26.11,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}徹夜長談  一些很聳動的念頭{\r}\N{\fn微软雅黑\fs12}Long conversations.  Dangerous fucking notions.
+Dialogue: 0,0:29:26.18,0:29:27.58,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 例如？  - 隨便你說{\r}\N{\fn微软雅黑\fs12}-Like what?  -You name it.
+Dialogue: 0,0:29:27.65,0:29:31.11,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}油盟、皮諾契、糧食券法案{\r}\N{\fn微软雅黑\fs12}OPEC, Pinochet,  the fucking Food Stamp Act,
+Dialogue: 0,0:29:31.22,0:29:34.02,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}然後祖國開始勾引他{\r}\N{\fn微软雅黑\fs12}then the motherland sang her mating call.
+Dialogue: 0,0:29:34.09,0:29:36.62,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你看見了嗎…{\r}\N{\fn微软雅黑\fs12}Oh, say can you...
+Dialogue: 0,0:29:36.73,0:29:40.56,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}接著他惡補考上  布林茅爾學院法學院，開始從政{\r}\N{\fn微软雅黑\fs12}Next thing, he's cramming for the bar  at Bryn Mawr and snapping on a flag pin.
+Dialogue: 0,0:29:40.70,0:29:42.19,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}布林茅爾有法學院嗎？{\r}\N{\fn微软雅黑\fs12}Does Bryn Mawr have a law school?
+Dialogue: 0,0:29:42.27,0:29:45.93,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我的重點是他開始像個牆頭草{\r}\N{\fn微软雅黑\fs12}My point is, he started goose-stepping  in the marionette parade.
+Dialogue: 0,0:29:46.04,0:29:48.60,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}左派、右派、紅、藍  民主黨、共和黨{\r}\N{\fn微软雅黑\fs12}Left, right, red, blue, Democrat, Republican.
+Dialogue: 0,0:29:48.94,0:29:51.17,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}追根究底還不是都一個樣{\r}\N{\fn微软雅黑\fs12}They're all dangling from the same strings.
+Dialogue: 0,0:29:51.24,0:29:54.77,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}還不如把一切都毀滅{\r}\N{\fn微软雅黑\fs12}Take a sledge hammer to the whole fucking  Punch and Judy show,
+Dialogue: 0,0:29:55.18,0:29:56.20,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這才是必須的{\r}\N{\fn微软雅黑\fs12}that's what's required.
+Dialogue: 0,0:29:56.31,0:29:57.54,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我還以為你很愛國{\r}\N{\fn微软雅黑\fs12}Thought you were a patriot.
+Dialogue: 0,0:29:57.65,0:30:00.74,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 當然，當今沒剩幾個了  - 那當公僕有何不妥？{\r}\N{\fn微软雅黑\fs12}-Fuck yeah, one of the few.  -So what's wrong with public service?
+Dialogue: 0,0:30:00.85,0:30:03.05,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}公僕？拜託{\r}\N{\fn微软雅黑\fs12}Public service? Come on, man.
+Dialogue: 0,0:30:03.15,0:30:05.38,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你得搞清楚老大是誰{\r}\N{\fn微软雅黑\fs12}You gotta get a grip  on who your masters are.
+Dialogue: 0,0:30:05.72,0:30:09.78,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}國際貨幣基金組織、世界銀行  洛克斐勒三邊委員會{\r}\N{\fn微软雅黑\fs12}The lMF, the World Bank,  the Rockefeller Trilateral Commission.
+Dialogue: 0,0:30:09.86,0:30:12.99,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他們的行刑隊都是你在養{\r}\N{\fn微软雅黑\fs12}You bank roll their fucking death squads.
+Dialogue: 0,0:30:13.23,0:30:16.67,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}名叫聯邦緊急事務管理署  煙酒槍炮及爆裂物管理局{\r}\N{\fn微软雅黑\fs12}It's called FEMA, it's called  Alcohol, Tobacco and Firearms.
+Dialogue: 0,0:30:16.73,0:30:18.33,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}北約、邊境管理{\r}\N{\fn微软雅黑\fs12}NATO, border control.
+Dialogue: 0,0:30:18.40,0:30:22.31,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}卡崔娜颶風應變是無能嗎？  那是刻意串通好的疏忽{\r}\N{\fn微软雅黑\fs12}You think Katrina was incompetence?  That was highly orchestrated negligence.
+Dialogue: 0,0:30:22.37,0:30:25.87,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你看圍城事件、國際特赦組織  美國公民自由聯盟{\r}\N{\fn微软雅黑\fs12}Look at Waco, Amnesty lnternational,  the ACLU.
+Dialogue: 0,0:30:25.98,0:30:28.31,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}都是煙霧彈，手上都染血{\r}\N{\fn微软雅黑\fs12}Smoke screens, all of them.  Blood on their hands.
+Dialogue: 0,0:30:29.28,0:30:30.91,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}正是啊{\r}\N{\fn微软雅黑\fs12}Well, exactly.
+Dialogue: 0,0:30:32.98,0:30:34.61,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你要我欺騙人民{\r}\N{\fn微软雅黑\fs12}You want me to lie to the people.
+Dialogue: 0,0:30:34.72,0:30:37.52,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我要你除去另一個偽君子  拯救人民{\r}\N{\fn微软雅黑\fs12}I want you to spare the people  another hypocrite.
+Dialogue: 0,0:30:37.86,0:30:39.35,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你有什麼好處？{\r}\N{\fn微软雅黑\fs12}What's in it for you?
+Dialogue: 0,0:30:41.36,0:30:42.69,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}算是討回公道{\r}\N{\fn微软雅黑\fs12}Poetic justice.
+Dialogue: 0,0:30:43.53,0:30:45.69,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你也是他們的一分子{\r}\N{\fn微软雅黑\fs12}Come on, you're one of them.
+Dialogue: 0,0:30:46.90,0:30:49.42,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}大集團的走狗  卷大麻的技巧有這麼熟練嗎？{\r}\N{\fn微软雅黑\fs12}Can a corporate sell-out roll a joint like this?
+Dialogue: 0,0:30:56.01,0:30:58.27,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}若真要這麼做{\r}\N{\fn微软雅黑\fs12}If I wanted to do this thing,
+Dialogue: 0,0:30:59.08,0:31:01.60,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}應該要做些什麼呢？{\r}\N{\fn微软雅黑\fs12}how might I go about that, precisely?
+Dialogue: 0,0:31:11.89,0:31:13.45,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}怎麼樣？{\r}\N{\fn微软雅黑\fs12}How did it go?
+Dialogue: 0,0:31:14.09,0:31:18.50,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}有些人哭了，有些人很憤怒{\r}\N{\fn微软雅黑\fs12}There were a few tears here and there  and some anger,
+Dialogue: 0,0:31:18.80,0:31:21.20,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但都在預料之內{\r}\N{\fn微软雅黑\fs12}but nothing unexpected.
+Dialogue: 0,0:31:24.70,0:31:27.40,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我今天也要開除你，艾薇琳{\r}\N{\fn微软雅黑\fs12}I'm going to need you to leave us  today too, Evelyn.
+Dialogue: 0,0:31:28.67,0:31:30.00,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}抱歉{\r}\N{\fn微软雅黑\fs12}I'm sorry.
+Dialogue: 0,0:31:30.38,0:31:32.74,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我不能留下質疑我決策的人{\r}\N{\fn微软雅黑\fs12}I just can't have any doubt  about the direction I'm taking.
+Dialogue: 0,0:31:39.05,0:31:41.92,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 你才剛逼我炒了18個人  - 我知道{\r}\N{\fn微软雅黑\fs12}-You just had me fire 18 people.  -I know.
+Dialogue: 0,0:31:43.42,0:31:45.15,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我坐在他們對面{\r}\N{\fn微软雅黑\fs12}I sat across from them in this room,
+Dialogue: 0,0:31:45.26,0:31:48.71,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 必須跟每一個人說…  - 我知道{\r}\N{\fn微软雅黑\fs12}-and I had to tell each and every one...  -I know.
+Dialogue: 0,0:31:51.16,0:31:54.76,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我已經59歲了  沒有人會僱用我{\r}\N{\fn微软雅黑\fs12}I am 59 years old.  Nobody hires anybody my age.
+Dialogue: 0,0:31:54.90,0:31:57.03,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我願意幫你寫任何推薦信…{\r}\N{\fn微软雅黑\fs12}I will write you  any kind of recommendation...
+Dialogue: 0,0:31:57.10,0:31:59.33,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}幹嘛？幫人裝菜嗎？{\r}\N{\fn微软雅黑\fs12}To do what? Bag groceries?
+Dialogue: 0,0:32:00.30,0:32:01.83,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}拜託，我要怎麼跟女兒說？{\r}\N{\fn微软雅黑\fs12}Come on, what am l  supposed to tell my daughter?
+Dialogue: 0,0:32:01.94,0:32:03.74,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我真的很抱歉，艾薇琳…{\r}\N{\fn微软雅黑\fs12}I'm sorry, Evelyn, I truly...
+Dialogue: 0,0:32:03.84,0:32:06.11,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你根本不在乎{\r}\N{\fn微软雅黑\fs12}No, you're not. You don't give a fuck.
+Dialogue: 0,0:32:08.35,0:32:10.91,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}18個人，克萊兒{\r}\N{\fn微软雅黑\fs12}Eighteen people, Claire.
+Dialogue: 0,0:32:14.32,0:32:16.98,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}加上我就19個{\r}\N{\fn微软雅黑\fs12}Nineteen if you count me.
+Dialogue: 0,0:32:18.69,0:32:20.62,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我必須…{\r}\N{\fn微软雅黑\fs12}I have to...
+Dialogue: 0,0:32:22.53,0:32:24.62,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我必須打電話給我女兒{\r}\N{\fn微软雅黑\fs12}I have to call my daughter.
+Dialogue: 0,0:33:06.30,0:33:08.60,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我知道今天很難熬{\r}\N{\fn微软雅黑\fs12}I know today has been tough.
+Dialogue: 0,0:33:10.07,0:33:12.01,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你們很多同事都離開了{\r}\N{\fn微软雅黑\fs12}A lot of your colleagues have left,
+Dialogue: 0,0:33:12.51,0:33:14.60,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我必須要向你們解釋{\r}\N{\fn微软雅黑\fs12}and I owe you an explanation.
+Dialogue: 0,0:33:16.68,0:33:21.14,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}今天離開的人  許多都是淨水創權的元老{\r}\N{\fn微软雅黑\fs12}Many of those who left us today helped  build the CWl from the ground up,
+Dialogue: 0,0:33:21.25,0:33:22.62,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我很感謝他們{\r}\N{\fn微软雅黑\fs12}and I'm grateful to them.
+Dialogue: 0,0:33:23.22,0:33:25.78,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但我們現在必須要進化{\r}\N{\fn微软雅黑\fs12}But it is time for us to evolve,
+Dialogue: 0,0:33:26.42,0:33:29.69,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}為了這個目標  我們必須做出困難的選擇{\r}\N{\fn微软雅黑\fs12}and to accomplish this,  we had to make hard choices
+Dialogue: 0,0:33:31.36,0:33:33.26,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}招攬新人{\r}\N{\fn微软雅黑\fs12}and bring in new people.
+Dialogue: 0,0:33:34.27,0:33:35.89,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這就是今天的意義{\r}\N{\fn微软雅黑\fs12}That's what today was about.
+Dialogue: 0,0:33:37.77,0:33:41.00,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}任何人若有疑問  可以隨時來找我{\r}\N{\fn微软雅黑\fs12}You have any questions,  my door is always open.
+Dialogue: 0,0:33:45.04,0:33:49.07,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}全國和地方新聞都搞定了  若有需要，政治版有留版面{\r}\N{\fn微软雅黑\fs12}I'm all good for National and Metro.  We've got space for Political if we need it.
+Dialogue: 0,0:33:49.18,0:33:51.27,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}珍妮？麥克凱恩那有新消息嗎？{\r}\N{\fn微软雅黑\fs12}Janine? Anything new on Michael Kern?
+Dialogue: 0,0:33:51.72,0:33:53.15,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}白宮在打太極{\r}\N{\fn微软雅黑\fs12}The White House is dodging.
+Dialogue: 0,0:33:53.78,0:33:55.65,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}沒有人願意正式發言？{\r}\N{\fn微软雅黑\fs12}You can't get anyone on record?
+Dialogue: 0,0:33:55.72,0:33:59.62,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不只是我  他們禁止所有問題{\r}\N{\fn微软雅黑\fs12}Not just me. They're shutting  all of us down in the briefings.
+Dialogue: 0,0:33:59.69,0:34:02.39,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}連幕後都沒人肯吭一聲{\r}\N{\fn微软雅黑\fs12}No one is giving an inch,  even on background.
+Dialogue: 0,0:34:02.49,0:34:04.02,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}在這期間，我在寫{\r}\N{\fn微软雅黑\fs12}In the meantime,  I'm working on a feature about
+Dialogue: 0,0:34:04.10,0:34:06.09,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}總統府外交政策的特別報導{\r}\N{\fn微软雅黑\fs12}the administration's foreign policy agenda,
+Dialogue: 0,0:34:06.16,0:34:09.16,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}從競選時承諾  要增加國防部預算轉變為…{\r}\N{\fn微软雅黑\fs12}how it shifted from the start of the campaign,  increased DOD spending...
+Dialogue: 0,0:34:09.23,0:34:10.29,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}看到你了，喬伊{\r}\N{\fn微软雅黑\fs12}We see you, Zoe.
+Dialogue: 0,0:34:11.54,0:34:13.77,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我找到凱恩  和那篇社論的直接關係{\r}\N{\fn微软雅黑\fs12}I can link Kern  directly to the Williams editorial.
+Dialogue: 0,0:34:13.87,0:34:16.10,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 什麼？  - 我找到一個叫羅伊卡普奈的人{\r}\N{\fn微软雅黑\fs12}-What?  -I've got a guy named Roy Kapeniak,
+Dialogue: 0,0:34:16.21,0:34:18.11,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}凱恩當編輯時他也在編輯部{\r}\N{\fn微软雅黑\fs12}who was on the editorial staff  when Kern was there.
+Dialogue: 0,0:34:18.18,0:34:19.87,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}推特小賤人，搞什麼鬼啊？{\r}\N{\fn微软雅黑\fs12}Hey, Twitter-twat. WTF?
+Dialogue: 0,0:34:19.98,0:34:21.71,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}等等，羅伊什麼？{\r}\N{\fn微软雅黑\fs12}Wait, wait, wait. Roy what?
+Dialogue: 0,0:34:21.78,0:34:23.77,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}卡普奈，他是凱恩的同學{\r}\N{\fn微软雅黑\fs12}Kapeniak. A classmate of Kern's.
+Dialogue: 0,0:34:23.85,0:34:27.78,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他說那篇社論  每個字都是凱恩寫的{\r}\N{\fn微软雅黑\fs12}I have him on record saying  Kern wrote every word of the editorial.
+Dialogue: 0,0:34:27.85,0:34:30.08,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}喬伊、盧卡斯，到我辦公室{\r}\N{\fn微软雅黑\fs12}Let's move this into my office. Zoe, Lucas.
+Dialogue: 0,0:34:37.50,0:34:38.48,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}珍妮！{\r}\N{\fn微软雅黑\fs12}Janine!
+Dialogue: 0,0:34:41.53,0:34:44.90,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}容我一次把話講清楚{\r}\N{\fn微软雅黑\fs12}Let me once and for all say this definitively.
+Dialogue: 0,0:34:44.97,0:34:47.23,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}那篇社論不是我寫的{\r}\N{\fn微软雅黑\fs12}I didn't author that editorial.
+Dialogue: 0,0:34:47.37,0:34:50.60,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}一字一句或標點符號都不是{\r}\N{\fn微软雅黑\fs12}Not a single sentence,  word, comma or period.
+Dialogue: 0,0:34:50.68,0:34:53.80,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我若沒記錯的話  應該是位卡普奈先生寫的{\r}\N{\fn微软雅黑\fs12}If memory serves me,  it was Mr. Kapeniak who wrote it.
+Dialogue: 0,0:34:53.88,0:34:57.11,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他為何一口咬定說是我寫的  我無從得知{\r}\N{\fn微软雅黑\fs12}Why on earth he's trying to claim that I did  is beyond me.
+Dialogue: 0,0:34:57.35,0:35:00.75,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但我必須進一步聲明  我非常支持以色列{\r}\N{\fn微软雅黑\fs12}Let me further say that I am  a strong supporter of the state of Israel.
+Dialogue: 0,0:35:00.85,0:35:04.08,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}它是中東地區最穩定的國家  也是我們最有力的盟友…{\r}\N{\fn微软雅黑\fs12}As the most stable country in the region  and our strongest ally...
+Dialogue: 0,0:35:04.16,0:35:06.06,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}法蘭安德沃找凱西{\r}\N{\fn微软雅黑\fs12}It's Frank Underwood for Cathy.
+Dialogue: 0,0:35:06.76,0:35:08.09,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}…推動任何和平政策{\r}\N{\fn微软雅黑\fs12}...in any peace process.
+Dialogue: 0,0:35:08.36,0:35:12.42,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}因為少了以色列的穩定性  就不可能有巴勒斯坦{\r}\N{\fn微软雅黑\fs12}Because without the stability of Israel,  there can be no Palestine.
+Dialogue: 0,0:35:13.33,0:35:15.16,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}馬上看CNN{\r}\N{\fn微软雅黑\fs12}CNN, right now.
+Dialogue: 0,0:35:18.04,0:35:21.60,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 「少了以色列就不可能有巴勒斯坦」？  - 我在看{\r}\N{\fn微软雅黑\fs12}-"Without Israel there can be no Palestine"?  -I've got it on.
+Dialogue: 0,0:35:21.67,0:35:24.51,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我想要提醒凱恩參議員  巴勒斯坦早就存在{\r}\N{\fn微软雅黑\fs12}I would remind Senator Kern  that there was a Palestine
+Dialogue: 0,0:35:24.61,0:35:26.24,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}早在以色列成立前就存在了{\r}\N{\fn微软雅黑\fs12}Iong before there was an Israel.
+Dialogue: 0,0:35:26.34,0:35:29.37,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他的發言不但無知  還含有種族歧視{\r}\N{\fn微软雅黑\fs12}His comments are not only ignorant,  they are racist.
+Dialogue: 0,0:35:30.15,0:35:33.05,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}做好準備，凱西  後面發展將非常快{\r}\N{\fn微软雅黑\fs12}Get ready, Cathy.  Things are about to move very quickly.
+Dialogue: 0,0:35:34.42,0:35:36.44,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}好的，我準備好了{\r}\N{\fn微软雅黑\fs12}Okay, I'm ready.
+Dialogue: 0,0:35:37.82,0:35:40.42,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 你好，我…  - 彼得{\r}\N{\fn微软雅黑\fs12}-Hey. I...  -Peter.
+Dialogue: 0,0:35:40.49,0:35:43.46,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 現在沒時間  - 等等！你去哪裏了？{\r}\N{\fn微软雅黑\fs12}-Not now.  -Stop! Hey, hey, where have you been?
+Dialogue: 0,0:35:46.10,0:35:47.93,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 天啊，你在嗑藥  - 不，我…{\r}\N{\fn微软雅黑\fs12}-God, you're fucking high.  -No, l...
+Dialogue: 0,0:35:48.03,0:35:49.62,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你是，你看你的眼睛{\r}\N{\fn微软雅黑\fs12}Yes, you are, look at your eyes.
+Dialogue: 0,0:35:49.73,0:35:52.10,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}別管了{\r}\N{\fn微软雅黑\fs12}Please, just lay off.
+Dialogue: 0,0:35:52.80,0:35:55.27,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你答應我你不會再這樣的{\r}\N{\fn微软雅黑\fs12}You promised me it wouldn't be like this.
+Dialogue: 0,0:35:56.21,0:35:58.64,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}把我今天的行程都取消{\r}\N{\fn微软雅黑\fs12}Cancel whatever I have  for the rest of the day.
+Dialogue: 0,0:36:36.35,0:36:37.64,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}凱恩沒戲唱了{\r}\N{\fn微软雅黑\fs12}Kern is out.
+Dialogue: 0,0:36:39.15,0:36:42.85,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 他們甩掉他了？  - 嚴格來說，是他自己退出{\r}\N{\fn微软雅黑\fs12}-They're tossing him?  -Technically, he'll withdraw himself, but yes.
+Dialogue: 0,0:36:43.82,0:36:45.31,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}能說「白宮的可靠消息」嗎？{\r}\N{\fn微软雅黑\fs12}Can I say,  "A source close to the White House"?
+Dialogue: 0,0:36:45.42,0:36:47.91,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不，讓消息自己散出去{\r}\N{\fn微软雅黑\fs12}No. You let this story  play out on its own time.
+Dialogue: 0,0:36:47.99,0:36:49.43,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}他們明早就會宣佈了{\r}\N{\fn微软雅黑\fs12}They'll announce in the morning.
+Dialogue: 0,0:36:49.53,0:36:52.55,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}抱歉，如果不是那件事  那是什麼新聞？{\r}\N{\fn微软雅黑\fs12}I'm sorry, if not that,  what story are we talking about?
+Dialogue: 0,0:36:52.66,0:36:57.93,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}凱薩琳杜倫  凱恩一退出，你就報由她接手{\r}\N{\fn微软雅黑\fs12}Catherine Durant. As soon as Kern  withdraws, you say she'll be the replacement.
+Dialogue: 0,0:36:58.34,0:37:00.63,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 是真的嗎？  - 你登了就是{\r}\N{\fn微软雅黑\fs12}-ls that true?  -lt will be after you write it.
+Dialogue: 0,0:37:02.64,0:37:04.54,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}羅伊卡普奈是你的棋子{\r}\N{\fn微软雅黑\fs12}Roy Kapeniak was you.
+Dialogue: 0,0:37:04.64,0:37:07.84,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你是可以這麼想  我不予置評{\r}\N{\fn微软雅黑\fs12}You might very well think that.  I couldn't possibly comment.
+Dialogue: 0,0:37:07.91,0:37:09.78,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你找到他，要他跟我連絡…{\r}\N{\fn微软雅黑\fs12}You found him. You had him call me...
+Dialogue: 0,0:37:09.85,0:37:12.68,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}卡普奈與凱恩只是前菜  邦斯小姐{\r}\N{\fn微软雅黑\fs12}Kapeniak and Kern were appetizers,  Ms. Barnes.
+Dialogue: 0,0:37:12.78,0:37:14.94,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}凱薩琳杜倫才是主菜{\r}\N{\fn微软雅黑\fs12}Catherine Durant is the meal.
+Dialogue: 0,0:37:16.82,0:37:22.52,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}說那個名字「凱薩琳杜倫」  重複地念{\r}\N{\fn微软雅黑\fs12}Say that name. "Catherine Durant."  Say it over and over.
+Dialogue: 0,0:37:22.76,0:37:25.23,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}明天下午，將名字寫下來{\r}\N{\fn微软雅黑\fs12}Tomorrow afternoon, write it down.
+Dialogue: 0,0:37:25.33,0:37:30.49,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}然後等著從美國總統的口中  聽到這個名字{\r}\N{\fn微软雅黑\fs12}Then watch that name come out of the mouth  of the President of the United States.
+Dialogue: 0,0:37:31.47,0:37:33.70,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這就是我們要創造的事{\r}\N{\fn微软雅黑\fs12}This is where we get to create.
+Dialogue: 0,0:37:41.41,0:37:44.75,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}別錯過你的班車，邦斯小姐  這可是末班車{\r}\N{\fn微软雅黑\fs12}Don't miss your train, Ms. Barnes.  It's the last one tonight.
+Dialogue: 0,0:37:47.79,0:37:49.88,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}《華府先軀報》喬伊邦斯報導{\r}\N{\fn微软雅黑\fs12}Zoe Barnes of the Washington Herald  now reporting,
+Dialogue: 0,0:37:49.95,0:37:53.29,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}總統身邊的可靠消息指出  凱薩琳杜倫參議員{\r}\N{\fn微软雅黑\fs12}quoting a source close to the President,  as saying that Senator Catherine Durant
+Dialogue: 0,0:37:53.36,0:37:56.19,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}很可能是下屆國務卿人選{\r}\N{\fn微软雅黑\fs12}will likely be the new nominee  for Secretary of State
+Dialogue: 0,0:37:56.29,0:37:58.85,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}麥克凱恩這周宣佈退出{\r}\N{\fn微软雅黑\fs12}after Michael Kern's withdrawal  earlier this week.
+Dialogue: 0,0:37:58.96,0:38:01.16,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}白宮對於總統是否會提名杜倫{\r}\N{\fn微软雅黑\fs12}The White House has remained silent  on whether the President
+Dialogue: 0,0:38:01.27,0:38:02.89,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}目前並沒有任何表示{\r}\N{\fn微软雅黑\fs12}will tap Durant for the nomination,
+Dialogue: 0,0:38:03.00,0:38:07.13,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但全國佐格比民調顯示  兩黨對杜倫的支持度都非常高{\r}\N{\fn微软雅黑\fs12}but a national Zogby poll shows  wide support for Durant across party lines.
+Dialogue: 0,0:38:07.20,0:38:10.04,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}…在參議院外交關係委員會  服務長達十年{\r}\N{\fn微软雅黑\fs12}...has served 10 years on  the Senate Foreign Relations Committee,
+Dialogue: 0,0:38:10.11,0:38:12.63,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}曾多次參與外交任務  造訪南美…{\r}\N{\fn微软雅黑\fs12}made numerous diplomatic missions  to South America...
+Dialogue: 0,0:38:12.71,0:38:16.17,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}…信任她，知道我們選了一名  有責任感、經驗豐富{\r}\N{\fn微软雅黑\fs12}...place our faith in her, knowing that  we have a responsible, experienced,
+Dialogue: 0,0:38:16.28,0:38:18.58,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}和聰明的女人  代表我們的國外權益{\r}\N{\fn微软雅黑\fs12}brilliant woman representing  our interests abroad.
+Dialogue: 0,0:38:18.75,0:38:21.72,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}…中堅分子、能與他人合作  在國防上採取強硬態度{\r}\N{\fn微软雅黑\fs12}...middle of the road, team player,  strong on defense.
+Dialogue: 0,0:38:21.82,0:38:25.41,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}她確實可與三軍參謀共事{\r}\N{\fn微软雅黑\fs12}And if there's a woman that can work  with the Joint Chiefs, she's the one.
+Dialogue: 0,0:38:25.59,0:38:26.82,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}杜倫絕對是最佳人選{\r}\N{\fn微软雅黑\fs12}Durant is the way to go, it's a no-brainer.
+Dialogue: 0,0:38:26.92,0:38:29.48,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}總統應該停止做秀  盡快公佈人選{\r}\N{\fn微软雅黑\fs12}The President should stop this pageant  and simply make the call.
+Dialogue: 0,0:38:29.69,0:38:31.92,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們為什麼還在猜測  是否會推選杜倫？{\r}\N{\fn微软雅黑\fs12}Why are we still talking about  if they're going to nominate Durant?
+Dialogue: 0,0:38:32.00,0:38:35.93,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}為什麼不快點宣佈  我們就能結束這種推測{\r}\N{\fn微软雅黑\fs12}Why don't they just do it already  so we can all stop talking about ifs
+Dialogue: 0,0:38:36.03,0:38:37.59,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}改討論時間與細節{\r}\N{\fn微软雅黑\fs12}and start talking about when and what
+Dialogue: 0,0:38:37.67,0:38:40.10,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}還有杜倫會如何影響  美國外交政策{\r}\N{\fn微软雅黑\fs12}and how Durant's going  to shape our foreign policy.
+Dialogue: 0,0:39:07.90,0:39:09.92,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}歷史呢？{\r}\N{\fn微软雅黑\fs12}So, history?
+Dialogue: 0,0:39:12.44,0:39:13.49,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}歷史{\r}\N{\fn微软雅黑\fs12}History.
+Dialogue: 0,0:39:17.91,0:39:20.04,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我很滿意，法蘭{\r}\N{\fn微软雅黑\fs12}I'm very impressed, Frank.
+Dialogue: 0,0:39:20.14,0:39:22.34,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}很好，你批了  我就可以開始編輯{\r}\N{\fn微软雅黑\fs12}Good. With your go-ahead,  I'll start the mark-up.
+Dialogue: 0,0:39:22.45,0:39:23.94,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}柏許跟拉斯穆森看過了嗎？{\r}\N{\fn微软雅黑\fs12}Have Birch and Rasmussen seen this?
+Dialogue: 0,0:39:24.01,0:39:26.11,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}還沒，我想先讓你過目{\r}\N{\fn微软雅黑\fs12}Not yet, I wanted you to be  the first to have a look.
+Dialogue: 0,0:39:26.22,0:39:27.88,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我會幫你跟總統約時間  向他匯報{\r}\N{\fn微软雅黑\fs12}I'll schedule a time for you  to fill in the President.
+Dialogue: 0,0:39:27.99,0:39:31.08,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不，那是你的地盤，琳達  應該由你去{\r}\N{\fn微软雅黑\fs12}Oh, no, no, no. That is your turf, Linda.  You should do that.
+Dialogue: 0,0:39:31.19,0:39:34.02,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 謝謝你，法蘭  - 我的榮幸，謝謝{\r}\N{\fn微软雅黑\fs12}-Thank you, Frank.  -My pleasure. Thank you.
+Dialogue: 0,0:39:34.66,0:39:36.52,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我為之前的事道歉…{\r}\N{\fn微软雅黑\fs12}I so apologize for everything...
+Dialogue: 0,0:39:36.59,0:39:38.43,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不，真的不需要{\r}\N{\fn微软雅黑\fs12}No, no, no. That's not necessary.
+Dialogue: 0,0:39:40.16,0:39:41.83,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}現在才是真正的會議{\r}\N{\fn微软雅黑\fs12}Now for the real meeting.
+Dialogue: 0,0:39:42.43,0:39:45.23,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}麥克凱恩到底怎麼回事？{\r}\N{\fn微软雅黑\fs12}So, what is happening with Michael Kern?
+Dialogue: 0,0:39:46.44,0:39:49.74,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 簡直是場噩夢  - 你們知道要找誰代替嗎？{\r}\N{\fn微软雅黑\fs12}-It's a total nightmare.  -Do you know who you're going to tap next?
+Dialogue: 0,0:39:50.21,0:39:52.47,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}法蘭，我們需要你在眾議院…{\r}\N{\fn微软雅黑\fs12}Frank, we still need you in the House...
+Dialogue: 0,0:39:52.54,0:39:55.10,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不，我壓根沒這麼想  我們有教育提案的事要忙{\r}\N{\fn微软雅黑\fs12}No, no, no. I wouldn't dream of it.  We've got our education bill.
+Dialogue: 0,0:39:55.18,0:39:56.91,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我只是好奇{\r}\N{\fn微软雅黑\fs12}I was just curious.
+Dialogue: 0,0:39:57.01,0:40:00.92,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}有傳言說  我們要提名凱薩琳杜倫{\r}\N{\fn微软雅黑\fs12}Somehow, the rumor is flying around that  we're going to nominate Catherine Durant.
+Dialogue: 0,0:40:01.02,0:40:02.28,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我相信你也有耳聞{\r}\N{\fn微软雅黑\fs12}I'm sure you've noticed.
+Dialogue: 0,0:40:02.39,0:40:03.75,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}是真的嗎？{\r}\N{\fn微软雅黑\fs12}Is the rumor true?
+Dialogue: 0,0:40:03.82,0:40:05.22,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}本來是沒有考慮她{\r}\N{\fn微软雅黑\fs12}Well, we weren't considering her at first,
+Dialogue: 0,0:40:05.29,0:40:09.49,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但總統已經吩咐我調查她  若最後決定提名她{\r}\N{\fn微软雅黑\fs12}but the President asked me to have  her vetted, in case we want to go that route.
+Dialogue: 0,0:40:09.59,0:40:10.82,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}真有趣{\r}\N{\fn微软雅黑\fs12}Interesting.
+Dialogue: 0,0:40:10.96,0:40:12.09,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你認為呢？{\r}\N{\fn微软雅黑\fs12}What do you think?
+Dialogue: 0,0:40:15.70,0:40:17.43,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}她不會是我的首選…{\r}\N{\fn微软雅黑\fs12}Well, she wouldn't be my first choice...
+Dialogue: 0,0:40:17.50,0:40:18.83,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你的首選是誰呢？{\r}\N{\fn微软雅黑\fs12}Who would be your first choice?
+Dialogue: 0,0:40:18.94,0:40:21.37,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}她在初選時跟我們是對立的{\r}\N{\fn微软雅黑\fs12}She campaigned hard against us  in the primaries.
+Dialogue: 0,0:40:21.44,0:40:22.70,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這也是我的顧慮{\r}\N{\fn微软雅黑\fs12}That's my reservation.
+Dialogue: 0,0:40:22.77,0:40:24.90,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但這樣反而顯得你們肚量大{\r}\N{\fn微软雅黑\fs12}But you'd show yourself  above party politics,
+Dialogue: 0,0:40:25.01,0:40:27.10,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我相信她會更努力爭取{\r}\N{\fn微软雅黑\fs12}and I know she'd work all the harder for it.
+Dialogue: 0,0:40:27.18,0:40:29.77,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}經驗也足夠  兩黨對她都有一定的尊敬…{\r}\N{\fn微软雅黑\fs12}Decent experience.  Respect across the aisle...
+Dialogue: 0,0:40:29.85,0:40:31.84,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你認為真的可以考慮她？{\r}\N{\fn微软雅黑\fs12}So you think we can seriously consider her?
+Dialogue: 0,0:40:33.95,0:40:36.51,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不是個壞點子{\r}\N{\fn微软雅黑\fs12}It's not the worst idea in the world.
+Dialogue: 0,0:40:56.37,0:40:58.53,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你哪來的消息？{\r}\N{\fn微软雅黑\fs12}Where are you getting this shit?
+Dialogue: 0,0:40:58.64,0:41:00.27,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 什麼？  - 你的新聞{\r}\N{\fn微软雅黑\fs12}-What?  -Your stories.
+Dialogue: 0,0:41:00.71,0:41:02.65,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 我只是…  - 你在陪誰睡？{\r}\N{\fn微软雅黑\fs12}-I was just...  -Who are you fucking?
+Dialogue: 0,0:41:03.88,0:41:05.71,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 沒有人  - 拜託{\r}\N{\fn微软雅黑\fs12}-Nobody.  -Oh, come on.
+Dialogue: 0,0:41:05.78,0:41:08.58,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你本來是地方新聞的小咖  現在看看你{\r}\N{\fn微软雅黑\fs12}You're a Metro scrub, and now look at you.
+Dialogue: 0,0:41:08.99,0:41:10.78,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你一定是跟哪個大人物上床{\r}\N{\fn微软雅黑\fs12}You'd have to be fucking  somebody important.
+Dialogue: 0,0:41:11.49,0:41:14.65,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我只是在做我的工作，珍妮  失陪了{\r}\N{\fn微软雅黑\fs12}I'm just doing my job, Janine. Excuse me.
+Dialogue: 0,0:41:21.13,0:41:23.36,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}好吧，等一下，好{\r}\N{\fn微软雅黑\fs12}All right. One sec. Okay.
+Dialogue: 0,0:41:25.64,0:41:27.93,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 這是你第一次連線？  - 對，第一次{\r}\N{\fn微软雅黑\fs12}-ls this your first remote?  -Yeah, it's my first time.
+Dialogue: 0,0:41:38.08,0:41:39.67,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}看鏡頭{\r}\N{\fn微软雅黑\fs12}Right into the camera.
+Dialogue: 0,0:41:39.88,0:41:42.04,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}彆扭來扭去{\r}\N{\fn微软雅黑\fs12}Don't shift in your seat,  and there's no reason
+Dialogue: 0,0:41:42.15,0:41:44.81,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}講話不需要太大聲  麥克風收音很好{\r}\N{\fn微软雅黑\fs12}to speak above a conversational volume,  the mic will pick you up.
+Dialogue: 0,0:41:44.89,0:41:45.95,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 好了嗎？  - 好了{\r}\N{\fn微软雅黑\fs12}-You all ready?  -Yeah.
+Dialogue: 0,0:41:46.02,0:41:47.75,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}別忘了要呼吸{\r}\N{\fn微软雅黑\fs12}All right, don't forget to breathe.
+Dialogue: 0,0:41:51.30,0:41:53.99,Default,,0000,0000,0000,,5、4、3…  Five, four, three...
+Dialogue: 0,0:41:58.14,0:42:01.16,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們歡迎  《華府先軀報》的喬伊邦斯{\r}\N{\fn微软雅黑\fs12}We'd like to welcome Zoe Barnes  from the Washington Herald.
+Dialogue: 0,0:42:02.01,0:42:04.07,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}喬伊，謝謝你的加入{\r}\N{\fn微软雅黑\fs12}Zoe, thank you forjoining us.
+Dialogue: 0,0:42:04.61,0:42:07.27,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我很榮幸，謝謝你們的邀情{\r}\N{\fn微软雅黑\fs12}I am very glad to be here.  Thank you for having me.
+Dialogue: 0,0:42:07.34,0:42:10.68,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你獨家報導教育提案  凱恩的社論，現在又加上杜倫{\r}\N{\fn微软雅黑\fs12}You broke the education bill,  the Kern editorial and now Durant.
+Dialogue: 0,0:42:10.75,0:42:13.65,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我很興奮  能報導重要的新聞{\r}\N{\fn微软雅黑\fs12}I'm just thrilled to be reporting  news that matters.
+Dialogue: 0,0:42:13.75,0:42:17.02,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這是《先軀報》  整個團隊的努力{\r}\N{\fn微软雅黑\fs12}And it's truly been a team effort.  Everyone at the Herald pitched in.
+Dialogue: 0,0:42:17.62,0:42:20.82,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但確實有許多第一次{\r}\N{\fn微软雅黑\fs12}But yes, a lot of firsts.
+Dialogue: 0,0:42:21.23,0:42:23.42,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}第一個全國性新聞，第一個…{\r}\N{\fn微软雅黑\fs12}First national story, first...
+Dialogue: 0,0:42:32.67,0:42:34.00,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}謝謝{\r}\N{\fn微软雅黑\fs12}Thank you.
+Dialogue: 0,0:42:37.31,0:42:40.21,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 我先走了  - 明天見，先生{\r}\N{\fn微软雅黑\fs12}-Calling it a night.  -See you tomorrow, sir.
+Dialogue: 0,0:42:48.95,0:42:50.44,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}確實有許多第一次{\r}\N{\fn微软雅黑\fs12}But yes, a lot of firsts.
+Dialogue: 0,0:42:50.52,0:42:55.29,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}第一個全國性新聞  第一個頭條新聞{\r}\N{\fn微软雅黑\fs12}First national story, first front page by-line,
+Dialogue: 0,0:42:55.73,0:42:57.96,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}第一個電視採訪…{\r}\N{\fn微软雅黑\fs12}first TV interview...
+Dialogue: 0,0:42:58.83,0:43:02.63,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我很想跟我媽揮手  但攝影師叫我別亂動{\r}\N{\fn微软雅黑\fs12}I would wave to my mom, but the camera man  said not to shift in my seat.
+Dialogue: 0,0:43:05.90,0:43:07.77,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}真像是雲霄飛車{\r}\N{\fn微软雅黑\fs12}What a roller coaster.
+Dialogue: 0,0:43:09.31,0:43:12.30,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}太可惜了，凱恩是個好人{\r}\N{\fn微软雅黑\fs12}It really is too bad. Kern is a good man.
+Dialogue: 0,0:43:12.91,0:43:14.31,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}現在輪到凱薩琳杜倫{\r}\N{\fn微软雅黑\fs12}And now Catherine Durant.
+Dialogue: 0,0:43:14.45,0:43:17.35,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我想這就是所謂的  天時地利人和吧{\r}\N{\fn微软雅黑\fs12}Yes. Right place, right time, I suppose.
+Dialogue: 0,0:43:17.68,0:43:20.38,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 我們喜歡她，不是嗎？  - 非常喜歡{\r}\N{\fn微软雅黑\fs12}-We like her, don't we?  -Very much.
+Dialogue: 0,0:43:20.48,0:43:22.65,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}重點是她是否  也這麼喜歡善可工業？{\r}\N{\fn微软雅黑\fs12}The question is does she like  SanCorp as much as we like her?
+Dialogue: 0,0:43:23.75,0:43:26.09,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}那是很好的賭注{\r}\N{\fn微软雅黑\fs12}I would say that that is a very good bet.
+Dialogue: 0,0:43:26.19,0:43:27.89,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}但話說回來  我不是個愛賭的人{\r}\N{\fn微软雅黑\fs12}But then again, I'm not a betting man.
+Dialogue: 0,0:43:27.96,0:43:29.59,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你總是喜歡有把握的事{\r}\N{\fn微软雅黑\fs12}No, you always like a sure thing.
+Dialogue: 0,0:43:29.66,0:43:31.65,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}如果能夠的話，晚安，瑞米{\r}\N{\fn微软雅黑\fs12}When it avails itself. Goodnight, Remy.
+Dialogue: 0,0:43:31.73,0:43:33.59,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}晚安，法蘭，後會有期{\r}\N{\fn微软雅黑\fs12}Goodnight, Frank. See you around.
+Dialogue: 0,0:43:33.66,0:43:35.89,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}希望越來越少{\r}\N{\fn微软雅黑\fs12}Hopefully less and less now.
+Dialogue: 0,0:43:41.74,0:43:44.80,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}抱歉，我算錯了  你點的是什麼？{\r}\N{\fn微软雅黑\fs12}Oh, no, I charged the wrong thing.  What did you have again?
+Dialogue: 0,0:43:44.88,0:43:46.40,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}中杯無因拿鐵{\r}\N{\fn微软雅黑\fs12}Medium decaf latte.
+Dialogue: 0,0:43:46.61,0:43:48.70,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}中杯無因拿鐵…{\r}\N{\fn微软雅黑\fs12}Med, latt, dec...
+Dialogue: 0,0:43:54.99,0:43:58.15,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 我不知道怎麼退出去  - 按這個然後這個{\r}\N{\fn微软雅黑\fs12}-I don't know how to get it to go back.  -This one and this one.
+Dialogue: 0,0:43:58.59,0:44:00.78,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}- 這個？  - 不是，我來吧{\r}\N{\fn微软雅黑\fs12}-This one?  -No. Let me do it.
+Dialogue: 0,0:44:15.31,0:44:16.80,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我必須請你退後，議員{\r}\N{\fn微软雅黑\fs12}I'll have to ask you  to stay back, Congressman.
+Dialogue: 0,0:44:16.91,0:44:17.93,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}怎麼了？{\r}\N{\fn微软雅黑\fs12}What's going on?
+Dialogue: 0,0:44:18.04,0:44:19.57,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}有個人想要闖進去{\r}\N{\fn微软雅黑\fs12}Some guy was trying to get into the building.
+Dialogue: 0,0:44:19.64,0:44:22.64,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}我們把他攔下來後  他突然開始脫衣服{\r}\N{\fn微软雅黑\fs12}When we said no,  he started tearing his clothes off.
+Dialogue: 0,0:44:45.30,0:44:48.27,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}沒有人聽得到你  也沒有人在乎你{\r}\N{\fn微软雅黑\fs12}Nobody can hear you.  Nobody cares about you.
+Dialogue: 0,0:44:49.11,0:44:50.51,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}這一點意義都沒有{\r}\N{\fn微软雅黑\fs12}Nothing will come of this.
+Dialogue: 0,0:44:54.28,0:44:57.68,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}不如讓這兩個人送你回家？{\r}\N{\fn微软雅黑\fs12}Why don't you let these nice gentlemen  take you home?
+Dialogue: 0,0:45:05.29,0:45:07.76,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}找東西給他蓋，外面很冷{\r}\N{\fn微软雅黑\fs12}Cover him up. It's cold out here.
+Dialogue: 0,0:45:07.89,0:45:10.59,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}你聽到議員說的了  找東西給他蓋{\r}\N{\fn微软雅黑\fs12}You heard the congressman. Cover him up.
+Dialogue: 0,0:45:33.52,0:45:34.85,Default,,0000,0000,0000,,{\fn微软雅黑\fs24}法蘭斯？{\r}\N{\fn微软雅黑\fs12}Francis?
+

@@ -1,0 +1,943 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:15:04.05,0:15:14.81,Default,,0000,0000,0000,,{\an8}{\pos(120.6,195.3)}梅根·漢納希
+Dialogue: 0,0:15:04.05,0:15:14.81,Default,,0000,0000,0000,,{\an8}{\pos(121.8,213.3)}反性侵活動分子
+Dialogue: 0,0:15:36.46,0:15:38.67,Default,,0000,0000,0000,,{\an8}{\pos(120.6,195.3)}梅根·漢納希
+Dialogue: 0,0:15:36.46,0:15:38.67,Default,,0000,0000,0000,,{\an8}{\pos(121.8,213.3)}反性侵活動分子
+Dialogue: 0,0:15:38.67,0:15:44.01,Default,,0000,0000,0000,,{\an8}{\pos(110.4,197.1)}電話連線
+Dialogue: 0,0:15:38.71,0:15:44.01,Default,,0000,0000,0000,,{\an8}{\pos(186.6,193.5)}傑奎琳·夏普議員
+Dialogue: 0,0:15:38.71,0:15:44.01,Default,,0000,0000,0000,,{\an8}{\pos(181.8,211.5)}眾議院多數黨黨鞭
+Dialogue: 0,0:33:17.10,0:33:22.15,Default,,0000,0000,0000,,{\an8}{\pos(117,162)}比爾·嘉利克
+Dialogue: 0,0:37:38.43,0:37:40.95,Default,,0000,0000,0000,,{\an8}{\pos(189.8,134.1)}雙城記
+Dialogue: 0,0:37:50.96,0:37:53.55,Default,,0000,0000,0000,,{\an8}{\pos(256.8,133.2)}她走了
+Dialogue: 0,0:40:18.79,0:40:21.40,Default,,0000,0000,0000,,{\an8}華爾街電訊報
+Dialogue: 0,0:40:18.79,0:40:21.40,Default,,0000,0000,0000,,{\an8}副總統維護總統
+Dialogue: 0,0:40:21.40,0:40:24.45,Default,,0000,0000,0000,,{\an8}華爾街電訊報
+Dialogue: 0,0:40:21.40,0:40:24.45,Default,,0000,0000,0000,,{\an8}副總統維護總統
+Dialogue: 0,0:00:06.51,0:00:08.19,Default,,0000,0000,0000,,你講的是法律\NYou're parsing the law.
+Dialogue: 0,0:00:08.41,0:00:10.60,Default,,0000,0000,0000,,我講的則是精神層面的法則\NAnd I'm talking about a spiritual code.
+Dialogue: 0,0:00:11.28,0:00:13.32,Default,,0000,0000,0000,,保密協議是一份契約\NConfidentiality is a covenant.
+Dialogue: 0,0:00:13.64,0:00:15.96,Default,,0000,0000,0000,,不僅在我和接受我咨詢的人之間成立\NNot only between myself and those I counsel,
+Dialogue: 0,0:00:15.96,0:00:18.44,Default,,0000,0000,0000,,在我和上帝之間也成立\Nbut also between myself and the Lord.
+Dialogue: 0,0:00:18.44,0:00:21.61,Default,,0000,0000,0000,,拉金醫生  我現在重點關注的是洗錢案\NDr. Larkin, my chief focus here is the money laundering.
+Dialogue: 0,0:00:21.61,0:00:24.06,Default,,0000,0000,0000,,如果總統提到過馮山德\NIf the President brought up Xander Feng,
+Dialogue: 0,0:00:24.16,0:00:26.48,Default,,0000,0000,0000,,雷蒙德·塔斯克  還有阿道希賭場\NRaymond Tusk, the Adohi Casino--
+Dialogue: 0,0:00:26.48,0:00:28.03,Default,,0000,0000,0000,,不管重點是什麼\NIt doesn't matter what the focus is.
+Dialogue: 0,0:00:28.03,0:00:30.30,Default,,0000,0000,0000,,我都不能向你透露私人談話的內容\NI can't share anything we discussed privately.
+Dialogue: 0,0:00:30.30,0:00:32.12,Default,,0000,0000,0000,,宗教指導受法律保護\NReligious guidance is protected.
+Dialogue: 0,0:00:32.12,0:00:34.56,Default,,0000,0000,0000,,但你也提供專業的心理咨詢\NBut you were also conducting professional therapy.
+Dialogue: 0,0:00:34.56,0:00:35.50,Default,,0000,0000,0000,,這我從未承認過\NI never claimed that.
+Dialogue: 0,0:00:35.50,0:00:37.98,Default,,0000,0000,0000,,基斯先生及太太已經證實了\NMr. And Mrs. Keith confirmed as much.
+Dialogue: 0,0:00:38.46,0:00:40.29,Default,,0000,0000,0000,,我們是去了他們家\NWe were at their house.
+Dialogue: 0,0:00:40.65,0:00:43.30,Default,,0000,0000,0000,,但他們並沒有參與談話\NBut they didn't participate in any of our conversations.
+Dialogue: 0,0:00:43.30,0:00:44.27,Default,,0000,0000,0000,,他們又怎麼可能知道\NSo how would they know?
+Dialogue: 0,0:00:44.28,0:00:47.62,Default,,0000,0000,0000,,你是說你只提供宗教咨詢嗎\NSo you're saying you only gave religious counsel?
+Dialogue: 0,0:00:48.09,0:00:49.92,Default,,0000,0000,0000,,這是我對我工作的理解\NThat's how I choose to interpret it.
+Dialogue: 0,0:00:52.76,0:00:56.42,Default,,0000,0000,0000,,總統夫婦從沒去過你的教堂\NThe President and his wife have never once attended your church.
+Dialogue: 0,0:00:56.61,0:00:58.68,Default,,0000,0000,0000,,甚至都和你不是一個教派的\NThey're not even the same denomination.
+Dialogue: 0,0:00:58.92,0:00:59.73,Default,,0000,0000,0000,,無關緊要\NIrrelevant.
+Dialogue: 0,0:00:59.73,0:01:01.26,Default,,0000,0000,0000,,法律上可緊要得很\NNot legally speaking.
+Dialogue: 0,0:01:01.54,0:01:04.30,Default,,0000,0000,0000,,我絕對能說服法官發傳票給你\NI'm certain I can convince a judge to issue a subpoena
+Dialogue: 0,0:01:04.30,0:01:07.60,Default,,0000,0000,0000,,因為你並非總統夫婦正式的宗教導師\Non the grounds that you weren't their legitimate spiritual advisor.
+Dialogue: 0,0:01:07.97,0:01:09.45,Default,,0000,0000,0000,,那是你的特權\NWhich is your prerogative.
+Dialogue: 0,0:01:09.62,0:01:12.12,Default,,0000,0000,0000,,但我會上訴  我肯定會\NBut I can appeal. And I would.
+Dialogue: 0,0:01:12.24,0:01:13.42,Default,,0000,0000,0000,,那你一定敗訴\NYou'd lose.
+Dialogue: 0,0:01:16.24,0:01:18.91,Default,,0000,0000,0000,,除非對方放棄保密權利\NThe only circumstance by which I would talk
+Dialogue: 0,0:01:18.91,0:01:21.22,Default,,0000,0000,0000,,我絕不會回答你的問題\Nis if someone personally waived their privilege.
+Dialogue: 0,0:01:21.86,0:01:24.13,Default,,0000,0000,0000,,否則我寧可被判蔑視法庭\NOtherwise I'd rather face contempt of court.
+Dialogue: 0,0:01:24.91,0:01:26.27,Default,,0000,0000,0000,,這事關道德\NIt's a matter of ethics.
+Dialogue: 0,0:01:35.31,0:01:40.15,Default,,0000,0000,0000,,總統先生  您又把沙袋挪回來了\NMr. President. Ah, you brought it back in.
+Dialogue: 0,0:01:40.15,0:01:42.26,Default,,0000,0000,0000,,弗洛伊德·梅威瑟[著名拳擊手]今早來白宮參觀\NFloyd Mayweather visited the White House this morning.
+Dialogue: 0,0:01:42.26,0:01:43.51,Default,,0000,0000,0000,,我覺得他看見這個肯定很興奮\NI thought he'd get a kick out of it.
+Dialogue: 0,0:01:43.51,0:01:44.87,Default,,0000,0000,0000,,他沒打幾拳\NDid he have a go at it?
+Dialogue: 0,0:01:44.87,0:01:47.73,Default,,0000,0000,0000,,他打了套組合拳  我都擔心把沙袋打爆了\NHe threw a combination I thought would bust the stitching loose.
+Dialogue: 0,0:01:47.73,0:01:49.89,Default,,0000,0000,0000,,那場面一定很好看\NWell, that must have been a treat to watch.
+Dialogue: 0,0:01:49.89,0:01:52.05,Default,,0000,0000,0000,,他告訴我  這不僅僅是力量的問題\NHe was telling me it's not just about the power.
+Dialogue: 0,0:01:52.39,0:01:54.58,Default,,0000,0000,0000,,比他更有力量的拳手不少\NPlenty of boxers are more powerful than he is.
+Dialogue: 0,0:01:54.59,0:01:57.72,Default,,0000,0000,0000,,關鍵是他的戰術  他的準頭和速度\NNo, it's his tactics, his precision, his speed.
+Dialogue: 0,0:01:57.73,0:02:00.42,Default,,0000,0000,0000,,最重要的一點  就是他的反擊\NMost important? His counter punch.
+Dialogue: 0,0:02:01.28,0:02:05.68,Default,,0000,0000,0000,,他躲閃騰挪  選擇最完美的時機一拳制勝\NHe dances and dodges and then picks the perfect moment to strike.
+Dialogue: 0,0:02:07.20,0:02:09.10,Default,,0000,0000,0000,,聽著耳熟嗎\NDoes that sound familiar?
+Dialogue: 0,0:02:09.62,0:02:10.99,Default,,0000,0000,0000,,什麼意思  先生\NHow do you mean, sir?
+Dialogue: 0,0:02:11.29,0:02:13.48,Default,,0000,0000,0000,,你送我這個沙袋  作為友誼的表示\NYou gave this to me as a gesture of friendship.
+Dialogue: 0,0:02:15.00,0:02:19.16,Default,,0000,0000,0000,,但我現在看著它  卻感受不到友誼\NWhen I look at this now, I don't see friendship.
+Dialogue: 0,0:02:19.62,0:02:21.00,Default,,0000,0000,0000,,我看到的是算計\NI see calculation.
+Dialogue: 0,0:02:24.43,0:02:26.19,Default,,0000,0000,0000,,你算計我  弗蘭克\NYou set me up, Frank.
+Dialogue: 0,0:02:27.70,0:02:28.66,Default,,0000,0000,0000,,什麼\NWhat?
+Dialogue: 0,0:02:28.66,0:02:31.90,Default,,0000,0000,0000,,你的私下接觸  還有特別檢察官\NYour back channeling. The special prosecutor.
+Dialogue: 0,0:02:32.35,0:02:36.63,Default,,0000,0000,0000,,再想想雷蒙德  琳達  還有吉姆·馬修斯\NWhen I think about Raymond, about Linda, about Jim Matthews...
+Dialogue: 0,0:02:38.89,0:02:40.58,Default,,0000,0000,0000,,您錯了  先生\NYou are wrong, sir.
+Dialogue: 0,0:02:41.88,0:02:45.89,Default,,0000,0000,0000,,這是鄧巴就婚姻咨詢問的問題\NQuestions from Dunbar about the marriage counseling.
+Dialogue: 0,0:02:45.90,0:02:48.32,Default,,0000,0000,0000,,"那是大海裏的一根針  還不是鄧巴要找的那根"\N"It's a needle in the haystack she's not trying to find."
+Dialogue: 0,0:02:48.32,0:02:52.32,Default,,0000,0000,0000,,這是你的原話  她還真就撈著了\NThat's what you said. Well, she found the needle.
+Dialogue: 0,0:02:52.32,0:02:53.76,Default,,0000,0000,0000,,我非常震驚  我絕沒\NI am shocked, sir. I -- I never --
+Dialogue: 0,0:02:53.77,0:02:56.96,Default,,0000,0000,0000,,你震驚才怪  你想削弱我的力量\NLike hell you are. You want to deminish me.
+Dialogue: 0,0:02:57.45,0:02:58.39,Default,,0000,0000,0000,,削弱您的力量\NDiminish you?
+Dialogue: 0,0:02:58.39,0:03:01.27,Default,,0000,0000,0000,,為你2016年挑戰我打基礎\NLaying the groundwork for a challenge in 2016.
+Dialogue: 0,0:03:02.82,0:03:05.95,Default,,0000,0000,0000,,恕我無禮  但您這論調太荒唐了\NI am sorry to have to say this, sir, but you are being ludicrous.
+Dialogue: 0,0:03:05.95,0:03:07.91,Default,,0000,0000,0000,,你真以為我瞎了嗎\NDo you really think I'm so blind?
+Dialogue: 0,0:03:09.04,0:03:12.53,Default,,0000,0000,0000,,從沒有哪個副總統挑戰過在位總統\NA vice president has never challenged a sitting president.
+Dialogue: 0,0:03:12.53,0:03:15.50,Default,,0000,0000,0000,,你往上爬的過程中已經做過不少別人不會做的事了\NYou've climbed the ladder doing things other men would never do.
+Dialogue: 0,0:03:15.50,0:03:18.44,Default,,0000,0000,0000,,全都是為了服務於您和本黨利益\NAlways in service to you and the party.
+Dialogue: 0,0:03:18.44,0:03:20.42,Default,,0000,0000,0000,,交出行程記錄是你的主意\NIt was you idea to hand over those logs.
+Dialogue: 0,0:03:20.42,0:03:22.90,Default,,0000,0000,0000,,是你讓白宮和中國扯上了關係  還有賭場\NYou connected the White House to China, the casino --
+Dialogue: 0,0:03:22.90,0:03:25.96,Default,,0000,0000,0000,,是雷蒙德·塔斯克讓我們與中國和賭場扯上了關係\NRaymond Tusk entangled us with China and the casino.
+Dialogue: 0,0:03:25.96,0:03:27.22,Default,,0000,0000,0000,,要不是我及時干預\NAnd if I hadn't intervened --
+Dialogue: 0,0:03:27.22,0:03:30.97,Default,,0000,0000,0000,,你沒有弗洛伊德那套騰挪的本事  我識破你了\NYou can't dodge and duck like Floyd. I've learned your moves now.
+Dialogue: 0,0:03:33.15,0:03:37.16,Default,,0000,0000,0000,,當了總統就易多疑  您別這樣  先生\NThis office breeds paranoia. Don't give into it, sir.
+Dialogue: 0,0:03:37.16,0:03:39.71,Default,,0000,0000,0000,,要不是會引人非議  我就會要求你辭職了\NI'd ask for your resignation if it wouldn't make things worse.
+Dialogue: 0,0:03:40.69,0:03:44.41,Default,,0000,0000,0000,,但從此刻開始  我不想聽你的任何建議\NBut from this moment forward, I don't want to hear your voice,
+Dialogue: 0,0:03:44.52,0:03:45.99,Default,,0000,0000,0000,,也不想看見你\NI don't want to see your face.
+Dialogue: 0,0:03:46.35,0:03:50.27,Default,,0000,0000,0000,,再讓我看見你  我就讓你吃不了兜著走\NAnd if I do, I will put you on your god damn back.
+Dialogue: 0,0:03:57.77,0:04:02.24,Default,,0000,0000,0000,,我被驅逐了  我成功將總統和其他人隔開\NExile. I've managed to isolate the president from everyone.
+Dialogue: 0,0:04:03.99,0:04:05.53,Default,,0000,0000,0000,,包括我自己\NIncluding myself.
+Dialogue: 0,0:05:45.71,0:05:48.36,Default,,0000,0000,0000,,"夏普女眾議員淋漓盡致地展現了\N"Congresswoman Sharp is a  perfect example
+Dialogue: 0,0:05:48.36,0:05:50.73,Default,,0000,0000,0000,,軍方是如何將我們洗腦\Nof how the military brainwashes us
+Dialogue: 0,0:05:50.73,0:05:53.18,Default,,0000,0000,0000,,從而絕對服從黨派路線的\Ninto never questioning the party line.
+Dialogue: 0,0:05:53.18,0:05:55.48,Default,,0000,0000,0000,,她對法案的反對是可恥的\NHer opposition to the bill is disgraceful.
+Dialogue: 0,0:05:55.48,0:05:57.87,Default,,0000,0000,0000,,這會使數以千計的男性和女性\NIt will cost thousands of men and women
+Dialogue: 0,0:05:57.87,0:05:59.15,Default,,0000,0000,0000,,得不到他們應得的公正\Nthe justice they deserve,
+Dialogue: 0,0:05:59.15,0:06:01.26,Default,,0000,0000,0000,,甚至會毀掉一些人的生活"\Nand some of them their lives."
+Dialogue: 0,0:06:01.26,0:06:03.18,Default,,0000,0000,0000,,這都是梅根·漢納希的話  他們有失公正\NThose are Megan Hennessey's words. They're biased.
+Dialogue: 0,0:06:03.18,0:06:06.24,Default,,0000,0000,0000,,這是克萊爾教她說的  漢納希不過是傳聲筒\NThey're Claire's words. Hennessey's just the mouthpiece.
+Dialogue: 0,0:06:06.24,0:06:08.04,Default,,0000,0000,0000,,為什麼文中還說我拒絕置評\NWhy does it say here that I declined to comment?
+Dialogue: 0,0:06:08.04,0:06:10.35,Default,,0000,0000,0000,,你說過  麻煩事能躲就躲\NYou said you didn't want to kick up dust if we could avoid it.
+Dialogue: 0,0:06:10.35,0:06:13.88,Default,,0000,0000,0000,,這是《紐約時代雜誌》  你應該告訴我的\NIt's the New York fucking Times. You should've let me know.
+Dialogue: 0,0:06:13.88,0:06:15.97,Default,,0000,0000,0000,,是我的決定  我承擔責任\NThat was my call. I'll take the blame.
+Dialogue: 0,0:06:17.69,0:06:19.98,Default,,0000,0000,0000,,查明漢納希接下來會在哪裏出現\NFind out when Hennessey's next appearance is.
+Dialogue: 0,0:06:20.77,0:06:22.27,Default,,0000,0000,0000,,我要搞垮這個婊子\NI'm gonna beat this bitch down.
+Dialogue: 0,0:06:22.28,0:06:23.94,Default,,0000,0000,0000,,我知道她針對你  但是針對她的話...\NI know she went after you, but going after her is --
+Dialogue: 0,0:06:23.94,0:06:25.80,Default,,0000,0000,0000,,不是她  是克萊爾·安德伍德\NNot her. Claire Underwood.
+Dialogue: 0,0:06:26.61,0:06:29.40,Default,,0000,0000,0000,,我知道加勒特可能會產生誤解\NI understand how Garrett might misconstrue things,
+Dialogue: 0,0:06:29.40,0:06:30.50,Default,,0000,0000,0000,,畢竟現在他壓力很大\Ngiven the pressure he's under.
+Dialogue: 0,0:06:30.50,0:06:32.96,Default,,0000,0000,0000,,但你肯定不會相信吧\NBut you can't honestly believe it yourself.
+Dialogue: 0,0:06:33.36,0:06:35.32,Default,,0000,0000,0000,,我已經不知道該相信什麼了\NI don't know what to believe anymore.
+Dialogue: 0,0:06:35.39,0:06:38.71,Default,,0000,0000,0000,,弗蘭西斯非常沮喪  他只是想幫忙\NFrancis is devastated. All he wants to do is help,
+Dialogue: 0,0:06:38.72,0:06:41.26,Default,,0000,0000,0000,,但他覺得自己受到了冤枉\Nbut he feels like he's being unfairly accused.
+Dialogue: 0,0:06:41.26,0:06:44.81,Default,,0000,0000,0000,,我也不想相信  克萊爾  但加勒特確信不疑\NI don't want to believe it, Claire, but Garrett is convinced.
+Dialogue: 0,0:06:44.81,0:06:46.24,Default,,0000,0000,0000,,你能跟他談談嗎\NWill you talk to him?
+Dialogue: 0,0:06:46.24,0:06:49.89,Default,,0000,0000,0000,,我現在得集中精力維護我的家庭\NI have to concentrate on keeping my family together right now.
+Dialogue: 0,0:06:50.09,0:06:51.64,Default,,0000,0000,0000,,而不是跟他爭吵關於...\NNot getting into arguments over --
+Dialogue: 0,0:06:51.64,0:06:53.85,Default,,0000,0000,0000,,如果弗蘭西斯真有什麼圖謀\NIf Francis were really up to something,
+Dialogue: 0,0:06:53.86,0:06:56.28,Default,,0000,0000,0000,,那他怎麼不直接把咨詢的事告訴鄧巴\Ndon't you think he would have told Dunbar about the therapy?
+Dialogue: 0,0:06:56.28,0:06:59.12,Default,,0000,0000,0000,,他逼我們交出記錄就等於那麼做了\NHe basically did by forcing us to hand over the logs.
+Dialogue: 0,0:06:59.44,0:07:01.73,Default,,0000,0000,0000,,那是你丈夫的決定\NYour husband chose to hand them over.
+Dialogue: 0,0:07:01.95,0:07:04.76,Default,,0000,0000,0000,,如果他拒絕  弗蘭西斯是不會逼他的\NIf he'd said no, Francis wouldn't have pressed the issue.
+Dialogue: 0,0:07:04.76,0:07:06.71,Default,,0000,0000,0000,,我不想跟你爭這個  克萊爾\NI don't want to debate this with you, Claire.
+Dialogue: 0,0:07:06.73,0:07:10.78,Default,,0000,0000,0000,,我只求你好好想想這件事  特莉莎\NAll I'm asking is that you really think this through, Tricia.
+Dialogue: 0,0:07:11.35,0:07:12.94,Default,,0000,0000,0000,,他現在跟你在一起嗎\NIs he with you right now?
+Dialogue: 0,0:07:13.02,0:07:14.05,Default,,0000,0000,0000,,誰\NWho?
+Dialogue: 0,0:07:14.13,0:07:15.20,Default,,0000,0000,0000,,弗蘭克\NFrank.
+Dialogue: 0,0:07:15.65,0:07:17.93,Default,,0000,0000,0000,,沒有  只有我和你\NNo. It's just you and me.
+Dialogue: 0,0:07:19.46,0:07:20.98,Default,,0000,0000,0000,,我要掛電話了\NI want to get off the phone.
+Dialogue: 0,0:07:21.10,0:07:22.85,Default,,0000,0000,0000,,拜託你跟加勒特談談好嗎\NWill you please talk to Garrett?
+Dialogue: 0,0:07:22.85,0:07:24.23,Default,,0000,0000,0000,,再見  克萊爾\NGoodbye, Claire.
+Dialogue: 0,0:07:29.71,0:07:30.67,Default,,0000,0000,0000,,你怎麼看\NWhat do you think?
+Dialogue: 0,0:07:30.67,0:07:33.41,Default,,0000,0000,0000,,我不覺得她會拋開丈夫站在我這邊\NI don't think she's going to side with me instead of her husband.
+Dialogue: 0,0:07:35.60,0:07:38.52,Default,,0000,0000,0000,,除了跟你  特莉莎還跟別人說過阿普唑侖的事嗎\NDid Tricia tell anyone else about the Xanax besides you?
+Dialogue: 0,0:07:35.60,0:07:38.52,Default,,0000,0000,0000,,{\an8}鎮靜抗焦慮藥
+Dialogue: 0,0:07:38.59,0:07:41.48,Default,,0000,0000,0000,,應該沒有  她對此非常敏感\NI doubt she would. She's very sensitive about it.
+Dialogue: 0,0:07:41.53,0:07:44.02,Default,,0000,0000,0000,,她要是跟別人說過  我們就可以把消息傳出去\NIf she'd only told someone else, then we could just leak it.
+Dialogue: 0,0:07:44.02,0:07:45.39,Default,,0000,0000,0000,,但是這太明顯了\NBut it'll be too obvious.
+Dialogue: 0,0:07:45.39,0:07:46.56,Default,,0000,0000,0000,,醫生\NThe doctor.
+Dialogue: 0,0:07:47.12,0:07:49.94,Default,,0000,0000,0000,,他在保護他們  他什麼都不會說的\NHe's protecting them. He won't say anything.
+Dialogue: 0,0:07:49.94,0:07:52.05,Default,,0000,0000,0000,,除非他們放棄保密特權\NUnless they waive the privilege.
+Dialogue: 0,0:07:52.15,0:07:54.47,Default,,0000,0000,0000,,那對他們可沒有好處\NThey have absolutely nothing to gain by that.
+Dialogue: 0,0:07:59.63,0:08:00.86,Default,,0000,0000,0000,,但是對我們有\NBut we do.
+Dialogue: 0,0:08:03.21,0:08:04.57,Default,,0000,0000,0000,,你得去見塔斯克\NYou have to meet with Tusk.
+Dialogue: 0,0:08:04.57,0:08:06.34,Default,,0000,0000,0000,,我背叛了他  他為什麼還要見我\NWhy would he talk to me after I back-stabbed him?
+Dialogue: 0,0:08:06.34,0:08:07.95,Default,,0000,0000,0000,,正因為如此他才會見你\NThat's precisely why he'll talk to you.
+Dialogue: 0,0:08:07.95,0:08:09.18,Default,,0000,0000,0000,,我不能去聖路易斯  你知道的...\NWell, I can't go to St. Louis. You know --
+Dialogue: 0,0:08:09.18,0:08:11.73,Default,,0000,0000,0000,,塔斯克會來東部  你要做的就是找到他\NTusk will come east. Your job is to get in the same room with him.
+Dialogue: 0,0:08:11.73,0:08:13.52,Default,,0000,0000,0000,,-什麼計劃  -雷米·丹頓\N- What's the play? - Remy Danton.
+Dialogue: 0,0:08:13.52,0:08:16.14,Default,,0000,0000,0000,,去  安排我跟杜蘭特面談\NGo. Get me Durant, in person.
+Dialogue: 0,0:08:16.14,0:08:17.10,Default,,0000,0000,0000,,我這就去\NI'll set it up.
+Dialogue: 0,0:08:17.10,0:08:20.75,Default,,0000,0000,0000,,道格  一定確保其他方面我們萬無一失\NAnd Doug? Let's make sure we're airtight on everything else.
+Dialogue: 0,0:08:20.75,0:08:22.31,Default,,0000,0000,0000,,不能有軟肋\NNo Achilles heel.
+Dialogue: 0,0:08:22.84,0:08:23.95,Default,,0000,0000,0000,,是  先生\NYes, sir.
+Dialogue: 0,0:08:25.05,0:08:28.30,Default,,0000,0000,0000,,"災難來臨了"  用混亂對抗混亂的人說\N"Cry, 'Havoc,'" Said he who fought chaos with chaos,
+Dialogue: 0,0:08:28.30,0:08:30.61,Default,,0000,0000,0000,,"讓我們釋放戰爭惡魔"\N"And let slip the dogs of war."
+Dialogue: 0,0:08:40.58,0:08:44.89,Default,,0000,0000,0000,,失約  數周不聯絡  你知道規矩\NMissed appointments. No contact in weeks. You know the rules.
+Dialogue: 0,0:08:44.90,0:08:47.03,Default,,0000,0000,0000,,我要跟格林特工談\NI'd like to speak to Agent Green, please.
+Dialogue: 0,0:08:47.03,0:08:48.07,Default,,0000,0000,0000,,你想幹什麼\NWhat are you up to?
+Dialogue: 0,0:08:48.07,0:08:49.92,Default,,0000,0000,0000,,給格林打電話\NPut Green on the fucking line, please.
+Dialogue: 0,0:08:49.92,0:08:52.16,Default,,0000,0000,0000,,不管你想說什麼  都可以跟我說\NAnything you have to say, you can discuss it with me.
+Dialogue: 0,0:08:52.16,0:08:54.18,Default,,0000,0000,0000,,我要說的事遠遠超出了你的級別\NWhat I have to say is way above your pay grade.
+Dialogue: 0,0:08:54.38,0:08:56.06,Default,,0000,0000,0000,,我怎麼關掉這破玩意\NWhere do I turn off this shit?
+Dialogue: 0,0:08:59.61,0:09:01.34,Default,,0000,0000,0000,,看看左邊的那塊屏幕\NLook at the other screen, to the left.
+Dialogue: 0,0:09:09.72,0:09:10.65,Default,,0000,0000,0000,,這是什麼\NWhat is this?
+Dialogue: 0,0:09:10.66,0:09:14.00,Default,,0000,0000,0000,,這是美國電話電報公司八個數據中心的訪問網格\NThat is the access grid to all eight of AT&T's data centers.
+Dialogue: 0,0:09:14.85,0:09:16.03,Default,,0000,0000,0000,,所以你還是解開手銬\NSo what do you say you un-cuff me
+Dialogue: 0,0:09:16.03,0:09:18.53,Default,,0000,0000,0000,,然後告訴格林特工我在等他的電話吧\Nand tell Agent Green I'll be waiting for his call?
+Dialogue: 0,0:09:22.21,0:09:24.42,Default,,0000,0000,0000,,我正在試圖修復與中國的關係\NI'm trying to repair relations with China.
+Dialogue: 0,0:09:24.42,0:09:27.09,Default,,0000,0000,0000,,給馮政治庇護就是一記耳光\NGiving Feng asylum would be a slap in the face.
+Dialogue: 0,0:09:27.10,0:09:30.50,Default,,0000,0000,0000,,加勒特有麻煩  他得表現出決心\NGarrett's in trouble. He needs to appear resolute.
+Dialogue: 0,0:09:30.50,0:09:33.23,Default,,0000,0000,0000,,我們的總統有多強  我們就有多強\NWe're only as strong as the president we serve.
+Dialogue: 0,0:09:33.23,0:09:34.39,Default,,0000,0000,0000,,我們必須拯救他\NWe have to rescue him.
+Dialogue: 0,0:09:34.39,0:09:37.23,Default,,0000,0000,0000,,你怎麼能確定他的證詞不會扯上白宮\NHow can you be sure his testimony won't implicate the White House?
+Dialogue: 0,0:09:37.23,0:09:39.07,Default,,0000,0000,0000,,他知道誰有奶  誰是娘\NHe knows where his bread is buttered.
+Dialogue: 0,0:09:39.17,0:09:42.13,Default,,0000,0000,0000,,你這不是要拯救總統\NThis isn't about you saving the president.
+Dialogue: 0,0:09:42.13,0:09:44.97,Default,,0000,0000,0000,,-當然是  -這不是第一次了  弗蘭克\N- Of course it is. - We've been down this road before, Frank.
+Dialogue: 0,0:09:45.16,0:09:47.28,Default,,0000,0000,0000,,邁克爾·科恩  亞當·嘉樂威\NMichael Kern, Adam Galloway.
+Dialogue: 0,0:09:47.41,0:09:49.49,Default,,0000,0000,0000,,我想當國務卿\NI wanted to become secretary of state
+Dialogue: 0,0:09:49.49,0:09:52.41,Default,,0000,0000,0000,,是為了進行有成效的外交\Nin order to engage in productive diplomacy,
+Dialogue: 0,0:09:52.41,0:09:54.32,Default,,0000,0000,0000,,而不是全職損失控制\Nnot full-time damage control.
+Dialogue: 0,0:09:54.32,0:09:57.23,Default,,0000,0000,0000,,所以我們要讓加勒特回到正軌\NWhich is why we have to put Garrett back on his feet.
+Dialogue: 0,0:09:57.23,0:10:00.32,Default,,0000,0000,0000,,你是想讓他脫軌吧  弗蘭克\NYou want him on his ass, Frank.
+Dialogue: 0,0:10:00.40,0:10:02.45,Default,,0000,0000,0000,,是總統這麼跟你說的嗎\NIs this what the president told you?
+Dialogue: 0,0:10:03.41,0:10:05.28,Default,,0000,0000,0000,,他現在太多疑了  凱茜\NHe's paranoid, Cathy.
+Dialogue: 0,0:10:05.28,0:10:08.20,Default,,0000,0000,0000,,他想讓大家跟我反目\NHe's trying to turn people against me.
+Dialogue: 0,0:10:08.20,0:10:10.33,Default,,0000,0000,0000,,是你自己的行為讓大家跟你反目\NYou're turning them against yourself.
+Dialogue: 0,0:10:10.39,0:10:13.59,Default,,0000,0000,0000,,你在要求我坑害總統\NYou're asking me to undermine the president.
+Dialogue: 0,0:10:18.71,0:10:19.78,Default,,0000,0000,0000,,好吧\NAll right.
+Dialogue: 0,0:10:22.63,0:10:28.76,Default,,0000,0000,0000,,假如總統對我的指責屬實\NLet's say that what the President has accused me of is true.
+Dialogue: 0,0:10:30.24,0:10:31.65,Default,,0000,0000,0000,,這就真的很糟嗎\NWould that be so bad?
+Dialogue: 0,0:10:32.64,0:10:34.58,Default,,0000,0000,0000,,考慮一下這麼做的結果\NIf taken to its conclusion?
+Dialogue: 0,0:10:35.45,0:10:37.98,Default,,0000,0000,0000,,對你沒有好處嗎\NWouldn't you stand to benefit?
+Dialogue: 0,0:10:38.67,0:10:40.04,Default,,0000,0000,0000,,對國家沒有好處嗎\NWouldn't the country?
+Dialogue: 0,0:10:42.17,0:10:43.98,Default,,0000,0000,0000,,我不想牽扯進去\NI don't want anything to do with this.
+Dialogue: 0,0:10:43.98,0:10:46.52,Default,,0000,0000,0000,,就再做一次  凱茜\NJust one more time, Cathy.
+Dialogue: 0,0:10:47.52,0:10:49.46,Default,,0000,0000,0000,,別去管那些條條框框\NLet's unshackle ourselves.
+Dialogue: 0,0:10:51.63,0:10:54.13,Default,,0000,0000,0000,,機會只有一次  馮先生\NThis is a one-time offer, Mr. Feng.
+Dialogue: 0,0:10:54.32,0:10:57.81,Default,,0000,0000,0000,,我要白紙黑字寫下來  不加任何條件\NI would need it in writing. Open-ended, no restrictions.
+Dialogue: 0,0:10:57.81,0:10:59.54,Default,,0000,0000,0000,,法定豁免權也是一樣\NThe same goes for legal immunity.
+Dialogue: 0,0:10:59.90,0:11:01.13,Default,,0000,0000,0000,,首先我要確認\NFirst I need to know whether or not
+Dialogue: 0,0:11:01.13,0:11:03.37,Default,,0000,0000,0000,,你是否通過拉尼根的賭場洗錢\Nyou funneled money through Lanagin's casino.
+Dialogue: 0,0:11:03.37,0:11:06.15,Default,,0000,0000,0000,,不  等我安全抵達美國\NNo, no. I will speak freely once I've arrived safely
+Dialogue: 0,0:11:06.15,0:11:07.36,Default,,0000,0000,0000,,我才會全盤托出\Nin the United States.
+Dialogue: 0,0:11:07.36,0:11:09.36,Default,,0000,0000,0000,,除非你現在就能提供確鑿證據\NUnless you provide valuable evidence now,
+Dialogue: 0,0:11:09.37,0:11:12.86,Default,,0000,0000,0000,,司法部長不會答應任何豁免權\Nthe attorney general will not grant immunity on any level.
+Dialogue: 0,0:11:13.56,0:11:15.74,Default,,0000,0000,0000,,我在中國已經全部否認了這些指控\NI've denied these allegations in China.
+Dialogue: 0,0:11:16.32,0:11:17.50,Default,,0000,0000,0000,,我的敵人想置我於死地\NMy enemies want me dead.
+Dialogue: 0,0:11:17.50,0:11:19.57,Default,,0000,0000,0000,,你這是逼我給他們證據\NYou're asking me to give them confirmation.
+Dialogue: 0,0:11:19.57,0:11:22.09,Default,,0000,0000,0000,,作為回報  我們會給你提供避難所\NAnd we're giving you safe haven in return.
+Dialogue: 0,0:11:22.09,0:11:24.06,Default,,0000,0000,0000,,我在迪拜已經有避難所了\NI already have safe haven in Dubai.
+Dialogue: 0,0:11:24.06,0:11:26.22,Default,,0000,0000,0000,,你在那裏的庇護所只是暫時的\NYour asylum there is only temporary.
+Dialogue: 0,0:11:26.22,0:11:28.79,Default,,0000,0000,0000,,我們給你提供的是永久身份\NWe're offering you permanent status.
+Dialogue: 0,0:11:29.21,0:11:31.80,Default,,0000,0000,0000,,我相信他們也會給我永久身份\NI'm confident that they will grant me permanent status.
+Dialogue: 0,0:11:31.80,0:11:34.85,Default,,0000,0000,0000,,是外交部長親口跟你說的嗎\NDid you hear that directly from the Minister of Foreign Affairs?
+Dialogue: 0,0:11:34.85,0:11:36.81,Default,,0000,0000,0000,,因為我剛跟他談過\NBecause I just spoke to him.
+Dialogue: 0,0:11:37.57,0:11:40.18,Default,,0000,0000,0000,,現在你連護照都沒有\NRight now you are a man without a passport.
+Dialogue: 0,0:11:40.18,0:11:43.07,Default,,0000,0000,0000,,北京方面還沒查封的資產\NWhatever assets Beijing hasn't seized
+Dialogue: 0,0:11:43.07,0:11:47.12,Default,,0000,0000,0000,,也都被所有和中美關繫緊密的國家凍結了\Nare frozen in every country with close ties to the United Sates or China,
+Dialogue: 0,0:11:47.12,0:11:50.46,Default,,0000,0000,0000,,那基本上是全世界所有國家\Nwhich is just about every country in the world.
+Dialogue: 0,0:11:50.46,0:11:55.26,Default,,0000,0000,0000,,你想要自由和金錢  我們想要信息\NYou want your freedom and fortune. We want information.
+Dialogue: 0,0:11:58.00,0:11:59.16,Default,,0000,0000,0000,,馮先生\NMr. Feng?
+Dialogue: 0,0:12:00.63,0:12:01.89,Default,,0000,0000,0000,,你想知道什麼\NWhat do you need to know?
+Dialogue: 0,0:12:02.54,0:12:05.79,Default,,0000,0000,0000,,向我證實確實有洗錢行為\NConfirm for me the existence of a money-laundering scheme.
+Dialogue: 0,0:12:07.32,0:12:11.80,Default,,0000,0000,0000,,是的  我們用賭場來掩飾外國獻金\NYes. We used the casino to mask foreign contributions.
+Dialogue: 0,0:12:15.14,0:12:16.30,Default,,0000,0000,0000,,好的\NAll right.
+Dialogue: 0,0:12:17.50,0:12:20.37,Default,,0000,0000,0000,,你們中誰跟我講講這是怎麼回事\NOne of you want to tell me what this is all about?
+Dialogue: 0,0:12:21.56,0:12:22.74,Default,,0000,0000,0000,,你必須得遵從\NYou have to comply.
+Dialogue: 0,0:12:22.74,0:12:24.34,Default,,0000,0000,0000,,你是說我得出席\NYou mean I have to show up.
+Dialogue: 0,0:12:25.06,0:12:26.31,Default,,0000,0000,0000,,除非我們上訴\NUnless we appeal.
+Dialogue: 0,0:12:26.31,0:12:27.49,Default,,0000,0000,0000,,我們會輸\NWe'd lose.
+Dialogue: 0,0:12:27.80,0:12:29.20,Default,,0000,0000,0000,,她要不是證據確鑿\NShe wouldn't have issued the subpoena
+Dialogue: 0,0:12:29.20,0:12:31.14,Default,,0000,0000,0000,,也不會傳喚我\Nunless she had something substantial.
+Dialogue: 0,0:12:31.14,0:12:31.85,Default,,0000,0000,0000,,我同意\NI agree.
+Dialogue: 0,0:12:31.85,0:12:33.33,Default,,0000,0000,0000,,所以我覺得你該去\NWhich is why I think you should go
+Dialogue: 0,0:12:33.33,0:12:34.58,Default,,0000,0000,0000,,並拒不解釋\Nand plead the Fifth.
+Dialogue: 0,0:12:34.58,0:12:35.87,Default,,0000,0000,0000,,你覺得她手上有什麼\NWhat do you think she has?
+Dialogue: 0,0:12:35.87,0:12:37.42,Default,,0000,0000,0000,,我不想妄加推斷\NI don't want to speculate.
+Dialogue: 0,0:12:37.42,0:12:40.03,Default,,0000,0000,0000,,老天  我付給你們六個一天的錢\NGod damn it, I pay the six of you more in one day
+Dialogue: 0,0:12:40.03,0:12:42.10,Default,,0000,0000,0000,,比供個孩子上大學都多\Nthan it costs to put a kid through college.
+Dialogue: 0,0:12:42.11,0:12:43.97,Default,,0000,0000,0000,,我請你們是要你們比我知道得多\NAnd I pay you to know more than I do.
+Dialogue: 0,0:12:43.97,0:12:46.07,Default,,0000,0000,0000,,她問詢時說的對我們會很有幫助\NHer line of questioning will tell us a lot.
+Dialogue: 0,0:12:46.07,0:12:49.44,Default,,0000,0000,0000,,萬一她真要提出指控  我們可以據此準備辯護\NWe can use that to prepare our defense in case there's an indictment.
+Dialogue: 0,0:12:50.79,0:12:51.99,Default,,0000,0000,0000,,我什麼時候走\NWhen do I have to go?
+Dialogue: 0,0:12:51.99,0:12:54.18,Default,,0000,0000,0000,,你的會面是在後天\NYour interview is the day after next.
+Dialogue: 0,0:12:54.89,0:12:56.37,Default,,0000,0000,0000,,48小時\N48 hours?
+Dialogue: 0,0:13:33.10,0:13:34.35,Default,,0000,0000,0000,,發動不了嗎\NHaving trouble starting it?
+Dialogue: 0,0:13:34.35,0:13:36.75,Default,,0000,0000,0000,,是的  可能電池沒電了吧\NYeah. I think the battery might be dead.
+Dialogue: 0,0:13:36.76,0:13:39.02,Default,,0000,0000,0000,,如果你想試試跨接啟動  我有電線\NI have some cables if you want to try and jump it.
+Dialogue: 0,0:13:40.16,0:13:41.41,Default,,0000,0000,0000,,這真的不麻煩嗎\NYou sure you don't mind?
+Dialogue: 0,0:13:41.41,0:13:42.70,Default,,0000,0000,0000,,一點也不\NNot at all.
+Dialogue: 0,0:13:43.87,0:13:45.69,Default,,0000,0000,0000,,好吧  你真是太好了\NAll right. It's really nice of you.
+Dialogue: 0,0:13:45.73,0:13:47.26,Default,,0000,0000,0000,,開引擎蓋  我把我車開過來\NPop your hood. I'll bring my car around.
+Dialogue: 0,0:13:47.27,0:13:48.40,Default,,0000,0000,0000,,好\NSure.
+Dialogue: 0,0:13:51.45,0:13:53.98,Default,,0000,0000,0000,,這位是彼得  他開車送我回來的\NThis is Peter. He's the guy who drove me back.
+Dialogue: 0,0:13:55.58,0:13:56.52,Default,,0000,0000,0000,,這些要放哪\NWhere do you want these?
+Dialogue: 0,0:13:56.52,0:13:58.61,Default,,0000,0000,0000,,我來拿  謝謝\NI'll take 'em. Thanks.
+Dialogue: 0,0:14:00.56,0:14:01.80,Default,,0000,0000,0000,,瑞秋  是嗎\NRachel, right?
+Dialogue: 0,0:14:02.67,0:14:03.60,Default,,0000,0000,0000,,是的\NYeah.
+Dialogue: 0,0:14:03.60,0:14:05.14,Default,,0000,0000,0000,,麗薩說你倆是室友\NLisa said you two were roommates.
+Dialogue: 0,0:14:05.14,0:14:07.11,Default,,0000,0000,0000,,要我給你拿點什麼  來杯水嗎\NCan I get you something? A glass of water?
+Dialogue: 0,0:14:07.11,0:14:09.03,Default,,0000,0000,0000,,不用  謝謝  我得走了\NNo, thanks. I should really get going.
+Dialogue: 0,0:14:09.03,0:14:10.57,Default,,0000,0000,0000,,好吧  太謝謝你了\NAll right. I can't thank you enough.
+Dialogue: 0,0:14:10.57,0:14:12.26,Default,,0000,0000,0000,,不客氣  希望車能修好\NMy pleasure. Good luck with the car.
+Dialogue: 0,0:14:12.26,0:14:13.14,Default,,0000,0000,0000,,謝謝\NThanks.
+Dialogue: 0,0:14:13.36,0:14:15.88,Default,,0000,0000,0000,,希望只是電池沒電  晚安\NI hope it's only a dead battery. Have a good night.
+Dialogue: 0,0:14:18.04,0:14:19.28,Default,,0000,0000,0000,,我們應該給他些錢\NWe should give him some money.
+Dialogue: 0,0:14:21.50,0:14:22.55,Default,,0000,0000,0000,,彼得\NPeter.
+Dialogue: 0,0:14:26.56,0:14:27.80,Default,,0000,0000,0000,,她得離開\NShe needs to be gone.
+Dialogue: 0,0:14:29.92,0:14:31.24,Default,,0000,0000,0000,,你跟我說她可以留下的\NY-- you told me she could stay.
+Dialogue: 0,0:14:31.25,0:14:32.62,Default,,0000,0000,0000,,我改主意了\NI changed my mind.
+Dialogue: 0,0:14:32.67,0:14:34.49,Default,,0000,0000,0000,,你說你不在乎她在不在這兒\NBut you said you didn't care if she was here --
+Dialogue: 0,0:14:34.49,0:14:36.65,Default,,0000,0000,0000,,我不需要解釋什麼\NI don't need to explain myself.
+Dialogue: 0,0:14:38.47,0:14:39.97,Default,,0000,0000,0000,,你受不了了  是嗎\NYou can't stand it, can you?
+Dialogue: 0,0:14:40.66,0:14:42.30,Default,,0000,0000,0000,,受不了我愛上了別人\NThe idea that I might actually love somebody.
+Dialogue: 0,0:14:42.30,0:14:44.76,Default,,0000,0000,0000,,受不了我生命中除了你還有別人\NThat I might have somebody in my life who isn't you.
+Dialogue: 0,0:14:44.76,0:14:47.47,Default,,0000,0000,0000,,如果你在乎她  就讓她走  瑞秋\NIf you care about her, make it happen, Rachel.
+Dialogue: 0,0:14:49.73,0:14:50.73,Default,,0000,0000,0000,,沒事吧\NIs everything okay?
+Dialogue: 0,0:14:50.73,0:14:53.09,Default,,0000,0000,0000,,沒事  告訴你朋友我不會要錢的\NYeah. You need to tell your friend that I won't take any money.
+Dialogue: 0,0:14:53.09,0:14:54.36,Default,,0000,0000,0000,,我很樂意幫忙\NI was happy to do it.
+Dialogue: 0,0:14:54.36,0:14:56.51,Default,,0000,0000,0000,,我們都需要好心人幫忙\NWe all need a good Samaritan every now and again.
+Dialogue: 0,0:15:02.01,0:15:03.45,Default,,0000,0000,0000,,麥金尼斯將軍被判處\NDid you feel justice was served
+Dialogue: 0,0:15:03.45,0:15:06.05,Default,,0000,0000,0000,,四十年有期徒刑時  你覺得正義得到伸張了嗎\Nwhen General McGinnis got sentenced to 40 years?
+Dialogue: 0,0:15:06.05,0:15:07.73,Default,,0000,0000,0000,,就他的罪行而言  正義是得以伸張了\NYes, as far as his crimes go.
+Dialogue: 0,0:15:07.73,0:15:09.15,Default,,0000,0000,0000,,但還有成千的服役士兵沒有...\NBut not for thousands of servicemen and --
+Dialogue: 0,0:15:09.15,0:15:10.93,Default,,0000,0000,0000,,抱歉  抱歉打斷你的講話\NI'm -- I'm sor-- I'm sorry to interrupt.
+Dialogue: 0,0:15:11.23,0:15:12.94,Default,,0000,0000,0000,,我的製作人告訴我\Nm-- my producer is telling me that,
+Dialogue: 0,0:15:13.20,0:15:14.92,Default,,0000,0000,0000,,傑奎琳·夏普剛打電話來\NJacqueline Sharp has called in,
+Dialogue: 0,0:15:14.92,0:15:18.33,Default,,0000,0000,0000,,眾議院多數黨黨鞭  議員女士  你在嗎\Nthe house majority whip. C-- congresswoman, are you there?
+Dialogue: 0,0:15:18.33,0:15:20.98,Default,,0000,0000,0000,,是的  我在  克裏斯  謝謝你接我的電話\NYes, I'm here, Chris. And thank you for taking my call.
+Dialogue: 0,0:15:21.29,0:15:22.42,Default,,0000,0000,0000,,謝謝你\NThank you.
+Dialogue: 0,0:15:22.42,0:15:23.67,Default,,0000,0000,0000,,你好  梅根\NHello, Megan.
+Dialogue: 0,0:15:23.84,0:15:25.12,Default,,0000,0000,0000,,議員女士\NCongresswoman.
+Dialogue: 0,0:15:25.12,0:15:26.79,Default,,0000,0000,0000,,首先  作為一名老兵\NFirst of all, as a veteran like yourself,
+Dialogue: 0,0:15:26.79,0:15:29.44,Default,,0000,0000,0000,,我想感謝你對國家的貢獻\NI want to thank you for your service to our country.
+Dialogue: 0,0:15:29.44,0:15:31.21,Default,,0000,0000,0000,,這是責任  無需感謝\NDuty doesn't require thanks.
+Dialogue: 0,0:15:31.31,0:15:32.99,Default,,0000,0000,0000,,我很高興你提到責任這個話題\NI'm glad you brought up duty,
+Dialogue: 0,0:15:32.99,0:15:36.78,Default,,0000,0000,0000,,因為你最近將它稱之為洗腦\Nbecause you recently equated it with brainwashing.
+Dialogue: 0,0:15:36.78,0:15:37.97,Default,,0000,0000,0000,,那不是我的本意\NThat's not what I meant.
+Dialogue: 0,0:15:37.97,0:15:40.45,Default,,0000,0000,0000,,你說"緊跟黨派路線"\NYou said "Toeing the party line."
+Dialogue: 0,0:15:41.01,0:15:43.33,Default,,0000,0000,0000,,我的本意是文化和體系是...\NWhat I meant was that the culture and the system is one that --
+Dialogue: 0,0:15:43.33,0:15:45.12,Default,,0000,0000,0000,,我不是打電話來和你辯論的  梅根  恰恰相反\NI didn't call to argue with you, Megan. The opposite.
+Dialogue: 0,0:15:45.12,0:15:48.74,Default,,0000,0000,0000,,我們要解決這個問題  就必須找到共同點\NWe can't fix this problem until we find some common ground.
+Dialogue: 0,0:15:48.74,0:15:49.62,Default,,0000,0000,0000,,你不覺得嗎\NWouldn't you agree?
+Dialogue: 0,0:15:49.62,0:15:51.66,Default,,0000,0000,0000,,就我來看這個問題沒有妥協空間\NThere is no middle ground as far as I'm concerned.
+Dialogue: 0,0:15:51.66,0:15:52.38,Default,,0000,0000,0000,,軍隊需要改變\NThe military needs to change --
+Dialogue: 0,0:15:52.38,0:15:54.48,Default,,0000,0000,0000,,你和我都曾經在軍中服役\NCan't we agree that you and I served
+Dialogue: 0,0:15:54.48,0:15:56.85,Default,,0000,0000,0000,,以保護人民自由辯論的權利\Nso that we could protect open debate,
+Dialogue: 0,0:15:56.88,0:15:59.17,Default,,0000,0000,0000,,而這正是民主的基礎  你說不是嗎\Nwhich is the very bedrock of democracy?
+Dialogue: 0,0:15:59.18,0:16:01.38,Default,,0000,0000,0000,,理論上是的  但這不是我要說的\NYes, in theory, but that's not what I'm talking about.
+Dialogue: 0,0:16:01.38,0:16:03.43,Default,,0000,0000,0000,,不是理論上  是實際上\NNot in theory. In reality.
+Dialogue: 0,0:16:03.43,0:16:06.38,Default,,0000,0000,0000,,勇敢的人為了這份自由不惜犧牲生命\NBrave men and women die fighting for that freedom.
+Dialogue: 0,0:16:06.39,0:16:09.79,Default,,0000,0000,0000,,勇敢的涵義就是為那些和你意見相左的人\NThe meaning of bravery is fighting for the freedom
+Dialogue: 0,0:16:09.80,0:16:11.81,Default,,0000,0000,0000,,也同樣享有自由而戰鬥\Nof those with whom you disagree.
+Dialogue: 0,0:16:11.81,0:16:13.45,Default,,0000,0000,0000,,當然  但我們回到真正的話題上來好嗎\NSure, but let's get back to the issue here.
+Dialogue: 0,0:16:13.45,0:16:16.73,Default,,0000,0000,0000,,我認為不勇敢的人是克萊爾·安德伍德\NWhat I don't think is brave is Claire Underwood
+Dialogue: 0,0:16:16.73,0:16:20.28,Default,,0000,0000,0000,,逃避這場辯論  找你替她進行這場鬥爭\Ndodging this debate and having you fight this battle for her instead.
+Dialogue: 0,0:16:20.28,0:16:21.46,Default,,0000,0000,0000,,不是這樣的\NThat's not true.
+Dialogue: 0,0:16:21.46,0:16:25.26,Default,,0000,0000,0000,,那我為什麼在和你而不是她談話  這是她的法案\NThen why am I talking to you instead of her? It's her bill.
+Dialogue: 0,0:16:25.26,0:16:27.06,Default,,0000,0000,0000,,不只是她  是我們共同的成果\NIt's not just hers. It's all of ours.
+Dialogue: 0,0:16:27.07,0:16:29.89,Default,,0000,0000,0000,,可是你勇敢地說出來了\NExcept one of you is brave enough to say it,
+Dialogue: 0,0:16:29.89,0:16:31.79,Default,,0000,0000,0000,,而她卻是個懦夫\Nand the other is a coward.
+Dialogue: 0,0:16:32.06,0:16:33.59,Default,,0000,0000,0000,,安德伍德夫人勇敢地\NMrs. Underwood was brave enough
+Dialogue: 0,0:16:33.59,0:16:35.84,Default,,0000,0000,0000,,在全國電視節目上承認她...\Nto go on national television and admit that she --
+Dialogue: 0,0:16:35.84,0:16:37.54,Default,,0000,0000,0000,,沒錯  但那之後她去哪了\NYeah, and where has she been since then?
+Dialogue: 0,0:16:37.54,0:16:40.27,Default,,0000,0000,0000,,應付醜聞  躲避媒體\NDeflecting scandal and hiding from the press.
+Dialogue: 0,0:16:40.52,0:16:43.62,Default,,0000,0000,0000,,梅根  你在《紐約時代雜誌》上說我可恥\NYou called me disgraceful in The New York Times, Megan,
+Dialogue: 0,0:16:43.62,0:16:45.26,Default,,0000,0000,0000,,你當然有這個權利\Nand you have every right.
+Dialogue: 0,0:16:45.30,0:16:49.06,Default,,0000,0000,0000,,但我也有權說  安德伍德夫人是可恥的\NBut I also have the right to say that Mrs. Underwood is disgraceful,
+Dialogue: 0,0:16:49.06,0:16:50.51,Default,,0000,0000,0000,,因為沒有什麼\Nbecause there is nothing
+Dialogue: 0,0:16:50.66,0:16:53.50,Default,,0000,0000,0000,,比當逃兵更可恥\Nmore disgraceful than running from a battle.
+Dialogue: 0,0:16:56.60,0:16:59.53,Default,,0000,0000,0000,,-梅根  -我們根本沒有...\N- Megan? - That is -- we're not even...
+Dialogue: 0,0:17:01.82,0:17:03.04,Default,,0000,0000,0000,,我們馬上回來\NWe'll be right back.
+Dialogue: 0,0:17:06.39,0:17:07.57,Default,,0000,0000,0000,,你要去哪\NWhere are you going?
+Dialogue: 0,0:17:08.02,0:17:09.14,Default,,0000,0000,0000,,去國會\NTo the Capitol.
+Dialogue: 0,0:17:11.05,0:17:13.73,Default,,0000,0000,0000,,馮提到我或總統了嗎\NDid Feng mention either me or the president?
+Dialogue: 0,0:17:13.73,0:17:14.76,Default,,0000,0000,0000,,鄧巴不肯說\NDunbar wouldn't say.
+Dialogue: 0,0:17:14.76,0:17:17.28,Default,,0000,0000,0000,,但馮確認了洗錢行為\NBut the fact that Feng confirmed the money laundering
+Dialogue: 0,0:17:17.28,0:17:19.12,Default,,0000,0000,0000,,這足以讓白宮更受關注\Nincreases focus on the White House.
+Dialogue: 0,0:17:19.12,0:17:21.33,Default,,0000,0000,0000,,反正我們是清白的\NWell, as long as we're innocent, which we are.
+Dialogue: 0,0:17:21.46,0:17:23.89,Default,,0000,0000,0000,,雷蒙德·塔斯克被傳喚了\NRaymond Tusk has been subpoenaed.
+Dialogue: 0,0:17:26.48,0:17:27.91,Default,,0000,0000,0000,,你為什麼找我們見面  比爾\NWhy did you ask for this meeting, Bill?
+Dialogue: 0,0:17:27.91,0:17:29.28,Default,,0000,0000,0000,,就為了向我們通報消息嗎\NJust keeping us in the loop?
+Dialogue: 0,0:17:29.44,0:17:32.41,Default,,0000,0000,0000,,是你讓國務卿杜蘭特給予馮政治庇護嗎\NDid you encourage Secretary Durant to offer Feng asylum?
+Dialogue: 0,0:17:32.41,0:17:34.08,Default,,0000,0000,0000,,比爾  我的天吶\NBill, for god sakes.
+Dialogue: 0,0:17:34.98,0:17:37.32,Default,,0000,0000,0000,,總統也可能問我這個問題\NThe president could have asked me that question himself.
+Dialogue: 0,0:17:37.32,0:17:39.06,Default,,0000,0000,0000,,作為白宮顧問  這是我的責任\NAs the White House counsel, it is my responsibility --
+Dialogue: 0,0:17:39.06,0:17:40.83,Default,,0000,0000,0000,,不  我沒有\NNo, I did not.
+Dialogue: 0,0:17:41.68,0:17:44.07,Default,,0000,0000,0000,,那麼這是杜蘭特自己的主意嘍\NSo you're saying Durant acted of her own accord.
+Dialogue: 0,0:17:44.07,0:17:46.01,Default,,0000,0000,0000,,我不知道她的動機是什麼\NI have no idea what her motivations were.
+Dialogue: 0,0:17:46.01,0:17:47.39,Default,,0000,0000,0000,,我和總統一樣感到震驚\NI'm just as shocked as the president
+Dialogue: 0,0:17:47.39,0:17:50.17,Default,,0000,0000,0000,,她居然沒經過他本人允許就擅自而為了\Nthat she would have gone through with this without his direct approval.
+Dialogue: 0,0:17:51.24,0:17:53.22,Default,,0000,0000,0000,,還有一個問題我想和你談談\NThere's another matter I'd like to discuss.
+Dialogue: 0,0:17:54.13,0:17:55.29,Default,,0000,0000,0000,,如果可以  最好只跟你談\NPrivately, if we could.
+Dialogue: 0,0:17:55.29,0:17:56.97,Default,,0000,0000,0000,,讓我們單獨待會兒\NJust give us a few moments.
+Dialogue: 0,0:18:06.26,0:18:07.67,Default,,0000,0000,0000,,-咨詢  -是的\N- The therapy.- Yes.
+Dialogue: 0,0:18:08.18,0:18:10.73,Default,,0000,0000,0000,,具體說  就是放棄保密權\NTo be specific, the confidentiality waiver.
+Dialogue: 0,0:18:10.73,0:18:13.56,Default,,0000,0000,0000,,馮的證詞把我們推到一個非常尷尬的位置上\NFeng's testimony puts us in a very awkward position.
+Dialogue: 0,0:18:13.56,0:18:16.23,Default,,0000,0000,0000,,我們現在面對放棄保密權的極大壓力\NWe're under a great deal of pressure to waive the privilege.
+Dialogue: 0,0:18:16.23,0:18:18.15,Default,,0000,0000,0000,,如果不放棄  就相當於總統\NIf we don't, it implies that the president
+Dialogue: 0,0:18:18.15,0:18:19.80,Default,,0000,0000,0000,,承認了他沒做過的事\Nmay have confessed to things he didn't.
+Dialogue: 0,0:18:19.80,0:18:22.40,Default,,0000,0000,0000,,鄧巴只是在瞎猜  別讓步\NDunbar is just grasping. Don't give in.
+Dialogue: 0,0:18:22.60,0:18:23.81,Default,,0000,0000,0000,,我不想讓步\NI don't want to.
+Dialogue: 0,0:18:24.28,0:18:28.50,Default,,0000,0000,0000,,但拉金宗教指導保密協議的說法並不可靠\NBut Larkin's argument for spiritual confidentiality is shaky at best.
+Dialogue: 0,0:18:29.62,0:18:31.85,Default,,0000,0000,0000,,我們想控制事態的發展\NWe want to control how this thing plays out.
+Dialogue: 0,0:18:32.06,0:18:33.43,Default,,0000,0000,0000,,我能幫什麼忙\NHow can I help?
+Dialogue: 0,0:18:33.47,0:18:36.33,Default,,0000,0000,0000,,我們要確保不會再節外生枝\NWe need to know if anyone else might pop out of the woodwork.
+Dialogue: 0,0:18:36.33,0:18:38.81,Default,,0000,0000,0000,,我沒對任何人說過  克萊爾也沒說過\NWell, I haven't mentioned it to anyone, and neither has Claire.
+Dialogue: 0,0:18:38.81,0:18:41.57,Default,,0000,0000,0000,,我不會辜負總統對我的信任\NI would never betray the president's trust like that.
+Dialogue: 0,0:18:43.58,0:18:44.77,Default,,0000,0000,0000,,謝謝你抽出時間\NThank you for your time.
+Dialogue: 0,0:18:47.56,0:18:49.34,Default,,0000,0000,0000,,告訴總統  我非常難過\NTell the president it saddens me that
+Dialogue: 0,0:18:49.35,0:18:51.65,Default,,0000,0000,0000,,我們現在只能通過律師交流\Nwe now have to communicate through lawyers.
+Dialogue: 0,0:18:51.69,0:18:53.35,Default,,0000,0000,0000,,要是他想親自和我談談\NI will make myself available if he wants
+Dialogue: 0,0:18:53.35,0:18:55.37,Default,,0000,0000,0000,,我會抽出時間的\Nto discuss any of this in person.
+Dialogue: 0,0:18:55.37,0:18:56.13,Default,,0000,0000,0000,,好的  先生\NYes, sir.
+Dialogue: 0,0:18:56.13,0:18:57.71,Default,,0000,0000,0000,,梅根的話太過分了\NWhat Megan said was offensive.
+Dialogue: 0,0:18:57.71,0:19:00.16,Default,,0000,0000,0000,,她不該質疑你的品行\NShe shouldn't have questioned your character.
+Dialogue: 0,0:19:00.16,0:19:04.06,Default,,0000,0000,0000,,那都是精心準備的談話要點  而且不是她準備的\NThose were talking points. Carefully crafted, and not by her.
+Dialogue: 0,0:19:04.06,0:19:07.34,Default,,0000,0000,0000,,我不是來挑釁的  傑姬  我是來解決問題的\NI'm not here to pick a fight, Jackie. I'm here to end one.
+Dialogue: 0,0:19:07.34,0:19:09.97,Default,,0000,0000,0000,,只要法案進行投票  這事就會結束\NWell, it'll end soon enough when the bill goes to the floor.
+Dialogue: 0,0:19:09.97,0:19:11.60,Default,,0000,0000,0000,,不會進行投票的\NIt won't go to the floor.
+Dialogue: 0,0:19:11.86,0:19:15.66,Default,,0000,0000,0000,,我跟艾琳·布魯克斯談過了  我要撤銷法案\NI've spoken to Elaine Brooks and I'm withdrawing the bill.
+Dialogue: 0,0:19:17.16,0:19:19.09,Default,,0000,0000,0000,,你說的有一定道理\NWhat you said had some truth.
+Dialogue: 0,0:19:19.61,0:19:20.94,Default,,0000,0000,0000,,之前你提出\NAnd early on you offered
+Dialogue: 0,0:19:20.94,0:19:23.48,Default,,0000,0000,0000,,我們一起找個折中的辦法\Nto sit down with me and find a middle ground.
+Dialogue: 0,0:19:23.48,0:19:25.95,Default,,0000,0000,0000,,我那時拒絕了你\NI decided to draw a line in the sand.
+Dialogue: 0,0:19:26.30,0:19:27.78,Default,,0000,0000,0000,,但勇敢的做法應該是\NAnd the braver thing would've been for me
+Dialogue: 0,0:19:27.78,0:19:30.95,Default,,0000,0000,0000,,收起我的驕傲  跟你好好談\Nto swallow my pride and sit down with you.
+Dialogue: 0,0:19:31.51,0:19:34.65,Default,,0000,0000,0000,,如果你還願談  我想重新開始\NIf you're still open to that, I'd love to start over.
+Dialogue: 0,0:19:34.77,0:19:36.74,Default,,0000,0000,0000,,你和弗蘭克在打什麼主意嗎\NAre you and Frank up to something?
+Dialogue: 0,0:19:36.85,0:19:38.43,Default,,0000,0000,0000,,一項能通過的法案\NA passable bill.
+Dialogue: 0,0:19:38.43,0:19:43.43,Default,,0000,0000,0000,,他讓南茜監視我  他把我的個人生活搞得\NHe had Nancy spy on me. He brought my personal life into --
+Dialogue: 0,0:19:43.43,0:19:45.58,Default,,0000,0000,0000,,弗蘭西斯習慣了事事得逞\NFrancis is used to getting his way.
+Dialogue: 0,0:19:46.42,0:19:48.23,Default,,0000,0000,0000,,他會不惜一切確保成功\NAnd he'll do anything to make sure he does,
+Dialogue: 0,0:19:48.24,0:19:50.88,Default,,0000,0000,0000,,尤其是對我重要的事\Nespecially if it's something important to me.
+Dialogue: 0,0:19:51.45,0:19:54.95,Default,,0000,0000,0000,,我不知道  克萊爾  我很懷疑\NI don't know, Claire. I'm skeptical.
+Dialogue: 0,0:19:55.33,0:19:57.38,Default,,0000,0000,0000,,之前那樣對待你  我們深表歉意\NWe're deeply sorry for the way we've treated you
+Dialogue: 0,0:19:57.38,0:20:00.47,Default,,0000,0000,0000,,我們想重拾失去的信任\Nand we want to rebuild the trust we've lost.
+Dialogue: 0,0:20:01.48,0:20:03.31,Default,,0000,0000,0000,,你覺得這可能嗎\NDo you think that's possible?
+Dialogue: 0,0:20:14.48,0:20:16.70,Default,,0000,0000,0000,,很抱歉突然這麼來了  我打過電話\NI'm sorry to ambush you. I tried calling.
+Dialogue: 0,0:20:16.70,0:20:18.28,Default,,0000,0000,0000,,你不能這麼對我  克萊爾\NYou can't do this to me, Claire.
+Dialogue: 0,0:20:18.29,0:20:20.84,Default,,0000,0000,0000,,我說得很清楚  我必須尊重加勒特的意願\NI was very clear that I have to respect Garrett's wishes --
+Dialogue: 0,0:20:20.84,0:20:22.76,Default,,0000,0000,0000,,不是那個  是性侵法案\NNot that. The sexual assault bill.
+Dialogue: 0,0:20:22.76,0:20:24.63,Default,,0000,0000,0000,,不會進行投票了\NIt's not going to a vote.
+Dialogue: 0,0:20:25.48,0:20:27.61,Default,,0000,0000,0000,,議長從日程中刪除了嗎\NDid the speaker remove it from the docket?
+Dialogue: 0,0:20:27.67,0:20:31.39,Default,,0000,0000,0000,,不  是我撤掉了  我剛跟傑姬談過\NNo. I did. I just spoke to Jackie.
+Dialogue: 0,0:20:32.39,0:20:33.90,Default,,0000,0000,0000,,是因為她那樣說你嗎\NThis is because of what she said about you?
+Dialogue: 0,0:20:33.90,0:20:36.76,Default,,0000,0000,0000,,我主要是擔心她接下來會不會對付你\NMy main concern is that she doesn't come after you next.
+Dialogue: 0,0:20:36.76,0:20:39.61,Default,,0000,0000,0000,,你和加勒特接受調查期間絕不能發生這種事\NNot while you and Garrett are going through the investigation.
+Dialogue: 0,0:20:40.41,0:20:41.45,Default,,0000,0000,0000,,我想來告訴你\NI thought you should be aware
+Dialogue: 0,0:20:41.45,0:20:44.17,Default,,0000,0000,0000,,因為我知道這項法案對你有多重要\Nbecause I know how much this bill meant to you.
+Dialogue: 0,0:20:44.53,0:20:45.86,Default,,0000,0000,0000,,你為法案投入了那麼多\NAll the work you've put in.
+Dialogue: 0,0:20:45.86,0:20:47.06,Default,,0000,0000,0000,,我們都投入過\NThat we've put in.
+Dialogue: 0,0:20:47.79,0:20:49.68,Default,,0000,0000,0000,,但我們要通過傑姬的法案\NBut we'll pass Jackie's version,
+Dialogue: 0,0:20:49.68,0:20:52.08,Default,,0000,0000,0000,,邁出這一小步  循序漸進\Ntake this baby step, and build on it.
+Dialogue: 0,0:20:52.99,0:20:54.37,Default,,0000,0000,0000,,法案的事我很失望\NI'm disappointed about the bill,
+Dialogue: 0,0:20:54.37,0:20:56.02,Default,,0000,0000,0000,,但不得不說  我鬆了口氣\Nbut I have to say, I'm relieved.
+Dialogue: 0,0:20:56.67,0:20:58.05,Default,,0000,0000,0000,,你還好吧\NHow are you holding up?
+Dialogue: 0,0:20:58.57,0:21:01.93,Default,,0000,0000,0000,,你聽說凱瑟琳做了什麼嗎  許諾馮政治避難\NDid you hear what Catherine did? Giving Feng asylum?
+Dialogue: 0,0:21:01.93,0:21:02.87,Default,,0000,0000,0000,,不可原諒\NInexcusable.
+Dialogue: 0,0:21:02.87,0:21:05.37,Default,,0000,0000,0000,,加勒特氣瘋了  他覺得走投無路\NGarrett's beside himself. He feels cornered,
+Dialogue: 0,0:21:05.37,0:21:07.86,Default,,0000,0000,0000,,這下我們除了放棄保密權別無選擇\Nlike we have no choice but to waive the privileges now.
+Dialogue: 0,0:21:08.12,0:21:09.47,Default,,0000,0000,0000,,藥物的事呢\NBut what about the medication?
+Dialogue: 0,0:21:09.47,0:21:10.36,Default,,0000,0000,0000,,可不是啊\NI know.
+Dialogue: 0,0:21:12.18,0:21:13.69,Default,,0000,0000,0000,,我不該說的\NI shouldn't be sharing this.
+Dialogue: 0,0:21:14.35,0:21:16.26,Default,,0000,0000,0000,,不說了  你該走了\NWe don't have to talk about it. You should go.
+Dialogue: 0,0:21:16.26,0:21:17.95,Default,,0000,0000,0000,,我知道你日程排得很滿\NI know you have a packed schedule.
+Dialogue: 0,0:21:22.66,0:21:24.13,Default,,0000,0000,0000,,謝謝你這麼做\NThank you for doing this.
+Dialogue: 0,0:21:24.13,0:21:26.58,Default,,0000,0000,0000,,我只是在走廊裏單獨找上了她\NAll I had to do was get her alone in a hallway.
+Dialogue: 0,0:21:26.68,0:21:28.10,Default,,0000,0000,0000,,我是說傑姬那邊\NI meant with Jackie.
+Dialogue: 0,0:21:28.55,0:21:29.89,Default,,0000,0000,0000,,我們要分清輕重緩急\NWe have our priorities.
+Dialogue: 0,0:21:29.90,0:21:33.06,Default,,0000,0000,0000,,我知道做這樣的放棄並不容易\NWell, I know it isn't easy to let go of something like that.
+Dialogue: 0,0:21:33.98,0:21:35.42,Default,,0000,0000,0000,,答應我一件事\NPromise me something.
+Dialogue: 0,0:21:36.26,0:21:37.62,Default,,0000,0000,0000,,你說吧\NAnything.
+Dialogue: 0,0:21:38.60,0:21:40.77,Default,,0000,0000,0000,,我不能一個人住在這房子裏\NI can't live in this house alone.
+Dialogue: 0,0:21:41.38,0:21:42.96,Default,,0000,0000,0000,,我哪也不去\NI'm not going anywhere.
+Dialogue: 0,0:21:42.97,0:21:45.38,Default,,0000,0000,0000,,你是這麼說  但這事可能事與願違\NYou say that, but this could all backfire.
+Dialogue: 0,0:21:46.41,0:21:48.01,Default,,0000,0000,0000,,雷蒙德肯定會拒不解釋\NRaymond will plead the Fifth.
+Dialogue: 0,0:21:48.01,0:21:50.97,Default,,0000,0000,0000,,如果他提到我  便是承認有罪了\NIf he names me, it's an admission of his own wrongdoing.
+Dialogue: 0,0:21:51.97,0:21:53.57,Default,,0000,0000,0000,,我更擔心加勒特\NI'm more worried about Garrett.
+Dialogue: 0,0:21:53.57,0:21:55.33,Default,,0000,0000,0000,,你製造了一個有力的對手\NYou've made a powerful enemy.
+Dialogue: 0,0:21:55.57,0:21:57.13,Default,,0000,0000,0000,,我們比他們強\NWe're stronger than they are.
+Dialogue: 0,0:21:57.13,0:21:59.02,Default,,0000,0000,0000,,可他仍然是總統\NAnd he's still the president.
+Dialogue: 0,0:22:00.75,0:22:04.77,Default,,0000,0000,0000,,我向你保證  你被迫做出的一切犧牲之中\NI promise you, of all of the sacrifices that you've had to make,
+Dialogue: 0,0:22:04.77,0:22:07.50,Default,,0000,0000,0000,,絕不會包括與一名罪犯離婚\Ndivorcing a convict will not be one of them.
+Dialogue: 0,0:22:08.68,0:22:09.70,Default,,0000,0000,0000,,我們不能放棄保密權  加勒特\NWe can't waive the privileges, Garrett.
+Dialogue: 0,0:22:09.71,0:22:11.98,Default,,0000,0000,0000,,我們沒別的選擇了  馮承認了那筆錢\NWell, we don't have a choice anymore. Feng confirmed the money.
+Dialogue: 0,0:22:11.98,0:22:14.13,Default,,0000,0000,0000,,在電話上承認的  不是當面正式承認的\NOver the phone. Not in a formal interview.
+Dialogue: 0,0:22:14.13,0:22:15.44,Default,,0000,0000,0000,,解除對他的庇護  送他回去\NRescind the asylum. Send him back --
+Dialogue: 0,0:22:15.44,0:22:16.98,Default,,0000,0000,0000,,妨礙司法公正\NObstruction of justice.
+Dialogue: 0,0:22:17.09,0:22:18.27,Default,,0000,0000,0000,,嘉利克這麼說的嗎\NIs that what Galich said?
+Dialogue: 0,0:22:18.27,0:22:19.71,Default,,0000,0000,0000,,別人肯定會這麼想\NDefinitely how it would be perceived.
+Dialogue: 0,0:22:19.72,0:22:21.98,Default,,0000,0000,0000,,我們任何不配合調查的舉動\NAnd anything we do that looks like a failure to cooperate
+Dialogue: 0,0:22:21.98,0:22:23.44,Default,,0000,0000,0000,,都會加重他們的猜疑\Namplifies that perception.
+Dialogue: 0,0:22:23.44,0:22:25.78,Default,,0000,0000,0000,,我只是不想公開我們的婚姻問題\NI just don't want our marriage put on display.
+Dialogue: 0,0:22:25.85,0:22:28.69,Default,,0000,0000,0000,,鄧巴會問我是否提及過中國  我沒有\NLook, Dunbar'll ask if I brought up China. I didn't.
+Dialogue: 0,0:22:28.69,0:22:30.88,Default,,0000,0000,0000,,拉金能證明我的清白\NSo Larkin can only help to exonerate me.
+Dialogue: 0,0:22:31.40,0:22:33.69,Default,,0000,0000,0000,,如果婚姻咨詢最終進入報告  也無所謂\NAnd if the marriage counseling ends up in the report, so be it.
+Dialogue: 0,0:22:33.69,0:22:34.79,Default,,0000,0000,0000,,我們能渡過這個難關\NWe can survive that.
+Dialogue: 0,0:22:34.79,0:22:36.39,Default,,0000,0000,0000,,但他給我們開了處方藥\NBut he prescribed us medication.
+Dialogue: 0,0:22:36.39,0:22:37.88,Default,,0000,0000,0000,,不算是我們\NTechnically not us.
+Dialogue: 0,0:22:37.88,0:22:39.36,Default,,0000,0000,0000,,你在吃我的藥  加勒特\NYou took mine, Garrett.
+Dialogue: 0,0:22:39.36,0:22:41.60,Default,,0000,0000,0000,,拉金知道你會吃才給我開的藥\NLarkin wrote the prescription to me knowing you would.
+Dialogue: 0,0:22:41.60,0:22:44.40,Default,,0000,0000,0000,,等等  你提過了  處方藥的事\NWait, wait, have you mentioned it? The medication?
+Dialogue: 0,0:22:47.45,0:22:48.20,Default,,0000,0000,0000,,跟克萊爾嗎\NClaire?
+Dialogue: 0,0:22:48.20,0:22:50.64,Default,,0000,0000,0000,,對不起  我只能跟她傾訴\NI'm sorry. But she's the only person I can talk to
+Dialogue: 0,0:22:50.64,0:22:52.09,Default,,0000,0000,0000,,只有她能理解\Nwho really understands what it's like --
+Dialogue: 0,0:22:52.10,0:22:53.95,Default,,0000,0000,0000,,那我們更要放棄保密權了\NOh, all the more reason we have to waive the privilege.
+Dialogue: 0,0:22:53.95,0:22:56.77,Default,,0000,0000,0000,,如果他們洩露出去  就由不得我們做主了\NIf they leak this, we can't control the information.
+Dialogue: 0,0:22:56.77,0:22:58.14,Default,,0000,0000,0000,,克萊爾不會那麼做的\NClaire wouldn't do that.
+Dialogue: 0,0:22:58.14,0:22:59.52,Default,,0000,0000,0000,,不要小看她\NDon't underestimate her.
+Dialogue: 0,0:22:59.52,0:23:02.18,Default,,0000,0000,0000,,他們要是真準備這麼做  現在不早做了\NIf they were going to, don't you think they would have done it by now?
+Dialogue: 0,0:23:03.55,0:23:06.34,Default,,0000,0000,0000,,她為了減少我們的負擔  放棄了性侵法案\NShe dropped the sexual assault bill to reduce pressure on us.
+Dialogue: 0,0:23:06.34,0:23:07.80,Default,,0000,0000,0000,,她也許是這麼跟你說的\NThat may have been what she told you.
+Dialogue: 0,0:23:08.34,0:23:10.04,Default,,0000,0000,0000,,他們什麼都不會說的\NThey're not going to say anything.
+Dialogue: 0,0:23:11.83,0:23:13.23,Default,,0000,0000,0000,,我求你了  加勒特\NI'm begging you, Garrett.
+Dialogue: 0,0:23:13.53,0:23:15.31,Default,,0000,0000,0000,,不要放棄保密權\NDon't waive the privilege.
+Dialogue: 0,0:23:18.10,0:23:20.17,Default,,0000,0000,0000,,我們談論的事太私密了\NThe things we talked about were so intimate.
+Dialogue: 0,0:23:20.17,0:23:21.25,Default,,0000,0000,0000,,如果孩子們看到\NImagine if the kids --
+Dialogue: 0,0:23:21.25,0:23:23.40,Default,,0000,0000,0000,,我知道  但是特莉莎\NI know. But Tricia --
+Dialogue: 0,0:23:23.40,0:23:24.35,Default,,0000,0000,0000,,我們競選的時候\NWhen we ran,
+Dialogue: 0,0:23:24.35,0:23:27.04,Default,,0000,0000,0000,,我知道我們的生活將被人仔細審視\NI knew every aspect of our lives would be under scrutiny.
+Dialogue: 0,0:23:28.23,0:23:30.68,Default,,0000,0000,0000,,但我覺得我們至少還能保護這個\NBut I thought we could protect at least this.
+Dialogue: 0,0:23:30.90,0:23:32.20,Default,,0000,0000,0000,,發生在家裏的事\NWhat happens in here.
+Dialogue: 0,0:23:33.53,0:23:37.58,Default,,0000,0000,0000,,我會不惜一切保護我們\NI'll protect us. Whatever I have to do.
+Dialogue: 0,0:23:40.38,0:23:41.72,Default,,0000,0000,0000,,你要相信我\NYou have to believe that.
+Dialogue: 0,0:24:09.15,0:24:10.85,Default,,0000,0000,0000,,我們檢查了USB軟體狗\NWe checked the USB dongle.
+Dialogue: 0,0:24:11.28,0:24:14.25,Default,,0000,0000,0000,,你聲稱感染了信息中心的代碼不在裏面\NThe code you're claiming infected the data center isn't there.
+Dialogue: 0,0:24:14.25,0:24:17.05,Default,,0000,0000,0000,,我設計那段代碼一到達服務器便自我刪除\NI programmed the code to self-erase as soon as it hit the server.
+Dialogue: 0,0:24:17.05,0:24:18.92,Default,,0000,0000,0000,,在盧卡斯被捕之前就不見了\NIt was gone before Lucas was in cuffs.
+Dialogue: 0,0:24:20.23,0:24:21.17,Default,,0000,0000,0000,,你信不過我\NYou don't believe me?
+Dialogue: 0,0:24:21.17,0:24:23.56,Default,,0000,0000,0000,,這可是世上最複雜的防火牆之一\NThis is one of the most sophisticated firewalls in the world.
+Dialogue: 0,0:24:23.56,0:24:26.05,Default,,0000,0000,0000,,就算真的進去了  也破壞不了\NEven if your code did get in there, you couldn't break it down.
+Dialogue: 0,0:24:26.06,0:24:27.89,Default,,0000,0000,0000,,你妻子手機的運營商就是他們公司\NYour wife uses AT&T.
+Dialogue: 0,0:24:29.00,0:24:30.37,Default,,0000,0000,0000,,她情人也是\NSo does her lover.
+Dialogue: 0,0:24:30.56,0:24:31.62,Default,,0000,0000,0000,,什麼\NWhat?
+Dialogue: 0,0:24:31.62,0:24:34.83,Default,,0000,0000,0000,,她現在就在那兒  喬納森·坎普\NShe's over there right now. Jonathan Kemp.
+Dialogue: 0,0:24:35.06,0:24:36.73,Default,,0000,0000,0000,,她的脊椎按摩師  對嗎\NIt's her chiropractor, right?
+Dialogue: 0,0:24:39.55,0:24:41.27,Default,,0000,0000,0000,,想看看他們互發的短信嗎\NWant to see their texts to each other?
+Dialogue: 0,0:24:43.69,0:24:44.93,Default,,0000,0000,0000,,不想\NNo.
+Dialogue: 0,0:24:45.15,0:24:46.71,Default,,0000,0000,0000,,看來你早就知道了\NOh, I see you already know.
+Dialogue: 0,0:24:48.28,0:24:49.67,Default,,0000,0000,0000,,我理解你不想把事情鬧大\NI don't blame you for not making a fuss,
+Dialogue: 0,0:24:49.67,0:24:51.20,Default,,0000,0000,0000,,畢竟孩子們還在家裏\Nwhat with the kids still at home.
+Dialogue: 0,0:24:53.53,0:24:55.52,Default,,0000,0000,0000,,但你讓我的代碼進了那扇門\NBut you walked my code right through that door.
+Dialogue: 0,0:24:55.75,0:24:58.76,Default,,0000,0000,0000,,進入了三千兩百萬人的手機裏\NInto 32 million people's phones.
+Dialogue: 0,0:24:58.76,0:25:00.05,Default,,0000,0000,0000,,這都怪你\NAnd that's on you.
+Dialogue: 0,0:25:00.62,0:25:04.32,Default,,0000,0000,0000,,聯調局也罪責難逃  這會鬧得很難看\NAnd it's on the FBI. And it is a shit-storm
+Dialogue: 0,0:25:04.32,0:25:06.28,Default,,0000,0000,0000,,讓聯調局面臨國會的調查\Nthat will bring the Bureau right in front of Congress.
+Dialogue: 0,0:25:06.28,0:25:10.49,Default,,0000,0000,0000,,所以你告訴我  平息這一切要多大代價\NSo you tell me: How much is making that disappear worth?
+Dialogue: 0,0:25:10.49,0:25:12.78,Default,,0000,0000,0000,,你面臨一百年的監禁\NYou have a hundred years hanging over your head.
+Dialogue: 0,0:25:12.86,0:25:14.58,Default,,0000,0000,0000,,敲詐聯調局對你沒好處\NExtorting the FBI won't help you.
+Dialogue: 0,0:25:14.58,0:25:17.57,Default,,0000,0000,0000,,是道格拉斯·斯坦普讓你陷害盧卡斯·古德溫的嗎\NDid Douglas Stamper tell you to set up Lucas Goodwin?
+Dialogue: 0,0:25:18.61,0:25:19.76,Default,,0000,0000,0000,,反恐主管\NCounter-Terrorism Director.
+Dialogue: 0,0:25:19.76,0:25:22.35,Default,,0000,0000,0000,,跟白宮聯絡官相比真是一步登天\NThat's a big step up from White House Liaison.
+Dialogue: 0,0:25:22.65,0:25:24.57,Default,,0000,0000,0000,,-我認為你背後有推手  -胡說\N- I think you had a helping hand. - Not true.
+Dialogue: 0,0:25:24.57,0:25:26.88,Default,,0000,0000,0000,,繼續編  但以下是我的要求\NKeep lying. Meanwhile, here's what I want.
+Dialogue: 0,0:25:26.88,0:25:31.18,Default,,0000,0000,0000,,第一  我不再是你的走狗了\NOne, I'm no longer your bitch.
+Dialogue: 0,0:25:31.18,0:25:33.36,Default,,0000,0000,0000,,第二  撤銷對我的所有指控\NTwo, all of my charges are dropped.
+Dialogue: 0,0:25:33.36,0:25:35.54,Default,,0000,0000,0000,,第三  撤銷所有對巴利特·布朗的指控\NThree, all of Barrett Brown's charges are dropped.
+Dialogue: 0,0:25:35.55,0:25:36.77,Default,,0000,0000,0000,,這得看聯邦檢察官的\NThat's up to the U.S. Attorney.
+Dialogue: 0,0:25:36.77,0:25:37.54,Default,,0000,0000,0000,,你去想辦法\NFigure it out.
+Dialogue: 0,0:25:41.60,0:25:43.26,Default,,0000,0000,0000,,如果我沒理解錯\NIf I'm hearing you correctly,
+Dialogue: 0,0:25:43.52,0:25:46.53,Default,,0000,0000,0000,,您是想要拉金的證詞側重在洗錢上\Nyou'd like to keep Larkin's testimony focused on the money laundering.
+Dialogue: 0,0:25:46.53,0:25:49.10,Default,,0000,0000,0000,,而我從來沒提過  因為我毫不知情\NWhich I never brought up, because I knew nothing about it.
+Dialogue: 0,0:25:49.40,0:25:52.51,Default,,0000,0000,0000,,但您擔心其他的事  私人的事\NBut your concern is other matters. Private matters.
+Dialogue: 0,0:25:52.51,0:25:55.19,Default,,0000,0000,0000,,這些和調查無關\NWhich are irrelevant to the investigation.
+Dialogue: 0,0:25:55.19,0:25:58.47,Default,,0000,0000,0000,,我不能阻止鄧巴問問題\NI can't prevent Dunbar from asking what she's gonna ask.
+Dialogue: 0,0:25:58.47,0:25:59.54,Default,,0000,0000,0000,,當然不能\NOf course not.
+Dialogue: 0,0:25:59.71,0:26:02.31,Default,,0000,0000,0000,,我最多只能去拜託拉金醫生\NThe most I can do is ask Dr. Larkin
+Dialogue: 0,0:26:02.31,0:26:04.72,Default,,0000,0000,0000,,跟他對下部分問題的回答\Nhow he would respond to certain questions.
+Dialogue: 0,0:26:05.53,0:26:08.76,Default,,0000,0000,0000,,但他很聰明  會明白我的目的\NBut he's a smart man. He'll understand what I'm getting at.
+Dialogue: 0,0:26:08.77,0:26:10.51,Default,,0000,0000,0000,,這路子合法嗎\NAnd this approach keeps us within the law?
+Dialogue: 0,0:26:10.51,0:26:12.21,Default,,0000,0000,0000,,沒有干擾證詞嗎\NWe're not tampering with testimony?
+Dialogue: 0,0:26:12.75,0:26:16.53,Default,,0000,0000,0000,,界線很模糊  但我會確保合法\NIt's a fine line. But I'll stay on the right side of it.
+Dialogue: 0,0:26:17.07,0:26:19.46,Default,,0000,0000,0000,,他不見我  弗蘭克  就像他對你一樣\NHe shut me out, Frank. Just like he did with you.
+Dialogue: 0,0:26:19.96,0:26:23.18,Default,,0000,0000,0000,,我的副國務卿被委派了全權外交權\NMy undersecretary has been assigned full diplomatic authority.
+Dialogue: 0,0:26:23.18,0:26:26.13,Default,,0000,0000,0000,,暫時的挫折  凱茜  我到哪你到哪\NA temporary setback, Cathy. Where I go, you go.
+Dialogue: 0,0:26:26.13,0:26:29.52,Default,,0000,0000,0000,,現在總統正在戰況室\NAt this very moment, the President is in the Situation Room.
+Dialogue: 0,0:26:29.52,0:26:33.41,Default,,0000,0000,0000,,中方對馮的政治庇護的反應跟我預想的一樣\NChina responded to Feng's asylum exactly the way I predicted.
+Dialogue: 0,0:26:33.41,0:26:36.22,Default,,0000,0000,0000,,他們增派了一倍海軍前往與那國島\NThey're doubling their naval presence off the coast of Yonaguni.
+Dialogue: 0,0:26:36.22,0:26:39.35,Default,,0000,0000,0000,,你猜誰被趕出戰況室了  你和我  弗蘭克\NAnd you know who isn't in the Situation Room? You and I, Frank.
+Dialogue: 0,0:26:42.56,0:26:44.13,Default,,0000,0000,0000,,你只盯著眼下一時的得失\NYou're thinking about where we are
+Dialogue: 0,0:26:44.13,0:26:45.68,Default,,0000,0000,0000,,卻對情勢的發展方向視而不見\Ninstead of where we're headed.
+Dialogue: 0,0:26:46.67,0:26:48.59,Default,,0000,0000,0000,,這可不像那個在傑斐遜舞會上\NNow that isn't the Catherine Durant
+Dialogue: 0,0:26:48.59,0:26:51.21,Default,,0000,0000,0000,,和我共舞華爾茲的凱瑟琳·杜蘭特\Nthat I waltzed with at the Jefferson Ball.
+Dialogue: 0,0:26:53.03,0:26:55.21,Default,,0000,0000,0000,,她深明大勢所趨\NShe understood potential.
+Dialogue: 0,0:26:55.98,0:26:58.34,Default,,0000,0000,0000,,她盯著未來\NShe had her eyes toward the future.
+Dialogue: 0,0:26:59.08,0:27:00.75,Default,,0000,0000,0000,,我對那個凱瑟琳·杜蘭特說\NI told that Catherine Durant
+Dialogue: 0,0:27:00.75,0:27:03.31,Default,,0000,0000,0000,,我們需要她這樣的人領導國務院\Nthat we needed her in the State Department.
+Dialogue: 0,0:27:03.54,0:27:07.47,Default,,0000,0000,0000,,現在也是如此  真不知她哪去了\NWe still need her. I wish I knew where she was,
+Dialogue: 0,0:27:07.47,0:27:09.46,Default,,0000,0000,0000,,因為她和我眼前這個凱瑟琳·杜蘭特\Nbecause she is not the Catherine Durant
+Dialogue: 0,0:27:09.46,0:27:11.45,Default,,0000,0000,0000,,完全是兩種人\Nsitting in front of me right now.
+Dialogue: 0,0:27:12.46,0:27:14.24,Default,,0000,0000,0000,,但我跟你說\NBut I'll tell you something,
+Dialogue: 0,0:27:15.58,0:27:18.50,Default,,0000,0000,0000,,如果她不趕快回來的話\NIf she doesn't show up soon, well,
+Dialogue: 0,0:27:18.50,0:27:20.77,Default,,0000,0000,0000,,那這支華爾茲  我只好獨自舞下去了\NI'm just gonna have to keep waltzing alone.
+Dialogue: 0,0:27:20.77,0:27:25.11,Default,,0000,0000,0000,,因為我已經不想再去說服我面前的這個女人\NBecause I am done trying to convince this woman in front of me
+Dialogue: 0,0:27:27.03,0:27:29.05,Default,,0000,0000,0000,,和我攜手前行了\Nto take my arm.
+Dialogue: 0,0:27:31.79,0:27:33.33,Default,,0000,0000,0000,,你快忙去吧  我不留你了\NOh, don't let me keep you.
+Dialogue: 0,0:27:39.85,0:27:43.49,Default,,0000,0000,0000,,我就在這兒  我哪也不去  弗蘭克\NI'm here. I'm not going anywhere, Frank.
+Dialogue: 0,0:27:44.33,0:27:46.44,Default,,0000,0000,0000,,你現在能拿到總統簡報嗎\NYou still have access to the presidential briefing?
+Dialogue: 0,0:27:46.44,0:27:48.15,Default,,0000,0000,0000,,能  就在我手上\NYes, I have it right here.
+Dialogue: 0,0:27:49.34,0:27:51.90,Default,,0000,0000,0000,,跟我說說與中國之間的全部情況\NWalk me through everything that's going on with China.
+Dialogue: 0,0:27:52.94,0:27:56.40,Default,,0000,0000,0000,,馮也出場了  也許我們用得上他\NFeng is in play now. We might be able to use him.
+Dialogue: 0,0:27:56.86,0:27:57.63,Default,,0000,0000,0000,,怎麼用\NHow?
+Dialogue: 0,0:27:57.63,0:27:59.08,Default,,0000,0000,0000,,我還不知道\NI don't know yet.
+Dialogue: 0,0:27:59.32,0:28:01.65,Default,,0000,0000,0000,,但顯然他在北京眼裏是有價值的\NBut he's clearly valuable to Beijing,
+Dialogue: 0,0:28:01.65,0:28:03.70,Default,,0000,0000,0000,,那麼他對我們就也有價值\Nwhich makes him valuable to us.
+Dialogue: 0,0:28:04.12,0:28:05.97,Default,,0000,0000,0000,,從沒提起過馮山德嗎\NNothing about Xander Feng?
+Dialogue: 0,0:28:06.27,0:28:07.05,Default,,0000,0000,0000,,沒有\NNever.
+Dialogue: 0,0:28:07.05,0:28:09.83,Default,,0000,0000,0000,,丹尼爾·拉尼根呢  還有雷蒙德·塔斯克\NDaniel Lanagin? Raymond Tusk?
+Dialogue: 0,0:28:10.11,0:28:11.69,Default,,0000,0000,0000,,我們只談了他的婚姻\NWe only discussed their marriage.
+Dialogue: 0,0:28:11.69,0:28:13.21,Default,,0000,0000,0000,,從未涉及白宮的公務\NNothing about the business of the White House.
+Dialogue: 0,0:28:13.21,0:28:16.45,Default,,0000,0000,0000,,他可曾間接提起過與工作有關的壓力\NAny oblique reference to work-related pressures he was feeling?
+Dialogue: 0,0:28:17.51,0:28:20.05,Default,,0000,0000,0000,,他說他現在睡眠太少\NHe said he wasn't getting as much sleep as he'd like.
+Dialogue: 0,0:28:20.36,0:28:22.69,Default,,0000,0000,0000,,你給他開過什麼藥物嗎\NDid you ever prescribe him any medication?
+Dialogue: 0,0:28:23.22,0:28:26.11,Default,,0000,0000,0000,,正如我一貫聲稱  我只提供宗教咨詢\NAs I've always stated, I provided religious counsel.
+Dialogue: 0,0:28:26.11,0:28:28.63,Default,,0000,0000,0000,,我明白  但我問的是藥物處方\NI understand. But I'm asking about medication.
+Dialogue: 0,0:28:29.94,0:28:31.15,Default,,0000,0000,0000,,這有什麼關係嗎\NHow is this relevant?
+Dialogue: 0,0:28:31.16,0:28:34.30,Default,,0000,0000,0000,,我想查證他的判斷力是否因此受影響\NI'm trying to assess whether his judgment may have been impaired.
+Dialogue: 0,0:28:35.08,0:28:37.30,Default,,0000,0000,0000,,在我看來  他和他的妻子\NIn my opinion, he and his wife were
+Dialogue: 0,0:28:37.57,0:28:39.52,Default,,0000,0000,0000,,面對的是典型的婚姻問題\Ndealing with standard marital issues.
+Dialogue: 0,0:28:39.52,0:28:41.07,Default,,0000,0000,0000,,你這是答非所問  拉金醫生\NThat's not what I asked, Dr. Larkin.
+Dialogue: 0,0:28:41.07,0:28:42.49,Default,,0000,0000,0000,,所以我再問第三遍\NSo I will ask for a third time.
+Dialogue: 0,0:28:42.49,0:28:44.53,Default,,0000,0000,0000,,而且問得更明確些\NAnd let me be more specific.
+Dialogue: 0,0:28:44.61,0:28:47.67,Default,,0000,0000,0000,,美利堅合眾國總統在接受你的咨詢服務時\NWas any medication prescribed or taken as a result of your
+Dialogue: 0,0:28:47.67,0:28:51.21,Default,,0000,0000,0000,,你是否提供過任何形式的處方或者藥物\Ncounseling session by the President of the United States?
+Dialogue: 0,0:28:53.97,0:28:56.37,Default,,0000,0000,0000,,他的工作能力完全沒有受影響\NHis faculties were operating at a hundred percent,
+Dialogue: 0,0:28:56.37,0:28:57.86,Default,,0000,0000,0000,,如果你是想問這個的話\Nif that's what you're asking.
+Dialogue: 0,0:29:00.61,0:29:03.34,Default,,0000,0000,0000,,是不是有政府方面的人和你談過了\NHas anyone from the administration spoken to you?
+Dialogue: 0,0:29:04.12,0:29:04.98,Default,,0000,0000,0000,,什麼意思\NHow do you mean?
+Dialogue: 0,0:29:04.98,0:29:09.01,Default,,0000,0000,0000,,關於取證  是不是有人找過你  指導過你\NAbout this deposition. Has anyone approached you, coached you?
+Dialogue: 0,0:29:10.70,0:29:14.41,Default,,0000,0000,0000,,如果你現在承認  我會將此認定為及時申報\NIf you tell me now, I will qualify that as a timely declaration.
+Dialogue: 0,0:29:14.53,0:29:17.18,Default,,0000,0000,0000,,-我不想繼續了  -總統放棄了他的保密權利\N- I'd like to leave. - The President waived his privilege.
+Dialogue: 0,0:29:17.74,0:29:19.44,Default,,0000,0000,0000,,但我是自願作證的\NBut I'm here voluntarily.
+Dialogue: 0,0:29:19.44,0:29:21.75,Default,,0000,0000,0000,,拉金醫生  一開始你不肯作證\NDr. Larkin, at first you wouldn't talk to me
+Dialogue: 0,0:29:21.75,0:29:24.28,Default,,0000,0000,0000,,因為那有違你的道德準則\Nbecause it violated your ethical code.
+Dialogue: 0,0:29:24.42,0:29:25.75,Default,,0000,0000,0000,,我尊重你的選擇\NI respect that.
+Dialogue: 0,0:29:26.47,0:29:29.33,Default,,0000,0000,0000,,但現在我要問你  作為一個虔誠之人\NBut let me ask you, as a man of faith
+Dialogue: 0,0:29:29.61,0:29:33.25,Default,,0000,0000,0000,,蓄意對我說謊  難道就不違反你的道德準則嗎\Nis deliberately lying to me an exception to that code?
+Dialogue: 0,0:29:33.41,0:29:36.74,Default,,0000,0000,0000,,因為你拒絕說出實情的話  就是作偽證\NBecause that is what you're doing by refusing to share the truth.
+Dialogue: 0,0:29:38.30,0:29:39.75,Default,,0000,0000,0000,,我不明白\NI don't understand.
+Dialogue: 0,0:29:39.93,0:29:41.65,Default,,0000,0000,0000,,這法案過不了的\NIt wasn't going to pass.
+Dialogue: 0,0:29:41.80,0:29:43.84,Default,,0000,0000,0000,,但你說我們就要爭取到足夠的支持了\NBut you said we almost had the votes.
+Dialogue: 0,0:29:43.86,0:29:46.82,Default,,0000,0000,0000,,我們需要能完全確定  但實情並非如此\NWe needed to be a hundred percent solid, and we weren't.
+Dialogue: 0,0:29:46.94,0:29:49.40,Default,,0000,0000,0000,,如果法案未能通過  我們的努力就白費了\NIf the bill failed, that would set us back.
+Dialogue: 0,0:29:49.40,0:29:52.40,Default,,0000,0000,0000,,我們必須接受漸進的改革方案\NWe need to accept incremental reform.
+Dialogue: 0,0:29:53.77,0:29:55.60,Default,,0000,0000,0000,,你的口氣跟傑姬·夏普一模一樣\NYou sound just like Jackie Sharp.
+Dialogue: 0,0:29:56.49,0:29:58.32,Default,,0000,0000,0000,,其實我現在與她合作了\NI'm actually working with her now.
+Dialogue: 0,0:29:58.80,0:30:01.05,Default,,0000,0000,0000,,她是一個有力的盟友\NShe's a powerful ally for us to have.
+Dialogue: 0,0:30:01.12,0:30:02.88,Default,,0000,0000,0000,,可她那樣讓我下不來台\NAfter what she did to me?
+Dialogue: 0,0:30:02.89,0:30:04.65,Default,,0000,0000,0000,,還公開羞辱你\NAfter what she said about you?
+Dialogue: 0,0:30:04.97,0:30:07.82,Default,,0000,0000,0000,,我要是被他人的非議所左右\NIf I let the things people say about me get under my skin,
+Dialogue: 0,0:30:07.82,0:30:09.77,Default,,0000,0000,0000,,我連家門都出不去了\NI wouldn't be able to leave my own home.
+Dialogue: 0,0:30:10.25,0:30:11.86,Default,,0000,0000,0000,,你知道結果會怎樣\NYou know how this will go.
+Dialogue: 0,0:30:12.38,0:30:14.91,Default,,0000,0000,0000,,人人都會說"太好了  我們取得了成功"\NEveryone will say, "Great, we did something,"
+Dialogue: 0,0:30:14.91,0:30:16.40,Default,,0000,0000,0000,,但其實一無所成\NWhich is really nothing.
+Dialogue: 0,0:30:16.61,0:30:19.00,Default,,0000,0000,0000,,他們會高興一時  然後就拋諸腦後忘個乾淨\NThey'll pat themselves on the back and they'll forget about it.
+Dialogue: 0,0:30:19.00,0:30:21.20,Default,,0000,0000,0000,,我們讓人們注意這個話題了\NWe helped put this on the radar.
+Dialogue: 0,0:30:21.20,0:30:23.41,Default,,0000,0000,0000,,我以為我們是要真正改變現狀\NI thought we were doing something real.
+Dialogue: 0,0:30:23.55,0:30:27.01,Default,,0000,0000,0000,,改變人們的生活  幼稚死了  對吧\NChanging people's lives. How naive, right?
+Dialogue: 0,0:30:27.09,0:30:29.02,Default,,0000,0000,0000,,但至少我不願意放棄\NBut at least I didn't want to give up.
+Dialogue: 0,0:30:29.30,0:30:30.88,Default,,0000,0000,0000,,也許傑姬·夏普說對了\NMaybe Jackie Sharp is right.
+Dialogue: 0,0:30:31.11,0:30:32.90,Default,,0000,0000,0000,,你他媽就是個懦夫\NYou are a fucking coward.
+Dialogue: 0,0:30:33.52,0:30:35.74,Default,,0000,0000,0000,,是我鼓勵你站出來說出你的遭遇\NI'm the one that pulled you out from under the covers.
+Dialogue: 0,0:30:35.74,0:30:37.46,Default,,0000,0000,0000,,之前你在逃避  靠吃藥度日\NYou were hiding. You and your pills.
+Dialogue: 0,0:30:37.46,0:30:39.71,Default,,0000,0000,0000,,編造各種謊言自欺欺人\NSo you tell yourself whatever you need to.
+Dialogue: 0,0:30:44.42,0:30:45.63,Default,,0000,0000,0000,,我失態了\NI'm sorry.
+Dialogue: 0,0:30:47.90,0:30:50.63,Default,,0000,0000,0000,,有些政治現實是我們無法忽視的\NThere were political realities we couldn't ignore.
+Dialogue: 0,0:30:53.05,0:30:55.10,Default,,0000,0000,0000,,你想沒想過為什麼那麼多人憎恨華盛頓\NDo you ever wonder why so many people hate Washington?
+Dialogue: 0,0:30:55.30,0:30:58.20,Default,,0000,0000,0000,,就是因為你這種人說那種屁話\NIt's because of people like you using phrases like that.
+Dialogue: 0,0:31:10.32,0:31:11.09,Default,,0000,0000,0000,,雷蒙德\NRaymond?
+Dialogue: 0,0:31:12.61,0:31:15.42,Default,,0000,0000,0000,,雖說該開燈  但既然花錢住進\NI'd turn the lights on, but when you're paying for the room
+Dialogue: 0,0:31:15.42,0:31:17.90,Default,,0000,0000,0000,,風景最好的房間  就不如欣賞個夠\Nwith the best view you might as well make the most of it.
+Dialogue: 0,0:31:18.27,0:31:21.93,Default,,0000,0000,0000,,我從來沒上過頂層  你呢\NI've never been in the penthouse here. Have you?
+Dialogue: 0,0:31:23.43,0:31:24.59,Default,,0000,0000,0000,,這是什麼情況\NWhat's going on?
+Dialogue: 0,0:31:25.62,0:31:27.65,Default,,0000,0000,0000,,你知道我為什麼來華盛頓嗎\NDo you know why I'm in D.C.?
+Dialogue: 0,0:31:28.65,0:31:30.01,Default,,0000,0000,0000,,沒關係  雷米\NOh, it's okay, Remy.
+Dialogue: 0,0:31:30.01,0:31:32.43,Default,,0000,0000,0000,,你能說出的話我都已經知道了\NThere's nothing you can say that I don't already know.
+Dialogue: 0,0:31:32.76,0:31:34.63,Default,,0000,0000,0000,,馮要去作證了\NFeng is on his way to testify.
+Dialogue: 0,0:31:34.63,0:31:37.17,Default,,0000,0000,0000,,不管賽斯跟你說了什麼都不要信他\NWhatever Seth has told you, don't believe a word of it.
+Dialogue: 0,0:31:38.70,0:31:41.70,Default,,0000,0000,0000,,他會說什麼我不該相信的事呢\NWhat might he have told me that I shouldn't believe?
+Dialogue: 0,0:31:42.02,0:31:43.85,Default,,0000,0000,0000,,你跟副總統見面了\NYou met with the Vice President.
+Dialogue: 0,0:31:43.90,0:31:46.32,Default,,0000,0000,0000,,在一座教堂裏  別裝作沒這回事\NIn a church. Don't pretend you didn't.
+Dialogue: 0,0:31:46.32,0:31:47.62,Default,,0000,0000,0000,,想當兩面派嗎\NPlaying both sides?
+Dialogue: 0,0:31:47.62,0:31:48.25,Default,,0000,0000,0000,,雷蒙德  我...\NRaymond, look --
+Dialogue: 0,0:31:48.25,0:31:52.50,Default,,0000,0000,0000,,我想聽你說出來  你跟弗蘭克見面了\NI want to hear you say it. That you met with Frank.
+Dialogue: 0,0:31:53.28,0:31:55.28,Default,,0000,0000,0000,,我會跟你說的  雷蒙德  但他不能在這兒\NI'll talk to you, Raymond, but not with him here.
+Dialogue: 0,0:31:57.20,0:31:58.36,Default,,0000,0000,0000,,你先出去吧\NLeave us.
+Dialogue: 0,0:32:01.32,0:32:02.54,Default,,0000,0000,0000,,要我在電梯裏等你嗎\NShould I hold the elevator for you?
+Dialogue: 0,0:32:02.55,0:32:03.93,Default,,0000,0000,0000,,滾你媽的\NGo fuck yourself.
+Dialogue: 0,0:32:04.23,0:32:06.08,Default,,0000,0000,0000,,好  那你走樓梯吧\NOkay. You can take the stairs.
+Dialogue: 0,0:32:12.95,0:32:14.49,Default,,0000,0000,0000,,他們在耍你  雷蒙德\NThey're toying with you, Raymond.
+Dialogue: 0,0:32:15.42,0:32:18.83,Default,,0000,0000,0000,,沒錯  但是你也一樣  雷米\NNo doubt. But so are you, Remy.
+Dialogue: 0,0:32:19.15,0:32:21.76,Default,,0000,0000,0000,,我是想哄騙弗蘭克  讓他以為已經安全了\NI wanted to lead Frank on, give him a false sense of security.
+Dialogue: 0,0:32:21.76,0:32:23.97,Default,,0000,0000,0000,,如果你要說謊  那就說得漂亮點\NIf you're gonna lie, lie better than that.
+Dialogue: 0,0:32:23.98,0:32:25.54,Default,,0000,0000,0000,,他們想離間我們\NThey want to tear us apart.
+Dialogue: 0,0:32:26.86,0:32:29.77,Default,,0000,0000,0000,,你想要多條退路  這我不怪你\NI don't blame you for wanting to keep your options open.
+Dialogue: 0,0:32:29.77,0:32:33.60,Default,,0000,0000,0000,,但你顯然買錯了保險\NBut clearly you have bought the wrong insurance policy.
+Dialogue: 0,0:32:33.60,0:32:35.70,Default,,0000,0000,0000,,不要這樣搬起石頭砸自己的腳\NDon't shoot yourself in the foot like this.
+Dialogue: 0,0:32:35.71,0:32:39.20,Default,,0000,0000,0000,,你的腳  石頭也是你拿著呢\NYour foot. And you're holding the gun.
+Dialogue: 0,0:32:39.53,0:32:41.68,Default,,0000,0000,0000,,去找個別的地方流血吧\NNow go someplace else to bleed.
+Dialogue: 0,0:32:41.68,0:32:42.99,Default,,0000,0000,0000,,你想談談流血嗎\NYou want to talk about blood?
+Dialogue: 0,0:32:42.99,0:32:44.59,Default,,0000,0000,0000,,你與弗蘭克的這場戰爭已經讓你流了多少血了\NHow much have you spilt in this war with Frank?
+Dialogue: 0,0:32:44.59,0:32:46.66,Default,,0000,0000,0000,,我做的一切都是為了維護和平\NAll I've tried to do is keep the peace.
+Dialogue: 0,0:32:46.66,0:32:48.15,Default,,0000,0000,0000,,你本可讓他佔上風\NYou could've let him have the upper hand.
+Dialogue: 0,0:32:48.15,0:32:50.70,Default,,0000,0000,0000,,除了你的自尊  還會讓你損失什麼\NWhat would that have really cost you, other than your pride?
+Dialogue: 0,0:32:57.76,0:32:59.13,Default,,0000,0000,0000,,真遺憾\NSuch a shame.
+Dialogue: 0,0:33:01.38,0:33:05.33,Default,,0000,0000,0000,,你剛剛樹立了身家420億的敵人  雷米\NYou have just made 42 billion enemies, Remy.
+Dialogue: 0,0:33:05.33,0:33:06.63,Default,,0000,0000,0000,,外加一些零頭\NAnd some change.
+Dialogue: 0,0:33:06.63,0:33:08.18,Default,,0000,0000,0000,,390億  雷蒙德\N39 billion, Raymond.
+Dialogue: 0,0:33:09.20,0:33:11.03,Default,,0000,0000,0000,,你的市值在縮水\NYour market cap is shrinking.
+Dialogue: 0,0:33:16.41,0:33:19.53,Default,,0000,0000,0000,,白宮顧問比爾·嘉利克今早被特別檢察官\NWhite House Counsel Bill Galich was called into questioning this morning
+Dialogue: 0,0:33:19.53,0:33:21.89,Default,,0000,0000,0000,,希瑟·鄧巴傳喚質詢\Nby Special Prosecutor Heather Dunbar.
+Dialogue: 0,0:33:21.89,0:33:23.57,Default,,0000,0000,0000,,從鄧巴辦公室得到的消息稱\NAccording to Dunbar's office,
+Dialogue: 0,0:33:23.57,0:33:25.23,Default,,0000,0000,0000,,他們懷疑\Nthere are suspicions that
+Dialogue: 0,0:33:25.23,0:33:28.10,Default,,0000,0000,0000,,嘉利克可能干預了證人的證詞\NGalich may have tampered with witness testimony.
+Dialogue: 0,0:33:28.10,0:33:30.88,Default,,0000,0000,0000,,這名證人是托馬斯·拉金醫生\NThe witness in question is Dr. Thomas Larkin,
+Dialogue: 0,0:33:30.88,0:33:32.28,Default,,0000,0000,0000,,一位牧師與咨詢師\Na reverend and therapist
+Dialogue: 0,0:33:32.28,0:33:35.20,Default,,0000,0000,0000,,據稱他為總統和第一夫人進行了\Nwho allegedly conducted secret marriage counseling sessions
+Dialogue: 0,0:33:35.20,0:33:37.33,Default,,0000,0000,0000,,秘密婚姻咨詢\Nfor the president and first lady.
+Dialogue: 0,0:33:37.47,0:33:40.07,Default,,0000,0000,0000,,如果沒有來自總統的明確指示\NThe White House counsel wouldn't be manipulating testimony
+Dialogue: 0,0:33:40.07,0:33:42.31,Default,,0000,0000,0000,,白宮顧問是不會去干預證詞的\Nwithout explicit direction from the Oval Office.
+Dialogue: 0,0:33:42.31,0:33:43.99,Default,,0000,0000,0000,,同樣讓人不安的是\NAnd just as disconcerting is the fact that
+Dialogue: 0,0:33:43.99,0:33:46.09,Default,,0000,0000,0000,,我們的總統在尋求心理治療\Nour president is seeking psychological treatment
+Dialogue: 0,0:33:46.09,0:33:48.07,Default,,0000,0000,0000,,並且向美國人民隱瞞這一點\Nand chose to hide this from the American people.
+Dialogue: 0,0:33:48.07,0:33:49.21,Default,,0000,0000,0000,,如果在這方面我們無法信任他\NIf we can't trust him about that,
+Dialogue: 0,0:33:49.21,0:33:52.29,Default,,0000,0000,0000,,那我們又怎麼知道他是否與洗錢陰謀有關呢\Nthen how do we know he wasn't involved in a money-laundering scheme?
+Dialogue: 0,0:33:52.30,0:33:54.56,Default,,0000,0000,0000,,怎麼知道他的精神狀況適合來領導我們呢\NHow do we know he's mentally fit to lead?
+Dialogue: 0,0:33:54.67,0:33:55.68,Default,,0000,0000,0000,,最重要的是\NAnd most important,
+Dialogue: 0,0:33:55.84,0:33:57.97,Default,,0000,0000,0000,,如果他知法犯法又如何維護法律\Nhow can he enforce the law when he's breaking it?
+Dialogue: 0,0:33:57.97,0:34:00.48,Default,,0000,0000,0000,,我認為我們眾議院的同事\NI believe our colleagues in the House
+Dialogue: 0,0:34:00.48,0:34:02.63,Default,,0000,0000,0000,,已經有足夠理由考慮彈劾\Ncertainly have enough to consider Articles of Impeachment.
+Dialogue: 0,0:34:02.63,0:34:05.35,Default,,0000,0000,0000,,信任與法律都被踐踏\NBoth trust and laws have been broken.
+Dialogue: 0,0:34:06.06,0:34:08.09,Default,,0000,0000,0000,,不管眾議院作何打算\NWhatever the House decides to do,
+Dialogue: 0,0:34:08.39,0:34:10.65,Default,,0000,0000,0000,,總統必須承擔責任\Nwe must hold this president accountable.
+Dialogue: 0,0:34:11.56,0:34:12.53,Default,,0000,0000,0000,,全力支持總統\NFully support the president
+Dialogue: 0,0:34:12.53,0:34:14.54,Default,,0000,0000,0000,,不管發生什麼都跟他站在一起\Nand will stand by him no matter what comes his way.
+Dialogue: 0,0:34:14.54,0:34:17.39,Default,,0000,0000,0000,,攬進來  處理掉  給我找艾拉·薩伊德\NPut that in, put it out. Then get me Ayla Sayyad.
+Dialogue: 0,0:34:17.55,0:34:20.80,Default,,0000,0000,0000,,至於雷米  讓他再多倒霉一陣子吧\NAnd as for Remy, let's let him wither on the vine a little longer.
+Dialogue: 0,0:34:20.80,0:34:23.64,Default,,0000,0000,0000,,同時  讓他的另一半明天來眾議院\NIn the meantime, have his better half come by the house tomorrow.
+Dialogue: 0,0:34:23.64,0:34:24.62,Default,,0000,0000,0000,,雷蒙德\NRaymond?
+Dialogue: 0,0:34:24.86,0:34:26.91,Default,,0000,0000,0000,,不  傑姬\NNo. Jackie.
+Dialogue: 0,0:34:32.48,0:34:33.79,Default,,0000,0000,0000,,塔斯克先生\NMr. Tusk.
+Dialogue: 0,0:34:45.63,0:34:49.72,Default,,0000,0000,0000,,鄧巴女士  我活了67年\NWell, Ms. Dunbar, in 67 years on this planet
+Dialogue: 0,0:34:49.72,0:34:52.47,Default,,0000,0000,0000,,還從來沒被傳喚過\NI have never once been issued a subpoena.
+Dialogue: 0,0:34:52.81,0:34:56.19,Default,,0000,0000,0000,,現在總算可以從遺願清單上劃掉了\NI can now cross that off my bucket list.
+Dialogue: 0,0:34:56.67,0:34:59.43,Default,,0000,0000,0000,,此次會面將被記錄和封存\NThis interview is being recorded and sealed.
+Dialogue: 0,0:35:01.10,0:35:04.62,Default,,0000,0000,0000,,如傳票所述  塔斯克先生  我與馮山德談過了\NAs the subpoena mentioned, Mr. Tusk, I spoke with Xander Feng.
+Dialogue: 0,0:35:04.62,0:35:06.37,Default,,0000,0000,0000,,他指證你與他合作  自2005年以來\NHe verified that you were his partner
+Dialogue: 0,0:35:06.37,0:35:10.74,Default,,0000,0000,0000,,將中國資金洗白並流入超級政治行動委員會\Nin laundering Chinese money to political Super PACs since 2005.
+Dialogue: 0,0:35:11.25,0:35:13.21,Default,,0000,0000,0000,,你如何回應他的指控\NHow would you respond to his allegations?
+Dialogue: 0,0:35:13.21,0:35:16.74,Default,,0000,0000,0000,,我的客戶要行使憲法第五修正案賦予的權利\NMy client exercises his right to plead the Fifth Amendment.
+Dialogue: 0,0:35:17.92,0:35:21.45,Default,,0000,0000,0000,,你是否曾用這些捐贈來換取政治利益\NDid you ever use these contributions to bargain for political favors?
+Dialogue: 0,0:35:21.45,0:35:24.69,Default,,0000,0000,0000,,我的客戶要行使憲法第五修正案賦予的權利\NMy client exercises his right to plead the Fifth Amendment.
+Dialogue: 0,0:35:24.69,0:35:26.87,Default,,0000,0000,0000,,你跟丹尼爾·拉尼根是什麼關係\NWhat was your relationship with Daniel Lanagin?
+Dialogue: 0,0:35:26.87,0:35:30.35,Default,,0000,0000,0000,,我的客戶要行使憲法第五修正案賦予的權利\NMy client exercises his right to plead the Fifth Amendment.
+Dialogue: 0,0:35:45.84,0:35:48.20,Default,,0000,0000,0000,,我都記不得我為什麼要來這兒了\NI don't even remember why I came over here.
+Dialogue: 0,0:35:49.64,0:35:51.20,Default,,0000,0000,0000,,你是說你最初來我家嗎\NYou mean when you first showed up?
+Dialogue: 0,0:35:51.55,0:35:53.66,Default,,0000,0000,0000,,不  我是說來廚房\NNo. To the kitchen.
+Dialogue: 0,0:35:55.28,0:35:58.93,Default,,0000,0000,0000,,很抱歉  別認為我不愛你\NI'm sorry. Please don't think that I don't love you --
+Dialogue: 0,0:35:58.93,0:36:00.75,Default,,0000,0000,0000,,那是為什麼  我不明白\NThen why? I don't get it.
+Dialogue: 0,0:36:02.35,0:36:04.22,Default,,0000,0000,0000,,一切發展得太快了\NEverything's been so fast.
+Dialogue: 0,0:36:04.37,0:36:05.07,Default,,0000,0000,0000,,還有\NAnd...
+Dialogue: 0,0:36:07.98,0:36:10.12,Default,,0000,0000,0000,,我不知道  很難說清  但我還沒準備好\NI don't know. It's hard to explain, but I'm not ready for this.
+Dialogue: 0,0:36:10.13,0:36:12.01,Default,,0000,0000,0000,,-都是胡說  -不是的\N- That's bullshit. - No, it's not.
+Dialogue: 0,0:36:13.33,0:36:15.74,Default,,0000,0000,0000,,我還在努力適應新生活\NI'm still trying to figure out this new life.
+Dialogue: 0,0:36:15.74,0:36:17.28,Default,,0000,0000,0000,,這一切太讓人搞不清\NAnd this is too confusing.
+Dialogue: 0,0:36:17.28,0:36:20.09,Default,,0000,0000,0000,,只有這是清清楚楚的  這你知道\NThis is the only thing that's clear, and you know it.
+Dialogue: 0,0:36:20.09,0:36:22.58,Default,,0000,0000,0000,,你在害怕  但這是好事\NYou're afraid, but it's good to be afraid when you're--
+Dialogue: 0,0:36:22.58,0:36:25.87,Default,,0000,0000,0000,,你得離開  為了你自己好\NI need you to leave, okay? For your own good.
+Dialogue: 0,0:36:26.32,0:36:27.79,Default,,0000,0000,0000,,我只會傷害你\NI am just gonna hurt you.
+Dialogue: 0,0:36:27.79,0:36:30.40,Default,,0000,0000,0000,,我比你想得堅強得多\NI have thicker skin than you can even imagine.
+Dialogue: 0,0:36:30.40,0:36:32.57,Default,,0000,0000,0000,,別把事情搞得太痛苦\NPlease don't make this harder than it has to be.
+Dialogue: 0,0:36:32.57,0:36:35.58,Default,,0000,0000,0000,,昨天一切都還好好的  這麼突然\NEverything was fine yesterday. It's so sudden.
+Dialogue: 0,0:36:35.58,0:36:36.86,Default,,0000,0000,0000,,簡直莫名其妙\NIt's like it's coming out of nowhere.
+Dialogue: 0,0:36:36.86,0:36:39.09,Default,,0000,0000,0000,,不是這樣  我已經考慮了一段時間了\NWell, it's not. I've been thinking about it for a while.
+Dialogue: 0,0:36:39.09,0:36:40.73,Default,,0000,0000,0000,,你沒有  否則我會察覺的\NNo, you haven't. I would have sensed it.
+Dialogue: 0,0:36:40.73,0:36:43.80,Default,,0000,0000,0000,,求你  拜託你  走就是了\NWould you please, please, please just go?
+Dialogue: 0,0:36:44.39,0:36:46.01,Default,,0000,0000,0000,,告訴我發生了什麼事\NJust tell me what's going on.
+Dialogue: 0,0:36:46.01,0:36:48.13,Default,,0000,0000,0000,,我不指望你會理解\NI don't expect you to understand.
+Dialogue: 0,0:36:48.13,0:36:49.03,Default,,0000,0000,0000,,也許你可以試著...\NWell, maybe if you try --
+Dialogue: 0,0:36:49.03,0:36:51.22,Default,,0000,0000,0000,,我不想讓你待在這兒  好嗎\NI don't want you here. Okay?
+Dialogue: 0,0:36:51.34,0:36:53.46,Default,,0000,0000,0000,,我不像你愛我那樣愛著你\NI don't love you the way that you love me.
+Dialogue: 0,0:36:53.46,0:36:56.16,Default,,0000,0000,0000,,只是利用你  因為有你陪著感覺很好\NI was using you because it felt good to have you around,
+Dialogue: 0,0:36:56.16,0:36:57.67,Default,,0000,0000,0000,,但那樣很自私\Nbut it was selfish.
+Dialogue: 0,0:36:57.74,0:37:00.03,Default,,0000,0000,0000,,我說那些話  因為我知道你愛聽\NI said the words because I knew you wanted to hear 'em,
+Dialogue: 0,0:37:00.03,0:37:00.82,Default,,0000,0000,0000,,但我不是真心的\Nbut I didn't mean 'em.
+Dialogue: 0,0:37:00.82,0:37:02.57,Default,,0000,0000,0000,,我不想繼續說下去了\NAnd I don't want to keep saying 'em.
+Dialogue: 0,0:37:03.58,0:37:05.27,Default,,0000,0000,0000,,我出去走一會兒  你收拾東西吧\NI'm gonna go for a walk while you pack your stuff.
+Dialogue: 0,0:37:05.27,0:37:08.46,Default,,0000,0000,0000,,不  我不要這兒的任何東西\NNo. I don't want anything that's been here.
+Dialogue: 0,0:37:08.85,0:37:09.98,Default,,0000,0000,0000,,麗薩\NLisa...?
+Dialogue: 0,0:37:32.64,0:37:35.31,Default,,0000,0000,0000,,四面的山洼霧氣氤氳\N"There was a steaming mist in all the hollows,
+Dialogue: 0,0:37:35.31,0:37:38.77,Default,,0000,0000,0000,,凄涼地往山頂涌動\Nand it roamed in its forlornness up the hill,
+Dialogue: 0,0:37:38.78,0:37:43.32,Default,,0000,0000,0000,,彷彿是個邪惡的精靈  尋找歇腳之地而不得\Nlike an evil spirit, seeking rest and finding none.
+Dialogue: 0,0:37:43.88,0:37:47.29,Default,,0000,0000,0000,,那霧粘乎乎的  冰寒徹骨\NA clammy, and intensely cold mist,
+Dialogue: 0,0:37:47.29,0:37:50.45,Default,,0000,0000,0000,,緩緩地在空中波浪式地翻滾\Nit made it its slow way through the air in ripples
+Dialogue: 0,0:37:50.45,0:37:53.99,Default,,0000,0000,0000,,一浪一浪清晰可見  然後宛如污濁的海濤\Nthat visibly followed and overspread one another,
+Dialogue: 0,0:37:53.99,0:37:58.05,Default,,0000,0000,0000,,彼此滲誘  融合成了一片\Nas the waves of an unwholesome sea might do.
+Dialogue: 0,0:37:58.42,0:38:00.74,Default,,0000,0000,0000,,霧很濃  車燈幾乎\NIt was dense enough to shut out everything
+Dialogue: 0,0:38:00.75,0:38:03.01,Default,,0000,0000,0000,,什麼也照不見\Nfrom the light of the coach lamps."
+Dialogue: 0,0:38:03.02,0:38:04.87,Default,,0000,0000,0000,,很驚訝你想和我聊聊\NI'm surprised you wanted to speak to me.
+Dialogue: 0,0:38:05.09,0:38:07.97,Default,,0000,0000,0000,,我並不是很受政府歡迎\NI haven't been the biggest friend of the administration.
+Dialogue: 0,0:38:07.97,0:38:10.47,Default,,0000,0000,0000,,這難道不是找你談話的最佳理由嗎\NIsn't that the very best reason to speak with you?
+Dialogue: 0,0:38:10.75,0:38:12.08,Default,,0000,0000,0000,,我想開始錄音\NI'd like to begin recording.
+Dialogue: 0,0:38:12.08,0:38:13.43,Default,,0000,0000,0000,,請便\NBy all means.
+Dialogue: 0,0:38:15.22,0:38:17.08,Default,,0000,0000,0000,,許多政治分析家預測\NA number of political analysts predict
+Dialogue: 0,0:38:17.08,0:38:18.45,Default,,0000,0000,0000,,眾議院司法委員會\Nthat the House Judiciary Committee
+Dialogue: 0,0:38:18.45,0:38:20.86,Default,,0000,0000,0000,,將就彈劾狀開始聽證會\Nwill commence with hearings on Articles of Impeachment.
+Dialogue: 0,0:38:20.86,0:38:22.38,Default,,0000,0000,0000,,先就此打住\NLet's just stop right there.
+Dialogue: 0,0:38:22.38,0:38:25.21,Default,,0000,0000,0000,,你說的這些分析家\NSo these analysts you speak of,
+Dialogue: 0,0:38:25.21,0:38:29.23,Default,,0000,0000,0000,,他們在鄧巴的報告發表前就做出預測\Nthey're making predictions prior to Dunbar's report even being released.
+Dialogue: 0,0:38:29.23,0:38:30.28,Default,,0000,0000,0000,,報告出來可能得好幾個月\NThat could take months.
+Dialogue: 0,0:38:30.28,0:38:32.71,Default,,0000,0000,0000,,司法委員會絕不會等那麼久的\NThere's no way the Judiciary will sit on this for that long.
+Dialogue: 0,0:38:32.71,0:38:35.68,Default,,0000,0000,0000,,這不正是聽證會的根本問題嗎\NAnd isn't that the fundamental flaw with these hearings?
+Dialogue: 0,0:38:35.69,0:38:39.08,Default,,0000,0000,0000,,因為包括你在內的媒體記者提出的假設\NThe committee feels compelled to act because of hypotheses
+Dialogue: 0,0:38:39.08,0:38:42.04,Default,,0000,0000,0000,,委員會覺得必須採取行動\Nadvanced by those in the media, such as yourself.
+Dialogue: 0,0:38:42.05,0:38:46.40,Default,,0000,0000,0000,,我不能代表我所有的同行  但我只是報道事實\NI can't speak for all of my colleagues, but I'm just reporting facts.
+Dialogue: 0,0:38:46.68,0:38:50.94,Default,,0000,0000,0000,,你可能會說這是事實  但實話說\NWell, you may call them facts, but if we're being honest,
+Dialogue: 0,0:38:50.95,0:38:53.12,Default,,0000,0000,0000,,-難道不是  -每篇文章和採訪中\N- aren't they just -- - In every article and interview,
+Dialogue: 0,0:38:53.12,0:38:55.20,Default,,0000,0000,0000,,我都只是提出懷疑\NI report alleged activities.
+Dialogue: 0,0:38:55.20,0:38:57.28,Default,,0000,0000,0000,,懷疑重複的次數夠多\NAnd if you repeat allegations enough,
+Dialogue: 0,0:38:57.28,0:39:00.21,Default,,0000,0000,0000,,一遍一遍  反反覆覆\Nagain and over and over and over,
+Dialogue: 0,0:39:00.21,0:39:03.55,Default,,0000,0000,0000,,那就三人成虎了  這是人之常情\Npeople start to believe that they're true. That's human nature.
+Dialogue: 0,0:39:03.55,0:39:04.71,Default,,0000,0000,0000,,我做過調查\NI've done my research.
+Dialogue: 0,0:39:04.71,0:39:06.56,Default,,0000,0000,0000,,馮山德已經承認洗錢\NXander Feng admitted to the money laundering.
+Dialogue: 0,0:39:06.56,0:39:09.92,Default,,0000,0000,0000,,但你已經不報道馮山德了  對嗎\NBut you're no longer writing about Xander Feng. Are you?
+Dialogue: 0,0:39:09.92,0:39:11.72,Default,,0000,0000,0000,,你現在報道政府\NYou're writing about the administration.
+Dialogue: 0,0:39:11.73,0:39:14.85,Default,,0000,0000,0000,,事實上  聽證會就是由媒體報道引發的\NThe truth is, these hearings have been initiated by the press.
+Dialogue: 0,0:39:14.85,0:39:18.12,Default,,0000,0000,0000,,我擔心的是總統會遭到媒體的審判\NAnd my fear is that the president will be tried by the press.
+Dialogue: 0,0:39:18.13,0:39:19.17,Default,,0000,0000,0000,,你相信他是無罪的嗎\NDo you believe he's innocent?
+Dialogue: 0,0:39:19.17,0:39:20.01,Default,,0000,0000,0000,,絕對\NAbsolutely.
+Dialogue: 0,0:39:20.01,0:39:23.27,Default,,0000,0000,0000,,我在書面聲明中這麼寫  我現在也還要這麼說\NI said so in my written statement and I say so again now.
+Dialogue: 0,0:39:23.30,0:39:25.60,Default,,0000,0000,0000,,白宮的法律顧問已經否認了干預拉金醫生的證詞\NThe White House counsel has denied coaching Dr. Larkin,
+Dialogue: 0,0:39:25.60,0:39:27.46,Default,,0000,0000,0000,,-但根據...  -不管最終發現了什麼\N- but according to Ms. -- - Whatever comes to light,
+Dialogue: 0,0:39:27.46,0:39:30.15,Default,,0000,0000,0000,,都只會證明總統的清白\Nit will only prove the president's innocence.
+Dialogue: 0,0:39:31.61,0:39:35.85,Default,,0000,0000,0000,,我告訴你為什麼  加勒特·沃克是我所認識的\NAnd I'll tell you why. I have never known anyone more honest,
+Dialogue: 0,0:39:35.85,0:39:39.33,Default,,0000,0000,0000,,最誠實  正直  愛國的人\Nethical, and patriotic than Garrett Walker.
+Dialogue: 0,0:39:39.36,0:39:42.96,Default,,0000,0000,0000,,他對我國憲法和法律的尊重\NHis reverence for the Constitution and the laws of this country
+Dialogue: 0,0:39:42.96,0:39:44.71,Default,,0000,0000,0000,,無人能及\Nare surpassed by none.
+Dialogue: 0,0:39:45.88,0:39:49.44,Default,,0000,0000,0000,,特莉莎和我有幸擁有一段堅固忠誠的婚姻\NTricia and I have been blessed with a strong and loving marriage.
+Dialogue: 0,0:39:49.66,0:39:52.40,Default,,0000,0000,0000,,但再堅固的婚姻也會面臨挑戰\NBut even strong marriages face challenges.
+Dialogue: 0,0:39:52.41,0:39:54.39,Default,,0000,0000,0000,,就像成百萬的美國人一樣\NLike millions of Americans,
+Dialogue: 0,0:39:54.53,0:39:57.18,Default,,0000,0000,0000,,我們向一位宗教導師尋求建議\Nwe sought counseling from a spiritual advisor,
+Dialogue: 0,0:39:57.21,0:39:59.97,Default,,0000,0000,0000,,而他恰好也是一位職業治療師\None who happened also to be a professional therapist.
+Dialogue: 0,0:40:00.19,0:40:01.71,Default,,0000,0000,0000,,多年來我們經常\NOver the years we have often
+Dialogue: 0,0:40:01.71,0:40:04.58,Default,,0000,0000,0000,,在困境中向我們的信仰尋求幫助\Nturned to our faith in times of adversity.
+Dialogue: 0,0:40:04.80,0:40:06.42,Default,,0000,0000,0000,,很多人批評我們\NMany have criticized us.
+Dialogue: 0,0:40:06.98,0:40:10.14,Default,,0000,0000,0000,,但你們寧願要一位不去尋求幫助的總統嗎\NBut would you rather have a president that doesn't ask for help?
+Dialogue: 0,0:40:10.70,0:40:14.13,Default,,0000,0000,0000,,我每一天都會請我妻子幫我\NI ask for help from my wife every day.
+Dialogue: 0,0:40:14.90,0:40:17.53,Default,,0000,0000,0000,,我們相扶相依已經有23年了\NWe've relied on one another for 23 years.
+Dialogue: 0,0:40:17.53,0:40:20.26,Default,,0000,0000,0000,,我們一起養育了兩個漂亮的孩子\NWe've raised two beautiful children together.
+Dialogue: 0,0:40:20.73,0:40:23.05,Default,,0000,0000,0000,,一起走過了競選之旅\NEndured the campaign trails together.
+Dialogue: 0,0:40:23.98,0:40:25.58,Default,,0000,0000,0000,,從州首府丹佛\NFrom the state capital in Denver
+Dialogue: 0,0:40:26.06,0:40:27.70,Default,,0000,0000,0000,,一路來到國家首都\Nto the nation's capital,
+Dialogue: 0,0:40:27.81,0:40:30.41,Default,,0000,0000,0000,,我們一直都在彼此身邊\Nwe've always been at each other's side.
+Dialogue: 0,0:40:31.22,0:40:33.13,Default,,0000,0000,0000,,我嫁給這個人的原因\NI married this man for the
+Dialogue: 0,0:40:33.14,0:40:35.69,Default,,0000,0000,0000,,和你們很多人選他的原因一樣\Nsame reason that so many of you voted for him.
+Dialogue: 0,0:40:36.03,0:40:40.29,Default,,0000,0000,0000,,因為他是一位信徒  因為他熱愛家人\NBecause he's a man of God. Because he believes in family.
+Dialogue: 0,0:40:41.30,0:40:43.79,Default,,0000,0000,0000,,因為他有同情心和愛心\NBecause he is compassionate and loving.
+Dialogue: 0,0:40:43.80,0:40:45.08,Default,,0000,0000,0000,,人無完人\NNow, none of us are perfect.
+Dialogue: 0,0:40:45.08,0:40:46.65,Default,,0000,0000,0000,,我不是  特莉莎也不是\NI'm not. Tricia's not.
+Dialogue: 0,0:40:47.15,0:40:49.03,Default,,0000,0000,0000,,儘管她很接近完美了\NAlthough she certainly comes close.
+Dialogue: 0,0:40:49.03,0:40:50.39,Default,,0000,0000,0000,,早上好  馮先生\NGood morning, Mr. Feng.
+Dialogue: 0,0:40:50.39,0:40:53.06,Default,,0000,0000,0000,,我不會否認我作為凡人的極限\NI won't ignore what makes me human.
+Dialogue: 0,0:40:53.96,0:40:55.74,Default,,0000,0000,0000,,否則只是盲目\NThat's a form of blindness.
+Dialogue: 0,0:40:56.94,0:41:01.27,Default,,0000,0000,0000,,好的領導者應該正視自己的缺點\NGood leadership means tackling my imperfections head on.
+Dialogue: 0,0:41:01.28,0:41:03.21,Default,,0000,0000,0000,,對一個在逃亡的人來說不錯嘛\NNot bad for a man on the run.
+Dialogue: 0,0:41:03.61,0:41:05.34,Default,,0000,0000,0000,,你是說對一個有豁免權的人來說\NYou mean a man with immunity.
+Dialogue: 0,0:41:05.87,0:41:07.61,Default,,0000,0000,0000,,隨便你想怎麼說了\NWherever you're most comfortable.
+Dialogue: 0,0:41:07.61,0:41:09.03,Default,,0000,0000,0000,,我們有很多事要談\NWe have a lot to discuss.
+Dialogue: 0,0:41:10.18,0:41:12.88,Default,,0000,0000,0000,,我是在瞭解情況的前提下這麼做的\NI do so with open eyes.
+Dialogue: 0,0:41:13.47,0:41:16.79,Default,,0000,0000,0000,,我的愛也是明明白白的\NJust as I love, with open eyes,
+Dialogue: 0,0:41:18.79,0:41:21.57,Default,,0000,0000,0000,,愛我的妻子  愛上帝\Nmy wife, my maker,
+Dialogue: 0,0:41:22.38,0:41:23.47,Default,,0000,0000,0000,,愛我的國家\Nand my country.
+Dialogue: 0,0:41:28.22,0:41:29.33,Default,,0000,0000,0000,,請進\NCome in.
+Dialogue: 0,0:41:33.47,0:41:34.58,Default,,0000,0000,0000,,謝謝  密查姆\NThank you, Meechum.
+Dialogue: 0,0:41:34.81,0:41:38.57,Default,,0000,0000,0000,,傑姬  這種情況下  一般來說我會去找你\NJackie, in these circumstances normally I would come to you,
+Dialogue: 0,0:41:38.57,0:41:42.13,Default,,0000,0000,0000,,但現在我們表面上還是保持距離為好\Nbut we need to keep a public distance for the time being.
+Dialogue: 0,0:41:42.98,0:41:45.84,Default,,0000,0000,0000,,我以為我是來討論性侵法案的\NI thought I was here to discuss the sexual assault bill.
+Dialogue: 0,0:41:46.06,0:41:48.07,Default,,0000,0000,0000,,-是的  -還有其他事\N- You are. - Among other things.
+Dialogue: 0,0:41:48.96,0:41:49.81,Default,,0000,0000,0000,,明白了\NI see.
+Dialogue: 0,0:41:52.17,0:41:53.20,Default,,0000,0000,0000,,你有條件\NThere's a price.
+Dialogue: 0,0:41:53.66,0:41:55.61,Default,,0000,0000,0000,,不要這樣說\NWell, we don't think of it that way.
+Dialogue: 0,0:41:55.62,0:41:58.78,Default,,0000,0000,0000,,不管今天你說什麼  我都會支持你的法案\NI'm going to support your bill, no matter what you say today.
+Dialogue: 0,0:41:59.10,0:42:00.33,Default,,0000,0000,0000,,什麼事\NRegarding?
+Dialogue: 0,0:42:00.34,0:42:01.66,Default,,0000,0000,0000,,彈劾\NImpeachment.
+Dialogue: 0,0:42:02.64,0:42:04.42,Default,,0000,0000,0000,,如果事情真鬧到司法委員會\NWell, if it goes to the Judiciary --
+Dialogue: 0,0:42:04.42,0:42:06.38,Default,,0000,0000,0000,,幾乎肯定是會的\NIt most definitely will.
+Dialogue: 0,0:42:06.55,0:42:08.05,Default,,0000,0000,0000,,我不那麼肯定\NI'm not sure about that.
+Dialogue: 0,0:42:08.05,0:42:09.55,Default,,0000,0000,0000,,你們看了總統的聲明了嗎\NDid you see the president's address?
+Dialogue: 0,0:42:09.55,0:42:10.35,Default,,0000,0000,0000,,我們看了\NWe did.
+Dialogue: 0,0:42:10.35,0:42:12.33,Default,,0000,0000,0000,,我覺得能起些作用  控制事態\NI think it will help. Stop the bleeding.
+Dialogue: 0,0:42:12.33,0:42:14.47,Default,,0000,0000,0000,,而且彈劾可以被否決\NImpeachment can be defeated.
+Dialogue: 0,0:42:14.97,0:42:17.17,Default,,0000,0000,0000,,但那是我們要避免的\NBut that's we need to avoid.
+Dialogue: 0,0:42:18.53,0:42:20.19,Default,,0000,0000,0000,,你希望彈劾\NYou want impeachment...
+Dialogue: 0,0:42:20.19,0:42:22.16,Default,,0000,0000,0000,,為什麼要打一場明知會輸的仗\NWhy fight a losing battle?
+Dialogue: 0,0:42:23.18,0:42:25.14,Default,,0000,0000,0000,,我們在眾議院是多數黨\NWe have a majority in the House.
+Dialogue: 0,0:42:25.14,0:42:26.16,Default,,0000,0000,0000,,現在是\NWe do now.
+Dialogue: 0,0:42:26.17,0:42:30.24,Default,,0000,0000,0000,,但如果本黨不能和一個污點總統劃清界限\NBut if this party fails to distance itself from a toxic president...
+Dialogue: 0,0:42:30.99,0:42:32.64,Default,,0000,0000,0000,,我們在做長遠打算\NWe're thinking ahead here.
+Dialogue: 0,0:42:32.75,0:42:35.23,Default,,0000,0000,0000,,所以我才會找你就法案的事和解\NIt's why I came to you about the bill.
+Dialogue: 0,0:42:35.23,0:42:37.42,Default,,0000,0000,0000,,我們不值得為它翻臉\NBecause it wasn't worth burning a bridge over.
+Dialogue: 0,0:42:37.42,0:42:41.73,Default,,0000,0000,0000,,長遠來講  我們合作的好處更多\NIn the long run we have a lot more to gain by working together.
+Dialogue: 0,0:42:41.97,0:42:43.01,Default,,0000,0000,0000,,我不明白\NI don't understand.
+Dialogue: 0,0:42:43.01,0:42:44.76,Default,,0000,0000,0000,,你在《電訊報》採訪的時候說你會\NYou said in the Telegraph article that you would sta--
+Dialogue: 0,0:42:44.77,0:42:46.07,Default,,0000,0000,0000,,我必須那麼說\NI had to.
+Dialogue: 0,0:42:46.07,0:42:48.45,Default,,0000,0000,0000,,我的辦公室跟總統的只隔了三個房間\NMy office is three doors down from the president's.
+Dialogue: 0,0:42:48.45,0:42:50.51,Default,,0000,0000,0000,,我不能公開詆毀他\NI can't publicly deride him.
+Dialogue: 0,0:42:52.45,0:42:53.97,Default,,0000,0000,0000,,你要我來\NYou want me to do it?
+Dialogue: 0,0:42:55.94,0:43:00.89,Default,,0000,0000,0000,,我們想要你做你最拿手的  拉選票\NWe want you to do what you do so well: whip the votes.
+Dialogue: 0,0:43:10.71,0:43:12.49,Default,,0000,0000,0000,,我不能背叛總統\NI can't abandon the president.
+Dialogue: 0,0:43:12.50,0:43:14.50,Default,,0000,0000,0000,,如果本黨救了他\NIf the party rescues him,
+Dialogue: 0,0:43:14.50,0:43:17.50,Default,,0000,0000,0000,,我們將在中期選舉時失去50個席位\Nwe'll lose 50 seats in the House in the midterms.
+Dialogue: 0,0:43:17.50,0:43:20.18,Default,,0000,0000,0000,,你會失去你在領導層的地位\NYou will lose your position in the leadership.
+Dialogue: 0,0:43:20.18,0:43:21.65,Default,,0000,0000,0000,,我們要花十年\NAnd it will take us a decade
+Dialogue: 0,0:43:21.65,0:43:24.45,Default,,0000,0000,0000,,重新贏得選民的信任\Nto regain the trust of the electorate.
+Dialogue: 0,0:43:24.48,0:43:27.36,Default,,0000,0000,0000,,我們只求你肯聽取意見\NAll we're asking is that you have an open mind.
+Dialogue: 0,0:43:27.36,0:43:28.76,Default,,0000,0000,0000,,克萊爾就是如此\NClaire kept an open mind,
+Dialogue: 0,0:43:28.76,0:43:32.19,Default,,0000,0000,0000,,你得以修改性侵法案\Nand you'll pass sexual assault reform as a result.
+Dialogue: 0,0:43:32.19,0:43:34.42,Default,,0000,0000,0000,,你不能把彈劾和...\NYou can't possibly compare impeachment to --
+Dialogue: 0,0:43:34.42,0:43:36.02,Default,,0000,0000,0000,,只是舉個例子  傑姬\NIt's an illustration, Jackie.
+Dialogue: 0,0:43:36.02,0:43:38.24,Default,,0000,0000,0000,,說明未來會怎麼樣\NOf what the future looks like.
+Dialogue: 0,0:43:39.22,0:43:42.42,Default,,0000,0000,0000,,我們提出的  是進步\NWhat we offer is progress.
+Dialogue: 0,0:43:42.94,0:43:45.63,Default,,0000,0000,0000,,並保證日後還會有更多進步\NWith a promise of more to come.
+Dialogue: 0,0:43:48.09,0:43:50.12,Default,,0000,0000,0000,,這只是個開始  傑姬\NIt's only the beginning, Jackie.
+Dialogue: 0,0:43:51.34,0:43:54.16,Default,,0000,0000,0000,,堅決  務實  記得嗎\NRuthless pragmatism, remember?
+Dialogue: 0,0:43:54.23,0:43:56.07,Default,,0000,0000,0000,,所以我才選你做黨鞭\NThat's why I wanted you to be the whip.
+Dialogue: 0,0:43:56.07,0:43:59.16,Default,,0000,0000,0000,,我們三個是同一類人\NThe three of us, we're cut from the same cloth.
+Dialogue: 0,0:44:02.36,0:44:03.89,Default,,0000,0000,0000,,副總統先生\NMr. Vice President,
+Dialogue: 0,0:44:05.48,0:44:09.12,Default,,0000,0000,0000,,你要我做的  幾乎是叛國\Nwhat you're asking is just shy of treason.
+Dialogue: 0,0:44:11.24,0:44:14.92,Default,,0000,0000,0000,,幾乎  也就是政治\NJust shy. Which is politics.
+Dialogue: 0,0:44:18.52,0:44:20.33,Default,,0000,0000,0000,,小心  那很易碎\NBe careful. It's delicate.
+Dialogue: 0,0:44:23.43,0:44:24.57,Default,,0000,0000,0000,,這是什麼\NWhat is it?
+Dialogue: 0,0:44:25.41,0:44:28.41,Default,,0000,0000,0000,,一件我做了很久的事\NSomething I've been working on for a very long time.
+Dialogue: 0,0:44:29.15,0:44:30.84,Default,,0000,0000,0000,,馬上就要完成了\NAnd it's nearly finished.
+Dialogue: 0,0:44:32.25,0:44:33.42,Default,,0000,0000,0000,,傑姬\NJackie?
+Dialogue: 0,0:44:35.28,0:44:36.70,Default,,0000,0000,0000,,幫我們完成吧\NHelp us finish it.
+Dialogue: 0,0:44:42.20,0:45:02.20,Default,,0000,0000,0000,,{\an5}{\pos(193,145)}美國法律規定  在總統或其他政府要員  聯邦法官\N出現重大工作失誤  或有嚴重違法嫌疑時\N國會有權行使彈劾權力  彈劾程序啟動後\N首先要求眾議院投票  簡單多數通過彈劾決議後\N再由參議院進行表決\N但是只有在參議院2/3的多數投贊成票後\N彈劾才會生效\N以防止兩黨以彈劾作為政治鬥爭的武器
+Dialogue: 0,0:45:02.20,0:45:32.20,Default,,0000,0000,0000,,{\an5}{\pos(193,145)}雖然美國歷史上許多總統在任期間曾爆出醜聞\N但是國會真正啟動彈劾程序只有兩次\N1868年  國會以違反行政任命法為由投票彈劾時任總統安德魯·傑克遜\N但是在參議院投票時  一票之差  彈劾案沒有獲得所需的2/3多數\N第二次彈劾程序啟動要等到一百多年之後\N在上世紀90年代  總統克林頓深陷萊溫斯基醜聞\N在國會佔有多數席位的共和黨啟動彈劾程序\N但是同樣沒有獲得足夠票數  克林頓涉險過關\N由於他任職期間美國經濟高速發展\N所以雖然醜聞纏身  但是克林頓民意支持率一直很高\N在人們所熟知的水門事件中  沒有啟動彈劾程序\N在國會考慮進行彈劾前  尼克松總統便已經宣佈辭職
+Dialogue: 0,0:04:13.78,0:04:15.24,Default,,0000,0000,0000,,{\an7}{\pos(68.2,100.5)}翻譯  章魚X
+Dialogue: 0,0:04:15.78,0:04:17.24,Default,,0000,0000,0000,,{\an7}{\pos(248.8,101.4)}翻譯  衛老哥
+Dialogue: 0,0:04:17.82,0:04:19.28,Default,,0000,0000,0000,,{\an7}{\pos(96.4,240.1)}翻譯  艾瑞卡
+Dialogue: 0,0:04:20.20,0:04:21.66,Default,,0000,0000,0000,,{\an7}{\pos(62.96,101.58)}翻譯  盧克·天意
+Dialogue: 0,0:04:22.00,0:04:23.46,Default,,0000,0000,0000,,{\an7}{\pos(278.6,241)}翻譯  冬麟
+Dialogue: 0,0:04:23.62,0:04:25.08,Default,,0000,0000,0000,,{\an7}{\pos(76.2,94.2)}翻譯  某豚
+Dialogue: 0,0:04:25.92,0:04:27.38,Default,,0000,0000,0000,,{\an7}{\pos(79.68,242.8)}翻譯  香茗小焙
+Dialogue: 0,0:04:27.42,0:04:28.88,Default,,0000,0000,0000,,{\an7}{\pos(236.2,241)}時間軸  aaaBao
+Dialogue: 0,0:04:29.63,0:04:31.09,Default,,0000,0000,0000,,{\an7}{\pos(61.2,247.3)}後期  餓得慌
+Dialogue: 0,0:04:31.63,0:04:33.09,Default,,0000,0000,0000,,{\an7}{\pos(247.2,258.1)}特效  寶寶
+Dialogue: 0,0:04:33.97,0:04:35.76,Default,,0000,0000,0000,,{\an7}{\pos(267.2,200.7)}顧問  老杜
+Dialogue: 0,0:04:36.38,0:04:38.18,Default,,0000,0000,0000,,{\an7}{\pos(86,27.2)}校對  草草
+Dialogue: 0,0:04:38.22,0:04:40.14,Default,,0000,0000,0000,,{\an7}{\pos(212.2,208.8)}總監  草草
+Dialogue: 0,0:05:33.36,0:05:36.32,Default,,0000,0000,0000,,{\pos(196,180)}紙牌屋
+Dialogue: 0,0:05:33.36,0:05:36.32,Default,,0000,0000,0000,,{\an2}{\pos(209.84,238.02)}第二季  第十二集
+Dialogue: 0,0:05:33.36,0:05:36.32,Default,,0000,0000,0000,,{\pos(180,265)}人人影視傾情奉獻
+
