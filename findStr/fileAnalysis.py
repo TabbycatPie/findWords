@@ -13,8 +13,8 @@ def getFiletype(filename):
 def getInfo(file_name):
     #预处理
     pre = file_name
-    str_key = ["简体",".chs","&eng","&chs","&cht","简中","繁体","繁中" ,".cht","简英","英文",".en" ,"720p","1080p","H.264"]
-    str_rep = ["#chi","#chi","#eng","#chi","#chi","#chi","#chi","#chi","#chi","#eng","#eng","#eng",   "",     "",     ""]
+    str_key = ["简体",".chs", ".cn","&eng","&chs","&cht","简中","繁体","繁中" ,".cht","简英","英文",".en" ,"720p","1080p","H.264"]
+    str_rep = ["#chi","#chi","#chi","#eng","#chi","#chi","#chi","#chi","#chi","#chi","#eng","#eng","#eng",   "",     "",     ""]
     count = 0
     for key in str_key:
         pre = pre.replace(key,str_rep[count])
