@@ -33,7 +33,7 @@ def main():
         #所有地方都没找到
         if(word_count==0):
             Output.logFound(word,"Can not found ","in anywhere")
-        info=info + Output.printScreen(info + info_t+str(word_count)+"\nCurrent file:"+file,1,1) + "\n-----------------------\n"
+        info=info + info_t+str(word_count)+"\nCurrent file:"+file + "\nCurrent progress :100%\nTotal progress :"+str(current)+"/"+str(total) +"\n-----------------------\n"
     os.system("pause")
 
     #for word in words:

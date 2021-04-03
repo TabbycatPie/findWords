@@ -11,8 +11,7 @@ def printScreen(info,total,current):
     os.system("cls")
     #固定不变的东西
     print(info)
-    print("\nCurrent pocession:"+str(round((current/total)*100,2))+"%")
-    return info+"\nCurrent pocession:"+str(round((current/total)*100,2))+"%"
+    print("\nCurrent progress :"+str(round((current/total)*100,2))+"%")
 
 def loadConfig(config_name):
     line_num = 1
