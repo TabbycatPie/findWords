@@ -1,0 +1,737 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: Recode By aBu 2020
+Original Script: YYeTs
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正黑体_GBK,20,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,5,5,5,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.60,0:00:03.25,Default,NTP,0000,0000,0000,,《超女》前情提要\N{\fn微软雅黑\fs14\c&H4bc2ef&}Previously on Supergirl...
+Dialogue: 0,0:00:03.25,0:00:04.81,Default,NTP,0000,0000,0000,,这个御土师\N{\fn微软雅黑\fs14\c&H4bc2ef&}This Earth-Bender has been spotted
+Dialogue: 0,0:00:04.81,0:00:06.48,Default,NTP,0000,0000,0000,,出现在历史上多个犯罪现场\N{\fn微软雅黑\fs14\c&H4bc2ef&}at the scene of the crime throughout history.
+Dialogue: 0,0:00:06.48,0:00:08.86,Default,NTP,0000,0000,0000,,庞贝末日  甚至还有诺亚时期的洪水\N{\fn微软雅黑\fs14\c&H4bc2ef&}Pompeii, even as far back as Noah's flood.
+Dialogue: 0,0:00:08.86,0:00:10.66,Default,NTP,0000,0000,0000,,他就是能控制土地\N{\fn微软雅黑\fs14\c&H4bc2ef&}He literally manipulates the Earth.
+Dialogue: 0,0:00:11.35,0:00:13.97,Default,NTP,0000,0000,0000,,你下次不会再逃出我的掌心了  氪星人\N{\fn微软雅黑\fs14\c&H4bc2ef&}You won't survive me again, Kryptonian.
+Dialogue: 0,0:00:16.36,0:00:19.21,Default,NTP,0000,0000,0000,,不要啊  罗素  救命啊\N{\fn微软雅黑\fs14\c&H4bc2ef&}No! No, Russ! Please, somebody help!
+Dialogue: 0,0:00:19.21,0:00:22.86,Default,NTP,0000,0000,0000,,我甘愿与你联结  请求你的原谅\N{\fn微软雅黑\fs14\c&H4bc2ef&}I beg your forgiveness by submitting myself to the bond.
+Dialogue: 0,0:00:28.76,0:00:31.98,Default,NTP,0000,0000,0000,,他临终前告诉我你就是超女\N{\fn微软雅黑\fs14\c&H4bc2ef&}With his dying breath, he told me that you were Supergirl.
+Dialogue: 0,0:00:31.98,0:00:35.15,Default,NTP,0000,0000,0000,,你不断地向我保证  你永远不会骗我\N{\fn微软雅黑\fs14\c&H4bc2ef&}You reassured me, ad nauseam, you would never lie to me.
+Dialogue: 0,0:00:35.15,0:00:36.02,Default,NTP,0000,0000,0000,,然而一直以来\N{\fn微软雅黑\fs14\c&H4bc2ef&}And all the while,
+Dialogue: 0,0:00:36.02,0:00:38.46,Default,NTP,0000,0000,0000,,在我们的友谊中都没有一个诚实的时刻\N{\fn微软雅黑\fs14\c&H4bc2ef&}there wasn't a single honest moment in our friendship.
+Dialogue: 0,0:00:38.46,0:00:40.59,Default,NTP,0000,0000,0000,,请不要将大清洗带离堡垒\N{\fn微软雅黑\fs14\c&H4bc2ef&}Please, don't leave the fortress with Myriad.
+Dialogue: 0,0:00:40.59,0:00:43.55,Default,NTP,0000,0000,0000,,请不要因为我的错误而做坏事\N{\fn微软雅黑\fs14\c&H4bc2ef&}Please don't let my mistake push you to do something terrible.
+Dialogue: 0,0:00:43.55,0:00:44.64,Default,NTP,0000,0000,0000,,入侵者\N{\fn微软雅黑\fs14\c&H4bc2ef&}Intruder!
+Dialogue: 0,0:00:45.69,0:00:46.58,Default,NTP,0000,0000,0000,,我不是坏人\N{\fn微软雅黑\fs14\c&H4bc2ef&}I'm not a villain.
+Dialogue: 0,0:00:47.21,0:00:48.91,Default,NTP,0000,0000,0000,,你不该把我当成坏人对待\N{\fn微软雅黑\fs14\c&H4bc2ef&}You shouldn't have treated me like one.
+Dialogue: 0,0:00:55.68,0:00:56.36,Default,NTP,0000,0000,0000,,卡拉\N{\fn微软雅黑\fs14\c&H4bc2ef&}Kara.
+Dialogue: 0,0:00:57.50,0:00:58.89,Default,NTP,0000,0000,0000,,是堡垒的防御\N{\fn微软雅黑\fs14\c&H4bc2ef&}It's the Fortress's defenses.
+Dialogue: 0,0:00:58.98,0:01:00.60,Default,NTP,0000,0000,0000,,有人用它来对付超女\N{\fn微软雅黑\fs14\c&H4bc2ef&}Someone's turned them against Supergirl.
+Dialogue: 0,0:01:03.62,0:01:05.05,Default,NTP,0000,0000,0000,,我们无法用通讯器联络到你\N{\fn微软雅黑\fs14\c&H4bc2ef&}We couldn't reach you on comms.
+Dialogue: 0,0:01:05.05,0:01:06.34,Default,NTP,0000,0000,0000,,出什么事了  你没事吧\N{\fn微软雅黑\fs14\c&H4bc2ef&}What happened? Are you all right?
+Dialogue: 0,0:01:06.35,0:01:08.07,Default,NTP,0000,0000,0000,,我跟着罗摩·可汗的能量踪迹到了这里\N{\fn微软雅黑\fs14\c&H4bc2ef&}I traced Rama Khan's energy trail here.
+Dialogue: 0,0:01:08.07,0:01:10.34,Default,NTP,0000,0000,0000,,-我必须找到莉娜  -罗摩·可汗做了什么\N{\fn微软雅黑\fs14\c&H4bc2ef&}- I have to find Lena. - What did Rama Khan do?
+Dialogue: 0,0:01:10.34,0:01:12.44,Default,NTP,0000,0000,0000,,不是他  是莉娜  她知道了\N{\fn微软雅黑\fs14\c&H4bc2ef&}It wasn't him. It was Lena. She knew.
+Dialogue: 0,0:01:12.53,0:01:13.31,Default,NTP,0000,0000,0000,,她知道什么\N{\fn微软雅黑\fs14\c&H4bc2ef&}She knew what?
+Dialogue: 0,0:01:13.31,0:01:15.86,Default,NTP,0000,0000,0000,,知道了我的身份  她已经知道了几个月\N{\fn微软雅黑\fs14\c&H4bc2ef&}My identity. She's known for months.
+Dialogue: 0,0:01:17.03,0:01:19.78,Default,NTP,0000,0000,0000,,是莱克斯告诉她的  她因此恨我\N{\fn微软雅黑\fs14\c&H4bc2ef&}Lex told her, and she hates me for it.
+Dialogue: 0,0:01:22.33,0:01:23.85,Default,NTP,0000,0000,0000,,莉娜在诺奎山\N{\fn微软雅黑\fs14\c&H4bc2ef&}Lena's in Mount Norquay.
+Dialogue: 0,0:01:23.97,0:01:26.34,Default,NTP,0000,0000,0000,,诺奎山是莱克斯的其中一个老巢\N{\fn微软雅黑\fs14\c&H4bc2ef&}Mount Norquay is one of Lex's old hideouts.
+Dialogue: 0,0:01:27.72,0:01:29.65,Default,NTP,0000,0000,0000,,-你要去哪里  -收拾残局\N{\fn微软雅黑\fs14\c&H4bc2ef&}- Where are you going? - To fix this.
+Dialogue: 0,0:01:30.25,0:01:32.17,Default,NTP,0000,0000,0000,,{\an8}{\fn方正兰亭黑_GBK\fs18\b1\bord1\shad1\3c&H2F2F2F&}诺奎山
+Dialogue: 0,0:01:32.28,0:01:34.27,Default,NTP,0000,0000,0000,,让大清洗上线运行\N{\fn微软雅黑\fs14\c&H4bc2ef&}Get Myriad online and operational.
+Dialogue: 0,0:01:34.27,0:01:36.35,Default,NTP,0000,0000,0000,,还有几个小时  无害计划就要开始了\N{\fn微软雅黑\fs14\c&H4bc2ef&}Non Nocere launches within the hour.
+Dialogue: 0,0:01:37.92,0:01:41.17,Default,NTP,0000,0000,0000,,霍普  准备工作很出色\N{\fn微软雅黑\fs14\c&H4bc2ef&}And, Hope, excellent work preparing the move.
+Dialogue: 0,0:01:43.69,0:01:46.49,Default,NTP,0000,0000,0000,,我们的Q波发生器已经准备好与大清洗合并\N{\fn微软雅黑\fs14\c&H4bc2ef&}Our Q-wave generator is ready to integrate with Myriad.
+Dialogue: 0,0:01:49.18,0:01:49.97,Default,NTP,0000,0000,0000,,超女\N{\fn微软雅黑\fs14\c&H4bc2ef&}Supergirl?
+Dialogue: 0,0:01:53.21,0:01:54.18,Default,NTP,0000,0000,0000,,{\an8}{\fn方正兰亭黑_GBK\fs18\b1\bord1\shad1\3c&H2F2F2F&}已侦测到氪星X光视线
+Dialogue: 0,0:01:53.27,0:01:55.95,Default,NTP,0000,0000,0000,,别担心  地堡已铅封  她找不到我们的\N{\fn微软雅黑\fs14\c&H4bc2ef&}Don't worry. The bunker's lead-lined. She can't find us.
+Dialogue: 0,0:01:54.18,0:01:54.55,Default,NTP,0000,0000,0000,,{\an8}{\fn方正兰亭黑_GBK\fs18\b1\bord1\shad1\3c&H2F2F2F&}正在植入装置
+Dialogue: 0,0:01:55.95,0:01:57.53,Default,NTP,0000,0000,0000,,这些是莱克斯的装置\N{\fn微软雅黑\fs14\c&H4bc2ef&}These are Lex's countermeasures.
+Dialogue: 0,0:02:03.87,0:02:04.74,Default,NTP,0000,0000,0000,,我们怎么办\N{\fn微软雅黑\fs14\c&H4bc2ef&}What do we do?
+Dialogue: 0,0:02:06.01,0:02:06.78,Default,NTP,0000,0000,0000,,卢瑟女士\N{\fn微软雅黑\fs14\c&H4bc2ef&}Ms. Luthor?
+Dialogue: 0,0:02:08.23,0:02:08.95,Default,NTP,0000,0000,0000,,部署\N{\fn微软雅黑\fs14\c&H4bc2ef&}Deploy.
+Dialogue: 0,0:02:09.41,0:02:10.01,Default,NTP,0000,0000,0000,,{\an8}{\fn方正兰亭黑_GBK\fs18\b1\bord1\shad1\3c&H2F2F2F&}离子射线大炮已装载
+Dialogue: 0,0:02:15.09,0:02:16.37,Default,NTP,0000,0000,0000,,这样应该能牵制住她\N{\fn微软雅黑\fs14\c&H4bc2ef&}That should keep her at bay.
+Dialogue: 0,0:02:18.03,0:02:19.74,Default,NTP,0000,0000,0000,,{\an8}{\fn方正兰亭黑_GBK\fs18\b1\bord1\shad1\3c&H2F2F2F&}安全警报\N终止操作失败
+Dialogue: 0,0:02:18.13,0:02:19.03,Default,NTP,0000,0000,0000,,又怎么了\N{\fn微软雅黑\fs14\c&H4bc2ef&}What's happening now?
+Dialogue: 0,0:02:19.03,0:02:21.32,Default,NTP,0000,0000,0000,,似乎在用氪石重新武装大炮\N{\fn微软雅黑\fs14\c&H4bc2ef&}It appears to be re-arming the cannons with Kryptonite.
+Dialogue: 0,0:02:21.32,0:02:23.51,Default,NTP,0000,0000,0000,,-取消  -现在是自动操作\N{\fn微软雅黑\fs14\c&H4bc2ef&}- Cancel it. - It's on an automatic override.
+Dialogue: 0,0:02:21.80,0:02:23.34,Default,NTP,0000,0000,0000,,{\an8}{\fn方正兰亭黑_GBK\fs18\b1\bord1\shad1\3c&H2F2F2F&}安全警报\N氪石大炮已装载\N错误代码
+Dialogue: 0,0:02:23.51,0:02:25.12,Default,NTP,0000,0000,0000,,-快关闭  -没有反应\N{\fn微软雅黑\fs14\c&H4bc2ef&}- Shut it down. - It's not responding.
+Dialogue: 0,0:02:25.12,0:02:26.26,Default,NTP,0000,0000,0000,,立刻关闭\N{\fn微软雅黑\fs14\c&H4bc2ef&}Shut it down now!
+Dialogue: 0,0:02:29.57,0:02:32.52,Default,NTP,0000,0000,0000,,莉娜  别这么做\N{\fn微软雅黑\fs14\c&H4bc2ef&}Lena, don't... don't do this.
+Dialogue: 0,0:02:39.55,0:02:40.37,Default,NTP,0000,0000,0000,,{\an8}{\fn方正兰亭黑_GBK\fs18\b1\bord1\shad1\3c&H2F2F2F&}系统自动操作
+Dialogue: 0,0:02:40.43,0:02:41.31,Default,NTP,0000,0000,0000,,{\an8}{\fn方正兰亭黑_GBK\fs18\b1\bord1\shad1\3c&H2F2F2F&}大炮已解除
+Dialogue: 0,0:02:44.49,0:02:46.39,Default,NTP,0000,0000,0000,,我们必须忠于我们的使命\N{\fn微软雅黑\fs14\c&H4bc2ef&}We must stay true to our mission.
+Dialogue: 0,0:02:46.84,0:02:50.22,Default,NTP,0000,0000,0000,,不管他们如何伤害我们  都不能杀人\N{\fn微软雅黑\fs14\c&H4bc2ef&}We don't kill people... no matter how much they've hurt us.
+Dialogue: 0,0:02:56.68,0:02:58.11,Default,NTP,0000,0000,0000,,我是不会放弃你的\N{\fn微软雅黑\fs14\c&H4bc2ef&}I'm not gonna give up on you.
+Dialogue: 0,0:03:01.75,0:03:06.54,Default,,0,0,0,,{\fad(0,350)\an8\fs31\t(0,4190,\fs36)\fn方正兰亭特黑_GBK\bord1.5\blur1\shad0\pos(188.331,157.909)\c&H020202&\3c&H0B0A0A&\t(0,1730,2,\c&H00002F&\3c&H264E71&)}超 女\N{\fsp0\fs14\t(0,4190,\fs17)}第五季 第八集
+Dialogue: 0,0:03:15.32,0:03:16.21,Default,NTP,0000,0000,0000,,怎么了\N{\fn微软雅黑\fs14\c&H4bc2ef&}What happened?
+Dialogue: 0,0:03:16.44,0:03:18.63,Default,NTP,0000,0000,0000,,超女和卢瑟怎么又打败你了\N{\fn微软雅黑\fs14\c&H4bc2ef&}How did Supergirl and Luther beat you again?
+Dialogue: 0,0:03:18.63,0:03:20.31,Default,NTP,0000,0000,0000,,过程不重要\N{\fn微软雅黑\fs14\c&H4bc2ef&}It doesn't matter how.
+Dialogue: 0,0:03:20.59,0:03:22.36,Default,NTP,0000,0000,0000,,我只是要和她解释\N{\fn微软雅黑\fs14\c&H4bc2ef&}I just need to explain to her.
+Dialogue: 0,0:03:22.71,0:03:23.95,Default,NTP,0000,0000,0000,,要是我就不会这么做\N{\fn微软雅黑\fs14\c&H4bc2ef&}I wouldn't do that.
+Dialogue: 0,0:03:25.97,0:03:28.47,Default,NTP,0000,0000,0000,,人们都在议论你\N{\fn微软雅黑\fs14\c&H4bc2ef&}They're whispering about you.
+Dialogue: 0,0:03:28.83,0:03:30.28,Default,NTP,0000,0000,0000,,说你丧失了锋芒\N{\fn微软雅黑\fs14\c&H4bc2ef&}That you've lost your edge.
+Dialogue: 0,0:03:30.90,0:03:33.13,Default,NTP,0000,0000,0000,,地震造不成伤亡\N{\fn微软雅黑\fs14\c&H4bc2ef&}Earthquakes with no death counts,
+Dialogue: 0,0:03:33.14,0:03:35.71,Default,NTP,0000,0000,0000,,洪水就如漏水的水龙头一般微弱\N{\fn微软雅黑\fs14\c&H4bc2ef&}floods with the ferocity of a leaky faucet.
+Dialogue: 0,0:03:35.71,0:03:39.83,Default,NTP,0000,0000,0000,,他们说长者也许会让德苏马克来掌管\N{\fn微软雅黑\fs14\c&H4bc2ef&}They're saying that the Elder may put Tezumak in charge.
+Dialogue: 0,0:03:40.21,0:03:41.27,Default,NTP,0000,0000,0000,,德苏马克\N{\fn微软雅黑\fs14\c&H4bc2ef&}Tezumak?
+Dialogue: 0,0:03:43.44,0:03:45.81,Default,NTP,0000,0000,0000,,他的战争策略毫无下限\N{\fn微软雅黑\fs14\c&H4bc2ef&}His tactic of war is without limits.
+Dialogue: 0,0:03:46.10,0:03:47.95,Default,NTP,0000,0000,0000,,他有可能会不小心把地球夷为平地\N{\fn微软雅黑\fs14\c&H4bc2ef&}He could accidentally burn down the earth.
+Dialogue: 0,0:03:47.95,0:03:48.85,Default,NTP,0000,0000,0000,,我同意\N{\fn微软雅黑\fs14\c&H4bc2ef&}I agree.
+Dialogue: 0,0:03:48.85,0:03:51.96,Default,NTP,0000,0000,0000,,我已经掌管了两百万年\N{\fn微软雅黑\fs14\c&H4bc2ef&}I have been in charge for two million years.
+Dialogue: 0,0:03:51.96,0:03:53.84,Default,NTP,0000,0000,0000,,但是你最近迷失了\N{\fn微软雅黑\fs14\c&H4bc2ef&}And you've been losing lately,
+Dialogue: 0,0:03:53.84,0:03:55.56,Default,NTP,0000,0000,0000,,他会以此来对付你\N{\fn微软雅黑\fs14\c&H4bc2ef&}and he'll hold that against you.
+Dialogue: 0,0:03:55.67,0:03:57.43,Default,NTP,0000,0000,0000,,德苏马克狡猾如蛇\N{\fn微软雅黑\fs14\c&H4bc2ef&}Tezumak is a snake.
+Dialogue: 0,0:03:57.43,0:03:59.31,Default,NTP,0000,0000,0000,,我猜猜  接下来你要建议我说\N{\fn微软雅黑\fs14\c&H4bc2ef&}Oh, and let me guess. Next is your advice
+Dialogue: 0,0:03:59.31,0:04:02.45,Default,NTP,0000,0000,0000,,你的方法更有效\N{\fn微软雅黑\fs14\c&H4bc2ef&}about how your way is so much more efficient.
+Dialogue: 0,0:04:03.13,0:04:05.70,Default,NTP,0000,0000,0000,,在这里操纵人心的不止德苏马克一人\N{\fn微软雅黑\fs14\c&H4bc2ef&}Tezumak isn't the only manipulator around here.
+Dialogue: 0,0:04:05.96,0:04:08.88,Default,NTP,0000,0000,0000,,我昨天说的话有欠公允\N{\fn微软雅黑\fs14\c&H4bc2ef&}Look, what I said yesterday was unfair.
+Dialogue: 0,0:04:09.07,0:04:11.74,Default,NTP,0000,0000,0000,,没错  我相信我的技术能成功\N{\fn微软雅黑\fs14\c&H4bc2ef&}Yes, I believe my technology would work.
+Dialogue: 0,0:04:12.48,0:04:13.64,Default,NTP,0000,0000,0000,,但是我也同意\N{\fn微软雅黑\fs14\c&H4bc2ef&}But I agree.
+Dialogue: 0,0:04:14.62,0:04:16.37,Default,NTP,0000,0000,0000,,你的方法更有效\N{\fn微软雅黑\fs14\c&H4bc2ef&}Your way is more efficient.
+Dialogue: 0,0:04:17.55,0:04:19.61,Default,NTP,0000,0000,0000,,这和自负没关系  罗摩·可汗\N{\fn微软雅黑\fs14\c&H4bc2ef&}This isn't about ego, Rama Khan.
+Dialogue: 0,0:04:20.86,0:04:23.00,Default,NTP,0000,0000,0000,,而是关乎拯救地球\N{\fn微软雅黑\fs14\c&H4bc2ef&}It's about saving the earth.
+Dialogue: 0,0:04:23.37,0:04:26.70,Default,NTP,0000,0000,0000,,世界正处在崩塌点  没有回头路了\N{\fn微软雅黑\fs14\c&H4bc2ef&}The world is at a tipping point. There's no turning back.
+Dialogue: 0,0:04:27.29,0:04:31.49,Default,NTP,0000,0000,0000,,人类会毁灭这个星球  除非我们先将人类毁灭\N{\fn微软雅黑\fs14\c&H4bc2ef&}The humans will destroy this planet unless we destroy them first.
+Dialogue: 0,0:04:31.49,0:04:32.44,Default,NTP,0000,0000,0000,,但要怎么做\N{\fn微软雅黑\fs14\c&H4bc2ef&}But how?
+Dialogue: 0,0:04:33.36,0:04:35.27,Default,NTP,0000,0000,0000,,氪星人是不会罢手的\N{\fn微软雅黑\fs14\c&H4bc2ef&}The Kryptonian won't stop.
+Dialogue: 0,0:04:35.82,0:04:38.13,Default,NTP,0000,0000,0000,,她誓死都会保护这些人类\N{\fn微软雅黑\fs14\c&H4bc2ef&}She will die to protect these humans.
+Dialogue: 0,0:04:38.13,0:04:40.04,Default,NTP,0000,0000,0000,,那就让超女去死吧\N{\fn微软雅黑\fs14\c&H4bc2ef&}Then let Supergirl die trying.
+Dialogue: 0,0:04:41.17,0:04:43.15,Default,NTP,0000,0000,0000,,这是近两千年来\N{\fn微软雅黑\fs14\c&H4bc2ef&}The planets are coming into alignment
+Dialogue: 0,0:04:43.15,0:04:46.24,Default,NTP,0000,0000,0000,,行星首次排成一线\N{\fn微软雅黑\fs14\c&H4bc2ef&}for the first time in nearly 2,000 years.
+Dialogue: 0,0:04:46.69,0:04:48.36,Default,NTP,0000,0000,0000,,但是只在今晚\N{\fn微软雅黑\fs14\c&H4bc2ef&}But only for tonight.
+Dialogue: 0,0:04:48.38,0:04:51.97,Default,NTP,0000,0000,0000,,上次排成一线时  我摧毁了庞贝\N{\fn微软雅黑\fs14\c&H4bc2ef&}The last time this happened, I wiped out Pompeii.
+Dialogue: 0,0:04:51.98,0:04:53.87,Default,NTP,0000,0000,0000,,值得重复的杰作\N{\fn微软雅黑\fs14\c&H4bc2ef&}A masterpiece worth repeating.
+Dialogue: 0,0:04:55.22,0:04:57.03,Default,NTP,0000,0000,0000,,恕我直言\N{\fn微软雅黑\fs14\c&H4bc2ef&}If a little on the blunt side.
+Dialogue: 0,0:04:58.58,0:05:02.14,Default,NTP,0000,0000,0000,,就算是超女也无法阻止大规模火山爆发\N{\fn微软雅黑\fs14\c&H4bc2ef&}Not even Supergirl can stop a massive volcano.
+Dialogue: 0,0:05:03.94,0:05:05.16,Default,NTP,0000,0000,0000,,没有坠子\N{\fn微软雅黑\fs14\c&H4bc2ef&}The Staff of the Shadow World
+Dialogue: 0,0:05:05.16,0:05:06.84,Default,NTP,0000,0000,0000,,暗影世界之杖就毫无价值可言\N{\fn微软雅黑\fs14\c&H4bc2ef&}is worthless without the Medallion.
+Dialogue: 0,0:05:07.01,0:05:10.37,Default,NTP,0000,0000,0000,,你需要的是坠子的力量  而不是坠子本身\N{\fn微软雅黑\fs14\c&H4bc2ef&}You need the Medallion's power, not the Medallion itself.
+Dialogue: 0,0:05:11.05,0:05:12.73,Default,NTP,0000,0000,0000,,而你知道这力量是什么\N{\fn微软雅黑\fs14\c&H4bc2ef&}And you know where that power is.
+Dialogue: 0,0:05:14.46,0:05:15.44,Default,NTP,0000,0000,0000,,阿珂拉塔\N{\fn微软雅黑\fs14\c&H4bc2ef&}Acrata.
+Dialogue: 0,0:05:18.19,0:05:20.42,Default,NTP,0000,0000,0000,,超女  你找到莉娜了吗\N{\fn微软雅黑\fs14\c&H4bc2ef&}Supergirl. Hey, did you find Lena?
+Dialogue: 0,0:05:20.57,0:05:22.10,Default,NTP,0000,0000,0000,,她去莱克斯的地堡干什么\N{\fn微软雅黑\fs14\c&H4bc2ef&}What was she doing in Lex's bunker?
+Dialogue: 0,0:05:22.10,0:05:24.46,Default,NTP,0000,0000,0000,,布莱尼  能在诺奎山脉下4.9公里范围内\N{\fn微软雅黑\fs14\c&H4bc2ef&}Brainy, can you get some line of communication to a bunker
+Dialogue: 0,0:05:24.46,0:05:26.65,Default,NTP,0000,0000,0000,,找到通讯线路吗\N{\fn微软雅黑\fs14\c&H4bc2ef&}three miles below the Norquay mountain range?
+Dialogue: 0,0:05:26.65,0:05:28.87,Default,NTP,0000,0000,0000,,能  但要取决于信号处理能力\N{\fn微软雅黑\fs14\c&H4bc2ef&}Yes, but depending on the processing power--
+Dialogue: 0,0:05:28.87,0:05:31.82,Default,NTP,0000,0000,0000,,好了  先停下  现在告诉我\N{\fn微软雅黑\fs14\c&H4bc2ef&}Okay, stop. Just tell me right now,
+Dialogue: 0,0:05:31.86,0:05:33.90,Default,NTP,0000,0000,0000,,莱克斯是什么时候把你的身份告诉莉娜的\N{\fn微软雅黑\fs14\c&H4bc2ef&}when did Lex tell Lena your identity?
+Dialogue: 0,0:05:33.90,0:05:35.73,Default,NTP,0000,0000,0000,,她为什么在孤独堡垒里攻击你\N{\fn微软雅黑\fs14\c&H4bc2ef&}And why was she attacking you in the Fortress?
+Dialogue: 0,0:05:35.73,0:05:38.50,Default,NTP,0000,0000,0000,,-到底是怎么回事  -那是雪莱岛之后的事\N{\fn微软雅黑\fs14\c&H4bc2ef&}- What the hell is going on? - It was after Shelley Island.
+Dialogue: 0,0:05:38.50,0:05:40.54,Default,NTP,0000,0000,0000,,-但莱克斯死在那里了  -他没死\N{\fn微软雅黑\fs14\c&H4bc2ef&}- But Lex died there. - No, he didn't.
+Dialogue: 0,0:05:40.54,0:05:46.14,Default,NTP,0000,0000,0000,,他穿越到了一个安全屋  莉娜开枪打死他了\N{\fn微软雅黑\fs14\c&H4bc2ef&}He portaled somehow to a safe house where Lena shot him.
+Dialogue: 0,0:05:46.63,0:05:49.98,Default,NTP,0000,0000,0000,,为了保护我  保护我们  她杀了他\N{\fn微软雅黑\fs14\c&H4bc2ef&}She killed him to protect me, to protect all of us.
+Dialogue: 0,0:05:49.98,0:05:51.80,Default,NTP,0000,0000,0000,,但在他死之前  他告诉她了\N{\fn微软雅黑\fs14\c&H4bc2ef&}But before he died, he told her.
+Dialogue: 0,0:05:52.30,0:05:54.11,Default,NTP,0000,0000,0000,,她一直骗了我们几个月\N{\fn微软雅黑\fs14\c&H4bc2ef&}She's been lying to us for months.
+Dialogue: 0,0:05:54.83,0:05:56.98,Default,NTP,0000,0000,0000,,那为什么现在才攻击你呢\N{\fn微软雅黑\fs14\c&H4bc2ef&}Okay, so why attack you now?
+Dialogue: 0,0:05:57.51,0:05:59.88,Default,NTP,0000,0000,0000,,这样她就能从孤独堡垒里偷走大清洗\N{\fn微软雅黑\fs14\c&H4bc2ef&}So she could steal Myriad from the Fortress.
+Dialogue: 0,0:06:01.88,0:06:03.69,Default,NTP,0000,0000,0000,,莉娜偷走了大清洗\N{\fn微软雅黑\fs14\c&H4bc2ef&}Lena stole Myriad?
+Dialogue: 0,0:06:04.25,0:06:06.44,Default,NTP,0000,0000,0000,,我就是这样追踪她到了诺奎山\N{\fn微软雅黑\fs14\c&H4bc2ef&}It's how I tracked her to Norquay,
+Dialogue: 0,0:06:06.65,0:06:09.22,Default,NTP,0000,0000,0000,,但我认为事情不是这样\N{\fn微软雅黑\fs14\c&H4bc2ef&}but I don't think this is what it looks like.
+Dialogue: 0,0:06:09.22,0:06:11.85,Default,NTP,0000,0000,0000,,她在孤独堡垒里  从摩罗·可汗手上救了我\N{\fn微软雅黑\fs14\c&H4bc2ef&}She saved me from Rama Khan in the Fortress.
+Dialogue: 0,0:06:11.85,0:06:13.85,Default,NTP,0000,0000,0000,,就算在莱克斯的地堡里\N{\fn微软雅黑\fs14\c&H4bc2ef&}And even at Lex's bunker,
+Dialogue: 0,0:06:14.27,0:06:17.91,Default,NTP,0000,0000,0000,,大炮上装满了氪石  但她也没拿来对付我\N{\fn微软雅黑\fs14\c&H4bc2ef&}the cannons were loaded with Kryptonite, but she didn't use them.
+Dialogue: 0,0:06:17.93,0:06:19.35,Default,NTP,0000,0000,0000,,我还可以修补我们的关系\N{\fn微软雅黑\fs14\c&H4bc2ef&}I can still fix this.
+Dialogue: 0,0:06:19.35,0:06:22.22,Default,NTP,0000,0000,0000,,如果我可以和她谈谈  我就可以说动她\N{\fn微软雅黑\fs14\c&H4bc2ef&}I can get through to her, if I could just talk to her.
+Dialogue: 0,0:06:22.57,0:06:24.19,Default,NTP,0000,0000,0000,,布莱尼  你能让我进去吗\N{\fn微软雅黑\fs14\c&H4bc2ef&}Brainy, can you get me in there?
+Dialogue: 0,0:06:24.19,0:06:26.20,Default,NTP,0000,0000,0000,,我们可以利用现有的氪星水晶\N{\fn微软雅黑\fs14\c&H4bc2ef&}We could harness the Kryptonian cache crystals we have here
+Dialogue: 0,0:06:26.20,0:06:28.32,Default,NTP,0000,0000,0000,,悄悄地向她的地堡发射全息图\N{\fn微软雅黑\fs14\c&H4bc2ef&}to covertly project a hologram beam into her bunker.
+Dialogue: 0,0:06:28.32,0:06:31.13,Default,NTP,0000,0000,0000,,-很好  -如果不是为了控制人口\N{\fn微软雅黑\fs14\c&H4bc2ef&}- Great. - Okay, if not for mind control over the population,
+Dialogue: 0,0:06:31.13,0:06:33.08,Default,NTP,0000,0000,0000,,那莉娜为什么需要大清洗\N{\fn微软雅黑\fs14\c&H4bc2ef&}then why would Lena need Myriad?
+Dialogue: 0,0:06:33.92,0:06:35.24,Default,NTP,0000,0000,0000,,我应该知道原因\N{\fn微软雅黑\fs14\c&H4bc2ef&}I think I might know.
+Dialogue: 0,0:06:38.77,0:06:39.68,Default,NTP,0000,0000,0000,,马拉法克\N{\fn微软雅黑\fs14\c&H4bc2ef&}Malefic.
+Dialogue: 0,0:06:47.08,0:06:48.89,Default,NTP,0000,0000,0000,,启动精神力抑制器\N{\fn微软雅黑\fs14\c&H4bc2ef&}Engage Psychic Inhibitors.
+Dialogue: 0,0:06:49.52,0:06:50.31,Default,NTP,0000,0000,0000,,艾丽克斯  别这样\N{\fn微软雅黑\fs14\c&H4bc2ef&}Alex, please.
+Dialogue: 0,0:06:50.31,0:06:51.78,Default,NTP,0000,0000,0000,,多克斯特工  逮捕疑犯\N{\fn微软雅黑\fs14\c&H4bc2ef&}Agent Dox, apprehend the suspect.
+Dialogue: 0,0:06:51.78,0:06:52.58,Default,NTP,0000,0000,0000,,艾丽克斯  别这样\N{\fn微软雅黑\fs14\c&H4bc2ef&}Alex, please!
+Dialogue: 0,0:06:52.77,0:06:54.09,Default,NTP,0000,0000,0000,,我和马拉法克已经心灵融合了\N{\fn微软雅黑\fs14\c&H4bc2ef&}Malefic and I mind-melded.
+Dialogue: 0,0:06:54.09,0:06:57.19,Default,NTP,0000,0000,0000,,我知道他真正的目的  他真是来帮忙的\N{\fn微软雅黑\fs14\c&H4bc2ef&}I know his true intentions. He is here to help.
+Dialogue: 0,0:06:57.58,0:06:59.00,Default,NTP,0000,0000,0000,,他有一些关于...\N{\fn微软雅黑\fs14\c&H4bc2ef&}He has some information...
+Dialogue: 0,0:07:00.58,0:07:01.55,Default,NTP,0000,0000,0000,,莉娜的信息\N{\fn微软雅黑\fs14\c&H4bc2ef&}about Lena.
+Dialogue: 0,0:07:02.46,0:07:03.94,Default,NTP,0000,0000,0000,,我曾是她的囚犯\N{\fn微软雅黑\fs14\c&H4bc2ef&}I was her prisoner.
+Dialogue: 0,0:07:09.08,0:07:12.20,Default,NTP,0000,0000,0000,,首先  你是怎么从幻影地带逃出来的\N{\fn微软雅黑\fs14\c&H4bc2ef&}Okay, first, how did you escape the Phantom Zone?
+Dialogue: 0,0:07:12.23,0:07:15.24,Default,NTP,0000,0000,0000,,我没逃  因为我从来都没去过那儿\N{\fn微软雅黑\fs14\c&H4bc2ef&}I didn't escape. I was never there.
+Dialogue: 0,0:07:15.49,0:07:17.77,Default,NTP,0000,0000,0000,,当幻影地带投射器在天文馆击中我时\N{\fn微软雅黑\fs14\c&H4bc2ef&}When the Phantom Zone Projector hit me at the planetarium,
+Dialogue: 0,0:07:17.77,0:07:19.85,Default,NTP,0000,0000,0000,,我直接去了卢瑟女士的实验室\N{\fn微软雅黑\fs14\c&H4bc2ef&}I went directly to Ms. Luthor's lab.
+Dialogue: 0,0:07:19.85,0:07:23.04,Default,NTP,0000,0000,0000,,是莉娜帮布莱尼修好了幻影地带投射器\N{\fn微软雅黑\fs14\c&H4bc2ef&}Lena was the one who helped Brainy fix the Phantom Zone Projector.
+Dialogue: 0,0:07:23.17,0:07:24.73,Default,NTP,0000,0000,0000,,她一定更改了终点坐标\N{\fn微软雅黑\fs14\c&H4bc2ef&}She must have changed the end coordinates.
+Dialogue: 0,0:07:24.73,0:07:26.22,Default,NTP,0000,0000,0000,,但她为什么需要你\N{\fn微软雅黑\fs14\c&H4bc2ef&}But what did she need you for?
+Dialogue: 0,0:07:26.25,0:07:27.47,Default,NTP,0000,0000,0000,,精神控制\N{\fn微软雅黑\fs14\c&H4bc2ef&}Mind control.
+Dialogue: 0,0:07:27.94,0:07:30.99,Default,NTP,0000,0000,0000,,她在拿我的植入能力做实验\N{\fn微软雅黑\fs14\c&H4bc2ef&}She was experimenting with my ability to incept.
+Dialogue: 0,0:07:30.99,0:07:32.72,Default,NTP,0000,0000,0000,,如果莉娜能利用马拉法克的Q波\N{\fn微软雅黑\fs14\c&H4bc2ef&}If Lena can harness Malefic's Q-waves
+Dialogue: 0,0:07:32.72,0:07:34.72,Default,NTP,0000,0000,0000,,并将其与大清洗的分配能力相结合\N{\fn微软雅黑\fs14\c&H4bc2ef&}and merge them with the power of Myriad's distribution,
+Dialogue: 0,0:07:34.72,0:07:36.25,Default,NTP,0000,0000,0000,,将产生前所未有的结果\N{\fn微软雅黑\fs14\c&H4bc2ef&}the results would be unprecedented.
+Dialogue: 0,0:07:36.87,0:07:38.86,Default,NTP,0000,0000,0000,,瞬间实现世界范围内的彻底控制\N{\fn微软雅黑\fs14\c&H4bc2ef&}World-wide total control in an instant.
+Dialogue: 0,0:07:38.87,0:07:41.58,Default,NTP,0000,0000,0000,,但我们还不知道她的意图\N{\fn微软雅黑\fs14\c&H4bc2ef&}But we don't know her intentions.
+Dialogue: 0,0:07:41.65,0:07:44.07,Default,NTP,0000,0000,0000,,她想削弱人类的暴力程度\N{\fn微软雅黑\fs14\c&H4bc2ef&}She's trying to make people less violent.
+Dialogue: 0,0:07:44.10,0:07:45.61,Default,NTP,0000,0000,0000,,利用大清洗是为了\N{\fn微软雅黑\fs14\c&H4bc2ef&}You use Myriad to impose
+Dialogue: 0,0:07:45.61,0:07:48.06,Default,NTP,0000,0000,0000,,将自己的意志强加给世界人口  而非拯救他们\N{\fn微软雅黑\fs14\c&H4bc2ef&}your will on the world population, not save it.
+Dialogue: 0,0:07:48.06,0:07:49.20,Default,NTP,0000,0000,0000,,她心里很受伤\N{\fn微软雅黑\fs14\c&H4bc2ef&}She's hurting.
+Dialogue: 0,0:07:49.52,0:07:51.77,Default,NTP,0000,0000,0000,,她经历的净是人类间的互相伤害\N{\fn微软雅黑\fs14\c&H4bc2ef&}All she's experienced are people hurting each other,
+Dialogue: 0,0:07:51.77,0:07:52.74,Default,NTP,0000,0000,0000,,像我一样\N{\fn微软雅黑\fs14\c&H4bc2ef&}the same way I did.
+Dialogue: 0,0:07:52.74,0:07:55.92,Default,NTP,0000,0000,0000,,-显然她认为自己在做好事  -确实如此\N{\fn微软雅黑\fs14\c&H4bc2ef&}- Clearly, she thinks she's doing good. - It's true.
+Dialogue: 0,0:07:57.18,0:07:59.71,Default,NTP,0000,0000,0000,,我早就想杀了我哥哥\N{\fn微软雅黑\fs14\c&H4bc2ef&}I had long planned to destroy my brother,
+Dialogue: 0,0:08:00.87,0:08:04.08,Default,NTP,0000,0000,0000,,但卢瑟女士说这违反了她的道德准则  并阻止了我\N{\fn微软雅黑\fs14\c&H4bc2ef&}but Ms. Luthor said it went against her morality and stopped me.
+Dialogue: 0,0:08:04.08,0:08:06.36,Default,NTP,0000,0000,0000,,艾丽克斯  她不会伤害任何人\N{\fn微软雅黑\fs14\c&H4bc2ef&}Alex, she's not hurting anyone.
+Dialogue: 0,0:08:06.36,0:08:08.38,Default,NTP,0000,0000,0000,,连她的囚犯马拉法克都没有伤害\N{\fn微软雅黑\fs14\c&H4bc2ef&}Not even Malefic, her prisoner.
+Dialogue: 0,0:08:08.38,0:08:09.74,Default,NTP,0000,0000,0000,,我还可以拯救她\N{\fn微软雅黑\fs14\c&H4bc2ef&}I can still save her.
+Dialogue: 0,0:08:09.74,0:08:11.83,Default,NTP,0000,0000,0000,,-这可说不准  -一定可以\N{\fn微软雅黑\fs14\c&H4bc2ef&}- You don't know that. - Yes, I do.
+Dialogue: 0,0:08:12.70,0:08:15.40,Default,NTP,0000,0000,0000,,是我伤害了她  所以要由我来弥补\N{\fn微软雅黑\fs14\c&H4bc2ef&}I'm the one who hurt her, so I'm going to fix this.
+Dialogue: 0,0:08:15.47,0:08:17.16,Default,NTP,0000,0000,0000,,布莱尼  发射全息图\N{\fn微软雅黑\fs14\c&H4bc2ef&}Brainy, get the hologram online.
+Dialogue: 0,0:08:29.61,0:08:30.37,Default,NTP,0000,0000,0000,,阿珂拉塔\N{\fn微软雅黑\fs14\c&H4bc2ef&}Acrata.
+Dialogue: 0,0:08:32.91,0:08:35.92,Default,NTP,0000,0000,0000,,-我有个任务交给你  -我也有任务给你\N{\fn微软雅黑\fs14\c&H4bc2ef&}- I have a job for you. - And I have one for you.
+Dialogue: 0,0:08:36.51,0:08:37.91,Default,NTP,0000,0000,0000,,你可以告诉他们\N{\fn微软雅黑\fs14\c&H4bc2ef&}You can tell them to stop
+Dialogue: 0,0:08:37.91,0:08:40.26,Default,NTP,0000,0000,0000,,不要再派你这样的特工来给我安排任务了\N{\fn微软雅黑\fs14\c&H4bc2ef&}sending agents like you with jobs for me.
+Dialogue: 0,0:08:40.81,0:08:44.96,Default,NTP,0000,0000,0000,,利维坦对我造成了巨大的伤害和损失\N{\fn微软雅黑\fs14\c&H4bc2ef&}After everything Leviathan has done to me, taken from me...
+Dialogue: 0,0:08:45.86,0:08:47.80,Default,NTP,0000,0000,0000,,告诉他们  我要退出\N{\fn微软雅黑\fs14\c&H4bc2ef&}you can tell them that I quit.
+Dialogue: 0,0:08:58.15,0:09:00.37,Default,NTP,0000,0000,0000,,-你是谁  -我是谁\N{\fn微软雅黑\fs14\c&H4bc2ef&}- What are you? - What am I?
+Dialogue: 0,0:09:00.98,0:09:03.97,Default,NTP,0000,0000,0000,,我是罗摩·可汗  这个地球的守护者\N{\fn微软雅黑\fs14\c&H4bc2ef&}I am Rama Khan, guardian of this Earth,
+Dialogue: 0,0:09:03.97,0:09:05.74,Default,NTP,0000,0000,0000,,正是我赋予了你能力\N{\fn微软雅黑\fs14\c&H4bc2ef&}the one who endowed you with your powers.
+Dialogue: 0,0:09:07.93,0:09:10.58,Default,NTP,0000,0000,0000,,我理解失去亲人的痛苦\N{\fn微软雅黑\fs14\c&H4bc2ef&}I understand the pain of loss.
+Dialogue: 0,0:09:12.04,0:09:15.75,Default,NTP,0000,0000,0000,,听我的话  我就给你一条出路\N{\fn微软雅黑\fs14\c&H4bc2ef&}Obey me and I will offer you a way out.
+Dialogue: 0,0:09:23.20,0:09:24.45,Default,NTP,0000,0000,0000,,告诉我你想要什么\N{\fn微软雅黑\fs14\c&H4bc2ef&}Tell me what you want.
+Dialogue: 0,0:09:24.45,0:09:27.95,Default,NTP,0000,0000,0000,,完成最后一项任务  你就自由了\N{\fn微软雅黑\fs14\c&H4bc2ef&}One last job, then you will be released.
+Dialogue: 0,0:09:28.73,0:09:29.91,Default,NTP,0000,0000,0000,,那我父亲呢\N{\fn微软雅黑\fs14\c&H4bc2ef&}And my father?
+Dialogue: 0,0:09:30.18,0:09:32.65,Default,NTP,0000,0000,0000,,你父亲可以保留他的财富\N{\fn微软雅黑\fs14\c&H4bc2ef&}Your father can keep his riches.
+Dialogue: 0,0:09:33.74,0:09:35.32,Default,NTP,0000,0000,0000,,它们价值甚微\N{\fn微软雅黑\fs14\c&H4bc2ef&}For what little they're worth.
+Dialogue: 0,0:09:44.54,0:09:46.55,Default,NTP,0000,0000,0000,,全息图已上线  准备开始\N{\fn微软雅黑\fs14\c&H4bc2ef&}Hologram online and ready to commence.
+Dialogue: 0,0:09:47.56,0:09:48.27,Default,NTP,0000,0000,0000,,祝你好运\N{\fn微软雅黑\fs14\c&H4bc2ef&}Good luck.
+Dialogue: 0,0:09:53.29,0:09:54.63,Default,NTP,0000,0000,0000,,就快好了  卢瑟女士\N{\fn微软雅黑\fs14\c&H4bc2ef&}It's almost ready, Ms. Luthor.
+Dialogue: 0,0:09:54.63,0:09:56.47,Default,NTP,0000,0000,0000,,我们只有一步之遥  霍普\N{\fn微软雅黑\fs14\c&H4bc2ef&}We are so close, Hope.
+Dialogue: 0,0:09:57.71,0:09:59.78,Default,NTP,0000,0000,0000,,我将完成数据合并\N{\fn微软雅黑\fs14\c&H4bc2ef&}I'll finish consolidating the data.
+Dialogue: 0,0:10:00.04,0:10:01.09,Default,NTP,0000,0000,0000,,我们可以拯救他们\N{\fn微软雅黑\fs14\c&H4bc2ef&}We can save them.
+Dialogue: 0,0:10:02.41,0:10:03.13,Default,NTP,0000,0000,0000,,他们所有人\N{\fn微软雅黑\fs14\c&H4bc2ef&}All of them.
+Dialogue: 0,0:10:08.10,0:10:08.78,Default,NTP,0000,0000,0000,,莉娜\N{\fn微软雅黑\fs14\c&H4bc2ef&}Lena.
+Dialogue: 0,0:10:11.77,0:10:12.74,Default,NTP,0000,0000,0000,,超女\N{\fn微软雅黑\fs14\c&H4bc2ef&}Supergirl.
+Dialogue: 0,0:10:12.81,0:10:15.27,Default,NTP,0000,0000,0000,,-求你听我说完  -省省力气吧\N{\fn微软雅黑\fs14\c&H4bc2ef&}- Please, just hear me out. - Save your breath.
+Dialogue: 0,0:10:16.49,0:10:18.65,Default,NTP,0000,0000,0000,,你让看到了你的真面目  我相信你\N{\fn微软雅黑\fs14\c&H4bc2ef&}You showed me who you really are, and I believe you.
+Dialogue: 0,0:10:19.37,0:10:22.50,Default,NTP,0000,0000,0000,,你有权利这么说  但请不要这么做\N{\fn微软雅黑\fs14\c&H4bc2ef&}You have every right to say that, but don't do this.
+Dialogue: 0,0:10:22.55,0:10:23.38,Default,NTP,0000,0000,0000,,做什么\N{\fn微软雅黑\fs14\c&H4bc2ef&}Do what?
+Dialogue: 0,0:10:23.64,0:10:24.79,Default,NTP,0000,0000,0000,,就是你打算用大清洗\N{\fn微软雅黑\fs14\c&H4bc2ef&}Whatever it is you're planning
+Dialogue: 0,0:10:24.79,0:10:27.86,Default,NTP,0000,0000,0000,,和马拉法克的Q波所采取的那项行动\N{\fn微软雅黑\fs14\c&H4bc2ef&}on doing with Myriad and Malefic's Q-waves.
+Dialogue: 0,0:10:28.04,0:10:28.93,Default,NTP,0000,0000,0000,,你有想过\N{\fn微软雅黑\fs14\c&H4bc2ef&}Did it ever occur to you
+Dialogue: 0,0:10:28.93,0:10:30.63,Default,NTP,0000,0000,0000,,我这是要为世界做件好事吗\N{\fn微软雅黑\fs14\c&H4bc2ef&}that I was gonna do something good for the world?
+Dialogue: 0,0:10:30.63,0:10:32.94,Default,NTP,0000,0000,0000,,用了大清洗  人们不会理解你的\N{\fn微软雅黑\fs14\c&H4bc2ef&}With Myriad, people won't understand.
+Dialogue: 0,0:10:32.99,0:10:35.81,Default,NTP,0000,0000,0000,,你当然会做最坏的设想  我不是坏人\N{\fn微软雅黑\fs14\c&H4bc2ef&}Of course, you assumed the worst. I'm not the bad guy.
+Dialogue: 0,0:10:35.81,0:10:39.74,Default,NTP,0000,0000,0000,,我知道  你花了几年时间想要敞开心扉  学会信任\N{\fn微软雅黑\fs14\c&H4bc2ef&}I know. You spent years trying to be open and trusting,
+Dialogue: 0,0:10:39.74,0:10:42.48,Default,NTP,0000,0000,0000,,即使所有人都认为你会像你的家人一样邪恶\N{\fn微软雅黑\fs14\c&H4bc2ef&}even when everyone expected you to be like your family.
+Dialogue: 0,0:10:42.48,0:10:45.97,Default,NTP,0000,0000,0000,,即使你生活中的每个人都让你失望\N{\fn微软雅黑\fs14\c&H4bc2ef&}Even when everyone in your life let you down.
+Dialogue: 0,0:10:46.28,0:10:50.72,Default,NTP,0000,0000,0000,,即使当我很软弱  对你撒谎\N{\fn微软雅黑\fs14\c&H4bc2ef&}Even when I was weak and lied to you,
+Dialogue: 0,0:10:50.72,0:10:54.99,Default,NTP,0000,0000,0000,,知道你想要的不过是真相\N{\fn微软雅黑\fs14\c&H4bc2ef&}knowing that all you ever asked for was the truth,
+Dialogue: 0,0:10:55.18,0:10:56.42,Default,NTP,0000,0000,0000,,你总能做个更好的人\N{\fn微软雅黑\fs14\c&H4bc2ef&}you were always better.
+Dialogue: 0,0:10:56.63,0:10:59.06,Default,NTP,0000,0000,0000,,莱克斯利用了我的弱点\N{\fn微软雅黑\fs14\c&H4bc2ef&}Lex took advantage of my weakness
+Dialogue: 0,0:10:59.06,0:11:01.25,Default,NTP,0000,0000,0000,,他用它来操纵你\N{\fn微软雅黑\fs14\c&H4bc2ef&}and he used it to manipulate you.
+Dialogue: 0,0:11:01.68,0:11:04.25,Default,NTP,0000,0000,0000,,他希望我的错误能够改变你\N{\fn微软雅黑\fs14\c&H4bc2ef&}He wanted my mistakes to change you.
+Dialogue: 0,0:11:05.32,0:11:07.09,Default,NTP,0000,0000,0000,,他希望你成为他\N{\fn微软雅黑\fs14\c&H4bc2ef&}He wanted you to become him.
+Dialogue: 0,0:11:08.13,0:11:10.41,Default,NTP,0000,0000,0000,,但你一点也不像他\N{\fn微软雅黑\fs14\c&H4bc2ef&}But you are nothing like him.
+Dialogue: 0,0:11:11.09,0:11:11.79,Default,NTP,0000,0000,0000,,一点也不像\N{\fn微软雅黑\fs14\c&H4bc2ef&}Nothing.
+Dialogue: 0,0:11:13.75,0:11:16.49,Default,NTP,0000,0000,0000,,不要因为我的错误而改变自己\N{\fn微软雅黑\fs14\c&H4bc2ef&}Don't let my mistakes turn you into something you're not.
+Dialogue: 0,0:11:19.10,0:11:19.93,Default,NTP,0000,0000,0000,,我是好人\N{\fn微软雅黑\fs14\c&H4bc2ef&}I am good.
+Dialogue: 0,0:11:21.15,0:11:22.29,Default,NTP,0000,0000,0000,,我一直都是\N{\fn微软雅黑\fs14\c&H4bc2ef&}And I always was.
+Dialogue: 0,0:11:23.32,0:11:25.98,Default,NTP,0000,0000,0000,,莱克斯没改变我  你也没改变我\N{\fn微软雅黑\fs14\c&H4bc2ef&}Lex didn't change me and you didn't change me either.
+Dialogue: 0,0:11:26.00,0:11:28.57,Default,NTP,0000,0000,0000,,你让我见识了人性的丑陋\N{\fn微软雅黑\fs14\c&H4bc2ef&}You just exposed me to the ugliness of humanity.
+Dialogue: 0,0:11:29.05,0:11:30.62,Default,NTP,0000,0000,0000,,你帮了我个忙  卡拉\N{\fn微软雅黑\fs14\c&H4bc2ef&}You did me a favor, Kara.
+Dialogue: 0,0:11:31.61,0:11:34.21,Default,NTP,0000,0000,0000,,我了解了你到底是个怎样的骗子\N{\fn微软雅黑\fs14\c&H4bc2ef&}I learned what kind of deceitful person you really are,
+Dialogue: 0,0:11:34.26,0:11:36.44,Default,NTP,0000,0000,0000,,正是这一点启发了我去做这件事\N{\fn微软雅黑\fs14\c&H4bc2ef&}and that's what inspired me to do this.
+Dialogue: 0,0:11:36.75,0:11:39.67,Default,NTP,0000,0000,0000,,-莉娜  -你的话对我已经没有意义了\N{\fn微软雅黑\fs14\c&H4bc2ef&}- Lena-- - Your words mean nothing to me anymore.
+Dialogue: 0,0:11:40.00,0:11:42.57,Default,NTP,0000,0000,0000,,别洒狗血了  不要打扰我\N{\fn微软雅黑\fs14\c&H4bc2ef&}Spare us both the drama. Leave me alone.
+Dialogue: 0,0:11:43.34,0:11:44.02,Default,NTP,0000,0000,0000,,等等\N{\fn微软雅黑\fs14\c&H4bc2ef&}Wait.
+Dialogue: 0,0:11:55.18,0:11:55.97,Default,NTP,0000,0000,0000,,你还好吗\N{\fn微软雅黑\fs14\c&H4bc2ef&}You okay?
+Dialogue: 0,0:11:57.73,0:11:58.38,Default,NTP,0000,0000,0000,,不好\N{\fn微软雅黑\fs14\c&H4bc2ef&}No.
+Dialogue: 0,0:12:01.80,0:12:03.15,Default,NTP,0000,0000,0000,,我说服不了她\N{\fn微软雅黑\fs14\c&H4bc2ef&}I couldn't get through to her.
+Dialogue: 0,0:12:05.31,0:12:05.97,Default,NTP,0000,0000,0000,,抱歉\N{\fn微软雅黑\fs14\c&H4bc2ef&}Sorry.
+Dialogue: 0,0:12:07.39,0:12:08.73,Default,NTP,0000,0000,0000,,在我的意识里\N{\fn微软雅黑\fs14\c&H4bc2ef&}You know, a part of me
+Dialogue: 0,0:12:08.74,0:12:11.88,Default,NTP,0000,0000,0000,,我一直知道这并不容易\N{\fn微软雅黑\fs14\c&H4bc2ef&}always knew that this couldn't be that easy.
+Dialogue: 0,0:12:14.65,0:12:17.91,Default,NTP,0000,0000,0000,,我明白  我完全理解她为何会有被背叛的感觉\N{\fn微软雅黑\fs14\c&H4bc2ef&}And I get it. I fully understand why she feels betrayed.
+Dialogue: 0,0:12:18.94,0:12:21.07,Default,NTP,0000,0000,0000,,她很难相信别人\N{\fn微软雅黑\fs14\c&H4bc2ef&}It's so hard for her to trust people.
+Dialogue: 0,0:12:22.60,0:12:24.31,Default,NTP,0000,0000,0000,,但我让她相信了我\N{\fn微软雅黑\fs14\c&H4bc2ef&}But I made her trust me.
+Dialogue: 0,0:12:25.84,0:12:28.11,Default,NTP,0000,0000,0000,,一次又一次  我让她相信\N{\fn微软雅黑\fs14\c&H4bc2ef&}Over and over again, I made her believe
+Dialogue: 0,0:12:28.11,0:12:31.78,Default,NTP,0000,0000,0000,,我是永远不会伤害她的最好的朋友\N{\fn微软雅黑\fs14\c&H4bc2ef&}that I was the best friend who would never ever hurt her.
+Dialogue: 0,0:12:34.36,0:12:36.36,Default,NTP,0000,0000,0000,,然后她以最可怕的方式发现\N{\fn微软雅黑\fs14\c&H4bc2ef&}And then she finds out in the most horrible way
+Dialogue: 0,0:12:36.36,0:12:40.19,Default,NTP,0000,0000,0000,,我们的友谊建立在谎言上\N{\fn微软雅黑\fs14\c&H4bc2ef&}that our entire friendship was based on lies.
+Dialogue: 0,0:12:41.05,0:12:43.26,Default,NTP,0000,0000,0000,,你告不告诉她都会是这个下场  卡拉\N{\fn微软雅黑\fs14\c&H4bc2ef&}Look, you were damned either way, Kara.
+Dialogue: 0,0:12:46.69,0:12:48.34,Default,NTP,0000,0000,0000,,你选择隐藏你的身份\N{\fn微软雅黑\fs14\c&H4bc2ef&}Your choice to conceal your identity,
+Dialogue: 0,0:12:48.35,0:12:51.60,Default,NTP,0000,0000,0000,,这并非出于恶意\N{\fn微软雅黑\fs14\c&H4bc2ef&}it wasn't born out of a place of maliciousness.
+Dialogue: 0,0:12:52.51,0:12:55.37,Default,NTP,0000,0000,0000,,而是源于爱和同情\N{\fn微软雅黑\fs14\c&H4bc2ef&}It was born out of love and compassion.
+Dialogue: 0,0:12:55.75,0:12:57.97,Default,NTP,0000,0000,0000,,你只是想保护你的家人\N{\fn微软雅黑\fs14\c&H4bc2ef&}And you were just trying to protect your family.
+Dialogue: 0,0:12:57.97,0:12:59.62,Default,NTP,0000,0000,0000,,你是想保护莉娜\N{\fn微软雅黑\fs14\c&H4bc2ef&}And you were trying to protect Lena
+Dialogue: 0,0:12:59.62,0:13:03.26,Default,NTP,0000,0000,0000,,不被利用这些信息的恶人所伤害\N{\fn微软雅黑\fs14\c&H4bc2ef&}from people who could use that information to hurt us.
+Dialogue: 0,0:13:04.19,0:13:07.18,Default,NTP,0000,0000,0000,,我也爱莉娜\N{\fn微软雅黑\fs14\c&H4bc2ef&}And look, I love Lena, too.
+Dialogue: 0,0:13:07.75,0:13:10.14,Default,NTP,0000,0000,0000,,这件事让我深感不安\N{\fn微软雅黑\fs14\c&H4bc2ef&}I am deeply upset by what is going on.
+Dialogue: 0,0:13:10.99,0:13:11.80,Default,NTP,0000,0000,0000,,可是这...\N{\fn微软雅黑\fs14\c&H4bc2ef&}But this...
+Dialogue: 0,0:13:13.27,0:13:15.92,Default,NTP,0000,0000,0000,,这不仅仅是两个朋友在打架\N{\fn微软雅黑\fs14\c&H4bc2ef&}This isn't just two friends that are in a fight.
+Dialogue: 0,0:13:15.92,0:13:18.49,Default,NTP,0000,0000,0000,,她已经走上了不归路\N{\fn微软雅黑\fs14\c&H4bc2ef&}This is someone who has turned a corner.
+Dialogue: 0,0:13:18.49,0:13:21.26,Default,NTP,0000,0000,0000,,不  这不是真正的她  这不是我们的莉娜\N{\fn微软雅黑\fs14\c&H4bc2ef&}No, but this is not her. This is not our Lena.
+Dialogue: 0,0:13:21.27,0:13:23.47,Default,NTP,0000,0000,0000,,那谁才是我们的莉娜  我是说\N{\fn微软雅黑\fs14\c&H4bc2ef&}Well, who is our Lena? I mean...
+Dialogue: 0,0:13:24.38,0:13:28.31,Default,NTP,0000,0000,0000,,她知道莱克斯出狱了  但却选择沉默\N{\fn微软雅黑\fs14\c&H4bc2ef&}She knew that Lex was out of prison, and she said nothing.
+Dialogue: 0,0:13:28.91,0:13:32.80,Default,NTP,0000,0000,0000,,她把小萨·阿里亚斯关在L公司的地下室里\N{\fn微软雅黑\fs14\c&H4bc2ef&}She kept Sam Arias locked in a subbasement at L-Corp,
+Dialogue: 0,0:13:32.80,0:13:36.95,Default,NTP,0000,0000,0000,,知道她就是主宰  但却缄口不言\N{\fn微软雅黑\fs14\c&H4bc2ef&}knowing that she was Reign, and she said nothing.
+Dialogue: 0,0:13:38.09,0:13:40.68,Default,NTP,0000,0000,0000,,她知道怎么做氪石\N{\fn微软雅黑\fs14\c&H4bc2ef&}She knows how to make Kryptonite,
+Dialogue: 0,0:13:40.68,0:13:42.83,Default,NTP,0000,0000,0000,,但却一直瞒着我们\N{\fn微软雅黑\fs14\c&H4bc2ef&}and she kept that hidden from us.
+Dialogue: 0,0:13:42.92,0:13:45.38,Default,NTP,0000,0000,0000,,莉娜过着双重生活\N{\fn微软雅黑\fs14\c&H4bc2ef&}Lena is leading her own double-life.
+Dialogue: 0,0:13:45.38,0:13:46.94,Default,NTP,0000,0000,0000,,你说得她好像是卢瑟家的人\N{\fn微软雅黑\fs14\c&H4bc2ef&}You are making her sound like a Luthor.
+Dialogue: 0,0:13:46.94,0:13:48.78,Default,NTP,0000,0000,0000,,因为她本来就是\N{\fn微软雅黑\fs14\c&H4bc2ef&}Maybe that's because she is one.
+Dialogue: 0,0:13:50.54,0:13:53.34,Default,NTP,0000,0000,0000,,我们不能寄希望于\N{\fn微软雅黑\fs14\c&H4bc2ef&}We can't put our faith in some distant hope
+Dialogue: 0,0:13:53.34,0:13:55.20,Default,NTP,0000,0000,0000,,她会做出正确的事\N{\fn微软雅黑\fs14\c&H4bc2ef&}that she's gonna do the right thing...
+Dialogue: 0,0:13:56.95,0:13:58.97,Default,NTP,0000,0000,0000,,因为到目前为止\N{\fn微软雅黑\fs14\c&H4bc2ef&}...when every single action
+Dialogue: 0,0:13:58.97,0:14:02.04,Default,NTP,0000,0000,0000,,她所做的每一件事都指向邪恶\N{\fn微软雅黑\fs14\c&H4bc2ef&}that she has taken up until now points to the contrary.
+Dialogue: 0,0:14:02.70,0:14:04.55,Default,NTP,0000,0000,0000,,我们得阻止她  卡拉\N{\fn微软雅黑\fs14\c&H4bc2ef&}Okay, we have to stop her, Kara.
+Dialogue: 0,0:14:04.55,0:14:06.96,Default,NTP,0000,0000,0000,,这事关世界的安全\N{\fn微软雅黑\fs14\c&H4bc2ef&}The safety of the world depends on that.
+Dialogue: 0,0:14:06.96,0:14:10.57,Default,NTP,0000,0000,0000,,她不是莱克斯  我不会把她当恶棍看待\N{\fn微软雅黑\fs14\c&H4bc2ef&}She is not Lex. I will not treat her like a villain.
+Dialogue: 0,0:14:10.57,0:14:13.51,Default,NTP,0000,0000,0000,,我知道你不会  所以这事才要交给我来做\N{\fn微软雅黑\fs14\c&H4bc2ef&}I know you won't. That's why I have to.
+Dialogue: 0,0:14:15.49,0:14:16.81,Default,NTP,0000,0000,0000,,你这是什么意思\N{\fn微软雅黑\fs14\c&H4bc2ef&}What are you talking about?
+Dialogue: 0,0:14:17.03,0:14:19.77,Default,NTP,0000,0000,0000,,你跟她通话的时候  我们利用全息图\N{\fn微软雅黑\fs14\c&H4bc2ef&}When you went to speak to her, we used the hologram
+Dialogue: 0,0:14:20.33,0:14:23.19,Default,NTP,0000,0000,0000,,将病毒植入了地堡的主机\N{\fn微软雅黑\fs14\c&H4bc2ef&}to piggyback a virus into the bunker's mainframe.
+Dialogue: 0,0:14:25.63,0:14:26.88,Default,NTP,0000,0000,0000,,艾丽克斯  你利用了我\N{\fn微软雅黑\fs14\c&H4bc2ef&}Alex, you used me?
+Dialogue: 0,0:14:26.88,0:14:29.29,Default,NTP,0000,0000,0000,,过一会儿  莉娜的防线就会被攻破\N{\fn微软雅黑\fs14\c&H4bc2ef&}In a few moments, Lena's defenses will be down
+Dialogue: 0,0:14:29.30,0:14:31.07,Default,NTP,0000,0000,0000,,大清洗将陷入停滞\N{\fn微软雅黑\fs14\c&H4bc2ef&}and Myriad will be stalled.
+Dialogue: 0,0:14:31.59,0:14:34.17,Default,NTP,0000,0000,0000,,到时候  如果我们不得不采取更激烈的措施\N{\fn微软雅黑\fs14\c&H4bc2ef&}By then, if we have to take more drastic actions,
+Dialogue: 0,0:14:34.18,0:14:36.47,Default,NTP,0000,0000,0000,,克莱莫3号已部署在了诺奎山上\N{\fn微软雅黑\fs14\c&H4bc2ef&}Claymore 3 is positioned above Mount Norquay.
+Dialogue: 0,0:14:36.47,0:14:39.62,Default,NTP,0000,0000,0000,,-什么  -我会给她时间投降\N{\fn微软雅黑\fs14\c&H4bc2ef&}- What? - And I will give her time to surrender.
+Dialogue: 0,0:14:40.93,0:14:43.92,Default,NTP,0000,0000,0000,,卡拉  我必须开始动脑思考了\N{\fn微软雅黑\fs14\c&H4bc2ef&}Kara, we have to start thinking with our heads,
+Dialogue: 0,0:14:44.56,0:14:46.05,Default,NTP,0000,0000,0000,,不能感情用事\N{\fn微软雅黑\fs14\c&H4bc2ef&}not with our hearts.
+Dialogue: 0,0:14:51.65,0:14:52.97,Default,NTP,0000,0000,0000,,准备好了  卢瑟女士\N{\fn微软雅黑\fs14\c&H4bc2ef&}It's ready, Ms. Luthor.
+Dialogue: 0,0:15:00.20,0:15:02.19,Default,NTP,0000,0000,0000,,超女给你带来了巨大的痛苦\N{\fn微软雅黑\fs14\c&H4bc2ef&}Supergirl caused you a great deal of pain.
+Dialogue: 0,0:15:02.50,0:15:03.98,Default,NTP,0000,0000,0000,,我能从你的眼神中看出来\N{\fn微软雅黑\fs14\c&H4bc2ef&}I can see it in your eyes.
+Dialogue: 0,0:15:04.08,0:15:05.75,Default,NTP,0000,0000,0000,,经历了我家人和安德里亚的事\N{\fn微软雅黑\fs14\c&H4bc2ef&}After my family and after Andrea,
+Dialogue: 0,0:15:05.75,0:15:07.79,Default,NTP,0000,0000,0000,,我本应学会不再信任友谊\N{\fn微软雅黑\fs14\c&H4bc2ef&}I knew better than to trust in friendship anymore.
+Dialogue: 0,0:15:07.79,0:15:09.75,Default,NTP,0000,0000,0000,,你现在经历着这么多痛苦\N{\fn微软雅黑\fs14\c&H4bc2ef&}All of the anguish that you're going through,
+Dialogue: 0,0:15:09.75,0:15:11.32,Default,NTP,0000,0000,0000,,感觉并不值得\N{\fn微软雅黑\fs14\c&H4bc2ef&}it doesn't seem worth it.
+Dialogue: 0,0:15:11.34,0:15:13.03,Default,NTP,0000,0000,0000,,它启发了"无害"计划\N{\fn微软雅黑\fs14\c&H4bc2ef&}It inspired Non Nocere.
+Dialogue: 0,0:15:13.59,0:15:14.66,Default,NTP,0000,0000,0000,,也启发了你\N{\fn微软雅黑\fs14\c&H4bc2ef&}It inspired you.
+Dialogue: 0,0:15:18.76,0:15:21.25,Default,NTP,0000,0000,0000,,如果能拯救世界  谁还需要朋友\N{\fn微软雅黑\fs14\c&H4bc2ef&}Who needs friends when you can save the world?
+Dialogue: 0,0:15:22.06,0:15:23.22,Default,NTP,0000,0000,0000,,{\an8}{\fn方正兰亭黑_GBK\fs18\b1\bord1\shad1\3c&H2F2F2F&}准备发射
+Dialogue: 0,0:15:23.18,0:15:25.00,Default,NTP,0000,0000,0000,,大清洗可以发射了\N{\fn微软雅黑\fs14\c&H4bc2ef&}Myriad is ready to launch.
+Dialogue: 0,0:15:26.06,0:15:28.67,Default,NTP,0000,0000,0000,,卢瑟女士  你的时刻到了\N{\fn微软雅黑\fs14\c&H4bc2ef&}Ms. Luthor, this is your moment.
+Dialogue: 0,0:15:28.69,0:15:30.05,Default,NTP,0000,0000,0000,,要启动吗\N{\fn微软雅黑\fs14\c&H4bc2ef&}Shall I activate?
+Dialogue: 0,0:15:32.36,0:15:37.30,Default,NTP,0000,0000,0000,,-三  二  -一\N{\fn微软雅黑\fs14\c&H4bc2ef&}- Three, two... - One.
+Dialogue: 0,0:15:38.03,0:15:38.70,Default,NTP,0000,0000,0000,,{\an8}{\fn方正兰亭黑_GBK\fs18\b1\bord1\shad1\3c&H2F2F2F&}连接失败
+Dialogue: 0,0:15:40.74,0:15:41.77,Default,NTP,0000,0000,0000,,怎么回事\N{\fn微软雅黑\fs14\c&H4bc2ef&}What's happening?
+Dialogue: 0,0:15:42.20,0:15:43.83,Default,NTP,0000,0000,0000,,一直跟卫星对接不了\N{\fn微软雅黑\fs14\c&H4bc2ef&}It won't lock onto the satellite.
+Dialogue: 0,0:15:43.83,0:15:46.81,Default,NTP,0000,0000,0000,,有东西干扰了接收天线的移动能力\N{\fn微软雅黑\fs14\c&H4bc2ef&}Something's interfering with the dishes' ability to move.
+Dialogue: 0,0:15:48.50,0:15:51.36,Default,NTP,0000,0000,0000,,是一种病毒  正在入侵主机\N{\fn微软雅黑\fs14\c&H4bc2ef&}It's a virus. It's working through our mainframe.
+Dialogue: 0,0:15:51.63,0:15:53.10,Default,NTP,0000,0000,0000,,卢瑟女士  那个全息图\N{\fn微软雅黑\fs14\c&H4bc2ef&}Ms. Luthor, the hologram.
+Dialogue: 0,0:15:53.10,0:15:55.07,Default,NTP,0000,0000,0000,,是特洛伊木马病毒  原来如此\N{\fn微软雅黑\fs14\c&H4bc2ef&}It was a Trojan horse. Of course.
+Dialogue: 0,0:15:55.09,0:15:57.59,Default,NTP,0000,0000,0000,,我怎么能幼稚到觉得超女是想跟我聊聊\N{\fn微软雅黑\fs14\c&H4bc2ef&}How could I be so naive to think that Supergirl wanted to talk?
+Dialogue: 0,0:15:57.59,0:15:59.97,Default,NTP,0000,0000,0000,,如果病毒扩散  超查部能够在20分钟内\N{\fn微软雅黑\fs14\c&H4bc2ef&}If the virus spreads, the DEO will be able to deactivate
+Dialogue: 0,0:15:59.97,0:16:02.25,Default,NTP,0000,0000,0000,,关闭我们的安防系统\N{\fn微软雅黑\fs14\c&H4bc2ef&}our security defenses in 20 minutes.
+Dialogue: 0,0:16:02.39,0:16:04.62,Default,NTP,0000,0000,0000,,在那之前我们需要想到变通方案\N{\fn微软雅黑\fs14\c&H4bc2ef&}We need a workaround before then.
+Dialogue: 0,0:16:04.68,0:16:06.22,Default,NTP,0000,0000,0000,,我们可以手动解锁波段\N{\fn微软雅黑\fs14\c&H4bc2ef&}We could manually unlock the arrays.
+Dialogue: 0,0:16:06.23,0:16:08.44,Default,NTP,0000,0000,0000,,不行  这里到处都是莱克斯设下的饵雷\N{\fn微软雅黑\fs14\c&H4bc2ef&}No, Lex has booby-trapped this entire place.
+Dialogue: 0,0:16:08.44,0:16:11.46,Default,NTP,0000,0000,0000,,如果我尝试更改天线  会启动致命的故障保险\N{\fn微软雅黑\fs14\c&H4bc2ef&}There'll be a lethal failsafe if I try to tamper with the dishes.
+Dialogue: 0,0:16:11.48,0:16:12.46,Default,NTP,0000,0000,0000,,那我去\N{\fn微软雅黑\fs14\c&H4bc2ef&}Then I'll go.
+Dialogue: 0,0:16:13.40,0:16:14.51,Default,NTP,0000,0000,0000,,不行\N{\fn微软雅黑\fs14\c&H4bc2ef&}No, you can't.
+Dialogue: 0,0:16:16.03,0:16:17.19,Default,NTP,0000,0000,0000,,你太珍贵了\N{\fn微软雅黑\fs14\c&H4bc2ef&}You're too great an asset.
+Dialogue: 0,0:16:17.20,0:16:20.16,Default,NTP,0000,0000,0000,,卢瑟女士  你当初为我设定的最重要的任务之一\N{\fn微软雅黑\fs14\c&H4bc2ef&}Ms. Luthor, one of my prime directives, as you programmed,
+Dialogue: 0,0:16:20.16,0:16:22.39,Default,NTP,0000,0000,0000,,就是保证"无害"计划的成功\N{\fn微软雅黑\fs14\c&H4bc2ef&}was to ensure the success of Non Nocere.
+Dialogue: 0,0:16:22.74,0:16:24.03,Default,NTP,0000,0000,0000,,如果这意味着牺牲自己\N{\fn微软雅黑\fs14\c&H4bc2ef&}If that means self-sacrifice--
+Dialogue: 0,0:16:24.04,0:16:26.66,Default,NTP,0000,0000,0000,,不行  就算能手动重置\N{\fn微软雅黑\fs14\c&H4bc2ef&}No. Even if you could manually reset it,
+Dialogue: 0,0:16:26.66,0:16:29.02,Default,NTP,0000,0000,0000,,也没办法确认病毒造成了多少伤害\N{\fn微软雅黑\fs14\c&H4bc2ef&}there's no telling the extent of the virus's damage.
+Dialogue: 0,0:16:30.29,0:16:31.65,Default,NTP,0000,0000,0000,,我们以后还需要你\N{\fn微软雅黑\fs14\c&H4bc2ef&}All right, we may need you.
+Dialogue: 0,0:16:32.75,0:16:34.57,Default,NTP,0000,0000,0000,,如果现在失去你  就太目光短浅了\N{\fn微软雅黑\fs14\c&H4bc2ef&}It'd be short-sighted to lose you now.
+Dialogue: 0,0:16:36.13,0:16:38.01,Default,NTP,0000,0000,0000,,如果我们能复制病毒\N{\fn微软雅黑\fs14\c&H4bc2ef&}If we could replicate the virus,
+Dialogue: 0,0:16:38.01,0:16:39.26,Default,NTP,0000,0000,0000,,就可以反向编程\N{\fn微软雅黑\fs14\c&H4bc2ef&}we could reverse-engineer it
+Dialogue: 0,0:16:39.26,0:16:41.30,Default,NTP,0000,0000,0000,,远程覆写之前的关闭指令\N{\fn微软雅黑\fs14\c&H4bc2ef&}and override the shutoff remotely, okay?
+Dialogue: 0,0:16:41.30,0:16:42.58,Default,NTP,0000,0000,0000,,我需要你的帮助\N{\fn微软雅黑\fs14\c&H4bc2ef&}I'll need some help.
+Dialogue: 0,0:16:45.10,0:16:46.00,Default,NTP,0000,0000,0000,,好的\N{\fn微软雅黑\fs14\c&H4bc2ef&}Very well.
+Dialogue: 0,0:16:47.35,0:16:48.58,Default,NTP,0000,0000,0000,,正在读取文件\N{\fn微软雅黑\fs14\c&H4bc2ef&}Accessing files.
+Dialogue: 0,0:16:48.73,0:16:52.00,Default,NTP,0000,0000,0000,,荣恩  你不需要留在这里\N{\fn微软雅黑\fs14\c&H4bc2ef&}J'onn, you don't need to stay here.
+Dialogue: 0,0:16:52.61,0:16:53.98,Default,NTP,0000,0000,0000,,我应该被关起来\N{\fn微软雅黑\fs14\c&H4bc2ef&}I deserve to be locked up.
+Dialogue: 0,0:16:53.98,0:16:55.48,Default,NTP,0000,0000,0000,,我们应该共同承担\N{\fn微软雅黑\fs14\c&H4bc2ef&}We both shoulder the blame
+Dialogue: 0,0:16:55.48,0:16:57.89,Default,NTP,0000,0000,0000,,过去所作所为的后果  马拉法克\N{\fn微软雅黑\fs14\c&H4bc2ef&}for the transgressions of our past, Malefic,
+Dialogue: 0,0:16:57.99,0:17:00.89,Default,NTP,0000,0000,0000,,但是只要携手  我们能克服过去\N{\fn微软雅黑\fs14\c&H4bc2ef&}but together, we will move beyond them.
+Dialogue: 0,0:17:01.32,0:17:03.28,Default,NTP,0000,0000,0000,,-荣恩  荣恩  -怎么了\N{\fn微软雅黑\fs14\c&H4bc2ef&}- J'onn, J'onn. - What's up?
+Dialogue: 0,0:17:03.28,0:17:07.74,Default,NTP,0000,0000,0000,,艾丽克斯  她认为莉娜已经无药可救了\N{\fn微软雅黑\fs14\c&H4bc2ef&}Alex, she thinks Lena is past the point of no return.
+Dialogue: 0,0:17:07.75,0:17:10.54,Default,NTP,0000,0000,0000,,她已经让克莱莫3号直指地堡\N{\fn微软雅黑\fs14\c&H4bc2ef&}She's got Claymore 3 pointed directly at the bunker.
+Dialogue: 0,0:17:10.54,0:17:14.23,Default,NTP,0000,0000,0000,,但你可以劝劝她  对吗  让她知道自己错了\N{\fn微软雅黑\fs14\c&H4bc2ef&}But you can talk to her, right? Show her that she's wrong?
+Dialogue: 0,0:17:14.79,0:17:18.16,Default,NTP,0000,0000,0000,,你知道人是可以变的  看看你和马拉法克\N{\fn微软雅黑\fs14\c&H4bc2ef&}You know people can change. Look at you and Malefic.
+Dialogue: 0,0:17:19.09,0:17:22.34,Default,NTP,0000,0000,0000,,我能救莉娜  我只是需要时间\N{\fn微软雅黑\fs14\c&H4bc2ef&}I can still save Lena. I just need more time.
+Dialogue: 0,0:17:22.34,0:17:25.05,Default,NTP,0000,0000,0000,,在火星时  我经历过艾丽克斯如今的处境\N{\fn微软雅黑\fs14\c&H4bc2ef&}I was in Alex's position back on Mars
+Dialogue: 0,0:17:25.05,0:17:27.37,Default,NTP,0000,0000,0000,,当时我选择将马拉法克逐入幻影地带\N{\fn微软雅黑\fs14\c&H4bc2ef&}when I banished Malefic to the Phantom Zone.
+Dialogue: 0,0:17:27.77,0:17:30.33,Default,NTP,0000,0000,0000,,我以为我这样做是在保护我的族人\N{\fn微软雅黑\fs14\c&H4bc2ef&}I did so because I thought I was protecting my people.
+Dialogue: 0,0:17:31.44,0:17:33.59,Default,NTP,0000,0000,0000,,但我驱逐他其实是因为自己害怕\N{\fn微软雅黑\fs14\c&H4bc2ef&}But I banished him because I was afraid,
+Dialogue: 0,0:17:33.73,0:17:35.11,Default,NTP,0000,0000,0000,,因为没有其他选择\N{\fn微软雅黑\fs14\c&H4bc2ef&}because there was no other way.
+Dialogue: 0,0:17:35.11,0:17:37.05,Default,NTP,0000,0000,0000,,可是看看你们如今的情况\N{\fn微软雅黑\fs14\c&H4bc2ef&}Right, and look at the two of you now.
+Dialogue: 0,0:17:37.40,0:17:39.23,Default,NTP,0000,0000,0000,,我和马拉法克之所以能够\N{\fn微软雅黑\fs14\c&H4bc2ef&}The only reason Malefic and I were able to
+Dialogue: 0,0:17:39.24,0:17:40.19,Default,NTP,0000,0000,0000,,重新放下过去的一切\N{\fn微软雅黑\fs14\c&H4bc2ef&}come through the other side
+Dialogue: 0,0:17:40.19,0:17:42.45,Default,NTP,0000,0000,0000,,是因为我们能看到彼此的痛苦\N{\fn微软雅黑\fs14\c&H4bc2ef&}is because we can see each other's pain.
+Dialogue: 0,0:17:42.45,0:17:44.31,Default,NTP,0000,0000,0000,,而你已经跟莉娜聊过了\N{\fn微软雅黑\fs14\c&H4bc2ef&}You've already talked to Lena.
+Dialogue: 0,0:17:44.32,0:17:46.10,Default,NTP,0000,0000,0000,,我不是说艾丽克斯说得对\N{\fn微软雅黑\fs14\c&H4bc2ef&}I'm not saying Alex is right,
+Dialogue: 0,0:17:46.33,0:17:48.62,Default,NTP,0000,0000,0000,,但她似乎也没有其他选择\N{\fn微软雅黑\fs14\c&H4bc2ef&}but what other option does she have?
+Dialogue: 0,0:17:48.62,0:17:50.66,Default,NTP,0000,0000,0000,,不  一定有其他的方式能阻止她\N{\fn微软雅黑\fs14\c&H4bc2ef&}No. There has got to be another way to stop Lena
+Dialogue: 0,0:17:50.66,0:17:52.86,Default,NTP,0000,0000,0000,,而不是把她从地堡里炸飞\N{\fn微软雅黑\fs14\c&H4bc2ef&}that isn't blowing her up in a bunker.
+Dialogue: 0,0:17:55.63,0:17:56.65,Default,NTP,0000,0000,0000,,马拉法克\N{\fn微软雅黑\fs14\c&H4bc2ef&}Malefic.
+Dialogue: 0,0:17:58.00,0:18:02.55,Default,NTP,0000,0000,0000,,马拉法克  你说莉娜之前在分析你的Q波\N{\fn微软雅黑\fs14\c&H4bc2ef&}Malefic, you said Lena was analyzing your Q-waves, right?
+Dialogue: 0,0:18:02.55,0:18:03.49,Default,NTP,0000,0000,0000,,对\N{\fn微软雅黑\fs14\c&H4bc2ef&}Yes.
+Dialogue: 0,0:18:03.59,0:18:05.18,Default,NTP,0000,0000,0000,,她分离出了某个频段\N{\fn微软雅黑\fs14\c&H4bc2ef&}She isolated a frequency
+Dialogue: 0,0:18:05.18,0:18:07.93,Default,NTP,0000,0000,0000,,让她能够复制我的能力\N{\fn微软雅黑\fs14\c&H4bc2ef&}which allowed her to replicate my ability.
+Dialogue: 0,0:18:07.93,0:18:09.29,Default,NTP,0000,0000,0000,,也许你就是关键\N{\fn微软雅黑\fs14\c&H4bc2ef&}Maybe you're the key.
+Dialogue: 0,0:18:09.77,0:18:12.18,Default,NTP,0000,0000,0000,,如果我们能够驾驭你的Q波\N{\fn微软雅黑\fs14\c&H4bc2ef&}If we could harness your Q-waves--
+Dialogue: 0,0:18:12.18,0:18:15.00,Default,NTP,0000,0000,0000,,就能够用它来拦截莉娜的\N{\fn微软雅黑\fs14\c&H4bc2ef&}We could use them to counteract Lena's.
+Dialogue: 0,0:18:15.15,0:18:17.09,Default,NTP,0000,0000,0000,,可她要发起全球范围内的攻击\N{\fn微软雅黑\fs14\c&H4bc2ef&}But she's launching a worldwide attack.
+Dialogue: 0,0:18:17.48,0:18:20.68,Default,NTP,0000,0000,0000,,马拉法克用来拦截她所需的能量...\N{\fn微软雅黑\fs14\c&H4bc2ef&}The amount of energy Malefic would need to counteract hers...
+Dialogue: 0,0:18:21.19,0:18:22.19,Default,NTP,0000,0000,0000,,会害死他的\N{\fn微软雅黑\fs14\c&H4bc2ef&}It could kill him.
+Dialogue: 0,0:18:22.19,0:18:23.49,Default,NTP,0000,0000,0000,,值得冒这个险\N{\fn微软雅黑\fs14\c&H4bc2ef&}It's worth the risk.
+Dialogue: 0,0:18:23.49,0:18:25.91,Default,NTP,0000,0000,0000,,不  我不要以命换命\N{\fn微软雅黑\fs14\c&H4bc2ef&}No, I am not trading one life for another.
+Dialogue: 0,0:18:25.91,0:18:27.27,Default,NTP,0000,0000,0000,,求你了\N{\fn微软雅黑\fs14\c&H4bc2ef&}Please.
+Dialogue: 0,0:18:28.08,0:18:31.90,Default,NTP,0000,0000,0000,,如果我能阻止卢瑟女士犯下我当年的错误\N{\fn微软雅黑\fs14\c&H4bc2ef&}If I can stop Ms. Luthor from making the same mistakes that I did,
+Dialogue: 0,0:18:32.20,0:18:34.50,Default,NTP,0000,0000,0000,,那我所造成的那些痛苦和动荡\N{\fn微软雅黑\fs14\c&H4bc2ef&}then all of the turmoil and pain that I've caused
+Dialogue: 0,0:18:34.50,0:18:36.28,Default,NTP,0000,0000,0000,,就不算枉费\N{\fn微软雅黑\fs14\c&H4bc2ef&}will be worth something.
+Dialogue: 0,0:18:37.29,0:18:38.44,Default,NTP,0000,0000,0000,,让我帮忙吧\N{\fn微软雅黑\fs14\c&H4bc2ef&}Let me help.
+Dialogue: 0,0:18:39.17,0:18:40.86,Default,NTP,0000,0000,0000,,让我做些补偿吧\N{\fn微软雅黑\fs14\c&H4bc2ef&}Let me make amends.
+Dialogue: 0,0:18:46.30,0:18:50.89,Default,NTP,0000,0000,0000,,{\an8}{\fn方正兰亭黑_GBK\fs18\b1\bord1\shad1\3c&H2F2F2F&}超级火山
+Dialogue: 0,0:18:54.31,0:18:55.29,Default,NTP,0000,0000,0000,,目标是谁\N{\fn微软雅黑\fs14\c&H4bc2ef&}Who's the target?
+Dialogue: 0,0:18:57.31,0:18:58.63,Default,NTP,0000,0000,0000,,就是你面前的这一切\N{\fn微软雅黑\fs14\c&H4bc2ef&}You're looking at it.
+Dialogue: 0,0:18:58.94,0:19:00.03,Default,NTP,0000,0000,0000,,{\an8}{\fn方正兰亭黑_GBK\fs18\b1\bord1\shad1\3c&H2F2F2F&}超级火山为何物? 它会如何爆发?
+Dialogue: 0,0:19:01.98,0:19:03.34,Default,NTP,0000,0000,0000,,超级火山\N{\fn微软雅黑\fs14\c&H4bc2ef&}A supervolcano?
+Dialogue: 0,0:19:03.53,0:19:05.93,Default,NTP,0000,0000,0000,,你不是在开玩笑吧\N{\fn微软雅黑\fs14\c&H4bc2ef&}No. You can't be serious.
+Dialogue: 0,0:19:06.07,0:19:07.60,Default,NTP,0000,0000,0000,,你会把他们都杀死的\N{\fn微软雅黑\fs14\c&H4bc2ef&}You'd be killing all of them.
+Dialogue: 0,0:19:13.12,0:19:15.16,Default,NTP,0000,0000,0000,,从世界诞生之时起  就不断上演着\N{\fn微软雅黑\fs14\c&H4bc2ef&}Extinction level events have been happening
+Dialogue: 0,0:19:15.16,0:19:17.07,Default,NTP,0000,0000,0000,,灭绝性的事件\N{\fn微软雅黑\fs14\c&H4bc2ef&}since the beginning of time.
+Dialogue: 0,0:19:17.79,0:19:18.78,Default,NTP,0000,0000,0000,,我很清楚\N{\fn微软雅黑\fs14\c&H4bc2ef&}I should know.
+Dialogue: 0,0:19:19.54,0:19:21.32,Default,NTP,0000,0000,0000,,我是来促成这一切的\N{\fn微软雅黑\fs14\c&H4bc2ef&}I was here to make them happen.
+Dialogue: 0,0:19:22.88,0:19:25.24,Default,NTP,0000,0000,0000,,这些人做了什么  要被如此对待\N{\fn微软雅黑\fs14\c&H4bc2ef&}What have these people done to deserve this?
+Dialogue: 0,0:19:28.34,0:19:31.37,Default,NTP,0000,0000,0000,,存在即有罪\N{\fn微软雅黑\fs14\c&H4bc2ef&}Existence is their sin.
+Dialogue: 0,0:19:39.11,0:19:41.13,Default,NTP,0000,0000,0000,,别认为这是终点\N{\fn微软雅黑\fs14\c&H4bc2ef&}Don't think of this as the end.
+Dialogue: 0,0:19:41.32,0:19:44.32,Default,NTP,0000,0000,0000,,这是在给世界一次新的机会\N{\fn微软雅黑\fs14\c&H4bc2ef&}Think of this as giving the world a second chance.
+Dialogue: 0,0:19:44.32,0:19:46.19,Default,NTP,0000,0000,0000,,我为你工作了这么多年\N{\fn微软雅黑\fs14\c&H4bc2ef&}For years I've worked for you,
+Dialogue: 0,0:19:46.20,0:19:48.85,Default,NTP,0000,0000,0000,,一直告诉自己这是为了公平正义\N{\fn微软雅黑\fs14\c&H4bc2ef&}telling myself there was a just cause.
+Dialogue: 0,0:19:49.74,0:19:50.72,Default,NTP,0000,0000,0000,,够了\N{\fn微软雅黑\fs14\c&H4bc2ef&}No more.
+Dialogue: 0,0:19:52.70,0:19:54.14,Default,NTP,0000,0000,0000,,也许我不能打败你\N{\fn微软雅黑\fs14\c&H4bc2ef&}Maybe I can't beat you...
+Dialogue: 0,0:19:55.70,0:19:57.44,Default,NTP,0000,0000,0000,,但你认为超女做不到吗\N{\fn微软雅黑\fs14\c&H4bc2ef&}but you don't think Supergirl will?
+Dialogue: 0,0:19:57.83,0:20:02.32,Default,NTP,0000,0000,0000,,超女不是神  我才是\N{\fn微软雅黑\fs14\c&H4bc2ef&}Supergirl is not a god. I am!
+Dialogue: 0,0:20:13.64,0:20:16.18,Default,NTP,0000,0000,0000,,-怎么了  -外围出现了漏洞\N{\fn微软雅黑\fs14\c&H4bc2ef&}- What's going on? - There's been a perimeter breach.
+Dialogue: 0,0:20:16.18,0:20:18.09,Default,NTP,0000,0000,0000,,-有具体位置吗  -没有\N{\fn微软雅黑\fs14\c&H4bc2ef&}- Do we have a location? - Negative.
+Dialogue: 0,0:20:19.56,0:20:23.01,Default,NTP,0000,0000,0000,,救命  罗摩·可汗要来了  他要摧毁世界\N{\fn微软雅黑\fs14\c&H4bc2ef&}Help! Rama Khan is coming. He's gonna destroy the world
+Dialogue: 0,0:20:32.95,0:20:34.18,Default,NTP,0000,0000,0000,,蠢材\N{\fn微软雅黑\fs14\c&H4bc2ef&}You fool.
+Dialogue: 0,0:20:34.49,0:20:37.69,Default,NTP,0000,0000,0000,,我是要拯救这个星球\N{\fn微软雅黑\fs14\c&H4bc2ef&}I'm saving this planet.
+Dialogue: 0,0:20:42.21,0:20:44.36,Default,NTP,0000,0000,0000,,我将重塑地球\N{\fn微软雅黑\fs14\c&H4bc2ef&}Now I will remake the earth,
+Dialogue: 0,0:20:44.42,0:20:46.86,Default,NTP,0000,0000,0000,,正如我很久之前应该做的\N{\fn微软雅黑\fs14\c&H4bc2ef&}as I should have done a long time ago.
+Dialogue: 0,0:20:49.84,0:20:52.29,Default,NTP,0000,0000,0000,,你不能亲眼见识  真是遗憾\N{\fn微软雅黑\fs14\c&H4bc2ef&}It's a pity you won't be here to see it.
+Dialogue: 0,0:21:06.03,0:21:08.43,Default,NTP,0000,0000,0000,,但利维坦感谢你的帮助\N{\fn微软雅黑\fs14\c&H4bc2ef&}But Leviathan thanks you for your service.
+Dialogue: 0,0:21:13.41,0:21:15.07,Default,NTP,0000,0000,0000,,布莱尼  跟我说一下情况\N{\fn微软雅黑\fs14\c&H4bc2ef&}Brainy, I need a status update.
+Dialogue: 0,0:21:15.08,0:21:16.83,Default,NTP,0000,0000,0000,,地堡安保系统还有11分钟关闭\N{\fn微软雅黑\fs14\c&H4bc2ef&}Eleven minutes until the bunker's defenses are down.
+Dialogue: 0,0:21:16.83,0:21:18.83,Default,NTP,0000,0000,0000,,-艾丽克斯  地堡的事...  -罗摩·可汗呢\N{\fn微软雅黑\fs14\c&H4bc2ef&}- Alex, about the bunker-- - And Rama Khan?
+Dialogue: 0,0:21:18.83,0:21:20.79,Default,NTP,0000,0000,0000,,我分析了影子出现的安保录像\N{\fn微软雅黑\fs14\c&H4bc2ef&}I've analyzed security footage of the appearance of the Shadow
+Dialogue: 0,0:21:20.79,0:21:22.36,Default,NTP,0000,0000,0000,,以及她携带的物品\N{\fn微软雅黑\fs14\c&H4bc2ef&}and of the object she was carrying.
+Dialogue: 0,0:21:22.37,0:21:24.94,Default,NTP,0000,0000,0000,,叫作"影子世界的魔杖"\N{\fn微软雅黑\fs14\c&H4bc2ef&}It's called "The Staff of the Shadow World."
+Dialogue: 0,0:21:25.25,0:21:27.42,Default,NTP,0000,0000,0000,,它是古美索不达米亚人创造的\N{\fn微软雅黑\fs14\c&H4bc2ef&}It is an artifact associated with ancient Mesopotamians,
+Dialogue: 0,0:21:27.42,0:21:29.17,Default,NTP,0000,0000,0000,,但在赫库兰尼姆城也能找到\N{\fn微软雅黑\fs14\c&H4bc2ef&}but can also be found in Herculaneum.
+Dialogue: 0,0:21:29.17,0:21:31.26,Default,NTP,0000,0000,0000,,我把我们的图片和罗摩·可汗的照片进行比对\N{\fn微软雅黑\fs14\c&H4bc2ef&}I juxtaposed our image with historical images
+Dialogue: 0,0:21:31.26,0:21:32.38,Default,NTP,0000,0000,0000,,你们看\N{\fn微软雅黑\fs14\c&H4bc2ef&}of Rama Khan and voila.
+Dialogue: 0,0:21:32.38,0:21:35.33,Default,NTP,0000,0000,0000,,他们上次被人看到是在庞培古城\N{\fn微软雅黑\fs14\c&H4bc2ef&}The two were last seen in the ancient city-state of Pompeii.
+Dialogue: 0,0:21:35.43,0:21:37.30,Default,NTP,0000,0000,0000,,-真令人不安  -是啊\N{\fn微软雅黑\fs14\c&H4bc2ef&}- That's concerning. - Indeed.
+Dialogue: 0,0:21:37.31,0:21:39.47,Default,NTP,0000,0000,0000,,尤其是那件魔杖散发出的能量\N{\fn微软雅黑\fs14\c&H4bc2ef&}Especially as it seems the energy given off by the Staff
+Dialogue: 0,0:21:39.47,0:21:42.04,Default,NTP,0000,0000,0000,,在纳欣诺市另一个地方也出现了\N{\fn微软雅黑\fs14\c&H4bc2ef&}can be found in one other place in National City.
+Dialogue: 0,0:21:42.19,0:21:44.75,Default,NTP,0000,0000,0000,,就是我们推测出利维坦藏身的大楼\N{\fn微软雅黑\fs14\c&H4bc2ef&}The building where we assumed Leviathan was hiding.
+Dialogue: 0,0:21:44.27,0:21:44.98,Default,NTP,0000,0000,0000,,{\an8}{\fn方正兰亭黑_GBK\fs18\b1\bord1\shad1\3c&H2F2F2F&}利维坦
+Dialogue: 0,0:21:44.98,0:21:46.48,Default,NTP,0000,0000,0000,,就在沥青坑街对面\N{\fn微软雅黑\fs14\c&H4bc2ef&}That's across the street from the Tar Pits.
+Dialogue: 0,0:21:46.48,0:21:48.82,Default,NTP,0000,0000,0000,,也是休眠超级火山的所在地\N{\fn微软雅黑\fs14\c&H4bc2ef&}Also the site of a dormant supervolcano.
+Dialogue: 0,0:21:48.82,0:21:51.03,Default,NTP,0000,0000,0000,,上次喷发是在新生代早期\N{\fn微软雅黑\fs14\c&H4bc2ef&}The last eruption was in the early Cenozoic Era,
+Dialogue: 0,0:21:51.03,0:21:54.03,Default,NTP,0000,0000,0000,,比庞培古城的火山喷发强一万倍\N{\fn微软雅黑\fs14\c&H4bc2ef&}and was 10,000 times more powerful than Pompeii.
+Dialogue: 0,0:21:54.03,0:21:55.53,Default,NTP,0000,0000,0000,,罗摩·可汗是个御土师\N{\fn微软雅黑\fs14\c&H4bc2ef&}Rama Khan's an Earth-Bender.
+Dialogue: 0,0:21:55.53,0:21:59.02,Default,NTP,0000,0000,0000,,他是想在纳欣诺市重现庞培灾难\N{\fn微软雅黑\fs14\c&H4bc2ef&}So he's trying to recreate Pompeii in National City.
+Dialogue: 0,0:21:59.04,0:22:01.44,Default,NTP,0000,0000,0000,,-一万倍的庞培灾难  -好吧\N{\fn微软雅黑\fs14\c&H4bc2ef&}- Pompeii times 10,000. - Okay.
+Dialogue: 0,0:22:01.87,0:22:03.21,Default,NTP,0000,0000,0000,,我们得逐个击破\N{\fn微软雅黑\fs14\c&H4bc2ef&}We need to divide and conquer.
+Dialogue: 0,0:22:03.21,0:22:05.12,Default,NTP,0000,0000,0000,,超女  荣恩  你们去沥青坑\N{\fn微软雅黑\fs14\c&H4bc2ef&}Supergirl, J'onn, I want you to get to the Tar Pits,
+Dialogue: 0,0:22:05.13,0:22:06.73,Default,NTP,0000,0000,0000,,找到罗摩·可汗  阻止他\N{\fn微软雅黑\fs14\c&H4bc2ef&}find Rama Khan and stop him.
+Dialogue: 0,0:22:06.79,0:22:09.04,Default,NTP,0000,0000,0000,,你说上一次音速炮打败了他\N{\fn微软雅黑\fs14\c&H4bc2ef&}You said the Sonic Cannon defeated him the last time,
+Dialogue: 0,0:22:09.05,0:22:10.67,Default,NTP,0000,0000,0000,,那就去孤独堡垒拿来\N{\fn微软雅黑\fs14\c&H4bc2ef&}so go to the Fortress and get that.
+Dialogue: 0,0:22:10.67,0:22:12.63,Default,NTP,0000,0000,0000,,-布莱尼  我需要更新下  -艾丽克斯  等下\N{\fn微软雅黑\fs14\c&H4bc2ef&}- Brainy, I need an update on-- - Alex, wait.
+Dialogue: 0,0:22:12.63,0:22:15.72,Default,NTP,0000,0000,0000,,我有事情要告诉你  你不需要克莱莫\N{\fn微软雅黑\fs14\c&H4bc2ef&}I have to tell you something. You don't have to use Claymore.
+Dialogue: 0,0:22:15.72,0:22:18.80,Default,NTP,0000,0000,0000,,我们认为可以用马拉法克的Q波来抵消莉娜的\N{\fn微软雅黑\fs14\c&H4bc2ef&}We think we can use Malefic's Q-waves to counteract Lena's,
+Dialogue: 0,0:22:18.81,0:22:20.31,Default,NTP,0000,0000,0000,,阻止她用大清洗\N{\fn微软雅黑\fs14\c&H4bc2ef&}stop her using Myriad.
+Dialogue: 0,0:22:20.31,0:22:21.81,Default,NTP,0000,0000,0000,,理论上来说  他是对的\N{\fn微软雅黑\fs14\c&H4bc2ef&}Theoretically, he is correct.
+Dialogue: 0,0:22:21.81,0:22:23.74,Default,NTP,0000,0000,0000,,好吧  你想让我用一个已知的威胁\N{\fn微软雅黑\fs14\c&H4bc2ef&}Okay, you want me to use a known threat
+Dialogue: 0,0:22:23.75,0:22:25.64,Default,NTP,0000,0000,0000,,去阻止一个眼前的威胁吗\N{\fn微软雅黑\fs14\c&H4bc2ef&}to stop an imminent one?
+Dialogue: 0,0:22:25.65,0:22:29.05,Default,NTP,0000,0000,0000,,把全球Q波发射器交给一个恐怖分子\N{\fn微软雅黑\fs14\c&H4bc2ef&}Handing over a global Q-wave projector to a terrorist?
+Dialogue: 0,0:22:29.23,0:22:32.40,Default,NTP,0000,0000,0000,,要是马拉法克在被释放后就变了想法呢\N{\fn微软雅黑\fs14\c&H4bc2ef&}What if Malefic just decides to change his mind once we free him?
+Dialogue: 0,0:22:32.40,0:22:34.80,Default,NTP,0000,0000,0000,,-他改变了  -你不能确定\N{\fn微软雅黑\fs14\c&H4bc2ef&}- He's changed. - But you don't know that for sure.
+Dialogue: 0,0:22:35.28,0:22:39.99,Default,NTP,0000,0000,0000,,而且现在莉娜和罗摩·可汗想要重现庞贝灾难\N{\fn微软雅黑\fs14\c&H4bc2ef&}And between Lena and Rama Khan gearing up for Pompeii 2.0,
+Dialogue: 0,0:22:39.99,0:22:42.29,Default,NTP,0000,0000,0000,,我最不想要的就是第三个灾难\N{\fn微软雅黑\fs14\c&H4bc2ef&}the last thing that I need is a third catastrophe.
+Dialogue: 0,0:22:42.29,0:22:44.25,Default,NTP,0000,0000,0000,,我们没时间了  你得出发了\N{\fn微软雅黑\fs14\c&H4bc2ef&}We are running out of time. You need to go.
+Dialogue: 0,0:22:44.25,0:22:47.17,Default,NTP,0000,0000,0000,,艾丽克斯  求你  我知道你认为你是正确的\N{\fn微软雅黑\fs14\c&H4bc2ef&}Alex, please. I know you think what you're doing is right,
+Dialogue: 0,0:22:47.17,0:22:49.07,Default,NTP,0000,0000,0000,,但她是我们的朋友\N{\fn微软雅黑\fs14\c&H4bc2ef&}but she is our friend.
+Dialogue: 0,0:22:49.38,0:22:53.45,Default,NTP,0000,0000,0000,,如果你用了克莱莫  就没有回头路了\N{\fn微软雅黑\fs14\c&H4bc2ef&}If you use Claymore, there's no turning back from that.
+Dialogue: 0,0:23:01.01,0:23:03.37,Default,NTP,0000,0000,0000,,我去拿炮  在焦油坑和你们会面\N{\fn微软雅黑\fs14\c&H4bc2ef&}I'll get the Cannon. I'll meet you at the Tar Pits.
+Dialogue: 0,0:23:08.52,0:23:10.97,Default,NTP,0000,0000,0000,,她不理解这对我来说有多难\N{\fn微软雅黑\fs14\c&H4bc2ef&}She doesn't understand how hard this is for me.
+Dialogue: 0,0:23:11.44,0:23:13.07,Default,NTP,0000,0000,0000,,我是说  莉娜也是我的朋友\N{\fn微软雅黑\fs14\c&H4bc2ef&}I mean, Lena is my friend, too,
+Dialogue: 0,0:23:13.07,0:23:14.69,Default,NTP,0000,0000,0000,,现在突然间  我就要决定\N{\fn微软雅黑\fs14\c&H4bc2ef&}and now all of a sudden, I'm supposed to decide
+Dialogue: 0,0:23:14.69,0:23:18.11,Default,NTP,0000,0000,0000,,是不是要冒着其他所有人的生命危险去救她\N{\fn微软雅黑\fs14\c&H4bc2ef&}whether I should risk everybody's lives just to save hers?
+Dialogue: 0,0:23:18.11,0:23:21.12,Default,NTP,0000,0000,0000,,还有马拉法克  他入侵了我的思想\N{\fn微软雅黑\fs14\c&H4bc2ef&}And Malefic, he invaded my mind.
+Dialogue: 0,0:23:21.12,0:23:25.33,Default,NTP,0000,0000,0000,,他威胁了凯莉  难道还要我相信他\N{\fn微软雅黑\fs14\c&H4bc2ef&}He threatened Kelly, and now I'm just supposed to trust him?
+Dialogue: 0,0:23:25.33,0:23:26.75,Default,NTP,0000,0000,0000,,你知道这事关紧要\N{\fn微软雅黑\fs14\c&H4bc2ef&}You know what's on the line.
+Dialogue: 0,0:23:26.75,0:23:28.46,Default,NTP,0000,0000,0000,,是你教会我如何做这个工作的\N{\fn微软雅黑\fs14\c&H4bc2ef&}You're the one who taught me how to do this job,
+Dialogue: 0,0:23:28.46,0:23:31.00,Default,NTP,0000,0000,0000,,是你做出那些艰难的决定\N{\fn微软雅黑\fs14\c&H4bc2ef&}and you're the one who's had to make really tough decisions
+Dialogue: 0,0:23:31.00,0:23:32.42,Default,NTP,0000,0000,0000,,来保证没有人丧命\N{\fn微软雅黑\fs14\c&H4bc2ef&}so that people don't die.
+Dialogue: 0,0:23:32.42,0:23:34.53,Default,NTP,0000,0000,0000,,你完全有理由害怕我的弟弟\N{\fn微软雅黑\fs14\c&H4bc2ef&}You have every reason to fear my brother.
+Dialogue: 0,0:23:34.59,0:23:37.24,Default,NTP,0000,0000,0000,,我不能向你保证马拉法克绝对变好了\N{\fn微软雅黑\fs14\c&H4bc2ef&}I can't promise you that Malefic has changed for good.
+Dialogue: 0,0:23:38.89,0:23:42.50,Default,NTP,0000,0000,0000,,人们会犯错然后做出可怕的事情\N{\fn微软雅黑\fs14\c&H4bc2ef&}People make mistakes and they do terrible things.
+Dialogue: 0,0:23:43.52,0:23:46.50,Default,NTP,0000,0000,0000,,我们要给他们机会改过\N{\fn微软雅黑\fs14\c&H4bc2ef&}We have to let them do better,
+Dialogue: 0,0:23:47.14,0:23:48.67,Default,NTP,0000,0000,0000,,让他们回到光明下\N{\fn微软雅黑\fs14\c&H4bc2ef&}bring them back into the light.
+Dialogue: 0,0:23:49.27,0:23:50.55,Default,NTP,0000,0000,0000,,不然\N{\fn微软雅黑\fs14\c&H4bc2ef&}Otherwise...
+Dialogue: 0,0:23:51.48,0:23:53.47,Default,NTP,0000,0000,0000,,拯救所有人还有什么意义\N{\fn微软雅黑\fs14\c&H4bc2ef&}what's the point in trying to save everyone?
+Dialogue: 0,0:23:59.61,0:24:01.53,Default,NTP,0000,0000,0000,,超查部送来了另一个警告\N{\fn微软雅黑\fs14\c&H4bc2ef&}The DEO has sent another warning.
+Dialogue: 0,0:24:01.53,0:24:04.20,Default,NTP,0000,0000,0000,,九分钟后  我们的防卫就会失效\N{\fn微软雅黑\fs14\c&H4bc2ef&}In nine minutes, our defenses will be disabled.
+Dialogue: 0,0:24:04.20,0:24:05.90,Default,NTP,0000,0000,0000,,-你需不需要我  -删掉\N{\fn微软雅黑\fs14\c&H4bc2ef&}- Do you want me to-- - Delete it.
+Dialogue: 0,0:24:08.92,0:24:09.82,Default,NTP,0000,0000,0000,,怎么回事\N{\fn微软雅黑\fs14\c&H4bc2ef&}What was that?
+Dialogue: 0,0:24:10.75,0:24:12.65,Default,NTP,0000,0000,0000,,感觉像是余震\N{\fn微软雅黑\fs14\c&H4bc2ef&}That felt like a residual aftershock.
+Dialogue: 0,0:24:13.09,0:24:15.88,Default,NTP,0000,0000,0000,,没错  一个5.4级的地震\N{\fn微软雅黑\fs14\c&H4bc2ef&}Yes. A 5.4-magnitude earthquake
+Dialogue: 0,0:24:15.88,0:24:17.63,Default,NTP,0000,0000,0000,,就在纳欣诺市中心\N{\fn微软雅黑\fs14\c&H4bc2ef&}right in the heart of National City.
+Dialogue: 0,0:24:17.63,0:24:19.93,Default,NTP,0000,0000,0000,,地震使整个天线阵下线了\N{\fn微软雅黑\fs14\c&H4bc2ef&}It's knocked the entire satellite array offline.
+Dialogue: 0,0:24:19.93,0:24:22.20,Default,NTP,0000,0000,0000,,我现在没办法做任何反向工程了\N{\fn微软雅黑\fs14\c&H4bc2ef&}There's no way I can reverse-engineer anything now.
+Dialogue: 0,0:24:23.43,0:24:25.31,Default,NTP,0000,0000,0000,,我可以试试用手动超控\N{\fn微软雅黑\fs14\c&H4bc2ef&}I can still try a manual override.
+Dialogue: 0,0:24:25.31,0:24:27.35,Default,NTP,0000,0000,0000,,我可以自己定位天线碟\N{\fn微软雅黑\fs14\c&H4bc2ef&}I can reposition the dishes myself.
+Dialogue: 0,0:24:27.35,0:24:29.02,Default,NTP,0000,0000,0000,,我们谈过这个  绝对不行\N{\fn微软雅黑\fs14\c&H4bc2ef&}We discussed this. Absolutely not.
+Dialogue: 0,0:24:29.02,0:24:31.35,Default,NTP,0000,0000,0000,,你可能会死  霍普和伊芙都会永远消失了\N{\fn微软雅黑\fs14\c&H4bc2ef&}You could be killed. Both Hope and Eve gone, forever.
+Dialogue: 0,0:24:31.35,0:24:34.92,Default,NTP,0000,0000,0000,,但这对我们俩都有好处  因为我相信你\N{\fn微软雅黑\fs14\c&H4bc2ef&}But it would be worth it for both of us because I believe in you.
+Dialogue: 0,0:24:35.44,0:24:36.61,Default,NTP,0000,0000,0000,,伊芙也是\N{\fn微软雅黑\fs14\c&H4bc2ef&}Eve did, too.
+Dialogue: 0,0:24:36.61,0:24:38.74,Default,NTP,0000,0000,0000,,我看到了人类的堕落\N{\fn微软雅黑\fs14\c&H4bc2ef&}I have seen the depravity of humans.
+Dialogue: 0,0:24:38.74,0:24:41.26,Default,NTP,0000,0000,0000,,背叛与痛苦\N{\fn微软雅黑\fs14\c&H4bc2ef&}the betrayal and the pain.
+Dialogue: 0,0:24:41.87,0:24:43.53,Default,NTP,0000,0000,0000,,让我帮忙  这样我们就能\N{\fn微软雅黑\fs14\c&H4bc2ef&}Let me help, so that we can stop them
+Dialogue: 0,0:24:43.53,0:24:46.16,Default,NTP,0000,0000,0000,,一劳永逸地阻止他们再做出那些恶行\N{\fn微软雅黑\fs14\c&H4bc2ef&}from committing any more of these horrible acts once and for all.
+Dialogue: 0,0:24:46.16,0:24:48.94,Default,NTP,0000,0000,0000,,不  我不允许  我们另寻他法\N{\fn微软雅黑\fs14\c&H4bc2ef&}No. I will not allow it. We will find another way.
+Dialogue: 0,0:24:50.58,0:24:52.78,Default,NTP,0000,0000,0000,,你的陪伴对我意义很大  霍普\N{\fn微软雅黑\fs14\c&H4bc2ef&}Your partnership has meant the world to me, Hope.
+Dialogue: 0,0:24:54.17,0:24:55.86,Default,NTP,0000,0000,0000,,你是我唯一可以指望的朋友\N{\fn微软雅黑\fs14\c&H4bc2ef&}You're the only friend I can count on.
+Dialogue: 0,0:24:56.17,0:24:58.45,Default,NTP,0000,0000,0000,,但是  卢瑟小姐  我不是你的朋友\N{\fn微软雅黑\fs14\c&H4bc2ef&}But, Ms. Luthor, I'm not your friend.
+Dialogue: 0,0:24:59.59,0:25:01.99,Default,NTP,0000,0000,0000,,我是你创造出来完成目标的\N{\fn微软雅黑\fs14\c&H4bc2ef&}I'm something you created to serve a purpose.
+Dialogue: 0,0:25:05.56,0:25:06.29,Default,NTP,0000,0000,0000,,你说得对\N{\fn微软雅黑\fs14\c&H4bc2ef&}You're right.
+Dialogue: 0,0:25:09.14,0:25:10.29,Default,NTP,0000,0000,0000,,只有一个办法\N{\fn微软雅黑\fs14\c&H4bc2ef&}This is the only way.
+Dialogue: 0,0:25:21.36,0:25:23.18,Default,NTP,0000,0000,0000,,你的物理扫描上有什么发现吗\N{\fn微软雅黑\fs14\c&H4bc2ef&}Anything on your psychic scan?
+Dialogue: 0,0:25:24.49,0:25:25.22,Default,NTP,0000,0000,0000,,什么都没有\N{\fn微软雅黑\fs14\c&H4bc2ef&}Nothing.
+Dialogue: 0,0:25:26.20,0:25:27.64,Default,NTP,0000,0000,0000,,布莱尼会不会搞错了\N{\fn微软雅黑\fs14\c&H4bc2ef&}Could Brainy have been wrong?
+Dialogue: 0,0:25:33.29,0:25:34.53,Default,NTP,0000,0000,0000,,显然没有\N{\fn微软雅黑\fs14\c&H4bc2ef&}Apparently not.
+Dialogue: 0,0:26:00.86,0:26:02.94,Default,NTP,0000,0000,0000,,他用的不仅是御土能力\N{\fn微软雅黑\fs14\c&H4bc2ef&}He's using something more than earth-bending powers.
+Dialogue: 0,0:26:02.94,0:26:03.76,Default,NTP,0000,0000,0000,,你说得对\N{\fn微软雅黑\fs14\c&H4bc2ef&}You're right.
+Dialogue: 0,0:26:08.70,0:26:11.57,Default,NTP,0000,0000,0000,,我看到暗影世界之杖在一个地下室里\N{\fn微软雅黑\fs14\c&H4bc2ef&}I see the Shadow and the Staff in an underground chamber.
+Dialogue: 0,0:26:11.58,0:26:13.73,Default,NTP,0000,0000,0000,,-看起来她被困住了  -交给我\N{\fn微软雅黑\fs14\c&H4bc2ef&}- It looks like she's stuck. - I've got her.
+Dialogue: 0,0:26:21.42,0:26:23.49,Default,NTP,0000,0000,0000,,莉娜有回应我们的警告吗\N{\fn微软雅黑\fs14\c&H4bc2ef&}Has Lena responded to any of our warnings?
+Dialogue: 0,0:26:23.59,0:26:26.09,Default,NTP,0000,0000,0000,,还没  她好像是删掉了它们\N{\fn微软雅黑\fs14\c&H4bc2ef&}None so far. She appears to be deleting them.
+Dialogue: 0,0:26:26.09,0:26:28.74,Default,NTP,0000,0000,0000,,她的自动防御系统将在五分钟后解除\N{\fn微软雅黑\fs14\c&H4bc2ef&}Her auto defenses will be disabled in five minutes.
+Dialogue: 0,0:26:32.26,0:26:34.39,Default,NTP,0000,0000,0000,,如果发射克莱莫发射  我们胜算有多大\N{\fn微软雅黑\fs14\c&H4bc2ef&}If Claymore is launched, what are our odds?
+Dialogue: 0,0:26:34.39,0:26:36.60,Default,NTP,0000,0000,0000,,百分之九十八几率大清洗被中和\N{\fn微软雅黑\fs14\c&H4bc2ef&}98% chance Myriad will be neutralized
+Dialogue: 0,0:26:36.60,0:26:39.29,Default,NTP,0000,0000,0000,,万分之一的几率莉娜会投降\N{\fn微软雅黑\fs14\c&H4bc2ef&}and a .01% chance Lena will surrender,
+Dialogue: 0,0:26:39.35,0:26:42.15,Default,NTP,0000,0000,0000,,也就是说莉娜几乎不会幸存\N{\fn微软雅黑\fs14\c&H4bc2ef&}which makes it a virtual certainty Lena will not survive.
+Dialogue: 0,0:26:42.15,0:26:44.92,Default,NTP,0000,0000,0000,,-如果我们用马拉法克呢  -几率微小变化\N{\fn微软雅黑\fs14\c&H4bc2ef&}- And if we use Malefic? - Our odds shift slightly.
+Dialogue: 0,0:26:45.11,0:26:47.09,Default,NTP,0000,0000,0000,,百分之八十六的几率阻止大清洗\N{\fn微软雅黑\fs14\c&H4bc2ef&}86% chance we will stop Myriad
+Dialogue: 0,0:26:47.44,0:26:48.78,Default,NTP,0000,0000,0000,,并且百分之零的几率\N{\fn微软雅黑\fs14\c&H4bc2ef&}and a 0% chance
+Dialogue: 0,0:26:48.78,0:26:49.97,Default,NTP,0000,0000,0000,,莉娜会受伤\N{\fn微软雅黑\fs14\c&H4bc2ef&}Lena will be harmed.
+Dialogue: 0,0:26:50.61,0:26:53.43,Default,NTP,0000,0000,0000,,锁定克莱莫  准备马拉法克\N{\fn微软雅黑\fs14\c&H4bc2ef&}Lock Claymore in position, and prep Malefic.
+Dialogue: 0,0:26:54.03,0:26:57.33,Default,NTP,0000,0000,0000,,但是布莱尼  告诉他哪怕是笑一下\N{\fn微软雅黑\fs14\c&H4bc2ef&}But, Brainy, you let him know that if he so much as smiles,
+Dialogue: 0,0:26:57.33,0:26:58.45,Default,NTP,0000,0000,0000,,我都会让几十名特工\N{\fn微软雅黑\fs14\c&H4bc2ef&}I will have a dozen agents
+Dialogue: 0,0:26:58.46,0:27:00.77,Default,NTP,0000,0000,0000,,将他们的枪指向他的心脏\N{\fn微软雅黑\fs14\c&H4bc2ef&}and their guns pointed directly at his heart.
+Dialogue: 0,0:27:06.05,0:27:07.16,Default,NTP,0000,0000,0000,,没用的\N{\fn微软雅黑\fs14\c&H4bc2ef&}It's useless.
+Dialogue: 0,0:27:08.09,0:27:12.04,Default,NTP,0000,0000,0000,,这杖支撑着我  它需要我\N{\fn微软雅黑\fs14\c&H4bc2ef&}The Staff holds me and it needs me.
+Dialogue: 0,0:27:12.18,0:27:14.29,Default,NTP,0000,0000,0000,,你们在一起会协助他的所作所为\N{\fn微软雅黑\fs14\c&H4bc2ef&}Together you're fueling what he's doing.
+Dialogue: 0,0:27:14.81,0:27:16.71,Default,NTP,0000,0000,0000,,我不会让这种事发生\N{\fn微软雅黑\fs14\c&H4bc2ef&}I'm not gonna let that happen.
+Dialogue: 0,0:27:26.94,0:27:29.34,Default,NTP,0000,0000,0000,,-我到了  卢瑟小姐  -好的  小心点\N{\fn微软雅黑\fs14\c&H4bc2ef&}- I'm here, Ms. Luthor. - Okay, careful. Now,
+Dialogue: 0,0:27:29.57,0:27:32.72,Default,NTP,0000,0000,0000,,在最近的天线碟底端  应该有接入面板\N{\fn微软雅黑\fs14\c&H4bc2ef&}at the base of the nearest dish, there should be an access panel.
+Dialogue: 0,0:27:34.74,0:27:37.44,Default,NTP,0000,0000,0000,,锁住了  键盘被装了爆炸装置\N{\fn微软雅黑\fs14\c&H4bc2ef&}It's locked, and the keypad's rigged to blow.
+Dialogue: 0,0:27:37.45,0:27:38.69,Default,NTP,0000,0000,0000,,该死  莱克斯\N{\fn微软雅黑\fs14\c&H4bc2ef&}Damn it, Lex.
+Dialogue: 0,0:27:39.12,0:27:40.58,Default,NTP,0000,0000,0000,,我们还剩三分钟\N{\fn微软雅黑\fs14\c&H4bc2ef&}We only have three minutes.
+Dialogue: 0,0:27:40.58,0:27:44.17,Default,NTP,0000,0000,0000,,好吧  这是一组瞄准天空的天线碟\N{\fn微软雅黑\fs14\c&H4bc2ef&}Well, it's a group of satellite dishes aimed at the sky.
+Dialogue: 0,0:27:44.17,0:27:45.67,Default,NTP,0000,0000,0000,,莱克斯喜欢象征\N{\fn微软雅黑\fs14\c&H4bc2ef&}Lex loved symbolism.
+Dialogue: 0,0:27:45.67,0:27:48.45,Default,NTP,0000,0000,0000,,也许密码与天堂有关系\N{\fn微软雅黑\fs14\c&H4bc2ef&}Perhaps the code has something to do with Heaven.
+Dialogue: 0,0:27:48.59,0:27:50.76,Default,NTP,0000,0000,0000,,-或是地狱  -约翰·密尔顿\N{\fn微软雅黑\fs14\c&H4bc2ef&}- Or Hell. - John Milton.
+Dialogue: 0,0:27:50.76,0:27:53.13,Default,NTP,0000,0000,0000,,莱克斯最喜欢的《失乐园》词句是什么\N{\fn微软雅黑\fs14\c&H4bc2ef&}What was Lex's favorite quote from Paradise Lost?
+Dialogue: 0,0:27:53.14,0:27:55.41,Default,NTP,0000,0000,0000,,"起来  否则永远沉沦"\N{\fn微软雅黑\fs14\c&H4bc2ef&}"Arise or be forever fallen."
+Dialogue: 0,0:27:59.27,0:28:00.18,Default,NTP,0000,0000,0000,,{\an8}{\fn方正兰亭黑_GBK\fs18\b1\bord1\shad1\3c&H2F2F2F&}允许进入
+Dialogue: 0,0:28:01.10,0:28:02.21,Default,NTP,0000,0000,0000,,成功了\N{\fn微软雅黑\fs14\c&H4bc2ef&}It worked.
+Dialogue: 0,0:28:03.19,0:28:05.02,Default,NTP,0000,0000,0000,,手动定位天线\N{\fn微软雅黑\fs14\c&H4bc2ef&}Manually positioning the dishes.
+Dialogue: 0,0:28:05.02,0:28:09.59,Default,NTP,0000,0000,0000,,海拔  14.9  方位  253.1\N{\fn微软雅黑\fs14\c&H4bc2ef&}Elevation, 14.9. Azimuth, 253.1.
+Dialogue: 0,0:28:10.32,0:28:13.60,Default,NTP,0000,0000,0000,,卢瑟小姐  我们已锁定并准备好发射大清洗\N{\fn微软雅黑\fs14\c&H4bc2ef&}Ms. Luthor, we are locked and ready to launch Myriad.
+Dialogue: 0,0:28:13.89,0:28:15.44,Default,NTP,0000,0000,0000,,真棒  霍普  你成功了\N{\fn微软雅黑\fs14\c&H4bc2ef&}Amazing, Hope. You've done it.
+Dialogue: 0,0:28:18.05,0:28:19.41,Default,NTP,0000,0000,0000,,现在  我也会\N{\fn微软雅黑\fs14\c&H4bc2ef&}And now, so will I.
+Dialogue: 0,0:28:24.52,0:28:25.57,Default,NTP,0000,0000,0000,,大清洗已发射\N{\fn微软雅黑\fs14\c&H4bc2ef&}Myriad has launched!
+Dialogue: 0,0:28:26.99,0:28:28.27,Default,NTP,0000,0000,0000,,毫无意外\N{\fn微软雅黑\fs14\c&H4bc2ef&}Of course it has.
+Dialogue: 0,0:28:28.29,0:28:30.90,Default,NTP,0000,0000,0000,,第一轮Q波到达地球还有30秒\N{\fn微软雅黑\fs14\c&H4bc2ef&}We have 30 seconds until the first Q-waves reach Earth.
+Dialogue: 0,0:28:34.64,0:28:36.03,Default,NTP,0000,0000,0000,,发射拦截\N{\fn微软雅黑\fs14\c&H4bc2ef&}Launch the interception.
+Dialogue: 0,0:28:48.36,0:28:49.86,Default,NTP,0000,0000,0000,,马拉法克的拦截起作用了\N{\fn微软雅黑\fs14\c&H4bc2ef&}Malefic's intercept is working.
+Dialogue: 0,0:28:52.66,0:28:53.46,Default,NTP,0000,0000,0000,,等下\N{\fn微软雅黑\fs14\c&H4bc2ef&}Wait.
+Dialogue: 0,0:28:54.50,0:28:55.67,Default,NTP,0000,0000,0000,,不不不\N{\fn微软雅黑\fs14\c&H4bc2ef&}No, no, no.
+Dialogue: 0,0:28:57.74,0:28:59.28,Default,NTP,0000,0000,0000,,不  没起作用\N{\fn微软雅黑\fs14\c&H4bc2ef&}No, it's not working.
+Dialogue: 0,0:28:59.70,0:29:01.08,Default,NTP,0000,0000,0000,,马拉法克的Q波能量输出\N{\fn微软雅黑\fs14\c&H4bc2ef&}Malefic's Q-wave energy output
+Dialogue: 0,0:29:01.08,0:29:03.20,Default,NTP,0000,0000,0000,,仅仅差那么一点就能阻止大清洗\N{\fn微软雅黑\fs14\c&H4bc2ef&}is just shy of the power we need to stop Myriad.
+Dialogue: 0,0:29:03.20,0:29:04.77,Default,NTP,0000,0000,0000,,我们有没有办法提升能量\N{\fn微软雅黑\fs14\c&H4bc2ef&}Is there any way to up the power?
+Dialogue: 0,0:29:05.08,0:29:06.91,Default,NTP,0000,0000,0000,,我们可以关闭能量抑制器\N{\fn微软雅黑\fs14\c&H4bc2ef&}We can turn off our Psychic Inhibitors.
+Dialogue: 0,0:29:06.91,0:29:08.75,Default,NTP,0000,0000,0000,,-别拿这个开玩笑  -我没开玩笑\N{\fn微软雅黑\fs14\c&H4bc2ef&}- Don't even joke about that. - I'm not joking.
+Dialogue: 0,0:29:08.75,0:29:10.11,Default,NTP,0000,0000,0000,,抑制器吸收百分之六的\N{\fn微软雅黑\fs14\c&H4bc2ef&}The Inhibitors absorb 6% of
+Dialogue: 0,0:29:10.11,0:29:12.97,Default,NTP,0000,0000,0000,,马拉法克能量输出  也就是四千太瓦\N{\fn微软雅黑\fs14\c&H4bc2ef&}Malefic's energy output, or 4,000 terawatts.
+Dialogue: 0,0:29:12.97,0:29:15.43,Default,NTP,0000,0000,0000,,如果我们要提升所需的百分之六\N{\fn微软雅黑\fs14\c&H4bc2ef&}If we want to increase his power by the necessary 6%,
+Dialogue: 0,0:29:15.44,0:29:16.39,Default,NTP,0000,0000,0000,,我们就需要移除\N{\fn微软雅黑\fs14\c&H4bc2ef&}we have to remove the
+Dialogue: 0,0:29:16.39,0:29:18.10,Default,NTP,0000,0000,0000,,抑制器的影响  基本算数\N{\fn微软雅黑\fs14\c&H4bc2ef&}Inhibitors from the equation. It's basic math.
+Dialogue: 0,0:29:18.10,0:29:20.29,Default,NTP,0000,0000,0000,,我不会让我的特工面临这样的风险\N{\fn微软雅黑\fs14\c&H4bc2ef&}I will not expose my agents to that risk.
+Dialogue: 0,0:29:20.29,0:29:22.06,Default,NTP,0000,0000,0000,,这是假设那是个风险\N{\fn微软雅黑\fs14\c&H4bc2ef&}That assumes there is a risk.
+Dialogue: 0,0:29:22.45,0:29:24.62,Default,NTP,0000,0000,0000,,约翰说他的弟弟改变了\N{\fn微软雅黑\fs14\c&H4bc2ef&}J'onn said his brother has changed.
+Dialogue: 0,0:29:41.37,0:29:42.87,Default,NTP,0000,0000,0000,,火山爆发还有两分钟\N{\fn微软雅黑\fs14\c&H4bc2ef&}Two minutes until the volcano explodes,
+Dialogue: 0,0:29:42.87,0:29:45.07,Default,NTP,0000,0000,0000,,而大清洗到达地球还有十秒\N{\fn微软雅黑\fs14\c&H4bc2ef&}and ten seconds until Myriad reaches Earth.
+Dialogue: 0,0:29:45.07,0:29:47.27,Default,NTP,0000,0000,0000,,我们是关掉抑制器还是激活克莱莫\N{\fn微软雅黑\fs14\c&H4bc2ef&}Do we turn off our Inhibitors or do we activate Claymore?
+Dialogue: 0,0:29:47.39,0:29:50.97,Default,NTP,0000,0000,0000,,七秒  局长  五秒  艾丽克斯\N{\fn微软雅黑\fs14\c&H4bc2ef&}Seven seconds, Director. Five. Alex!
+Dialogue: 0,0:29:51.24,0:29:53.27,Default,NTP,0000,0000,0000,,所有特工  立刻关闭抑制器\N{\fn微软雅黑\fs14\c&H4bc2ef&}All agents, Inhibitors off, now.
+Dialogue: 0,0:30:03.91,0:30:04.84,Default,NTP,0000,0000,0000,,发生了什么\N{\fn微软雅黑\fs14\c&H4bc2ef&}What's happening?
+Dialogue: 0,0:30:07.00,0:30:10.70,Default,NTP,0000,0000,0000,,看  你们这些超级英雄的毛病就是\N{\fn微软雅黑\fs14\c&H4bc2ef&}See, that's the problem with you superheroes.
+Dialogue: 0,0:30:10.94,0:30:12.98,Default,NTP,0000,0000,0000,,总是站在弱者的一边\N{\fn微软雅黑\fs14\c&H4bc2ef&}You align yourselves with the weak.
+Dialogue: 0,0:30:13.00,0:30:14.53,Default,NTP,0000,0000,0000,,你为那些人类作战\N{\fn微软雅黑\fs14\c&H4bc2ef&}You fight for these humans,
+Dialogue: 0,0:30:14.53,0:30:15.73,Default,NTP,0000,0000,0000,,但一次又一次\N{\fn微软雅黑\fs14\c&H4bc2ef&}but time after time,
+Dialogue: 0,0:30:15.73,0:30:18.94,Default,NTP,0000,0000,0000,,他们所作的就是破坏身边的一切\N{\fn微软雅黑\fs14\c&H4bc2ef&}all they do is destroy everything around them.
+Dialogue: 0,0:30:18.94,0:30:20.25,Default,NTP,0000,0000,0000,,你倒是有脸说\N{\fn微软雅黑\fs14\c&H4bc2ef&}You're one to talk.
+Dialogue: 0,0:30:20.25,0:30:23.10,Default,NTP,0000,0000,0000,,我承认  我也会破坏\N{\fn微软雅黑\fs14\c&H4bc2ef&}Oh, I admit, I destroy.
+Dialogue: 0,0:30:23.55,0:30:25.54,Default,NTP,0000,0000,0000,,用净化之火\N{\fn微软雅黑\fs14\c&H4bc2ef&}But with a cleansing fire.
+Dialogue: 0,0:30:25.75,0:30:28.80,Default,NTP,0000,0000,0000,,这是对付人类祸害的唯一办法\N{\fn微软雅黑\fs14\c&H4bc2ef&}That's the only way to deal with the scourge of humanity.
+Dialogue: 0,0:30:28.80,0:30:31.21,Default,NTP,0000,0000,0000,,我来地球几百万年了\N{\fn微软雅黑\fs14\c&H4bc2ef&}I have been here for millions of years.
+Dialogue: 0,0:30:32.59,0:30:33.92,Default,NTP,0000,0000,0000,,一直以来都是如此\N{\fn微软雅黑\fs14\c&H4bc2ef&}It's how it's always been...
+Dialogue: 0,0:30:35.56,0:30:37.82,Default,NTP,0000,0000,0000,,将来亦会是如此\N{\fn微软雅黑\fs14\c&H4bc2ef&}and how it always will be.
+Dialogue: 0,0:30:51.21,0:30:52.16,Default,NTP,0000,0000,0000,,超女\N{\fn微软雅黑\fs14\c&H4bc2ef&}Supergirl?
+Dialogue: 0,0:30:52.22,0:30:54.32,Default,NTP,0000,0000,0000,,你能听见我吗  马拉阻止了大清洗\N{\fn微软雅黑\fs14\c&H4bc2ef&}Can you hear me? Mal stopped Myriad.
+Dialogue: 0,0:30:54.32,0:30:55.79,Default,NTP,0000,0000,0000,,你和罗摩·可汗怎么样了\N{\fn微软雅黑\fs14\c&H4bc2ef&}Where are you with Rama Khan?
+Dialogue: 0,0:31:02.97,0:31:04.03,Default,NTP,0000,0000,0000,,你不明白吗\N{\fn微软雅黑\fs14\c&H4bc2ef&}Don't you see?
+Dialogue: 0,0:31:05.43,0:31:07.82,Default,NTP,0000,0000,0000,,人无法改变\N{\fn微软雅黑\fs14\c&H4bc2ef&}People never change.
+Dialogue: 0,0:31:07.82,0:31:12.47,Default,NTP,0000,0000,0000,,不  罗摩·可汗  你错了  人可以改变\N{\fn微软雅黑\fs14\c&H4bc2ef&}No, Rama Khan. You're wrong. People can change.
+Dialogue: 0,0:31:13.00,0:31:15.66,Default,NTP,0000,0000,0000,,正因如此  这个世界才这么美丽\N{\fn微软雅黑\fs14\c&H4bc2ef&}That is what is so beautiful about this world.
+Dialogue: 0,0:31:35.70,0:31:36.62,Default,NTP,0000,0000,0000,,你做到了\N{\fn微软雅黑\fs14\c&H4bc2ef&}You did it.
+Dialogue: 0,0:31:36.62,0:31:39.52,Default,NTP,0000,0000,0000,,-你阻止了火山喷发  -你击败了他\N{\fn微软雅黑\fs14\c&H4bc2ef&}- You stopped the volcano. - You knocked his block off.
+Dialogue: 0,0:31:41.33,0:31:42.43,Default,NTP,0000,0000,0000,,不\N{\fn微软雅黑\fs14\c&H4bc2ef&}No!
+Dialogue: 0,0:31:46.04,0:31:48.56,Default,NTP,0000,0000,0000,,他们阻止了大清洗  我不明白\N{\fn微软雅黑\fs14\c&H4bc2ef&}They stopped Myriad. I don't understand.
+Dialogue: 0,0:31:49.02,0:31:50.54,Default,NTP,0000,0000,0000,,没什么好不明白的\N{\fn微软雅黑\fs14\c&H4bc2ef&}There's nothing to understand.
+Dialogue: 0,0:31:52.78,0:31:53.84,Default,NTP,0000,0000,0000,,我输了\N{\fn微软雅黑\fs14\c&H4bc2ef&}I lost.
+Dialogue: 0,0:31:55.58,0:31:57.30,Default,NTP,0000,0000,0000,,这是一次人生教训\N{\fn微软雅黑\fs14\c&H4bc2ef&}This is a life lesson to learn.
+Dialogue: 0,0:31:59.28,0:32:01.19,Default,NTP,0000,0000,0000,,有时邪能胜正\N{\fn微软雅黑\fs14\c&H4bc2ef&}Sometimes the good guys don't win.
+Dialogue: 0,0:32:19.57,0:32:20.45,Default,NTP,0000,0000,0000,,够了\N{\fn微软雅黑\fs14\c&H4bc2ef&}Enough.
+Dialogue: 0,0:32:21.25,0:32:22.71,Default,NTP,0000,0000,0000,,结束了  罗摩·可汗\N{\fn微软雅黑\fs14\c&H4bc2ef&}It's over, Rama Khan.
+Dialogue: 0,0:32:24.83,0:32:26.80,Default,NTP,0000,0000,0000,,你在说什么  伽梅姆\N{\fn微软雅黑\fs14\c&H4bc2ef&}What are you talking about, Gamemnae?
+Dialogue: 0,0:32:26.97,0:32:29.65,Default,NTP,0000,0000,0000,,地球秩序尚存  我还有时间\N{\fn微软雅黑\fs14\c&H4bc2ef&}The planets are still aligned. There's still time!
+Dialogue: 0,0:32:29.75,0:32:30.85,Default,NTP,0000,0000,0000,,但你没有了\N{\fn微软雅黑\fs14\c&H4bc2ef&}Not for you.
+Dialogue: 0,0:32:33.75,0:32:34.86,Default,NTP,0000,0000,0000,,你没有时间了\N{\fn微软雅黑\fs14\c&H4bc2ef&}Not anymore.
+Dialogue: 0,0:32:35.63,0:32:37.28,Default,NTP,0000,0000,0000,,我仍然可以完成大业\N{\fn微软雅黑\fs14\c&H4bc2ef&}I can still finish this.
+Dialogue: 0,0:32:37.40,0:32:40.82,Default,NTP,0000,0000,0000,,你错失了最后一次机会  你的统治结束了\N{\fn微软雅黑\fs14\c&H4bc2ef&}You've had your last go. Your reign is over.
+Dialogue: 0,0:32:47.32,0:32:49.42,Default,NTP,0000,0000,0000,,她会对此颇有微词\N{\fn微软雅黑\fs14\c&H4bc2ef&}She'll have something to say about this.
+Dialogue: 0,0:32:49.67,0:32:51.37,Default,NTP,0000,0000,0000,,你以为是谁委任了我\N{\fn微软雅黑\fs14\c&H4bc2ef&}Who do you think appointed me?
+Dialogue: 0,0:32:57.77,0:32:59.59,Default,NTP,0000,0000,0000,,这还没结束\N{\fn微软雅黑\fs14\c&H4bc2ef&}This is not over!
+Dialogue: 0,0:33:13.99,0:33:15.35,Default,NTP,0000,0000,0000,,对不起我失败了\N{\fn微软雅黑\fs14\c&H4bc2ef&}I'm sorry I failed.
+Dialogue: 0,0:33:16.77,0:33:19.09,Default,NTP,0000,0000,0000,,我希望我能为你做更多的事  卢瑟女士\N{\fn微软雅黑\fs14\c&H4bc2ef&}I wish there was more I could do for you, Ms. Luthor.
+Dialogue: 0,0:33:19.69,0:33:20.56,Default,NTP,0000,0000,0000,,你可以\N{\fn微软雅黑\fs14\c&H4bc2ef&}There is.
+Dialogue: 0,0:33:29.81,0:33:30.47,Default,NTP,0000,0000,0000,,我明白了\N{\fn微软雅黑\fs14\c&H4bc2ef&}I see.
+Dialogue: 0,0:33:30.48,0:33:31.34,Default,NTP,0000,0000,0000,,别动\N{\fn微软雅黑\fs14\c&H4bc2ef&}Don't move.
+Dialogue: 0,0:33:31.70,0:33:33.95,Default,NTP,0000,0000,0000,,莉娜·卢瑟  举起双手\N{\fn微软雅黑\fs14\c&H4bc2ef&}Lena Luthor? Hands in the air.
+Dialogue: 0,0:33:34.04,0:33:37.96,Default,NTP,0000,0000,0000,,不是她  是我  我做了这一切\N{\fn微软雅黑\fs14\c&H4bc2ef&}It wasn't her. It was me. I did all of it.
+Dialogue: 0,0:33:37.96,0:33:39.82,Default,NTP,0000,0000,0000,,放下枪  你被包围了\N{\fn微软雅黑\fs14\c&H4bc2ef&}Drop the gun. You're surrounded.
+Dialogue: 0,0:33:40.02,0:33:41.29,Default,NTP,0000,0000,0000,,伊芙  求求你\N{\fn微软雅黑\fs14\c&H4bc2ef&}Eve, please.
+Dialogue: 0,0:33:48.40,0:33:49.36,Default,NTP,0000,0000,0000,,带走她\N{\fn微软雅黑\fs14\c&H4bc2ef&}Take her away.
+Dialogue: 0,0:33:57.87,0:33:59.46,Default,NTP,0000,0000,0000,,卢瑟女士  你没事吧\N{\fn微软雅黑\fs14\c&H4bc2ef&}Ms. Luthor, you all right?
+Dialogue: 0,0:34:03.63,0:34:04.43,Default,NTP,0000,0000,0000,,你没事吧\N{\fn微软雅黑\fs14\c&H4bc2ef&}You okay?
+Dialogue: 0,0:34:04.44,0:34:07.73,Default,NTP,0000,0000,0000,,我这周都得擦披风上的泥土了\N{\fn微软雅黑\fs14\c&H4bc2ef&}I'm gonna be scraping mud out of my cape for a week.
+Dialogue: 0,0:34:07.73,0:34:11.56,Default,NTP,0000,0000,0000,,不  我是说你怎么样\N{\fn微软雅黑\fs14\c&H4bc2ef&}No, I mean, are you okay?
+Dialogue: 0,0:34:12.63,0:34:13.70,Default,NTP,0000,0000,0000,,我不知道\N{\fn微软雅黑\fs14\c&H4bc2ef&}I don't know.
+Dialogue: 0,0:34:14.47,0:34:15.52,Default,NTP,0000,0000,0000,,我也不知道\N{\fn微软雅黑\fs14\c&H4bc2ef&}Me neither.
+Dialogue: 0,0:34:17.10,0:34:22.07,Default,NTP,0000,0000,0000,,当联调局逮捕莉娜时  伊芙·泰斯马克在那里\N{\fn微软雅黑\fs14\c&H4bc2ef&}When the FBI went to arrest Lena, Eve Tessmacher was there.
+Dialogue: 0,0:34:22.59,0:34:24.14,Default,NTP,0000,0000,0000,,她承认主使了整件事\N{\fn微软雅黑\fs14\c&H4bc2ef&}She confessed to the whole thing.
+Dialogue: 0,0:34:24.34,0:34:28.55,Default,NTP,0000,0000,0000,,有她冒充莉娜的证据  有主使整件事的证据\N{\fn微软雅黑\fs14\c&H4bc2ef&}Had proof that she impersonated Lena. Had proof for all of it.
+Dialogue: 0,0:34:28.92,0:34:30.40,Default,NTP,0000,0000,0000,,我倒是希望那是真的\N{\fn微软雅黑\fs14\c&H4bc2ef&}I wish that were true.
+Dialogue: 0,0:34:31.01,0:34:32.74,Default,NTP,0000,0000,0000,,我们阻止了了大清洗\N{\fn微软雅黑\fs14\c&H4bc2ef&}Well, we recovered Myriad,
+Dialogue: 0,0:34:33.59,0:34:36.09,Default,NTP,0000,0000,0000,,但你知道莉娜的\N{\fn微软雅黑\fs14\c&H4bc2ef&}but you know Lena.
+Dialogue: 0,0:34:36.09,0:34:38.01,Default,NTP,0000,0000,0000,,-她是不会放弃的  -我知道\N{\fn微软雅黑\fs14\c&H4bc2ef&}- She's not gonna stop. - I know.
+Dialogue: 0,0:34:39.98,0:34:42.12,Default,NTP,0000,0000,0000,,多亏你  她还活着\N{\fn微软雅黑\fs14\c&H4bc2ef&}She's alive, thanks to you.
+Dialogue: 0,0:34:42.29,0:34:43.56,Default,NTP,0000,0000,0000,,也多亏你\N{\fn微软雅黑\fs14\c&H4bc2ef&}Well, and to you.
+Dialogue: 0,0:34:43.63,0:34:48.36,Default,NTP,0000,0000,0000,,你救莉娜和马拉法克是正确的\N{\fn微软雅黑\fs14\c&H4bc2ef&}I mean, you were right about saving Lena, and Malefic.
+Dialogue: 0,0:34:49.56,0:34:50.60,Default,NTP,0000,0000,0000,,他改变了\N{\fn微软雅黑\fs14\c&H4bc2ef&}He changed.
+Dialogue: 0,0:34:50.60,0:34:53.60,Default,NTP,0000,0000,0000,,谢谢你信任他和我\N{\fn微软雅黑\fs14\c&H4bc2ef&}Well, thank you for trusting him, and me.
+Dialogue: 0,0:34:53.89,0:34:56.38,Default,NTP,0000,0000,0000,,你比我更有信念\N{\fn微软雅黑\fs14\c&H4bc2ef&}You had a lot more faith about that than I did.
+Dialogue: 0,0:34:57.09,0:34:59.37,Default,NTP,0000,0000,0000,,如果我们能拯救马拉法克的灵魂\N{\fn微软雅黑\fs14\c&H4bc2ef&}Well, if we can save Malefic's soul...
+Dialogue: 0,0:35:00.55,0:35:02.13,Default,NTP,0000,0000,0000,,我们或许也能拯救莉娜的\N{\fn微软雅黑\fs14\c&H4bc2ef&}Maybe we can save Lena's.
+Dialogue: 0,0:35:03.84,0:35:06.81,Default,NTP,0000,0000,0000,,但这得改天了\N{\fn微软雅黑\fs14\c&H4bc2ef&}But that is for another day.
+Dialogue: 0,0:35:07.45,0:35:09.86,Default,NTP,0000,0000,0000,,凯莉和我要去吃寿司  你来吗\N{\fn微软雅黑\fs14\c&H4bc2ef&}Kelly and I are gonna get some sushi. You wanna join?
+Dialogue: 0,0:35:10.54,0:35:11.97,Default,NTP,0000,0000,0000,,不  你们去吧\N{\fn微软雅黑\fs14\c&H4bc2ef&}No, no, you go ahead.
+Dialogue: 0,0:35:12.98,0:35:13.78,Default,NTP,0000,0000,0000,,好的\N{\fn微软雅黑\fs14\c&H4bc2ef&}Okay.
+Dialogue: 0,0:35:41.68,0:35:43.67,Default,NTP,0000,0000,0000,,对了  我叫安德里亚\N{\fn微软雅黑\fs14\c&H4bc2ef&}I'm Andrea, by the way.
+Dialogue: 0,0:35:43.89,0:35:46.48,Default,NTP,0000,0000,0000,,我知道  我是罗素·罗杰斯\N{\fn微软雅黑\fs14\c&H4bc2ef&}Oh, I know. I'm Russell Rogers.
+Dialogue: 0,0:35:48.12,0:35:49.21,Default,NTP,0000,0000,0000,,今晚见\N{\fn微软雅黑\fs14\c&H4bc2ef&}See you tonight?
+Dialogue: 0,0:35:49.66,0:35:50.54,Default,NTP,0000,0000,0000,,好的\N{\fn微软雅黑\fs14\c&H4bc2ef&}Yes.
+Dialogue: 0,0:35:51.26,0:35:52.29,Default,NTP,0000,0000,0000,,结束了\N{\fn微软雅黑\fs14\c&H4bc2ef&}It's over.
+Dialogue: 0,0:35:53.40,0:35:55.30,Default,NTP,0000,0000,0000,,我终于做了正确的事\N{\fn微软雅黑\fs14\c&H4bc2ef&}I finally did the right thing.
+Dialogue: 0,0:35:56.49,0:35:58.43,Default,NTP,0000,0000,0000,,但我很抱歉为时已晚\N{\fn微软雅黑\fs14\c&H4bc2ef&}I'm just sorry that it's too late.
+Dialogue: 0,0:36:01.84,0:36:03.85,Default,NTP,0000,0000,0000,,我希望自己能够拯救你\N{\fn微软雅黑\fs14\c&H4bc2ef&}I wish I could have saved you.
+Dialogue: 0,0:36:32.15,0:36:33.49,Default,NTP,0000,0000,0000,,你救了我们  马拉\N{\fn微软雅黑\fs14\c&H4bc2ef&}You saved us, Mal.
+Dialogue: 0,0:36:34.15,0:36:36.71,Default,NTP,0000,0000,0000,,但这怎能弥补我犯下的过错呢\N{\fn微软雅黑\fs14\c&H4bc2ef&}But how can I ever make up for what I've done?
+Dialogue: 0,0:36:37.34,0:36:38.78,Default,NTP,0000,0000,0000,,如果一切都不同就好了\N{\fn微软雅黑\fs14\c&H4bc2ef&}If only things were different.
+Dialogue: 0,0:36:39.80,0:36:40.96,Default,NTP,0000,0000,0000,,有办法的\N{\fn微软雅黑\fs14\c&H4bc2ef&}There is a way.
+Dialogue: 0,0:36:42.16,0:36:43.93,Default,NTP,0000,0000,0000,,我希望你见一个人\N{\fn微软雅黑\fs14\c&H4bc2ef&}And there's someone I'd like you to meet.
+Dialogue: 0,0:36:44.38,0:36:47.94,Default,NTP,0000,0000,0000,,她的名字叫梅根  她是我的朋友\N{\fn微软雅黑\fs14\c&H4bc2ef&}Her name is M'gann. She's a friend of mine.
+Dialogue: 0,0:36:48.69,0:36:50.99,Default,NTP,0000,0000,0000,,她是白火星人反抗军战士\N{\fn微软雅黑\fs14\c&H4bc2ef&}And she's a White Martian resistance fighter.
+Dialogue: 0,0:36:51.12,0:36:52.95,Default,NTP,0000,0000,0000,,你抵达后  她可以帮你\N{\fn微软雅黑\fs14\c&H4bc2ef&}She can help you when you arrive.
+Dialogue: 0,0:36:53.48,0:36:55.53,Default,NTP,0000,0000,0000,,不敢相信战火仍在延续\N{\fn微软雅黑\fs14\c&H4bc2ef&}Can't believe the war still rages.
+Dialogue: 0,0:36:56.15,0:36:59.19,Default,NTP,0000,0000,0000,,-我助长的战火  -但现在你可以回家\N{\fn微软雅黑\fs14\c&H4bc2ef&}- The war that I helped fuel. - But you can go home now.
+Dialogue: 0,0:36:59.64,0:37:01.97,Default,NTP,0000,0000,0000,,帮助清除延绵的战火\N{\fn微软雅黑\fs14\c&H4bc2ef&}You can help extinguish those flames.
+Dialogue: 0,0:37:05.07,0:37:06.71,Default,NTP,0000,0000,0000,,但如果我做不到呢\N{\fn微软雅黑\fs14\c&H4bc2ef&}But what if I can't?
+Dialogue: 0,0:37:07.32,0:37:09.09,Default,NTP,0000,0000,0000,,我不像你一样强大  荣恩\N{\fn微软雅黑\fs14\c&H4bc2ef&}I'm not strong like you, J'onn.
+Dialogue: 0,0:37:09.19,0:37:13.52,Default,NTP,0000,0000,0000,,-赫隆米尔从没给我一席之地  -这是你的职责\N{\fn微软雅黑\fs14\c&H4bc2ef&}- H'ronmeer never had a role for me-- - This is your role.
+Dialogue: 0,0:37:14.58,0:37:16.12,Default,NTP,0000,0000,0000,,你知道白火星人\N{\fn微软雅黑\fs14\c&H4bc2ef&}You know the White Martians,
+Dialogue: 0,0:37:16.12,0:37:18.43,Default,NTP,0000,0000,0000,,你了解他们  知道他们的想法\N{\fn微软雅黑\fs14\c&H4bc2ef&}you understand them, you know how they think.
+Dialogue: 0,0:37:18.98,0:37:20.34,Default,NTP,0000,0000,0000,,你可以向他们呼吁\N{\fn微软雅黑\fs14\c&H4bc2ef&}You can appeal to them.
+Dialogue: 0,0:37:22.00,0:37:23.58,Default,NTP,0000,0000,0000,,马拉法克  你可以给火星带来\N{\fn微软雅黑\fs14\c&H4bc2ef&}Malefic, you can bring peace to Mars
+Dialogue: 0,0:37:23.58,0:37:26.00,Default,NTP,0000,0000,0000,,数百年来的第一次和平\N{\fn微软雅黑\fs14\c&H4bc2ef&}for the first time in hundreds of years.
+Dialogue: 0,0:37:26.26,0:37:27.72,Default,NTP,0000,0000,0000,,我们可以重新开始\N{\fn微软雅黑\fs14\c&H4bc2ef&}We can start anew.
+Dialogue: 0,0:37:28.72,0:37:32.51,Default,NTP,0000,0000,0000,,你从来都不活在鄙视中  马拉法克\N{\fn微软雅黑\fs14\c&H4bc2ef&}You were never meant to be the pariah, Malefic.
+Dialogue: 0,0:37:33.54,0:37:35.08,Default,NTP,0000,0000,0000,,你注定是天选之人\N{\fn微软雅黑\fs14\c&H4bc2ef&}You were meant to be the promise.
+Dialogue: 0,0:37:38.58,0:37:39.60,Default,NTP,0000,0000,0000,,谢谢你  哥哥\N{\fn微软雅黑\fs14\c&H4bc2ef&}Thank you, my brother.
+Dialogue: 0,0:37:40.86,0:37:42.73,Default,NTP,0000,0000,0000,,我会努力让你骄傲\N{\fn微软雅黑\fs14\c&H4bc2ef&}I will strive to make you proud.
+Dialogue: 0,0:37:44.04,0:37:45.99,Default,NTP,0000,0000,0000,,终结我发起的战争\N{\fn微软雅黑\fs14\c&H4bc2ef&}And to end what I helped start.
+Dialogue: 0,0:37:47.31,0:37:48.69,Default,NTP,0000,0000,0000,,没有这个你可办不到\N{\fn微软雅黑\fs14\c&H4bc2ef&}Not without this you won't.
+Dialogue: 0,0:37:55.69,0:37:57.53,Default,NTP,0000,0000,0000,,不准有任何刮痕\N{\fn微软雅黑\fs14\c&H4bc2ef&}Not a scratch on it.
+Dialogue: 0,0:37:58.41,0:37:59.68,Default,NTP,0000,0000,0000,,我尽量\N{\fn微软雅黑\fs14\c&H4bc2ef&}I'll do my best.
+Dialogue: 0,0:38:21.07,0:38:23.19,Default,NTP,0000,0000,0000,,干得好  荣恩·荣兹\N{\fn微软雅黑\fs14\c&H4bc2ef&}Well done, J'onn J'onzz.
+Dialogue: 0,0:38:25.64,0:38:28.08,Default,NTP,0000,0000,0000,,-你通过了测试  -测试\N{\fn微软雅黑\fs14\c&H4bc2ef&}- You passed the test. - Test?
+Dialogue: 0,0:38:31.29,0:38:33.82,Default,NTP,0000,0000,0000,,是你把我弟弟从幻影区释放了出来\N{\fn微软雅黑\fs14\c&H4bc2ef&}You released my brother from the Phantom Zone?
+Dialogue: 0,0:38:34.44,0:38:36.11,Default,NTP,0000,0000,0000,,你把我弟弟带到了这里\N{\fn微软雅黑\fs14\c&H4bc2ef&}You brought my brother here?
+Dialogue: 0,0:38:36.83,0:38:39.15,Default,NTP,0000,0000,0000,,当我看见你在异世界战斗时\N{\fn微软雅黑\fs14\c&H4bc2ef&}When I saw you fight in Elseworlds,
+Dialogue: 0,0:38:39.59,0:38:41.98,Default,NTP,0000,0000,0000,,我看得出你是个优秀的战士\N{\fn微软雅黑\fs14\c&H4bc2ef&}I could see that you were a great warrior,
+Dialogue: 0,0:38:42.99,0:38:47.30,Default,NTP,0000,0000,0000,,但是却被过去侵蚀  这让你变得软弱\N{\fn微软雅黑\fs14\c&H4bc2ef&}but one plagued by his past, and that made you vulnerable.
+Dialogue: 0,0:38:47.64,0:38:50.08,Default,NTP,0000,0000,0000,,你以为是因为你离开了火星\N{\fn微软雅黑\fs14\c&H4bc2ef&}You believed it was because you had left Mars,
+Dialogue: 0,0:38:50.43,0:38:53.24,Default,NTP,0000,0000,0000,,但其实却是更意味深长的事情  荣恩\N{\fn微软雅黑\fs14\c&H4bc2ef&}but it was something far, far greater, J'onn.
+Dialogue: 0,0:38:54.44,0:38:55.45,Default,NTP,0000,0000,0000,,你的弟弟\N{\fn微软雅黑\fs14\c&H4bc2ef&}Your brother.
+Dialogue: 0,0:38:56.33,0:38:58.35,Default,NTP,0000,0000,0000,,但现在你已经坦然面对了你的恶魔\N{\fn微软雅黑\fs14\c&H4bc2ef&}But now that you have faced those demons,
+Dialogue: 0,0:38:58.35,0:39:02.79,Default,NTP,0000,0000,0000,,并逐渐知道你的弱点是你的长处\N{\fn微软雅黑\fs14\c&H4bc2ef&}you have come to learn your vulnerabilities are your strengths.
+Dialogue: 0,0:39:03.67,0:39:05.26,Default,NTP,0000,0000,0000,,你已经准备好了\N{\fn微软雅黑\fs14\c&H4bc2ef&}And now you are ready.
+Dialogue: 0,0:39:07.08,0:39:08.23,Default,NTP,0000,0000,0000,,准备好干什么\N{\fn微软雅黑\fs14\c&H4bc2ef&}Ready for what?
+Dialogue: 0,0:39:10.21,0:39:11.38,Default,NTP,0000,0000,0000,,一场危机\N{\fn微软雅黑\fs14\c&H4bc2ef&}A crisis.
+Dialogue: 0,0:39:22.11,0:39:24.83,Default,NTP,0000,0000,0000,,再次将军\N{\fn微软雅黑\fs14\c&H4bc2ef&}Checkmate. Again.
+Dialogue: 0,0:39:31.04,0:39:33.40,Default,NTP,0000,0000,0000,,你终于回来了\N{\fn微软雅黑\fs14\c&H4bc2ef&}Finally, you've returned.
+Dialogue: 0,0:39:33.61,0:39:34.81,Default,NTP,0000,0000,0000,,我不知道有没有人告诉过你\N{\fn微软雅黑\fs14\c&H4bc2ef&}I don't know if anybody's told you this,
+Dialogue: 0,0:39:34.81,0:39:37.56,Default,NTP,0000,0000,0000,,但这里的风水有点不顺\N{\fn微软雅黑\fs14\c&H4bc2ef&}but the feng shui of this place is a bit stale.
+Dialogue: 0,0:39:37.56,0:39:38.75,Default,NTP,0000,0000,0000,,我复活你是因为\N{\fn微软雅黑\fs14\c&H4bc2ef&}I brought you back because
+Dialogue: 0,0:39:38.75,0:39:41.32,Default,NTP,0000,0000,0000,,宇宙需要你这样的头脑\N{\fn微软雅黑\fs14\c&H4bc2ef&}the universe will need a mind like yours.
+Dialogue: 0,0:39:41.52,0:39:43.97,Default,NTP,0000,0000,0000,,总能将军的人吗\N{\fn微软雅黑\fs14\c&H4bc2ef&}Someone who can checkmate anyone?
+Dialogue: 0,0:39:44.09,0:39:47.45,Default,NTP,0000,0000,0000,,是时候完成你的使命了  莱克斯·卢瑟\N{\fn微软雅黑\fs14\c&H4bc2ef&}The time has come for you to fulfill your destiny, Lex Luthor.
+Dialogue: 0,0:39:48.34,0:39:52.62,Default,NTP,0000,0000,0000,,你终于可以成为你一直期盼的英雄了\N{\fn微软雅黑\fs14\c&H4bc2ef&}You can now become the hero that you have longed to be.
+Dialogue: 0,0:39:53.51,0:39:54.90,Default,NTP,0000,0000,0000,,我一直是英雄\N{\fn微软雅黑\fs14\c&H4bc2ef&}I've always been the hero.
+Dialogue: 0,0:39:58.30,0:39:59.39,Default,NTP,0000,0000,0000,,乐意帮忙\N{\fn微软雅黑\fs14\c&H4bc2ef&}Happy to help.
+Dialogue: 0,0:40:04.47,0:40:06.64,Default,NTP,0000,0000,0000,,但首先我们得谈谈我妹妹\N{\fn微软雅黑\fs14\c&H4bc2ef&}But first, we have to discuss my sister.
+Dialogue: 0,0:40:14.43,0:40:16.77,Default,NTP,0000,0000,0000,,{\an8}{\fn方正兰亭黑_GBK\fs18\b1\bord1\shad1\3c&H2F2F2F&}中城\N地球一
+Dialogue: 0,0:40:18.05,0:40:22.22,Default,NTP,0000,0000,0000,,这么多年来  我周游世界\N{\fn微软雅黑\fs14\c&H4bc2ef&}For so many years, I've travelled across worlds,
+Dialogue: 0,0:40:24.46,0:40:26.87,Default,NTP,0000,0000,0000,,穿越平行宇宙  只为了做一件事\N{\fn微软雅黑\fs14\c&H4bc2ef&}across the multi-verse, to do one thing.
+Dialogue: 0,0:40:27.58,0:40:28.63,Default,NTP,0000,0000,0000,,杀了你\N{\fn微软雅黑\fs14\c&H4bc2ef&}To kill you.
+Dialogue: 0,0:40:30.00,0:40:31.30,Default,NTP,0000,0000,0000,,但是现在  我们在这里\N{\fn微软雅黑\fs14\c&H4bc2ef&}And now, we're here.
+Dialogue: 0,0:40:32.94,0:40:34.30,Default,NTP,0000,0000,0000,,你救了我的命\N{\fn微软雅黑\fs14\c&H4bc2ef&}You saved my life.
+Dialogue: 0,0:40:34.30,0:40:38.70,Default,NTP,0000,0000,0000,,服从并重新开始你的生活\N{\fn微软雅黑\fs14\c&H4bc2ef&}Submit and begin your life anew.
+Dialogue: 0,0:40:39.69,0:40:40.73,Default,NTP,0000,0000,0000,,展现给我看\N{\fn微软雅黑\fs14\c&H4bc2ef&}Show me.
+Dialogue: 0,0:40:41.25,0:40:44.13,Default,NTP,0000,0000,0000,,知识就在你心中\N{\fn微软雅黑\fs14\c&H4bc2ef&}The knowledge is within you.
+

@@ -1,0 +1,794 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 1
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正黑体_GBK,20,&H00FFFFFF,&HF0000000,&H00FF8000,&H32000000,-1,0,0,0,100,100,0,0,1,2,1,2,5,5,2,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:05.00,Default,NTP,0,0,0,,{\an5\fad(0,500)\p1\bord2\shad0\fscx150\fscy160\alpha&566\c&H000000&\3c&HECB000&\move(145,247,145,227,0,500)\clip(30,188,340,210)\t(0,500,\clip(30,168,340,190))}m 211 -8 b 217 -6 217 -4 217 -2 l 217 24 b 217 26 217 29 211 31 l 31 31 b 26 29 26 26 26 24 l 26 -2 b 26 -4 26 -6 31 -8{\p0}
+Dialogue: 0,0:00:00.00,0:00:05.00,Default,NTP,0,0,0,,{\an5\fad(0,500)\p1\bord2\shad0\fscx150\fscy160\alpha&566\c&H000000&\3c&HECB000&\move(145,207,145,227,0,500)\clip(30,220,340,235)\t(0,500,\clip(30,240,340,255))}m 211 -8 b 217 -6 217 -4 217 -2 l 217 24 b 217 26 217 29 211 31 l 31 31 b 26 29 26 26 26 24 l 26 -2 b 26 -4 26 -6 31 -8{\p0}
+Dialogue: 0,0:00:00.00,0:00:05.00,Default,NTP,0,0,0,,{\an5\fad(0,500)\p1\bord3\blur3\shad0\fscx150\fscy160\alpha&566\c&H000000&\pos(145,227)\clip(30,210,340,220)\t(0,500,\clip(30,190,340,240))}m 211 -8 b 217 -6 217 -4 217 -2 l 217 24 b 217 26 217 29 211 31 l 31 31 b 26 29 26 26 26 24 l 26 -2 b 26 -4 26 -6 31 -8{\p0}
+Dialogue: 1,0:00:00.50,0:00:05.00,Default,NTP,0,0,0,,{\fad(0,500)\bord0\shad0\blur5\t(0,500,\blur0)\fscx11\fscy14.5\p1\c&HCE8F00&\pos(67,223)}m 50 0 l 179 0 b 208 0 229 21 229 50 l 229 179 b 229 208 208 228 179 228 l 50 228 b 21 228 0 208 0 179 l 0 50 b 0 21 21 0 50 0{\p0}
+Dialogue: 1,0:00:00.50,0:00:05.00,Default,NTP,0,0,0,,{\fad(0,500)\bord0\shad0\blur5\t(0,500,\blur0)\fscx65\fscy80\p1\c&HFFFFFF&\pos(67.4,220)}m 0 0 b 1 -1 2 -2 4 -1 b 7 1 3 2 5 5 b 6 7 8 7 9 5 l 15 -6 b 18 -7 20 -6 20 -3 b 19 -1 17 2 17 4 b 16 7 20 7 21 6 b 22 4 23 2 25 -1 b 27 -2 29 -1 29 1 b 29 2 28 3 29 5 b 30 7 32 7 33 6 b 34 5 34 4 35 3 b 37 2 39 3 39 5 b 39 6 38 8 37 9 b 34 13 29 13 25 9 b 22 13 17 13 13 9 b 10 13 3 13 0 8 {\p0}
+Dialogue: 1,0:00:00.50,0:00:05.00,Default,NTP,0,0,0,,{\fad(0,500)\bord0\shad0\blur5\t(0,500,\blur0)\fscx11\fscy14\p1\c&HECB000&\pos(84,223)}m 325 0 l 355 0 l 332 47 l 354 47 l 399 136 l 369 136 l 328 53 l 288 136 l 257 136 l 325 0 m 467 0 l 497 0 l 474 47 l 496 47 l 541 136 l 511 136 l 470 53 l 430 136 l 399 136 l 467 0 m 545 1 l 583 1 l 583 14 l 568 14 l 568 19 l 583 19 l 583 30 l 568 30 l 568 34 l 599 34 l 599 30 l 583 30 l 583 19 l 599 19 l 599 14 l 583 14 l 583 1 l 611 1 b 616 1 622 6 622 10 l 622 36 l 652 0 l 678 0 l 644 41 l 622 41 l 622 47 l 596 47 l 597 54 l 625 54 l 625 68 l 541 68 l 541 54 l 572 54 l 571 47 l 545 47 l 545 1 m 583 72 l 583 85 l 569 85 l 569 90 l 598 90 l 598 85 l 583 85 l 583 72 l 611 72 b 615 72 621 78 621 82 l 653 44 l 678 44 l 644 86 l 621 86 l 621 103 l 597 103 l 597 136 l 570 136 l 564 126 l 562 136 l 542 136 l 548 107 l 568 107 l 565 121 l 571 121 l 571 103 l 547 103 l 547 72 l 583 72 m 600 107 l 620 107 l 624 124 l 653 89 l 679 89 l 642 136 l 615 136 l 618 132 l 606 132 l 600 107 m 689 0 l 716 0 l 721 15 l 732 15 l 732 30 l 718 56 l 731 56 l 735 100 l 721 100 l 717 59 l 714 64 l 714 136 l 693 136 l 693 79 l 676 79 l 707 30 l 679 30 l 679 15 l 694 15 l 689 0 m 738 0 l 804 0 b 807 0 813 6 813 9 l 813 87 l 794 87 l 794 14 l 756 14 l 756 87 l 763 77 l 763 21 l 787 21 l 787 91 l 798 91 l 798 120 l 820 120 l 812 136 l 778 136 l 778 90 l 748 136 l 723 136 l 756 87 l 738 87 l 738 0 m 257 151 l 275 151 l 297 182 l 319 151 l 337 151 l 304 197 l 304 227 l 290 227 l 290 197 l 257 151 m 337 151 l 355 151 l 377 182 l 399 151 l 417 151 l 384 197 l 384 227 l 370 227 l 370 197 l 337 151 m 425 192 l 447 192 b 445 181 427 181 425 192 l 410 192 b 414 162 458 162 462 192 l 462 206 l 425 206 b 425 210 429 212 433 213 l 462 213 l 462 227 l 433 227 b 412 227 408 203 410 192 m 462 151 l 532 151 l 532 165 l 504 165 l 504 227 l 489 227 l 489 165 l 462 165 l 462 151 m 580 172 l 580 186 l 549 186 b 543 186 543 192 549 192 l 565 192 b 589 192 589 227 565 227 l 532 227 l 532 213 l 565 213 b 570 213 570 206 565 206 l 549 206 b 524 206 524 172 549 172 l 580 172 m 592 213 l 606 213 l 606 227 l 592 227 l 592 213 m 639 172 l 665 172 l 665 186 l 639 186 b 623 186 623 213 639 213 l 665 213 l 665 227 l 639 227 b 603 227 603 172 639 172 m 700 184 b 722 184 722 215 700 215 l 700 229 b 740 229 740 170 700 170 b 660 170 660 229 700 229 l 700 215 b 680 215 680 184 700 184 m 737 172 l 782 172 b 803 172 813 177 813 198 l 813 228 l 799 228 l 799 198 b 799 186 793 187 782 187 l 782 228 l 768 228 l 768 187 l 752 187 l 752 228 l 737 228 l 737 172{\p0}
+Dialogue: 1,0:00:00.50,0:00:05.00,Default,NTP,0,0,0,,{\fad(0,500)\fs16\bord0\shad0\blur5\t(0,500,\blur0)\b1\c&HECB000&\pos(99,242)}原创翻译  双语字幕
+Dialogue: 0,0:00:00.83,0:00:02.89,Default,NTP,0000,0000,0000,,《超女》前情提要\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Previously on Supergirl...
+Dialogue: 1,0:00:01.00,0:00:05.00,Default,NTP,0,0,0,,{\fad(0,500)\fn方正准圆_GBK\b1\bord0\shad0\fs17\pos(235.108,242)\K40}最新连载海外影视剧下载\N{\fs19\K30}请登陆 {\c&H26F4FF&\fn方正综艺_GBK\K30}www.YYeTs.com\N{\fn方正准圆_GBK\fs15\c&HFFFFFF&\K60}仅供交流学习  禁止商用盈利
+Dialogue: 0,0:00:05.50,0:00:36.51,Default,,0,0,0,,{\an2\fad(550,550)\bord0\shad0\shad0\fscx150\fscy170\p1\pos(26,248)\c&HECB000&\b1}m 38 -1 l 44 6 l 38 13 l 19 13 b 14 12 14 6 14 6 b 14 6 14 0 19 -1{\p0}
+Dialogue: 0,0:00:05.61,0:00:08.28,Default,NTP,0000,0000,0000,,创伤后心理医生的转诊文件\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Referrals for post-trauma psychologists.
+Dialogue: 0,0:00:06.00,0:00:36.51,Default,,0,0,0,,{\an9\bord0\shad0\shad0\fscx130\fscy170\frz180\p1\alpha&88\c&H000000&\b1\move(-180,245,70,245,0,500)\clip(49,215,304,257)\fad(550,550)}m 200 -1 l 200 13 l 19 13 b 14 12 14 6 14 6 b 14 6 14 0 19 -1{\p0}
+Dialogue: 0,0:00:06.51,0:00:11.51,Default,NTP,0,0,0,,{\an4\fad(500,500)\bord0\shad0\fs18\pos(35,235)\fn方正准圆_GBK\c&H000000&}翻译     {\c&HFFFFFF&}DustD  洗七里  DerbyNinja
+Dialogue: 0,0:00:08.28,0:00:09.66,Default,NTP,0000,0000,0000,,凯莉  我说了我没事\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Kelly, I said I'm fine.
+Dialogue: 0,0:00:09.90,0:00:11.16,Default,NTP,0000,0000,0000,,你先穿上这个\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Put this on first.
+Dialogue: 0,0:00:11.20,0:00:13.11,Default,NTP,0000,0000,0000,,你看起来跟她一模一样\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You really look exactly like her.
+Dialogue: 0,0:00:11.51,0:00:16.51,Default,NTP,0,0,0,,{\an4\fad(500,500)\bord0\shad0\fs18\pos(35,235)\fn方正准圆_GBK\c&H000000&}翻译     {\c&HFFFFFF&}阿p  左左  C·A
+Dialogue: 0,0:00:13.19,0:00:14.42,Default,NTP,0000,0000,0000,,我的美国同胞们\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}My fellow Americans,
+Dialogue: 0,0:00:14.43,0:00:16.86,Default,NTP,0000,0000,0000,,我们伟大国家的核心遭受了袭击\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}the heart of our great nation was attacked...
+Dialogue: 0,0:00:16.51,0:00:21.51,Default,NTP,0,0,0,,{\an4\fad(500,500)\bord0\shad0\fs18\pos(35,235)\fn方正准圆_GBK\c&H000000&}校对     {\c&HFFFFFF&}肉松  饿得慌
+Dialogue: 0,0:00:16.86,0:00:20.41,Default,NTP,0000,0000,0000,,超女  你现在是头号公敌\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Supergirl, you are now public enemy number one.
+Dialogue: 0,0:00:20.41,0:00:21.78,Default,NTP,0000,0000,0000,,我们知道不是你做的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We know you didn't do this.
+Dialogue: 0,0:00:21.51,0:00:26.51,Default,NTP,0,0,0,,{\an4\fad(500,500)\bord0\shad0\fs18\pos(27,235)\fn方正准圆_GBK\c&H000000&}时间轴    {\c&HFFFFFF&}想念Gallifrey的Wholock  三水
+Dialogue: 0,0:00:21.78,0:00:23.11,Default,NTP,0000,0000,0000,,我们会查明真相\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We're gonna find out the truth.
+Dialogue: 0,0:00:23.11,0:00:24.13,Default,NTP,0000,0000,0000,,齐心协力\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Together.
+Dialogue: 0,0:00:24.91,0:00:30.60,Default,NTP,0000,0000,0000,,{\an8}{\fn微软雅黑\fs18\b0\bord1\shad1\3c&H2F2F2F&}贝克总统公告
+Dialogue: 0,0:00:24.96,0:00:26.42,Default,NTP,0000,0000,0000,,我的美国同胞们\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}My fellow Americans,
+Dialogue: 0,0:00:26.51,0:00:31.51,Default,NTP,0,0,0,,{\an4\fad(500,500)\bord0\shad0\fs18\pos(35,235)\fn方正准圆_GBK\c&H000000&}后期     {\c&HFFFFFF&}你是不是饿得慌
+Dialogue: 0,0:00:27.41,0:00:30.67,Default,NTP,0000,0000,0000,,自从超女袭击白宫已经过了一天\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}it has been a day since Supergirl's attack on the White House.
+Dialogue: 0,0:00:30.88,0:00:32.62,Default,NTP,0000,0000,0000,,这明显是对\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}In apparent retaliation
+Dialogue: 0,0:00:31.51,0:00:36.51,Default,NTP,0,0,0,,{\an4\fad(500,500)\bord0\shad0\fs18\pos(35,235)\fn方正准圆_GBK\c&H000000&}总监     {\c&HFFFFFF&}你是不是饿得慌
+Dialogue: 0,0:00:32.87,0:00:35.78,Default,NTP,0000,0000,0000,,我们废除《外星人赦免法》的报复\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}for our repeal of the Alien Amnesty Act.
+Dialogue: 0,0:00:36.10,0:00:39.59,Default,NTP,0000,0000,0000,,目前她与同谋们目前依然在逃\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}While she and those with whom she conspired remain at large,
+Dialogue: 0,0:00:40.05,0:00:41.67,Default,NTP,0000,0000,0000,,我有义务\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I have an obligation
+Dialogue: 0,0:00:41.67,0:00:44.44,Default,NTP,0000,0000,0000,,保障所有公民的安全\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}to ensure the safety of all citizens.
+Dialogue: 0,0:00:45.39,0:00:48.67,Default,NTP,0000,0000,0000,,所以  在今天19点整\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}So, at 1900 hours today,
+Dialogue: 0,0:00:48.89,0:00:52.48,Default,NTP,0000,0000,0000,,我将执行日落到日出戒严\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I am imposing a sundown to sunup curfew.
+Dialogue: 0,0:00:52.55,0:00:53.87,Default,NTP,0000,0000,0000,,他们最好抓住她\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}They better catch her.
+Dialogue: 0,0:00:53.87,0:00:55.37,Default,NTP,0000,0000,0000,,这不是超女做的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Supergirl did not do this.
+Dialogue: 0,0:00:55.37,0:00:57.68,Default,NTP,0000,0000,0000,,在街头滞留的人类将被收押\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Humans caught loitering will be cited.
+Dialogue: 0,0:00:57.68,0:01:00.94,Default,NTP,0000,0000,0000,,外星人将被尽一切手段阻止\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Aliens will be stopped by any means necessary.
+Dialogue: 0,0:01:00.94,0:01:04.03,Default,NTP,0000,0000,0000,,还有超女  请来自首\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And to Supergirl, turn yourself in.
+Dialogue: 0,0:01:04.46,0:01:06.12,Default,NTP,0000,0000,0000,,我们不想与你进行战争\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We do not want a war with you
+Dialogue: 0,0:01:06.12,0:01:09.23,Default,NTP,0000,0000,0000,,但我们发誓将运用我们的一切手段\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}but we vow to use every asset in our power
+Dialogue: 0,0:01:09.23,0:01:11.32,Default,NTP,0000,0000,0000,,来伸张正义\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}to see that justice is done.
+Dialogue: 0,0:01:11.35,0:01:14.29,Default,NTP,0000,0000,0000,,正义  真是个骗子\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Justice? What a crock!
+Dialogue: 0,0:01:15.56,0:01:17.90,Default,NTP,0000,0000,0000,,救命  谁来救救我  我被困住了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Help! Somebody help! I'm trapped.
+Dialogue: 0,0:01:17.90,0:01:19.10,Default,NTP,0000,0000,0000,,有人遇到麻烦了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Someone's in trouble.
+Dialogue: 0,0:01:19.14,0:01:20.06,Default,NTP,0000,0000,0000,,我得走了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I have to go.
+Dialogue: 0,0:01:20.09,0:01:21.80,Default,NTP,0000,0000,0000,,你听到总统说的了  外边不安全\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You heard the president, it isn't safe.
+Dialogue: 0,0:01:21.80,0:01:23.78,Default,NTP,0000,0000,0000,,如果政府想要阻止我帮助别人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}If the government wants to stop me from helping people,
+Dialogue: 0,0:01:23.78,0:01:24.84,Default,NTP,0000,0000,0000,,那就让他们试试\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}let them try.
+Dialogue: 0,0:01:40.40,0:01:41.09,Default,NTP,0000,0000,0000,,来\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Here.
+Dialogue: 0,0:01:44.75,0:01:46.12,Default,NTP,0000,0000,0000,,这是私人拘捕\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}This is a citizen's arrest.
+Dialogue: 0,0:01:46.12,0:01:48.37,Default,NTP,0000,0000,0000,,这个人需要帮助  放下枪\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}This man needs help. Put the gun--
+Dialogue: 0,0:01:49.25,0:01:52.43,Default,NTP,0000,0000,0000,,住手  你们在新闻上看到的那个人不是我\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Stop! What you saw in the news, that wasn't me.
+Dialogue: 0,0:01:52.43,0:01:53.51,Default,NTP,0000,0000,0000,,我们看到录像了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We saw the footage.
+Dialogue: 0,0:01:53.51,0:01:54.67,Default,NTP,0000,0000,0000,,你退后  叛徒\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You stay back, traitor.
+Dialogue: 0,0:01:54.67,0:01:56.27,Default,NTP,0000,0000,0000,,我不会伤害任...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm not going to hurt any--
+Dialogue: 0,0:02:02.68,0:02:03.93,Default,NTP,0000,0000,0000,,你会误杀别人的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You're gonna kill someone.
+Dialogue: 0,0:02:03.93,0:02:04.95,Default,NTP,0000,0000,0000,,她会杀了我们的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}She's gonna kill us.
+Dialogue: 0,0:02:04.95,0:02:06.34,Default,NTP,0000,0000,0000,,我可以先杀了她\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Not if I kill her first.
+Dialogue: 0,0:02:10.11,0:02:11.00,Default,NTP,0000,0000,0000,,你没事吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Are you okay?
+Dialogue: 0,0:02:12.54,0:02:13.31,Default,NTP,0000,0000,0000,,谢谢你\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Thank you.
+Dialogue: 0,0:02:15.64,0:02:16.61,Default,NTP,0000,0000,0000,,但我不明白\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But I don't get it.
+Dialogue: 0,0:02:18.29,0:02:20.85,Default,NTP,0000,0000,0000,,你救了我  但是却袭击了白宫\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You saved my life but you attacked the White House?
+Dialogue: 0,0:02:21.35,0:02:22.71,Default,NTP,0000,0000,0000,,我的女儿看到了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}My daughter saw that.
+Dialogue: 0,0:02:23.41,0:02:24.83,Default,NTP,0000,0000,0000,,你曾是她的英雄  但你...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You were her hero and you...
+Dialogue: 0,0:02:25.68,0:02:26.59,Default,NTP,0000,0000,0000,,你伤了她的心\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You crushed her.
+Dialogue: 0,0:02:33.05,0:02:37.63,Default,NTP,0000,0000,0000,,{\fad(0,350)\an8\fs31\t(0,4190,\fs36)\fn方正兰亭特黑_GBK\bord1.5\blur1\shad0\pos(188.331,157.909)\c&H020202&\3c&H0B0A0A&\t(0,1730,2,\c&H00002F&\3c&H264E71&)}超 女\N{\fsp0\fs14\t(0,4190,\fs17)}第四季 第十八集
+Dialogue: 0,0:02:38.98,0:02:41.00,Default,NTP,0000,0000,0000,,居然有人相信\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I mean, people actually believe
+Dialogue: 0,0:02:41.07,0:02:42.98,Default,NTP,0000,0000,0000,,我袭击了白宫\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}that I attacked the White House.
+Dialogue: 0,0:02:43.48,0:02:45.05,Default,NTP,0000,0000,0000,,他们认为我是恐怖分子\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}They think I'm a terrorist.
+Dialogue: 0,0:02:46.18,0:02:49.87,Default,NTP,0000,0000,0000,,我帮了别人那么多年  一句谎言就抹杀了这一切\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Years of helping people just wiped away with one lie.
+Dialogue: 0,0:02:49.99,0:02:52.21,Default,NTP,0000,0000,0000,,不是一句谎言  而是许多谎言\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}No, not one lie, it's lots of lies.
+Dialogue: 0,0:02:52.21,0:02:54.87,Default,NTP,0000,0000,0000,,本·洛克伍德说好几个月的谎言了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And Ben Lockwood has been telling whoppers for months.
+Dialogue: 0,0:02:54.87,0:02:56.55,Default,NTP,0000,0000,0000,,他在制造分裂\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}He's just creating division.
+Dialogue: 0,0:02:56.92,0:02:58.66,Default,NTP,0000,0000,0000,,大部分国民很害怕\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And then most of the country is just terrified
+Dialogue: 0,0:02:58.67,0:03:00.94,Default,NTP,0000,0000,0000,,现在他们正在试图理解这一切\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and now they're looking for solutions to make any sense of it.
+Dialogue: 0,0:03:00.95,0:03:02.85,Default,NTP,0000,0000,0000,,难道真相不是更重要吗\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Shouldn't the truth matter more?
+Dialogue: 0,0:03:03.05,0:03:05.00,Default,NTP,0000,0000,0000,,莱克斯参与其中就不同了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Not when Lex is involved.
+Dialogue: 0,0:03:05.23,0:03:08.37,Default,NTP,0000,0000,0000,,他是欺骗的高手  完美的迷魂烟\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}He's an expert at perception. Consummate gaslighter.
+Dialogue: 0,0:03:08.61,0:03:10.85,Default,NTP,0000,0000,0000,,他可以让你怀疑你所认定的真相\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}He can make you doubt things that you know are true.
+Dialogue: 0,0:03:11.35,0:03:12.77,Default,NTP,0000,0000,0000,,我坚信\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Listen, I really believe that
+Dialogue: 0,0:03:12.77,0:03:14.28,Default,NTP,0000,0000,0000,,我们三个人一起合作\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}the three of us working together
+Dialogue: 0,0:03:14.28,0:03:17.14,Default,NTP,0000,0000,0000,,才是还你清白并抓住他的最好机会\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}is our best chance of vindicating you and catching him.
+Dialogue: 0,0:03:17.14,0:03:18.60,Default,NTP,0000,0000,0000,,那他是怎么做到的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Okay, so how did he do it?
+Dialogue: 0,0:03:18.75,0:03:20.89,Default,NTP,0000,0000,0000,,我们知道那不是异超女  我调查过了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We know it wasn't Bizarro, I already checked.
+Dialogue: 0,0:03:21.07,0:03:23.94,Default,NTP,0000,0000,0000,,变形者  全息投影  形象诱发器\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Shapeshifter, hologram? Image inducer...
+Dialogue: 0,0:03:23.94,0:03:25.81,Default,NTP,0000,0000,0000,,不可能  热信号不匹配\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}No, that can't be right. The heat signatures don't match.
+Dialogue: 0,0:03:25.81,0:03:27.02,Default,NTP,0000,0000,0000,,我不明白\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I don't understand.
+Dialogue: 0,0:03:28.04,0:03:29.12,Default,NTP,0000,0000,0000,,他到底想干什么\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What is he up to?
+Dialogue: 0,0:03:29.12,0:03:31.00,Default,NTP,0000,0000,0000,,我不知道  但我们会找到真相的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I don't know. But we will find the truth
+Dialogue: 0,0:03:31.00,0:03:32.37,Default,NTP,0000,0000,0000,,然后我们会扳倒他\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and we will bring him down.
+Dialogue: 0,0:03:32.58,0:03:34.74,Default,NTP,0000,0000,0000,,我有条线索能帮我们做到这一点\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}All right, and to that end I've got a lead.
+Dialogue: 0,0:03:35.56,0:03:36.90,Default,NTP,0000,0000,0000,,但是从我妈那里听来的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But it comes from my mother.
+Dialogue: 0,0:03:37.81,0:03:39.14,Default,NTP,0000,0000,0000,,她说莱克斯从\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}She said that Lex's escape
+Dialogue: 0,0:03:39.14,0:03:41.36,Default,NTP,0000,0000,0000,,斯特赖克岛监狱逃走不是第一次了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}from Stryker's Island prison wasn't his first.
+Dialogue: 0,0:03:41.85,0:03:43.82,Default,NTP,0000,0000,0000,,他几个月来一直自由进出\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}That he's been coming and going as he pleases for months.
+Dialogue: 0,0:03:43.82,0:03:45.13,Default,NTP,0000,0000,0000,,所以有人在帮助他\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}So someone's been helping him.
+Dialogue: 0,0:03:45.50,0:03:46.28,Default,NTP,0000,0000,0000,,典狱长\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}The warden.
+Dialogue: 0,0:03:49.07,0:03:49.80,Default,NTP,0000,0000,0000,,典狱长\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Warden!
+Dialogue: 0,0:03:50.51,0:03:51.72,Default,NTP,0000,0000,0000,,抱歉打扰了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Sorry to interrupt.
+Dialogue: 0,0:03:51.78,0:03:52.92,Default,NTP,0000,0000,0000,,超女\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Supergirl.
+Dialogue: 0,0:03:54.88,0:03:57.05,Default,NTP,0000,0000,0000,,我想你和卢瑟女士来这里\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I assume you're here with Ms. Luthor
+Dialogue: 0,0:03:57.05,0:03:58.49,Default,NTP,0000,0000,0000,,是要自首\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}to turn yourself in.
+Dialogue: 0,0:03:59.33,0:04:00.78,Default,NTP,0000,0000,0000,,你可能需要重新考虑一下\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You might want to rethink that.
+Dialogue: 0,0:04:00.99,0:04:03.20,Default,NTP,0000,0000,0000,,贿赂和逃税是重罪\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Bribery and tax evasion are felonies.
+Dialogue: 0,0:04:03.58,0:04:05.88,Default,NTP,0000,0000,0000,,帮助莱克斯·卢瑟这样的罪犯也是\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}So is helping a criminal like Lex Luthor.
+Dialogue: 0,0:04:07.03,0:04:07.96,Default,NTP,0000,0000,0000,,他在哪里\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Where is he?
+Dialogue: 0,0:04:08.77,0:04:09.94,Default,NTP,0000,0000,0000,,别胡扯了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Don't be ridiculous.
+Dialogue: 0,0:04:09.94,0:04:13.70,Default,NTP,0000,0000,0000,,开曼群岛账户832591290\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Account number 832591290 in the Cayman Islands.
+Dialogue: 0,0:04:15.17,0:04:15.92,Default,NTP,0000,0000,0000,,好吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Okay.
+Dialogue: 0,0:04:17.28,0:04:18.77,Default,NTP,0000,0000,0000,,我可能收了些钱\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I may have taken some money.
+Dialogue: 0,0:04:19.23,0:04:20.39,Default,NTP,0000,0000,0000,,但我不知道他在哪\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But I don't know where he is.
+Dialogue: 0,0:04:20.40,0:04:22.04,Default,NTP,0000,0000,0000,,你让他自由进出\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You let him come and go.
+Dialogue: 0,0:04:22.29,0:04:23.53,Default,NTP,0000,0000,0000,,他从没告诉过我他会去哪里\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}He never told me where he went.
+Dialogue: 0,0:04:23.53,0:04:24.62,Default,NTP,0000,0000,0000,,你就没想过问一下吗\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You never thought to ask?
+Dialogue: 0,0:04:24.62,0:04:25.93,Default,NTP,0000,0000,0000,,我不过是睁一只眼闭一只眼而已\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}All I did was turn a blind eye
+Dialogue: 0,0:04:25.93,0:04:27.51,Default,NTP,0000,0000,0000,,毕竟他威胁要杀了我\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and that was after he threatened to kill me.
+Dialogue: 0,0:04:27.51,0:04:29.21,Default,NTP,0000,0000,0000,,得了吧  那是他的一贯伎俩\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, please, he does that to everyone.
+Dialogue: 0,0:04:29.21,0:04:31.75,Default,NTP,0000,0000,0000,,但这里什么都没有  联调局已经调查了牢房\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But there's nothing here. The FBI already checked his cell.
+Dialogue: 0,0:04:31.75,0:04:33.14,Default,NTP,0000,0000,0000,,他们也调查了你\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}They also checked you.
+Dialogue: 0,0:04:33.51,0:04:34.97,Default,NTP,0000,0000,0000,,所以或许他们漏掉了什么\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}So maybe they missed something else.
+Dialogue: 0,0:04:34.97,0:04:38.42,Default,NTP,0000,0000,0000,,你指望我带着美国头号通缉犯通过狱警吗\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You expect me to march America's most wanted past my guards?
+Dialogue: 0,0:04:39.05,0:04:41.58,Default,NTP,0000,0000,0000,,国防部会立马赶来\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}The DOD will be all over us in no time.
+Dialogue: 0,0:04:41.58,0:04:43.45,Default,NTP,0000,0000,0000,,到时你可以引开他们\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Well, then you can give them a distraction.
+Dialogue: 0,0:04:43.45,0:04:45.31,Default,NTP,0000,0000,0000,,与此同时我们搜索莱克斯的牢房\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And while we search Lex's cell
+Dialogue: 0,0:04:45.74,0:04:47.12,Default,NTP,0000,0000,0000,,你还有时间可以在你俩被逮捕前\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}you'll have time to call your husband
+Dialogue: 0,0:04:47.12,0:04:48.63,Default,NTP,0000,0000,0000,,给你丈夫打电话\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}before you're both arrested.
+Dialogue: 0,0:04:48.63,0:04:50.68,Default,NTP,0000,0000,0000,,我的丈夫与此无关\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}My husband had nothing to do with this.
+Dialogue: 0,0:04:51.87,0:04:54.07,Default,NTP,0000,0000,0000,,-他对账户的事一无所知  -好吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- He doesn't know anything about the account. - Fine.
+Dialogue: 0,0:04:54.19,0:04:56.30,Default,NTP,0000,0000,0000,,那么你让我们进入莱克斯的牢房\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}So you give us access to Lex's cell,
+Dialogue: 0,0:04:56.41,0:04:57.64,Default,NTP,0000,0000,0000,,我们就在联络当局的时候\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and we'll leave your husband out of it
+Dialogue: 0,0:04:57.64,0:04:59.14,Default,NTP,0000,0000,0000,,不提及你的丈夫\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}when we contact the authorities.
+Dialogue: 0,0:05:01.46,0:05:04.39,Default,NTP,0000,0000,0000,,我可以把D区狱警调开两个小时\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I could clear the guards out of D block for two hours.
+Dialogue: 0,0:05:14.12,0:05:15.94,Default,NTP,0000,0000,0000,,莱克斯的牢房就在那扇门后\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Lex's cell is through that door.
+Dialogue: 0,0:05:17.68,0:05:20.55,Default,NTP,0000,0000,0000,,你在特区放的烟花真漂亮  超女\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Nice fireworks in DC, Supergirl.
+Dialogue: 0,0:05:20.57,0:05:21.58,Default,NTP,0000,0000,0000,,那不是我干的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}That wasn't me.
+Dialogue: 0,0:05:21.58,0:05:24.14,Default,NTP,0000,0000,0000,,这里是关罪犯  不是关恐怖分子的地方\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}This place is for criminals not terrorists.
+Dialogue: 0,0:05:24.44,0:05:26.51,Default,NTP,0000,0000,0000,,好了  继续走  强势一点\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Okay, keep walking. Stay strong.
+Dialogue: 0,0:05:27.05,0:05:29.51,Default,NTP,0000,0000,0000,,欢迎来到斯特赖克  超女\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Welcome to Stryker's, Supergirl.
+Dialogue: 0,0:05:29.86,0:05:31.86,Default,NTP,0000,0000,0000,,超女\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Supergirl.
+Dialogue: 0,0:05:31.98,0:05:35.68,Default,NTP,0000,0000,0000,,超女  超女\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Supergirl. Supergirl.
+Dialogue: 0,0:05:35.68,0:05:39.02,Default,NTP,0000,0000,0000,,超女  超女\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Supergirl. Supergirl.
+Dialogue: 0,0:05:50.20,0:05:52.08,Default,NTP,0000,0000,0000,,这是《汉尼拔翻越阿尔卑斯山》\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It's Hannibal Crossing the Alps.
+Dialogue: 0,0:05:52.37,0:05:53.87,Default,NTP,0000,0000,0000,,真是自命不凡\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}So pretentious.
+Dialogue: 0,0:05:55.03,0:05:57.82,Default,NTP,0000,0000,0000,,看到莱克斯的东西  我会觉得很焦虑\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It's so unnerving being around all Lex's stuff.
+Dialogue: 0,0:05:58.17,0:06:00.60,Default,NTP,0000,0000,0000,,让我又回忆起了自己悲惨的童年\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Brings back memories of my miserable childhood.
+Dialogue: 0,0:06:02.14,0:06:03.92,Default,NTP,0000,0000,0000,,甚至还有一模一样的棋盘\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Even has the same chess board.
+Dialogue: 0,0:06:12.39,0:06:13.36,Default,NTP,0000,0000,0000,,你在干什么\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What are you doing?
+Dialogue: 0,0:06:13.87,0:06:16.13,Default,NTP,0000,0000,0000,,我知道这听起来很傻  但我们小时候\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I know it sounds silly but when we were little,
+Dialogue: 0,0:06:16.14,0:06:19.55,Default,NTP,0000,0000,0000,,我和莱克斯会在棋子里给对方留字条\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Lex and I used to leave notes for each other inside chess pieces.
+Dialogue: 0,0:06:21.56,0:06:22.49,Default,NTP,0000,0000,0000,,找到了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Here it is.
+Dialogue: 0,0:06:31.91,0:06:33.80,Default,NTP,0000,0000,0000,,死亡时间凌晨4点3分\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Time of death 4:03 a.m.
+Dialogue: 0,0:06:38.55,0:06:39.35,Default,NTP,0000,0000,0000,,这是什么\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What is it?
+Dialogue: 0,0:06:39.63,0:06:42.75,Default,NTP,0000,0000,0000,,没什么  只是莱克斯想扰乱我的思绪\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Nothing, it's just Lex trying to mess with my head.
+Dialogue: 0,0:06:42.75,0:06:44.09,Default,NTP,0000,0000,0000,,那后面的数字呢\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And the number on the back?
+Dialogue: 0,0:06:44.47,0:06:47.73,Default,NTP,0000,0000,0000,,-7  16  18  是个日期吗  -对  这是...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- 7/16/18. A date? - Yes, it's...
+Dialogue: 0,0:06:47.75,0:06:50.56,Default,NTP,0000,0000,0000,,1918年7月16日\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}July 16, 1918.
+Dialogue: 0,0:06:50.83,0:06:53.42,Default,NTP,0000,0000,0000,,是罗曼诺夫在俄罗斯被处决的日子\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It's the date that Romanovs were executed in Russia.
+Dialogue: 0,0:06:53.62,0:06:55.66,Default,NTP,0000,0000,0000,,莱克斯曾经叫我"迷失的公主"\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Lex used to call me the Lost Princess.
+Dialogue: 0,0:06:56.59,0:06:58.12,Default,NTP,0000,0000,0000,,就像安娜斯塔西娅一样\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Just like Anastasia.
+Dialogue: 0,0:07:02.47,0:07:04.07,Default,NTP,0000,0000,0000,,这是个将死的棋阵\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It's a checkmate pattern.
+Dialogue: 0,0:07:04.59,0:07:05.75,Default,NTP,0000,0000,0000,,安娜斯塔西娅就是我\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Anastasia's me.
+Dialogue: 0,0:07:19.23,0:07:20.31,Default,NTP,0000,0000,0000,,莱克斯的日记\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Lex's diaries.
+Dialogue: 0,0:07:21.00,0:07:22.15,Default,NTP,0000,0000,0000,,他为什么要把日记留下\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Why would he leave them?
+Dialogue: 0,0:07:23.49,0:07:24.98,Default,NTP,0000,0000,0000,,因为他知道我会来找他\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Because he knew I'd come looking for him.
+Dialogue: 0,0:07:25.08,0:07:26.47,Default,NTP,0000,0000,0000,,他喜欢折磨我\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And he loves to torment me.
+Dialogue: 0,0:07:26.47,0:07:27.79,Default,NTP,0000,0000,0000,,他知道我最不想做的事\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}He knew the last thing I'd wanna do
+Dialogue: 0,0:07:27.79,0:07:29.81,Default,NTP,0000,0000,0000,,就是在他的记忆中畅游\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}would be to go swimming in his memories.
+Dialogue: 0,0:07:30.68,0:07:33.63,Default,NTP,0000,0000,0000,,他心理变态扭曲  但至少他始终如一\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}He's sick, and he's twisted but at least he's consistent.
+Dialogue: 0,0:07:42.83,0:07:43.65,Default,NTP,0000,0000,0000,,洛克伍德\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Lockwood.
+Dialogue: 0,0:07:43.65,0:07:45.34,Default,NTP,0000,0000,0000,,我现在可是\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Secretary Lockwood now
+Dialogue: 0,0:07:45.34,0:07:48.45,Default,NTP,0000,0000,0000,,内阁级外星事务部的洛克伍德秘书\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}of the cabinet-level Department of Alien Affairs.
+Dialogue: 0,0:07:48.45,0:07:51.72,Default,NTP,0000,0000,0000,,应该是纳欣诺市监狱的42053号囚犯\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Should be inmate 42053 of the National City prison.
+Dialogue: 0,0:07:51.73,0:07:53.13,Default,NTP,0000,0000,0000,,很高兴见到你\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}So good to see you, too.
+Dialogue: 0,0:07:53.13,0:07:55.44,Default,NTP,0000,0000,0000,,秘书先生  我们能为您做些什么\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Mr. Secretary, how can we help you?
+Dialogue: 0,0:07:55.45,0:07:58.36,Default,NTP,0000,0000,0000,,我来这里是为了征用\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I am here to requisition any alien technology
+Dialogue: 0,0:07:58.36,0:08:01.82,Default,NTP,0000,0000,0000,,可以牵制超女的外星技术或武器\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}or weapons that may assist in containing Supergirl.
+Dialogue: 0,0:08:01.87,0:08:04.54,Default,NTP,0000,0000,0000,,然后你们要召唤超女\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And then you'll summon Supergirl
+Dialogue: 0,0:08:05.38,0:08:05.99,Default,NTP,0000,0000,0000,,来这里\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}here.
+Dialogue: 0,0:08:05.99,0:08:07.56,Default,NTP,0000,0000,0000,,好让你伏击她吗\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}So you can ambush her?
+Dialogue: 0,0:08:09.69,0:08:12.02,Default,NTP,0000,0000,0000,,好让我们伸张正义\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}So we can serve justice.
+Dialogue: 0,0:08:12.02,0:08:14.61,Default,NTP,0000,0000,0000,,即使我们可以召唤超女\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Even if we could summon Supergirl,
+Dialogue: 0,0:08:14.61,0:08:16.80,Default,NTP,0000,0000,0000,,我也要拿到总统令  才能满足你的要求\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I would need a presidential order to comply with your request,
+Dialogue: 0,0:08:16.80,0:08:20.25,Default,NTP,0000,0000,0000,,这是超查部章程第4段A小节的规定\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}as per paragraph four subsection A of the DEO charter.
+Dialogue: 0,0:08:20.25,0:08:22.05,Default,NTP,0000,0000,0000,,对吗  上校\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Isn't that correct, Colonel?
+Dialogue: 0,0:08:23.30,0:08:24.63,Default,NTP,0000,0000,0000,,这是我们的规程\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}That is the protocol.
+Dialogue: 0,0:08:25.37,0:08:27.02,Default,NTP,0000,0000,0000,,之后我们会很乐意配合\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Then we'd be happy to comply.
+Dialogue: 0,0:08:27.84,0:08:29.09,Default,NTP,0000,0000,0000,,好吧  我问你个问题\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Okay, let me ask you a question.
+Dialogue: 0,0:08:29.10,0:08:31.89,Default,NTP,0000,0000,0000,,你确定想浪费我的时间吗\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Are you absolutely certain that you want to waste my time?
+Dialogue: 0,0:08:31.89,0:08:35.36,Default,NTP,0000,0000,0000,,我们可能不太了解对方  洛克伍德先生\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We may not know each other well, Mr. Lockwood,
+Dialogue: 0,0:08:35.76,0:08:39.25,Default,NTP,0000,0000,0000,,但我是按部就班做事的  即使是面对秘书\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}but I do things by the book, even for secretaries.
+Dialogue: 0,0:08:51.76,0:08:54.20,Default,NTP,0000,0000,0000,,A小组  现在去军械库\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Alpha team, to the armory now.
+Dialogue: 0,0:08:54.87,0:08:57.47,Default,NTP,0000,0000,0000,,上校  你为什么要让步\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Colonel, why are you capitulating?
+Dialogue: 0,0:08:57.48,0:08:58.85,Default,NTP,0000,0000,0000,,我们刚才已经把他逼退了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We just got him to back off.
+Dialogue: 0,0:08:58.85,0:08:59.95,Default,NTP,0000,0000,0000,,如果是总统派他来的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}If the president sent him,
+Dialogue: 0,0:08:59.95,0:09:01.91,Default,NTP,0000,0000,0000,,他很快就会拿到总统令\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}he'll be back with the order in no time.
+Dialogue: 0,0:09:01.91,0:09:04.19,Default,NTP,0000,0000,0000,,我们都知道超女是无辜的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We both know that Supergirl is innocent.
+Dialogue: 0,0:09:04.19,0:09:06.37,Default,NTP,0000,0000,0000,,我们要做的不是去质疑  局长\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It's not our job to question, Director,
+Dialogue: 0,0:09:07.18,0:09:09.15,Default,NTP,0000,0000,0000,,所以我需要你交出超女给你的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}which is why I need you to hand over the signal watch
+Dialogue: 0,0:09:09.15,0:09:10.36,Default,NTP,0000,0000,0000,,信号手表\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Supergirl gave you.
+Dialogue: 0,0:09:11.63,0:09:13.62,Default,NTP,0000,0000,0000,,如果我们有办法召唤超女\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}If we are in possession of a way to summon Supergirl,
+Dialogue: 0,0:09:13.62,0:09:15.07,Default,NTP,0000,0000,0000,,就必须试试\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}we have to use it.
+Dialogue: 0,0:09:17.10,0:09:18.26,Default,NTP,0000,0000,0000,,命令就是命令\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Orders are orders.
+Dialogue: 0,0:09:22.37,0:09:24.10,Default,NTP,0000,0000,0000,,按两次  她就会收到警报\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Press it twice, she gets the alert.
+Dialogue: 0,0:09:25.62,0:09:26.29,Default,NTP,0000,0000,0000,,你好\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Hello.
+Dialogue: 0,0:09:28.72,0:09:29.75,Default,NTP,0000,0000,0000,,我马上就到\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'll be right there.
+Dialogue: 0,0:09:30.34,0:09:34.04,Default,NTP,0000,0000,0000,,你叫哈雷上校按两次信号手表\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You told Colonel Haley to press the signal watch twice.
+Dialogue: 0,0:09:34.05,0:09:35.98,Default,NTP,0000,0000,0000,,对  你知道代号\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Yes. You know the code.
+Dialogue: 0,0:09:36.02,0:09:38.39,Default,NTP,0000,0000,0000,,按一次她会过来  按两次\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Push it once she comes, push it twice,
+Dialogue: 0,0:09:38.95,0:09:40.38,Default,NTP,0000,0000,0000,,说明这是个陷阱  别来\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}it's a trap, don't come.
+Dialogue: 0,0:09:40.38,0:09:41.97,Default,NTP,0000,0000,0000,,这样她就安全了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Thus keeping her safe.
+Dialogue: 0,0:09:42.92,0:09:43.61,Default,NTP,0000,0000,0000,,聪明\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Brilliant.
+Dialogue: 0,0:09:43.94,0:09:45.76,Default,NTP,0000,0000,0000,,但是超女并不是唯一有风险的人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Yet Supergirl isn't the only one at risk.
+Dialogue: 0,0:09:45.76,0:09:48.24,Default,NTP,0000,0000,0000,,既然本杰明·洛克伍德今天冲着她来了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Since Benjamin Lockwood has come for her today,
+Dialogue: 0,0:09:48.24,0:09:49.81,Default,NTP,0000,0000,0000,,那么很有可能\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}there is a high probability
+Dialogue: 0,0:09:49.81,0:09:52.16,Default,NTP,0000,0000,0000,,下个星期他会冲着所有的外星人来\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}that next week he'll come for the entire alien registry.
+Dialogue: 0,0:09:52.16,0:09:53.09,Default,NTP,0000,0000,0000,,-是的  -在那之后\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Yeah. - After which
+Dialogue: 0,0:09:53.09,0:09:54.97,Default,NTP,0000,0000,0000,,他将开始围捕所有外星人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}he'll start rounding up aliens without discrimination,
+Dialogue: 0,0:09:54.97,0:09:56.62,Default,NTP,0000,0000,0000,,因此  我建议\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}ergo I propose
+Dialogue: 0,0:09:58.55,0:10:01.00,Default,NTP,0000,0000,0000,,我们从数据库中清除外星人的注册信息\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}we scrub the alien registry from our database.
+Dialogue: 0,0:10:02.22,0:10:03.63,Default,NTP,0000,0000,0000,,如果你这么想的话\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}If that's what you think,
+Dialogue: 0,0:10:04.69,0:10:06.98,Default,NTP,0000,0000,0000,,在我能让哈雷信服道理之前\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and until I can get Haley to listen to reason,
+Dialogue: 0,0:10:06.98,0:10:08.90,Default,NTP,0000,0000,0000,,我们要尽我们所能\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}then we need to do whatever we can.
+Dialogue: 0,0:10:09.26,0:10:10.99,Default,NTP,0000,0000,0000,,但是拜托  多克斯特工\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But please, Agent Dox,
+Dialogue: 0,0:10:11.15,0:10:12.42,Default,NTP,0000,0000,0000,,要保密\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}be clandestine.
+Dialogue: 0,0:10:12.42,0:10:13.44,Default,NTP,0000,0000,0000,,当然\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Of course.
+Dialogue: 0,0:10:13.88,0:10:17.00,Default,NTP,0000,0000,0000,,如你所知  没有人比我更会保密了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}As you well know, no one is more clandestine than I.
+Dialogue: 0,0:10:18.00,0:10:18.80,Default,NTP,0000,0000,0000,,没有人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}No one.
+Dialogue: 0,0:10:26.48,0:10:27.44,Default,NTP,0000,0000,0000,,紧张吗\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Nervous?
+Dialogue: 0,0:10:28.01,0:10:28.83,Default,NTP,0000,0000,0000,,不紧张\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Not at all.
+Dialogue: 0,0:10:29.25,0:10:32.09,Default,NTP,0000,0000,0000,,我今天已经在脑海里取消过三次预约了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I've just canceled three times in my head already today,
+Dialogue: 0,0:10:32.09,0:10:33.17,Default,NTP,0000,0000,0000,,就是这样\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}so there's that.
+Dialogue: 0,0:10:33.90,0:10:37.50,Default,NTP,0000,0000,0000,,帕克医生是全国最好的创伤治疗专家\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Doctor Park is the best trauma therapist in National City.
+Dialogue: 0,0:10:38.00,0:10:40.41,Default,NTP,0000,0000,0000,,她对创伤后应激障碍了若指掌\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}She practically wrote the book on PTSD.
+Dialogue: 0,0:10:40.51,0:10:42.86,Default,NTP,0000,0000,0000,,我知道这很难\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Still it's hard, I know.
+Dialogue: 0,0:10:43.36,0:10:44.97,Default,NTP,0000,0000,0000,,我见过有的士兵\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I have seen soldiers
+Dialogue: 0,0:10:46.24,0:10:48.55,Default,NTP,0000,0000,0000,,因为要接受接下来的治疗而吓得动弹不了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}paralyzed over what you're about to do.
+Dialogue: 0,0:10:52.36,0:10:54.02,Default,NTP,0000,0000,0000,,我为你感到骄傲\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I am so proud of you.
+Dialogue: 0,0:10:57.04,0:10:58.74,Default,NTP,0000,0000,0000,,老爸也会的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And Dad would be, too.
+Dialogue: 0,0:11:09.61,0:11:10.39,Default,NTP,0000,0000,0000,,谢谢\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Thank you.
+Dialogue: 0,0:11:15.25,0:11:15.97,Default,NTP,0000,0000,0000,,谢谢\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Thank you.
+Dialogue: 0,0:11:23.92,0:11:25.14,Default,NTP,0000,0000,0000,,艾丽克斯  你好\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Alex, hi.
+Dialogue: 0,0:11:27.20,0:11:28.07,Default,NTP,0000,0000,0000,,当然\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Of course.
+Dialogue: 0,0:11:30.12,0:11:31.13,Default,NTP,0000,0000,0000,,到时候见\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'll see you then.
+Dialogue: 0,0:11:32.17,0:11:33.57,Default,NTP,0000,0000,0000,,谢谢你能见到我\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Thank you for meeting me.
+Dialogue: 0,0:11:34.14,0:11:35.03,Default,NTP,0000,0000,0000,,别客气\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Any time.
+Dialogue: 0,0:11:35.78,0:11:36.66,Default,NTP,0000,0000,0000,,怎么了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}So what's up?
+Dialogue: 0,0:11:36.66,0:11:39.95,Default,NTP,0000,0000,0000,,我想得到你身为治疗师的建议\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I wanted to get your advice on something, being a therapist.
+Dialogue: 0,0:11:40.17,0:11:42.78,Default,NTP,0000,0000,0000,,抱歉  但愿这样不会太冒昧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm sorry, I hope that's not weird that I asked.
+Dialogue: 0,0:11:43.51,0:11:46.21,Default,NTP,0000,0000,0000,,我可以为朋友破一次例\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I can make a one-time exception for a friend.
+Dialogue: 0,0:11:46.21,0:11:47.24,Default,NTP,0000,0000,0000,,好的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Okay.
+Dialogue: 0,0:11:49.45,0:11:51.25,Default,NTP,0000,0000,0000,,我和我的指挥官\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}My commanding officer and I
+Dialogue: 0,0:11:51.26,0:11:53.63,Default,NTP,0000,0000,0000,,都认为外星事务部\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}both agree that we think that something suspicious
+Dialogue: 0,0:11:53.63,0:11:55.78,Default,NTP,0000,0000,0000,,发生的事情有猫腻\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}is going on at the Department of Alien Affairs,
+Dialogue: 0,0:11:55.78,0:11:57.18,Default,NTP,0000,0000,0000,,我想告诉她\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and I am trying to tell her
+Dialogue: 0,0:11:57.18,0:11:59.70,Default,NTP,0000,0000,0000,,我们不能盲目地服从他们所有的命令\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}that we can't just follow their every order
+Dialogue: 0,0:11:59.70,0:12:02.57,Default,NTP,0000,0000,0000,,但她却坚持要遵循指挥系统\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}but she insists on the chain of command.
+Dialogue: 0,0:12:02.57,0:12:05.53,Default,NTP,0000,0000,0000,,我不知道怎么才能说通她\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And I don't know how to reach her.
+Dialogue: 0,0:12:05.69,0:12:08.49,Default,NTP,0000,0000,0000,,我可以试试吗\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Well, can I take a stab?
+Dialogue: 0,0:12:08.90,0:12:09.72,Default,NTP,0000,0000,0000,,拜托\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Please.
+Dialogue: 0,0:12:09.90,0:12:11.57,Default,NTP,0000,0000,0000,,你要收起怒气\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You need to stop getting angry
+Dialogue: 0,0:12:12.17,0:12:13.15,Default,NTP,0000,0000,0000,,变得聪明起来\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and get smart.
+Dialogue: 0,0:12:13.73,0:12:16.81,Default,NTP,0000,0000,0000,,我以前的指挥官很混蛋\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Okay, now, I had a real jerk of a CO.
+Dialogue: 0,0:12:16.88,0:12:18.49,Default,NTP,0000,0000,0000,,我们驻扎在巴什尔郊区的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We were stationed at a checkpoint
+Dialogue: 0,0:12:18.49,0:12:20.08,Default,NTP,0000,0000,0000,,一个检查站\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}on the outskirts of Bashur.
+Dialogue: 0,0:12:21.42,0:12:23.61,Default,NTP,0000,0000,0000,,有一天  有个男人开着破旧的皮卡\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And one day, a man pulled up
+Dialogue: 0,0:12:23.62,0:12:25.40,Default,NTP,0000,0000,0000,,停了过来\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}in this decrepit pickup,
+Dialogue: 0,0:12:25.65,0:12:27.33,Default,NTP,0000,0000,0000,,他怀孕的妻子坐在后面\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}his pregnant wife in the back,
+Dialogue: 0,0:12:28.03,0:12:30.83,Default,NTP,0000,0000,0000,,他只是想找那个地方唯一的助产士\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and he's just trying to get to the only midwife in the region.
+Dialogue: 0,0:12:30.83,0:12:32.72,Default,NTP,0000,0000,0000,,只要穿过小镇800多米就能到\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Just half a mile across town.
+Dialogue: 0,0:12:32.72,0:12:34.18,Default,NTP,0000,0000,0000,,指挥官不在乎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And the CO doesn't care.
+Dialogue: 0,0:12:34.38,0:12:37.26,Default,NTP,0000,0000,0000,,规矩就是规矩  他没有拿到批准文件\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Rules are rules and he doesn't have the right papers.
+Dialogue: 0,0:12:37.66,0:12:38.83,Default,NTP,0000,0000,0000,,那你当时怎么做的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}So what did you do?
+Dialogue: 0,0:12:39.03,0:12:41.76,Default,NTP,0000,0000,0000,,我大声嘶喊说要做正确的事\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I yelled and screamed about doing the right thing
+Dialogue: 0,0:12:41.93,0:12:43.26,Default,NTP,0000,0000,0000,,结果徒劳无功\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and got nowhere.
+Dialogue: 0,0:12:43.70,0:12:45.98,Default,NTP,0000,0000,0000,,但是我的军士说服了指挥官\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But my sergeant convinced the CO
+Dialogue: 0,0:12:45.98,0:12:47.83,Default,NTP,0000,0000,0000,,不让那个人的妻子和孩子冒生命危险\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}that it would be safer for his unit
+Dialogue: 0,0:12:47.89,0:12:50.55,Default,NTP,0000,0000,0000,,对他的部队来说会更安全\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}not to risk the life of the man's wife and child.
+Dialogue: 0,0:12:51.45,0:12:53.37,Default,NTP,0000,0000,0000,,他知道指挥官最在乎的是什么\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}He knew what the CO cared most about.
+Dialogue: 0,0:12:53.97,0:12:54.81,Default,NTP,0000,0000,0000,,他的手下\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}His men.
+Dialogue: 0,0:12:56.49,0:12:57.93,Default,NTP,0000,0000,0000,,你无法改变他人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You can't change people.
+Dialogue: 0,0:12:58.96,0:13:01.50,Default,NTP,0000,0000,0000,,但你可以唤醒他们的良知\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But you can appeal to who they are.
+Dialogue: 0,0:13:02.15,0:13:04.43,Default,NTP,0000,0000,0000,,即使最强硬的指挥官都有在乎的人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Even the toughest COs care about something.
+Dialogue: 0,0:13:10.12,0:13:13.10,Default,NTP,0000,0000,0000,,我猜猜  现在你希望你没打过电话给我\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Let me guess, right now you're wishing that you never called me.
+Dialogue: 0,0:13:13.73,0:13:15.28,Default,NTP,0000,0000,0000,,其实正好相反\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Actually, it's quite the opposite.
+Dialogue: 0,0:13:16.28,0:13:18.00,Default,NTP,0000,0000,0000,,我真的很高兴你没走\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm really glad you didn't leave.
+Dialogue: 0,0:13:23.54,0:13:25.39,Default,NTP,0000,0000,0000,,存有外星人注册表的根服务器\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}The root server containing the alien registry
+Dialogue: 0,0:13:25.39,0:13:27.45,Default,NTP,0000,0000,0000,,就在地下五层的地下室里\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}is located in a vault on sub-level five.
+Dialogue: 0,0:13:27.45,0:13:30.49,Default,NTP,0000,0000,0000,,授权人员必须通过一系列安检\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Authorized personnel have to pass through a series of security checks.
+Dialogue: 0,0:13:30.49,0:13:32.90,Default,NTP,0000,0000,0000,,第一  声纹识别\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}First, a voiceprint identification.
+Dialogue: 0,0:13:33.32,0:13:34.90,Default,NTP,0000,0000,0000,,谢天谢地哈雷上校很爱说话\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Thankfully Colonel Haley is good at talking,
+Dialogue: 0,0:13:34.90,0:13:36.42,Default,NTP,0000,0000,0000,,而我很擅长录音\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and I am good at recording.
+Dialogue: 0,0:13:36.89,0:13:37.89,Default,NTP,0000,0000,0000,,哈雷上校\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Colonel Haley.
+Dialogue: 0,0:13:41.38,0:13:43.01,Default,NTP,0000,0000,0000,,第二  视网膜扫描\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Next, a retinal scan.
+Dialogue: 0,0:13:43.03,0:13:44.75,Default,NTP,0000,0000,0000,,我可以用我的形象诱发器\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I can scramble the pattern of the retina
+Dialogue: 0,0:13:44.75,0:13:47.18,Default,NTP,0000,0000,0000,,打乱视网膜模式  混淆网关计算机\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}in my image inducer to confuse the gateway computer.
+Dialogue: 0,0:13:47.79,0:13:49.80,Default,NTP,0000,0000,0000,,接下来就是最具挑战的一步\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Then the most challenging step.
+Dialogue: 0,0:13:49.94,0:13:51.13,Default,NTP,0000,0000,0000,,有警卫看守的电梯\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}The guarded elevator.
+Dialogue: 0,0:13:51.13,0:13:54.53,Default,NTP,0000,0000,0000,,通过研究伊森·亨特  《碟中谍》里的高手\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}From studying Ethan Hunt, master of the impossible mission,
+Dialogue: 0,0:13:51.13,0:13:54.53,Default,NTP,0000,0000,0000,,{\an8}{\fn微软雅黑\fs18\b0\bord1\shad1\3c&H2F2F2F&}《碟中谍》系列的主角
+Dialogue: 0,0:13:54.53,0:13:57.68,Default,NTP,0000,0000,0000,,显然绕过警卫的答案是找托词\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}the obvious answer to bypass the guards would be subterfuge.
+Dialogue: 0,0:14:00.13,0:14:00.87,Default,NTP,0000,0000,0000,,是的  哈雷上校\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Yes, Colonel Haley,
+Dialogue: 0,0:14:00.87,0:14:02.73,Default,NTP,0000,0000,0000,,我正赶往那里\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm hurrying there as we speak.
+Dialogue: 0,0:14:02.98,0:14:04.68,Default,NTP,0000,0000,0000,,哈雷上校  她没太有耐心\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Colonel Haley, she's very impatient.
+Dialogue: 0,0:14:04.68,0:14:06.27,Default,NTP,0000,0000,0000,,需要拿些东西  地下五层\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Need something. Sub-level five.
+Dialogue: 0,0:14:13.67,0:14:15.49,Default,NTP,0000,0000,0000,,{\an8}{\fn微软雅黑\fs18\b0\bord1\shad1\3c&H2F2F2F&}全国外星人注册表\N进入数据库\N删除注册表
+Dialogue: 0,0:14:19.06,0:14:20.68,Default,NTP,0000,0000,0000,,{\an8}{\fn微软雅黑\fs18\b0\bord1\shad1\3c&H2F2F2F&}全国外星人注册表\N进入数据库\N删除注册表\N确认  取消
+Dialogue: 0,0:14:21.37,0:14:23.06,Default,NTP,0000,0000,0000,,如果有人发现了我的行为怎么办\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What if my actions are discovered?
+Dialogue: 0,0:14:24.40,0:14:26.40,Default,NTP,0000,0000,0000,,对外星人实施惩罚的报复手段\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And the powers that be retaliate
+Dialogue: 0,0:14:26.40,0:14:28.63,Default,NTP,0000,0000,0000,,就会变得更加严厉\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}by coming down even harder on the aliens.
+Dialogue: 0,0:14:30.29,0:14:32.46,Default,NTP,0000,0000,0000,,但话说回来  如果我不删除\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Then again, if I don't delete it,
+Dialogue: 0,0:14:32.53,0:14:36.28,Default,NTP,0000,0000,0000,,外星事务部就会立即将我朋友驱逐出境\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Alien Affairs will immediately target my friends for deportation.
+Dialogue: 0,0:14:37.10,0:14:38.34,Default,NTP,0000,0000,0000,,如果我真的删除了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And if I do delete it,
+Dialogue: 0,0:14:38.34,0:14:39.54,Default,NTP,0000,0000,0000,,那要怎样阻止政府\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}well, then what's to stop the government
+Dialogue: 0,0:14:39.54,0:14:42.08,Default,NTP,0000,0000,0000,,想出别的办法来向他们下手呢\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}from finding a new way to target them?
+Dialogue: 0,0:14:42.08,0:14:43.99,Default,NTP,0000,0000,0000,,难以抉择\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Ah, spruck!
+Dialogue: 0,0:14:45.72,0:14:48.17,Default,NTP,0000,0000,0000,,我接下来要做的事\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}There is a perfect 50/50 chance
+Dialogue: 0,0:14:48.17,0:14:49.33,Default,NTP,0000,0000,0000,,有一半几率\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}that what I am about to do
+Dialogue: 0,0:14:49.33,0:14:52.30,Default,NTP,0000,0000,0000,,是绝对错的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}is absolutely wrong.
+Dialogue: 0,0:14:54.37,0:14:55.03,Default,NTP,0000,0000,0000,,这样看来\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Well...
+Dialogue: 0,0:14:55.79,0:14:57.53,Default,NTP,0000,0000,0000,,如果没有精确的解答方案\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}If there is no mathematical solution
+Dialogue: 0,0:14:57.53,0:14:59.19,Default,NTP,0000,0000,0000,,那也许我应该找一个\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}then perhaps I should find a more...
+Dialogue: 0,0:15:01.39,0:15:02.43,Default,NTP,0000,0000,0000,,更具创造性的办法\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}creative one.
+Dialogue: 0,0:15:02.60,0:15:04.29,Default,NTP,0000,0000,0000,,这些只是每月的开销\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}These are just monthly expenses.
+Dialogue: 0,0:15:05.26,0:15:07.80,Default,NTP,0000,0000,0000,,支付给一半的预警和所有的囚犯\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Payoffs to half the guards and all of the inmates.
+Dialogue: 0,0:15:09.03,0:15:12.54,Default,NTP,0000,0000,0000,,这一本里全都是超人以及他被假定的失败\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}This one's all about Superman and his supposed failings.
+Dialogue: 0,0:15:13.40,0:15:14.81,Default,NTP,0000,0000,0000,,真是让人火大\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It's infuriating.
+Dialogue: 0,0:15:19.16,0:15:19.87,Default,NTP,0000,0000,0000,,怎么了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What is it?
+Dialogue: 0,0:15:20.98,0:15:22.34,Default,NTP,0000,0000,0000,,这是我小时候的事\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It's from my childhood.
+Dialogue: 0,0:15:22.92,0:15:24.05,Default,NTP,0000,0000,0000,,从四岁起\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It's an inventory of
+Dialogue: 0,0:15:24.52,0:15:26.80,Default,NTP,0000,0000,0000,,我所犯的过失和错误\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}all the faults and mistakes I've made since I was four.
+Dialogue: 0,0:15:28.99,0:15:30.30,Default,NTP,0000,0000,0000,,他就是这个德行\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}This is how he operates.
+Dialogue: 0,0:15:30.77,0:15:32.81,Default,NTP,0000,0000,0000,,我情绪激动  他就赢了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I get flooded with emotion and he wins.
+Dialogue: 0,0:15:35.01,0:15:36.43,Default,NTP,0000,0000,0000,,我觉得我做不到\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I don't think I can do this.
+Dialogue: 0,0:15:41.98,0:15:44.07,Default,NTP,0000,0000,0000,,对面有个宅男偷窥狂\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We have a peeping Tom across the way.
+Dialogue: 0,0:15:49.10,0:15:50.73,Default,NTP,0000,0000,0000,,你觉得他会知道些什么吗\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You think he knows anything?
+Dialogue: 0,0:15:51.54,0:15:53.56,Default,NTP,0000,0000,0000,,我知道我应该心存感激\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I get that I should be grateful.
+Dialogue: 0,0:15:54.11,0:15:55.15,Default,NTP,0000,0000,0000,,我的确很感激\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And I am.
+Dialogue: 0,0:15:55.83,0:15:56.55,Default,NTP,0000,0000,0000,,但是呢\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But?
+Dialogue: 0,0:15:58.10,0:15:59.14,Default,NTP,0000,0000,0000,,但是我不爽\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But I'm pissed.
+Dialogue: 0,0:15:59.91,0:16:01.53,Default,NTP,0000,0000,0000,,我知道我必须来这里\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I know I need to be here
+Dialogue: 0,0:16:01.97,0:16:03.28,Default,NTP,0000,0000,0000,,但这让人觉得...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}but this just feels...
+Dialogue: 0,0:16:07.42,0:16:08.30,Default,NTP,0000,0000,0000,,我是守护者\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm Guardian
+Dialogue: 0,0:16:09.98,0:16:11.35,Default,NTP,0000,0000,0000,,我保护人们\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and I protect people.
+Dialogue: 0,0:16:11.62,0:16:13.82,Default,NTP,0000,0000,0000,,人们尊敬我\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And people look up to me when...
+Dialogue: 0,0:16:14.11,0:16:17.23,Default,NTP,0000,0000,0000,,你觉得你不值得别人来帮你吗\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Do you feel like you don't deserve help?
+Dialogue: 0,0:16:17.67,0:16:19.39,Default,NTP,0000,0000,0000,,我觉得我不该需要别人帮忙\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I feel like I shouldn't need help.
+Dialogue: 0,0:16:19.71,0:16:22.29,Default,NTP,0000,0000,0000,,我觉得我应该足够坚强来克服这一切\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I feel like I should be strong enough to just get over this.
+Dialogue: 0,0:16:23.78,0:16:25.84,Default,NTP,0000,0000,0000,,当然如果你有治愈仙丹  我愿意吃\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Of course if you have a magic pill I'll take it.
+Dialogue: 0,0:16:25.84,0:16:28.01,Default,NTP,0000,0000,0000,,可惜  这个过程需要时间\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Sadly, this process takes time.
+Dialogue: 0,0:16:28.47,0:16:31.79,Default,NTP,0000,0000,0000,,今天  我可以给你一个着手点  帮你对抗焦虑\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}For today, I can give you a starting point to deal with anxiety
+Dialogue: 0,0:16:32.32,0:16:34.74,Default,NTP,0000,0000,0000,,或者任何有可能出现的负面情绪\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}or any negative feelings that may come up.
+Dialogue: 0,0:16:35.50,0:16:36.51,Default,NTP,0000,0000,0000,,一种平复情绪的方法\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}A calming tool.
+Dialogue: 0,0:16:37.55,0:16:38.52,Default,NTP,0000,0000,0000,,当然\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Okay, sure.
+Dialogue: 0,0:16:39.02,0:16:41.08,Default,NTP,0000,0000,0000,,叫做双侧刺激\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It's called bilateral stimulation.
+Dialogue: 0,0:16:41.67,0:16:44.95,Default,NTP,0000,0000,0000,,如果你开始出现症状  它可以帮助你恢复\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}So if you start experiencing symptoms, it can help pull you back.
+Dialogue: 0,0:16:46.74,0:16:49.53,Default,NTP,0000,0000,0000,,手臂交叉  手指勾在一起\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Cross your arms and interlock your fingers.
+Dialogue: 0,0:16:52.89,0:16:53.73,Default,NTP,0000,0000,0000,,吸气\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Breathe in.
+Dialogue: 0,0:16:57.32,0:16:58.27,Default,NTP,0000,0000,0000,,吐气\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Breathe out.
+Dialogue: 0,0:17:00.58,0:17:01.30,Default,NTP,0000,0000,0000,,轻拍\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Tap.
+Dialogue: 0,0:17:01.85,0:17:02.56,Default,NTP,0000,0000,0000,,轻拍\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Tap.
+Dialogue: 0,0:17:04.44,0:17:05.15,Default,NTP,0000,0000,0000,,轻拍\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Tap.
+Dialogue: 0,0:17:05.43,0:17:06.20,Default,NTP,0000,0000,0000,,轻拍\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Tap.
+Dialogue: 0,0:17:07.49,0:17:09.28,Default,NTP,0000,0000,0000,,如果你觉得舒服的话\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Now, if you're comfortable,
+Dialogue: 0,0:17:09.28,0:17:12.53,Default,NTP,0000,0000,0000,,想一个你觉得安全的地方\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}think of a place where you feel safe.
+Dialogue: 0,0:17:27.79,0:17:29.38,Default,NTP,0000,0000,0000,,使用这个方法  詹姆斯\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Use the tool, James.
+Dialogue: 0,0:17:29.52,0:17:30.58,Default,NTP,0000,0000,0000,,双臂交叉\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Cross your arms,
+Dialogue: 0,0:17:30.89,0:17:32.70,Default,NTP,0000,0000,0000,,手指勾在一起  吸气\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}interlock your fingers, breathe in.
+Dialogue: 0,0:17:33.26,0:17:34.02,Default,NTP,0000,0000,0000,,轻拍\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Tap.
+Dialogue: 0,0:17:43.76,0:17:45.44,Default,NTP,0000,0000,0000,,这是治疗的一部分\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}This is part of the process.
+Dialogue: 0,0:17:45.71,0:17:47.25,Default,NTP,0000,0000,0000,,需要耐心\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It takes patience
+Dialogue: 0,0:17:48.16,0:17:49.50,Default,NTP,0000,0000,0000,,但是会起效的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}but it does work.
+Dialogue: 0,0:17:49.88,0:17:51.04,Default,NTP,0000,0000,0000,,我知道会的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I know it will.
+Dialogue: 0,0:18:01.85,0:18:02.74,Default,NTP,0000,0000,0000,,你好啊\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Hey, there.
+Dialogue: 0,0:18:04.22,0:18:07.00,Default,NTP,0000,0000,0000,,恶名昭彰的莱克斯·卢瑟的邻居\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Neighbor to the infamous Lex Luthor, huh?
+Dialogue: 0,0:18:07.01,0:18:08.83,Default,NTP,0000,0000,0000,,是的  真是无上的荣幸\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, yeah, it was a true privilege.
+Dialogue: 0,0:18:09.23,0:18:10.66,Default,NTP,0000,0000,0000,,你这里的视野不错嘛\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I mean, you have a great view.
+Dialogue: 0,0:18:11.39,0:18:13.87,Default,NTP,0000,0000,0000,,这几周有看到什么可疑的事吗\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}See anything suspicious the last few weeks?
+Dialogue: 0,0:18:14.41,0:18:16.46,Default,NTP,0000,0000,0000,,莱克斯所做的每一件都很可疑\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Everything Lex did was suspicious.
+Dialogue: 0,0:18:17.25,0:18:20.16,Default,NTP,0000,0000,0000,,让我猜猜  你希望我向他的宿敌\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And let me guess, now you want me to rat him out
+Dialogue: 0,0:18:20.17,0:18:21.63,Default,NTP,0000,0000,0000,,出卖他吗\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}to his archnemesis?
+Dialogue: 0,0:18:22.16,0:18:23.79,Default,NTP,0000,0000,0000,,想想那感觉有多好\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Think of how good that will feel.
+Dialogue: 0,0:18:24.45,0:18:26.68,Default,NTP,0000,0000,0000,,终于能将他绳之以法\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}To help finally bring him to justice.
+Dialogue: 0,0:18:26.68,0:18:28.55,Default,NTP,0000,0000,0000,,你指望我相信你吗\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You expect me to trust you?
+Dialogue: 0,0:18:28.91,0:18:31.29,Default,NTP,0000,0000,0000,,你就是个叛徒\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You are literally a traitor.
+Dialogue: 0,0:18:31.29,0:18:32.80,Default,NTP,0000,0000,0000,,但是你又在乎什么呢\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But what do you care, right?
+Dialogue: 0,0:18:32.80,0:18:35.65,Default,NTP,0000,0000,0000,,大摇大摆地走进来  陷害我们\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Waltzing in here and putting a target on all our backs.
+Dialogue: 0,0:18:35.65,0:18:39.30,Default,NTP,0000,0000,0000,,-你说什么  -整个国家都很想铲除你\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Excuse me? - The entire country is itching to nuke you.
+Dialogue: 0,0:18:39.60,0:18:40.97,Default,NTP,0000,0000,0000,,当他们铲除你的时候\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And when they do,
+Dialogue: 0,0:18:41.06,0:18:42.63,Default,NTP,0000,0000,0000,,猜猜还有谁会被铲除\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}guess who else gets nuked?
+Dialogue: 0,0:18:42.63,0:18:43.91,Default,NTP,0000,0000,0000,,不  他们不会这么做的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}No, they wouldn't do that.
+Dialogue: 0,0:18:43.91,0:18:45.19,Default,NTP,0000,0000,0000,,他们想这么做\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}They want to.
+Dialogue: 0,0:18:45.48,0:18:47.62,Default,NTP,0000,0000,0000,,没人在乎无名小卒\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Nobody cares about the little people.
+Dialogue: 0,0:18:48.15,0:18:51.16,Default,NTP,0000,0000,0000,,即使我们为正义而战\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Even if we're fighting for justice by say,
+Dialogue: 0,0:18:52.16,0:18:56.73,Default,NTP,0000,0000,0000,,比如说公开有关非法无人机战争的机密文件\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}releasing classified documents about illegal drone warfare.
+Dialogue: 0,0:18:57.57,0:19:00.09,Default,NTP,0000,0000,0000,,等等  你是斯蒂夫·罗麦利\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Wait. You're Steve Lomeli.
+Dialogue: 0,0:19:01.42,0:19:03.30,Default,NTP,0000,0000,0000,,是你从国防部窃取了数据\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You stole all that data from the DOD.
+Dialogue: 0,0:19:03.30,0:19:05.04,Default,NTP,0000,0000,0000,,我只是揭露了真相\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I exposed the truth.
+Dialogue: 0,0:19:05.44,0:19:07.39,Default,NTP,0000,0000,0000,,也为此失去了自由\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And I paid for it with my freedom.
+Dialogue: 0,0:19:07.39,0:19:09.10,Default,NTP,0000,0000,0000,,因为  我不像你\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Because, unlike you,
+Dialogue: 0,0:19:09.24,0:19:10.74,Default,NTP,0000,0000,0000,,并不能凌驾于法律之上\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm not above the law.
+Dialogue: 0,0:19:10.74,0:19:11.80,Default,NTP,0000,0000,0000,,真是荒谬  我...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}That's ridiculous. I...
+Dialogue: 0,0:19:11.80,0:19:13.64,Default,NTP,0000,0000,0000,,是吗  你有多少次\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, really? How many times has your
+Dialogue: 0,0:19:13.64,0:19:16.48,Default,NTP,0000,0000,0000,,用一意孤行的粗暴方式\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}unilateral bull-in-a-china-shop approach
+Dialogue: 0,0:19:16.48,0:19:19.00,Default,NTP,0000,0000,0000,,毁掉了至关重要的证据\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}destroyed exculpatory evidence?
+Dialogue: 0,0:19:20.27,0:19:22.04,Default,NTP,0000,0000,0000,,有个词可以形容你们这样的人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}The term for someone like you
+Dialogue: 0,0:19:23.14,0:19:25.50,Default,NTP,0000,0000,0000,,有害的自恋者\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}is malignant narcissist.
+Dialogue: 0,0:19:26.07,0:19:27.73,Default,NTP,0000,0000,0000,,我是在帮助别人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I help people.
+Dialogue: 0,0:19:27.74,0:19:29.51,Default,NTP,0000,0000,0000,,少来吧  根本不是\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, no, you don't.
+Dialogue: 0,0:19:29.88,0:19:32.61,Default,NTP,0000,0000,0000,,你染指的东西都会被毁掉\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Everything you touch, you ruin.
+Dialogue: 0,0:19:37.05,0:19:39.92,Default,NTP,0000,0000,0000,,尼娅·纳尔  我理解你现在可能不太想见我\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Nia Nal, I understand this interaction might be difficult for you
+Dialogue: 0,0:19:39.93,0:19:41.49,Default,NTP,0000,0000,0000,,毕竟从我们上次在医院\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}given that we haven't spoken since our incredible
+Dialogue: 0,0:19:41.49,0:19:44.02,Default,NTP,0000,0000,0000,,浪漫而惊险的见面后  就再没说过话了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}yet devastating romantic encounter at the hospital.
+Dialogue: 0,0:19:44.02,0:19:46.00,Default,NTP,0000,0000,0000,,是啊  我一直吃不下东西\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Yeah, I've barely been able to eat.
+Dialogue: 0,0:19:46.00,0:19:48.75,Default,NTP,0000,0000,0000,,是啊  我最近也遇到了一个难题\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Yes, well, I too have been caught in quite a conundrum.
+Dialogue: 0,0:19:49.40,0:19:51.87,Default,NTP,0000,0000,0000,,本·洛克伍德想给超女下套\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Ben Lockwood is trying to trap Supergirl.
+Dialogue: 0,0:19:51.92,0:19:54.74,Default,NTP,0000,0000,0000,,他的下一步计划就是拿到外星人注册记录\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}His next step will be obtaining the alien registry.
+Dialogue: 0,0:19:55.09,0:19:56.46,Default,NTP,0000,0000,0000,,我们可以现在删除\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We could delete it right now,
+Dialogue: 0,0:19:56.53,0:19:58.17,Default,NTP,0000,0000,0000,,扼杀这个可能性\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}avoid that possibility,
+Dialogue: 0,0:19:58.26,0:19:59.15,Default,NTP,0000,0000,0000,,但是这样做有后果\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}but that could backfire
+Dialogue: 0,0:19:59.15,0:20:00.57,Default,NTP,0000,0000,0000,,可能会让政府陷入水深火热之中\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and bring the government down twice as hard.
+Dialogue: 0,0:20:00.57,0:20:03.99,Default,NTP,0000,0000,0000,,两种可能性平分秋色\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}The odds are a perfect 50/50.
+Dialogue: 0,0:20:04.09,0:20:05.76,Default,NTP,0000,0000,0000,,你的直觉是什么\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What does your gut tell you?
+Dialogue: 0,0:20:06.20,0:20:08.44,Default,NTP,0000,0000,0000,,我的直觉是做决定应该根据事实\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}That decisions should be made based on facts
+Dialogue: 0,0:20:08.44,0:20:11.00,Default,NTP,0000,0000,0000,,而不是主观感觉\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and not intestinal inclinations.
+Dialogue: 0,0:20:11.00,0:20:13.27,Default,NTP,0000,0000,0000,,请告诉我\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Now, please tell me,
+Dialogue: 0,0:20:13.85,0:20:14.68,Default,NTP,0000,0000,0000,,我该怎么办\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}what do I do?
+Dialogue: 0,0:20:15.78,0:20:16.82,Default,NTP,0000,0000,0000,,如果你想问我的意见...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}If you want my opinion--
+Dialogue: 0,0:20:16.82,0:20:18.35,Default,NTP,0000,0000,0000,,不  我不要意见\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}No, I do not,
+Dialogue: 0,0:20:19.00,0:20:23.11,Default,NTP,0000,0000,0000,,我希望你直接告诉我怎么做\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I want you to literally tell me what I do.
+Dialogue: 0,0:20:24.23,0:20:25.98,Default,NTP,0000,0000,0000,,你梦一下注册资料的未来\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Dream the future of the registry.
+Dialogue: 0,0:20:25.98,0:20:27.66,Default,NTP,0000,0000,0000,,还存在吗  或者不存在\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Does it exist? Does it not?
+Dialogue: 0,0:20:27.98,0:20:29.78,Default,NTP,0000,0000,0000,,你告诉我这个结果  我就知道我干了什么\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}If you tell me that, then you tell me what I did
+Dialogue: 0,0:20:29.78,0:20:30.86,Default,NTP,0000,0000,0000,,然后我就可以去做了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}so that I could do it.
+Dialogue: 0,0:20:30.86,0:20:34.36,Default,NTP,0000,0000,0000,,我想知道我的后代是否有超能力\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}So when I want to know about my descendant's superpowers
+Dialogue: 0,0:20:34.36,0:20:36.90,Default,NTP,0000,0000,0000,,你就说"你会毁掉时空的结构"\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}it's all "You'll destroy the fabric of space and time."
+Dialogue: 0,0:20:36.90,0:20:39.07,Default,NTP,0000,0000,0000,,可你想知道将来如何的时候...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But when you want to know the future it's--
+Dialogue: 0,0:20:39.07,0:20:40.63,Default,NTP,0000,0000,0000,,没有其他办法了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}There is no other way.
+Dialogue: 0,0:20:42.56,0:20:43.23,Default,NTP,0000,0000,0000,,好吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Fine.
+Dialogue: 0,0:21:01.39,0:21:03.49,Default,NTP,0000,0000,0000,,你没有毁掉注册资料\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You don't destroy the registry.
+Dialogue: 0,0:21:03.49,0:21:04.42,Default,NTP,0000,0000,0000,,真是荒谬\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}That's ridiculous.
+Dialogue: 0,0:21:05.41,0:21:07.97,Default,NTP,0000,0000,0000,,我当然得毁掉\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Of course I have to destroy it.
+Dialogue: 0,0:21:08.83,0:21:09.86,Default,NTP,0000,0000,0000,,这不就得了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Exactly.
+Dialogue: 0,0:21:11.74,0:21:13.78,Default,NTP,0000,0000,0000,,-什么  -答案出来了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- What? - That's the answer.
+Dialogue: 0,0:21:14.29,0:21:16.11,Default,NTP,0000,0000,0000,,你得毁掉注册资料\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You have to destroy the registry.
+Dialogue: 0,0:21:16.13,0:21:17.78,Default,NTP,0000,0000,0000,,但你梦到的结果是相反的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But you just dreamt the opposite.
+Dialogue: 0,0:21:17.85,0:21:19.50,Default,NTP,0000,0000,0000,,我什么都没梦\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I didn't dream anything.
+Dialogue: 0,0:21:19.72,0:21:21.21,Default,NTP,0000,0000,0000,,有时候听到错误答案\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Sometimes hearing the wrong answer
+Dialogue: 0,0:21:21.21,0:21:23.04,Default,NTP,0000,0000,0000,,才能意识到正确答案是什么\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}shows you what the right one is.
+Dialogue: 0,0:21:24.15,0:21:25.68,Default,NTP,0000,0000,0000,,主观感觉\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Intestinal inclination.
+Dialogue: 0,0:21:25.93,0:21:27.29,Default,NTP,0000,0000,0000,,也不赖吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Not so bad, is it?
+Dialogue: 0,0:21:37.03,0:21:38.86,Default,NTP,0000,0000,0000,,谢谢你  金女士\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Well, thank you, Ms. Kim.
+Dialogue: 0,0:21:38.91,0:21:40.40,Default,NTP,0000,0000,0000,,非常感激\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I appreciate it.
+Dialogue: 0,0:21:43.59,0:21:45.19,Default,NTP,0000,0000,0000,,怎么了  丹弗斯局长\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What is it, Director Danvers?
+Dialogue: 0,0:21:48.55,0:21:49.45,Default,NTP,0000,0000,0000,,上校\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Colonel.
+Dialogue: 0,0:21:49.95,0:21:52.74,Default,NTP,0000,0000,0000,,你一辈子都在当兵\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You've spent your life in service.
+Dialogue: 0,0:21:53.57,0:21:56.12,Default,NTP,0000,0000,0000,,你做的每件事都是为了祖国\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Everything you do is for the good of our country.
+Dialogue: 0,0:21:56.46,0:21:58.55,Default,NTP,0000,0000,0000,,你认为这是你的道德标准\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You see that as a moral imperative.
+Dialogue: 0,0:21:59.38,0:22:02.09,Default,NTP,0000,0000,0000,,但是有些命令并不道德\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But some orders are immoral.
+Dialogue: 0,0:22:02.59,0:22:04.44,Default,NTP,0000,0000,0000,,听从这些命令并不代表你是一名好兵\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And following them does not make you a good soldier,
+Dialogue: 0,0:22:04.44,0:22:05.76,Default,NTP,0000,0000,0000,,这代表着你是共犯\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}it makes you complicit.
+Dialogue: 0,0:22:05.76,0:22:07.41,Default,NTP,0000,0000,0000,,够了  丹弗斯局长\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}That is enough, Director Danvers.
+Dialogue: 0,0:22:07.41,0:22:09.61,Default,NTP,0000,0000,0000,,本·洛克伍德想要伏击超女\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Ben Lockwood wants to ambush Supergirl.
+Dialogue: 0,0:22:09.61,0:22:10.96,Default,NTP,0000,0000,0000,,他想处决她\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}He wants to execute her.
+Dialogue: 0,0:22:10.96,0:22:14.35,Default,NTP,0000,0000,0000,,但我们都知道  那些指控是虚假的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}While you and I both know that she's been falsely accused.
+Dialogue: 0,0:22:14.46,0:22:16.98,Default,NTP,0000,0000,0000,,我知道违反命令有风险\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Look, I know that it's risky to defy orders
+Dialogue: 0,0:22:16.98,0:22:21.55,Default,NTP,0000,0000,0000,,但是如今的局面  你要考虑的不仅是自己\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}but you have much more to consider than just yourself here.
+Dialogue: 0,0:22:22.57,0:22:23.63,Default,NTP,0000,0000,0000,,你的女儿呢\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What about your daughter?
+Dialogue: 0,0:22:23.63,0:22:25.56,Default,NTP,0000,0000,0000,,你别把我女儿扯进来\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You leave my daughter out of this.
+Dialogue: 0,0:22:26.26,0:22:27.82,Default,NTP,0000,0000,0000,,我来这里好几个月\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}In all my months here I've revealed to you
+Dialogue: 0,0:22:27.82,0:22:30.24,Default,NTP,0000,0000,0000,,只给了你一项个人信息\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}exactly one piece of personal information.
+Dialogue: 0,0:22:30.24,0:22:31.51,Default,NTP,0000,0000,0000,,就一项\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}One piece--
+Dialogue: 0,0:22:33.73,0:22:36.22,Default,NTP,0000,0000,0000,,你现在就要拿这一项来要挟我吗\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And now you wanna use that as leverage against me?
+Dialogue: 0,0:22:36.22,0:22:37.58,Default,NTP,0000,0000,0000,,-上校  -更不必说\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Colonel-- - Not to mention lying
+Dialogue: 0,0:22:37.58,0:22:39.15,Default,NTP,0000,0000,0000,,信号手表的事你撒了谎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}about the signal watch.
+Dialogue: 0,0:22:39.99,0:22:42.36,Default,NTP,0000,0000,0000,,我知道的比你想象的多  按一下她就会来\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Yes, I know more than you think. One click, she comes.
+Dialogue: 0,0:22:42.66,0:22:44.12,Default,NTP,0000,0000,0000,,按两下她就不来\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Two clicks, she stays away.
+Dialogue: 0,0:22:45.07,0:22:46.71,Default,NTP,0000,0000,0000,,你在透支自己的运气  丹弗斯\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You're pushing your luck here, Danvers,
+Dialogue: 0,0:22:46.71,0:22:48.79,Default,NTP,0000,0000,0000,,总有一天  你的运气会用完\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and one day you're going to push it too far.
+Dialogue: 0,0:22:50.43,0:22:51.70,Default,NTP,0000,0000,0000,,出去吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Dismissed.
+Dialogue: 0,0:23:01.12,0:23:02.38,Default,NTP,0000,0000,0000,,监狱长\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Hey, there, Warden.
+Dialogue: 0,0:23:02.83,0:23:05.70,Default,NTP,0000,0000,0000,,监狱长是你的名还是姓呢\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Is Warden your first name or your last?
+Dialogue: 0,0:23:05.85,0:23:06.89,Default,NTP,0000,0000,0000,,你怎么来了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What are you doing here?
+Dialogue: 0,0:23:06.89,0:23:07.98,Default,NTP,0000,0000,0000,,收到了警报提示\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Got an alert.
+Dialogue: 0,0:23:08.61,0:23:11.39,Default,NTP,0000,0000,0000,,老板的牢房里来了氪星人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Kryptonian in the boss' cell.
+Dialogue: 0,0:23:15.34,0:23:17.55,Default,NTP,0000,0000,0000,,曾经仰慕我的人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Well, people who used to admire me
+Dialogue: 0,0:23:17.55,0:23:19.19,Default,NTP,0000,0000,0000,,现在觉得我是美国的叛徒\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}now think I am an American traitor.
+Dialogue: 0,0:23:19.20,0:23:20.64,Default,NTP,0000,0000,0000,,而讨厌我的人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And the people that hate me
+Dialogue: 0,0:23:20.84,0:23:22.56,Default,NTP,0000,0000,0000,,正在庆祝我的垮台\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}are reveling in my downfall.
+Dialogue: 0,0:23:22.56,0:23:25.38,Default,NTP,0000,0000,0000,,你没有垮台  超女  不过是个小挫折\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Okay, this is not your downfall, Supergirl, it's a glitch.
+Dialogue: 0,0:23:25.38,0:23:26.63,Default,NTP,0000,0000,0000,,不是你干的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You didn't do it.
+Dialogue: 0,0:23:26.63,0:23:28.14,Default,NTP,0000,0000,0000,,我们都知道幕后黑手是莱克斯\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We both know Lex is behind this,
+Dialogue: 0,0:23:28.14,0:23:29.51,Default,NTP,0000,0000,0000,,很快大家都会知道的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and soon everyone else will, too.
+Dialogue: 0,0:23:29.51,0:23:31.33,Default,NTP,0000,0000,0000,,我比任何人都理解\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Okay, I know better than anyone what it's like
+Dialogue: 0,0:23:31.33,0:23:33.65,Default,NTP,0000,0000,0000,,因为莫须有的罪名被指控的感觉\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}to be falsely accused of a crime you didn't commit, okay?
+Dialogue: 0,0:23:33.65,0:23:35.51,Default,NTP,0000,0000,0000,,不好受\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It's not fun.
+Dialogue: 0,0:23:35.60,0:23:36.77,Default,NTP,0000,0000,0000,,确实如此\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}No, it's not.
+Dialogue: 0,0:23:37.02,0:23:39.98,Default,NTP,0000,0000,0000,,但是翻看杀人犯哥哥的日记\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But neither is reading through your murderous brother's journals
+Dialogue: 0,0:23:39.98,0:23:41.85,Default,NTP,0000,0000,0000,,重温那些可怕的记忆也不好受\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and reliving traumatic memories.
+Dialogue: 0,0:23:41.86,0:23:43.90,Default,NTP,0000,0000,0000,,光看着莱克斯的笔记\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Just looking at Lex's handwriting
+Dialogue: 0,0:23:43.90,0:23:45.69,Default,NTP,0000,0000,0000,,就像眼睛被针扎一样\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}is like needles in my eyes.
+Dialogue: 0,0:23:46.68,0:23:48.40,Default,NTP,0000,0000,0000,,也许这一切都是徒劳\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Maybe this is a wild-goose chase.
+Dialogue: 0,0:23:48.40,0:23:49.70,Default,NTP,0000,0000,0000,,也许根本没有线索链\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Maybe there's no clue trail,
+Dialogue: 0,0:23:49.70,0:23:52.90,Default,NTP,0000,0000,0000,,这只是莱克斯一如既往地在折磨我\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}just Lex torturing me like he always does.
+Dialogue: 0,0:23:53.55,0:23:54.78,Default,NTP,0000,0000,0000,,我们离开这里吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Let's just get out of here.
+Dialogue: 0,0:23:54.78,0:23:56.23,Default,NTP,0000,0000,0000,,不  莉娜  等等\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}No. No, Lena, wait.
+Dialogue: 0,0:23:56.75,0:23:58.77,Default,NTP,0000,0000,0000,,你我这样的人  永不言弃\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}People like you and me, we don't give up.
+Dialogue: 0,0:23:58.77,0:24:00.42,Default,NTP,0000,0000,0000,,我们一定能查出线索\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}So we will find something
+Dialogue: 0,0:24:00.42,0:24:02.04,Default,NTP,0000,0000,0000,,也一定能阻止他\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and we're going to stop him.
+Dialogue: 0,0:24:02.04,0:24:06.22,Default,NTP,0000,0000,0000,,早上好  D区的各位朋友\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Good morning, Cell Block D.
+Dialogue: 0,0:24:06.38,0:24:08.12,Default,NTP,0000,0000,0000,,-这是...  -奥蒂斯·格雷夫斯\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Is that-- - Otis Graves.
+Dialogue: 0,0:24:08.12,0:24:11.28,Default,NTP,0000,0000,0000,,我正在莱克斯电台实时直播\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Coming to you live from WLEX.
+Dialogue: 0,0:24:11.28,0:24:14.89,Default,NTP,0000,0000,0000,,我们将抽取一名幸运来电者送出礼物\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We have a giveaway for one lucky caller.
+Dialogue: 0,0:24:14.89,0:24:17.50,Default,NTP,0000,0000,0000,,第一名逮捕超女的人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}First person to apprehend Supergirl
+Dialogue: 0,0:24:17.75,0:24:22.47,Default,NTP,0000,0000,0000,,这辈子再也不用在监狱里\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}gets a lifetime of not being in prison anymore.
+Dialogue: 0,0:24:22.47,0:24:26.18,Default,NTP,0000,0000,0000,,祝大家好运  牢房即将打开\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Good luck. Lines are opening now.
+Dialogue: 0,0:24:40.85,0:24:43.40,Default,NTP,0000,0000,0000,,再过30秒就要开始暴乱了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We've got about 30 seconds before there's a riot.
+Dialogue: 0,0:24:43.40,0:24:45.08,Default,NTP,0000,0000,0000,,-我去找奥蒂斯  -我跟你一起去\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- I'm gonna find Otis. - Wait, I'm coming with you.
+Dialogue: 0,0:24:45.08,0:24:46.29,Default,NTP,0000,0000,0000,,不行  整个区的牢房\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}No, no, the whole cell
+Dialogue: 0,0:24:46.30,0:24:48.10,Default,NTP,0000,0000,0000,,都已经被打开  太危险了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}block was just set free, it's too dangerous.
+Dialogue: 0,0:24:48.10,0:24:50.37,Default,NTP,0000,0000,0000,,但要想找到莱克斯  那个笨蛋是最大的机会\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But that numskull's our best hope of finding Lex.
+Dialogue: 0,0:24:50.37,0:24:51.72,Default,NTP,0000,0000,0000,,所以我会去\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Which is why I will go.
+Dialogue: 0,0:24:51.72,0:24:53.41,Default,NTP,0000,0000,0000,,你必须查出莱克斯隐藏了什么\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You need to find out what Lex is hiding.
+Dialogue: 0,0:24:53.41,0:24:54.49,Default,NTP,0000,0000,0000,,我要把外面的门焊上\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm gonna weld that outside door
+Dialogue: 0,0:24:54.49,0:24:55.83,Default,NTP,0000,0000,0000,,防止奥蒂斯进来\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}so Otis can't get in.
+Dialogue: 0,0:24:57.16,0:25:00.04,Default,NTP,0000,0000,0000,,我再说一句  这是氪石防护盾\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Before you go... It's a Kryptonite shield.
+Dialogue: 0,0:25:00.39,0:25:02.40,Default,NTP,0000,0000,0000,,如果莱克斯真把奥蒂斯变成金属人带回来\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}If Lex did bring Otis back as Metallo,
+Dialogue: 0,0:25:02.40,0:25:03.22,Default,NTP,0000,0000,0000,,你会需要它\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}you're gonna need it.
+Dialogue: 0,0:25:06.25,0:25:07.26,Default,NTP,0000,0000,0000,,谢谢\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Thanks.
+Dialogue: 0,0:25:07.26,0:25:09.12,Default,NTP,0000,0000,0000,,-祝你好运  -你也是\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Good luck. - You too.
+Dialogue: 0,0:25:55.16,0:25:57.84,Default,NTP,0000,0000,0000,,国家颁布戒严令的第二天\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}As the nation enters the second day of martial law,
+Dialogue: 0,0:25:57.84,0:26:00.11,Default,NTP,0000,0000,0000,,全国范围内出现了食物短缺\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}food shortages and an uptick in violent crime
+Dialogue: 0,0:26:00.11,0:26:02.31,Default,NTP,0000,0000,0000,,暴力犯罪激增\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}has been reported across the country.
+Dialogue: 0,0:26:07.40,0:26:10.13,Default,NTP,0000,0000,0000,,L公司总裁莉娜·卢瑟的哥哥莱克斯·卢瑟\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Adding to this tension is the escape of Lex Luthor,
+Dialogue: 0,0:26:10.13,0:26:13.11,Default,NTP,0000,0000,0000,,他的逃脱恶化了局势\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}brother of L-Corp CEO, Lena Luthor.
+Dialogue: 0,0:26:41.31,0:26:43.69,Default,NTP,0000,0000,0000,,典狱长 我们时间不多了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Warden, we don't have much time.
+Dialogue: 0,0:26:44.22,0:26:46.11,Default,NTP,0000,0000,0000,,我需要你帮我找到...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I need you to help me find a--
+Dialogue: 0,0:26:50.33,0:26:51.48,Default,NTP,0000,0000,0000,,一个疯子\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}psychopath.
+Dialogue: 0,0:26:54.20,0:26:55.30,Default,NTP,0000,0000,0000,,你个混蛋\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You bastard.
+Dialogue: 0,0:27:06.83,0:27:08.74,Default,NTP,0000,0000,0000,,"爸爸又情绪失控了"\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}"Father lost his temper again..."
+Dialogue: 0,0:27:09.37,0:27:10.41,Default,NTP,0000,0000,0000,,莉娜\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Lena.
+Dialogue: 0,0:27:10.68,0:27:11.94,Default,NTP,0000,0000,0000,,给我回来\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Get back here now!
+Dialogue: 0,0:27:12.14,0:27:14.68,Default,NTP,0000,0000,0000,,"莉娜把他最宝贝的钢笔送给了我"\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}"Lena stole his prized fountain pen for me.
+Dialogue: 0,0:27:14.88,0:27:17.56,Default,NTP,0000,0000,0000,,"约旦国王送给他的那一支"\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}"The one presented to him by the King of Jordan."
+Dialogue: 0,0:27:20.49,0:27:22.40,Default,NTP,0000,0000,0000,,"莉娜渴望我的关注"\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}"Lena craves my attention."
+Dialogue: 0,0:27:23.16,0:27:24.27,Default,NTP,0000,0000,0000,,"真可怜"\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}"Pathetic."
+Dialogue: 0,0:27:26.68,0:27:29.52,Default,NTP,0000,0000,0000,,"她要是知道自己有多优秀  就不必这样了"\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}"If she knew how brilliant she was, she wouldn't need it."
+Dialogue: 0,0:27:36.83,0:27:38.50,Default,NTP,0000,0000,0000,,要是他找到我们怎么办\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What if he finds us?
+Dialogue: 0,0:27:38.50,0:27:40.45,Default,NTP,0000,0000,0000,,别担心  他喝醉的时候爬不上来\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Don't worry, he can't climb when he's drunk.
+Dialogue: 0,0:27:40.59,0:27:41.58,Default,NTP,0000,0000,0000,,等我长大\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}When I grow up,
+Dialogue: 0,0:27:41.67,0:27:43.60,Default,NTP,0000,0000,0000,,我会成为世界上最有钱的人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm gonna have all the money in the world.
+Dialogue: 0,0:27:43.74,0:27:44.97,Default,NTP,0000,0000,0000,,我要建一个房子\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And I'm gonna build a house
+Dialogue: 0,0:27:45.14,0:27:46.79,Default,NTP,0000,0000,0000,,让我们俩永远都不受伤害\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and I'm gonna keep us safe forever.
+Dialogue: 0,0:27:47.46,0:27:50.38,Default,NTP,0000,0000,0000,,就建在这里\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'll build it right there.
+Dialogue: 0,0:27:53.45,0:27:54.77,Default,NTP,0000,0000,0000,,那不是阿尔卑斯山\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Those aren't the Alps.
+Dialogue: 0,0:27:54.94,0:27:56.71,Default,NTP,0000,0000,0000,,你在玩什么把戏  哥哥\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What are you playing at, brother?
+Dialogue: 0,0:28:25.90,0:28:27.02,Default,NTP,0000,0000,0000,,奥蒂斯·格雷夫斯在哪儿\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Where's Otis Graves?
+Dialogue: 0,0:28:30.77,0:28:32.48,Default,NTP,0000,0000,0000,,巧了巧了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Well, well, well.
+Dialogue: 0,0:28:32.72,0:28:36.00,Default,NTP,0000,0000,0000,,这不是李·哈维·超女吗\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}If it isn't Lee Harvey Supergirl.
+Dialogue: 0,0:28:32.72,0:28:36.00,Default,NTP,0000,0000,0000,,{\an8}{\fn微软雅黑\fs18\b0\bord1\shad1\3c&H2F2F2F&}李·哈维 被认为是肯尼迪遇刺案的主凶
+Dialogue: 0,0:28:38.38,0:28:40.90,Default,NTP,0000,0000,0000,,看来变绿还挺容易的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Turns out it's easy being green.
+Dialogue: 0,0:28:45.04,0:28:47.42,Default,NTP,0000,0000,0000,,不止你一个人有姓卢瑟的朋友\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You're not the only one who's friends with a Luthor.
+Dialogue: 0,0:28:48.91,0:28:51.51,Default,NTP,0000,0000,0000,,我这儿的心脏有三倍大\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}My heart's grown three sizes in here.
+Dialogue: 0,0:29:20.69,0:29:22.11,Default,NTP,0000,0000,0000,,总统下令  所有人听好\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}President's orders, boys.
+Dialogue: 0,0:29:22.11,0:29:24.51,Default,NTP,0000,0000,0000,,如果超女在里面  就别让她出来\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}If Supergirl's in there, she is not coming out.
+Dialogue: 0,0:29:27.55,0:29:29.95,Default,NTP,0000,0000,0000,,这监狱的名字不是白叫的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}They don't call it the slammer for nothing.
+Dialogue: 0,0:30:07.68,0:30:09.57,Default,NTP,0000,0000,0000,,超女\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Supergirl!
+Dialogue: 0,0:30:14.69,0:30:16.93,Default,NTP,0000,0000,0000,,奥蒂斯在这儿\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Here's Otis!
+Dialogue: 0,0:30:32.53,0:30:33.77,Default,NTP,0000,0000,0000,,超女去哪儿了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Where'd Supergirl go?
+Dialogue: 0,0:30:33.78,0:30:35.01,Default,NTP,0000,0000,0000,,我不知道  不过我\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I don't know but I...
+Dialogue: 0,0:30:35.48,0:30:38.03,Default,NTP,0000,0000,0000,,我看见红影闪过了那扇门\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I saw a red blur go through that door.
+Dialogue: 0,0:30:42.46,0:30:43.61,Default,NTP,0000,0000,0000,,等等\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Wait a minute.
+Dialogue: 0,0:30:44.90,0:30:48.34,Default,NTP,0000,0000,0000,,D区是男人来的地方  你怎么在这儿\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}D block's for guys only, what are you doing here?
+Dialogue: 0,0:30:48.69,0:30:50.65,Default,NTP,0000,0000,0000,,我...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I, uh...
+Dialogue: 0,0:30:51.05,0:30:52.22,Default,NTP,0000,0000,0000,,我是记者\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm a reporter.
+Dialogue: 0,0:30:52.26,0:30:55.02,Default,NTP,0000,0000,0000,,我在餐厅做采访\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I was doing an interview in the dining hall
+Dialogue: 0,0:30:55.02,0:30:56.62,Default,NTP,0000,0000,0000,,保安把我们赶出去了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}when the guards rushed us out.
+Dialogue: 0,0:30:58.44,0:31:02.25,Default,NTP,0000,0000,0000,,报道监狱改造  你想发表一下意见吗\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}The article's on prison reform, maybe you'd care to comment?
+Dialogue: 0,0:31:02.65,0:31:04.22,Default,NTP,0000,0000,0000,,我不相信新闻业\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I don't trust the press.
+Dialogue: 0,0:31:04.67,0:31:06.23,Default,NTP,0000,0000,0000,,他们总是只在出事的时候报道危机\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}They always parachute into crises like this
+Dialogue: 0,0:31:06.23,0:31:09.79,Default,NTP,0000,0000,0000,,却不考虑整个社会体系更大的问题\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}without any context for the larger systemic issues at play.
+Dialogue: 0,0:31:17.90,0:31:18.85,Default,NTP,0000,0000,0000,,太阳\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Sun.
+Dialogue: 0,0:31:28.48,0:31:29.47,Default,NTP,0000,0000,0000,,什么  什么\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What? What?
+Dialogue: 0,0:31:29.47,0:31:31.17,Default,NTP,0000,0000,0000,,-不许动  -我只是个记者\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Don't move. - I'm just a reporter.
+Dialogue: 0,0:31:31.18,0:31:33.36,Default,NTP,0000,0000,0000,,-真的吗  哪家记者  -凯特科杂志的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Really, for whom? - For CatCo magazine.
+Dialogue: 0,0:31:33.36,0:31:35.14,Default,NTP,0000,0000,0000,,等等  我叫卡拉·丹弗斯\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Wait, my name is Kara Danvers.
+Dialogue: 0,0:31:35.26,0:31:36.40,Default,NTP,0000,0000,0000,,卡拉·丹弗斯\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Kara Danvers?
+Dialogue: 0,0:31:37.93,0:31:39.39,Default,NTP,0000,0000,0000,,你在干什么\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What are you doing?
+Dialogue: 0,0:31:39.39,0:31:42.17,Default,NTP,0000,0000,0000,,她是卡拉·丹弗斯  那个记者\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}This is Kara Danvers, the journalist.
+Dialogue: 0,0:31:42.17,0:31:43.39,Default,NTP,0000,0000,0000,,我给你读的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}The one who writes
+Dialogue: 0,0:31:43.39,0:31:46.59,Default,NTP,0000,0000,0000,,《纳欣诺市的外星人们》专栏就是她写的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}that Aliens of National City column that I read to you.
+Dialogue: 0,0:31:46.59,0:31:49.76,Default,NTP,0000,0000,0000,,凯特科其他好文章大多也都是她写的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And most of the other good stuff in CatCo, too.
+Dialogue: 0,0:31:49.76,0:31:51.14,Default,NTP,0000,0000,0000,,多谢夸奖\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, thanks.
+Dialogue: 0,0:31:51.14,0:31:52.55,Default,NTP,0000,0000,0000,,抱歉刚刚拿刀抵着你\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Sorry about the shiv.
+Dialogue: 0,0:31:52.58,0:31:54.82,Default,NTP,0000,0000,0000,,但是现在这片地方有暴乱\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But when a riot breaks out in the block,
+Dialogue: 0,0:31:54.82,0:31:56.47,Default,NTP,0000,0000,0000,,谁知道你会碰上什么坏人呢\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}you never know who you're gonna run into.
+Dialogue: 0,0:31:56.56,0:31:57.59,Default,NTP,0000,0000,0000,,我叫史蒂夫·罗麦利\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Steve Lomeli.
+Dialogue: 0,0:31:57.59,0:31:59.92,Default,NTP,0000,0000,0000,,斯特赖克唯一简报的编辑\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Editor of Stryker's one and only newsletter.
+Dialogue: 0,0:31:59.92,0:32:01.69,Default,NTP,0000,0000,0000,,不大自由的新闻\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}The not-so-free press.
+Dialogue: 0,0:32:01.83,0:32:04.54,Default,NTP,0000,0000,0000,,很高兴见到新闻界的同行\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It's nice to meet another member of the fourth estate.
+Dialogue: 0,0:32:04.65,0:32:05.67,Default,NTP,0000,0000,0000,,我很荣幸\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Pleasure's mine.
+Dialogue: 0,0:32:06.04,0:32:08.48,Default,NTP,0000,0000,0000,,跟我们说说吧  你为什么来斯特赖克\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}So tell us, what brings you to Stryker's?
+Dialogue: 0,0:32:08.48,0:32:10.44,Default,NTP,0000,0000,0000,,当然是私下里来的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Off the record, of course.
+Dialogue: 0,0:32:13.22,0:32:17.13,Default,NTP,0000,0000,0000,,我其实...在写有关莱克斯·卢瑟的文章\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm actually... I'm writing a piece about Lex Luthor.
+Dialogue: 0,0:32:18.27,0:32:20.00,Default,NTP,0000,0000,0000,,你不会恰巧知道他的事情吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You wouldn't happen to know anything about him, would you?
+Dialogue: 0,0:32:20.00,0:32:21.54,Default,NTP,0000,0000,0000,,你是今天第二个\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You know, you're the second person today
+Dialogue: 0,0:32:21.55,0:32:23.34,Default,NTP,0000,0000,0000,,跟我问起那疯子的人了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}to ask me about that psycho.
+Dialogue: 0,0:32:26.97,0:32:30.28,Default,NTP,0000,0000,0000,,事实就是  我的牢房就在他对面\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Truth is, my cell is right across from his.
+Dialogue: 0,0:32:30.49,0:32:31.89,Default,NTP,0000,0000,0000,,我可以跟你透露点东西\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I could tell you some things.
+Dialogue: 0,0:32:31.89,0:32:34.09,Default,NTP,0000,0000,0000,,-当然  都是很深入的信息  -当然\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Deep background, of course. - Of course.
+Dialogue: 0,0:32:34.09,0:32:36.55,Default,NTP,0000,0000,0000,,超女  这里是国民警卫队\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Supergirl, this is the National Guard.
+Dialogue: 0,0:32:36.55,0:32:38.52,Default,NTP,0000,0000,0000,,再不出来我们就进去了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Come out or we're coming in.
+Dialogue: 0,0:32:38.53,0:32:41.00,Default,NTP,0000,0000,0000,,任何阻碍我们的人都会被击毙\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Anyone in our way will be shot.
+Dialogue: 0,0:32:41.00,0:32:42.92,Default,NTP,0000,0000,0000,,简直是疯了  外面还有暴乱\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}That's crazy. They can't just come in here shooting
+Dialogue: 0,0:32:42.92,0:32:44.76,Default,NTP,0000,0000,0000,,他们不能就这么进来乱扫吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}when there's practically a riot going on?
+Dialogue: 0,0:32:44.76,0:32:45.56,Default,NTP,0000,0000,0000,,你觉得纳欣诺市的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You think the National
+Dialogue: 0,0:32:45.56,0:32:47.91,Default,NTP,0000,0000,0000,,国民警卫队会在意一群罪犯吗\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Guard gives a hoot about a bunch of convicts?
+Dialogue: 0,0:32:47.91,0:32:50.38,Default,NTP,0000,0000,0000,,我们五秒后开始进攻\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We are making our breach in five seconds.
+Dialogue: 0,0:32:50.39,0:32:52.18,Default,NTP,0000,0000,0000,,趴到地上去\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Lay down flat on the floor...
+Dialogue: 0,0:32:52.18,0:32:53.89,Default,NTP,0000,0000,0000,,-快点  我们得趴下  -手放在背后\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Come on, we better get down. -...hands behind your back.
+Dialogue: 0,0:32:53.89,0:32:55.78,Default,NTP,0000,0000,0000,,我得走了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Uh, I have to go.
+Dialogue: 0,0:32:55.78,0:32:57.93,Default,NTP,0000,0000,0000,,-五  -走? 你疯了吗\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Five... - Go? Are you crazy?
+Dialogue: 0,0:32:57.93,0:32:58.96,Default,NTP,0000,0000,0000,,四\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Four...
+Dialogue: 0,0:32:59.64,0:33:00.63,Default,NTP,0000,0000,0000,,三\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Three...
+Dialogue: 0,0:33:01.15,0:33:02.04,Default,NTP,0000,0000,0000,,二\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Two...
+Dialogue: 0,0:33:02.44,0:33:03.69,Default,NTP,0000,0000,0000,,一  上\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}One. Go!
+Dialogue: 0,0:33:09.69,0:33:11.01,Default,NTP,0000,0000,0000,,所有人  趴下\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Everybody, down!
+Dialogue: 0,0:33:20.30,0:33:21.47,Default,NTP,0000,0000,0000,,上  上  上\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Move, move, move.
+Dialogue: 0,0:33:28.37,0:33:29.60,Default,NTP,0000,0000,0000,,超女在哪儿\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Where is Supergirl?
+Dialogue: 0,0:33:33.81,0:33:34.73,Default,NTP,0000,0000,0000,,莉娜\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Lena?
+Dialogue: 0,0:33:35.38,0:33:36.21,Default,NTP,0000,0000,0000,,我在这儿\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm here.
+Dialogue: 0,0:33:52.67,0:33:53.75,Default,NTP,0000,0000,0000,,这是哪儿\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What is this place?
+Dialogue: 0,0:34:06.22,0:34:07.43,Default,NTP,0000,0000,0000,,艾美特克\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Amertek.
+Dialogue: 0,0:34:11.20,0:34:13.21,Default,NTP,0000,0000,0000,,这是超查部的废弃设备\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}That's the DEO desert facility.
+Dialogue: 0,0:34:13.21,0:34:14.77,Default,NTP,0000,0000,0000,,你在计划什么  莱克斯\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What are you up to, Lex?
+Dialogue: 0,0:34:14.82,0:34:18.20,Default,NTP,0000,0000,0000,,别担心  L先生  一切都在我掌控之下\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Don't worry, Mr. L. I got it all under control.
+Dialogue: 0,0:34:18.20,0:34:19.03,Default,NTP,0000,0000,0000,,完了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, no.
+Dialogue: 0,0:34:20.22,0:34:21.11,Default,NTP,0000,0000,0000,,奥蒂斯\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Otis.
+Dialogue: 0,0:34:21.14,0:34:22.83,Default,NTP,0000,0000,0000,,没错  我就在你的监狱里\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Yes, I am in your cell.
+Dialogue: 0,0:34:22.83,0:34:26.56,Default,NTP,0000,0000,0000,,看起来还不错\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And it looks great.
+Dialogue: 0,0:34:26.92,0:34:29.46,Default,NTP,0000,0000,0000,,站在正中间  当然了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Stand in the middle? Yeah, sure.
+Dialogue: 0,0:34:37.09,0:34:38.28,Default,NTP,0000,0000,0000,,我们得马上离开\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We've got to get out of here.
+Dialogue: 0,0:34:38.28,0:34:40.33,Default,NTP,0000,0000,0000,,不能就这样走  得找到莱克斯\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We can't leave all this stuff. We need it to find Lex.
+Dialogue: 0,0:34:40.33,0:34:41.40,Default,NTP,0000,0000,0000,,没时间了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}There's no time.
+Dialogue: 0,0:34:44.25,0:34:48.18,Default,NTP,0000,0000,0000,,你说"这是你应得的"  是什么意思\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And by "This is what you get," you mean what?
+Dialogue: 0,0:35:17.60,0:35:18.71,Default,NTP,0000,0000,0000,,-尼娅  -布莱尼  我错了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Nia-- - Brainy, I was wrong.
+Dialogue: 0,0:35:18.71,0:35:20.18,Default,NTP,0000,0000,0000,,你不能删除记录\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You can't delete the registry.
+Dialogue: 0,0:35:23.66,0:35:25.24,Default,NTP,0000,0000,0000,,-我没删  -幸好\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- I didn't. - Thank God.
+Dialogue: 0,0:35:25.61,0:35:27.26,Default,NTP,0000,0000,0000,,我梦见他们去追杀你了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I had a dream they came for you.
+Dialogue: 0,0:35:27.26,0:35:29.06,Default,NTP,0000,0000,0000,,我应该说清楚\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I should clarify.
+Dialogue: 0,0:35:31.57,0:35:34.31,Default,NTP,0000,0000,0000,,我确实删了名单\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I did, in fact, erase the list
+Dialogue: 0,0:35:34.31,0:35:35.31,Default,NTP,0000,0000,0000,,超查部服务器里的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}from the DEO servers.
+Dialogue: 0,0:35:35.31,0:35:38.07,Default,NTP,0000,0000,0000,,但考虑到我们可能会需要它...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But seeing as how there may come a time when we need it...
+Dialogue: 0,0:35:38.31,0:35:39.79,Default,NTP,0000,0000,0000,,我下载了一个复件\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I downloaded a copy.
+Dialogue: 0,0:35:40.46,0:35:41.40,Default,NTP,0000,0000,0000,,在我脑子里\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}To my brain.
+Dialogue: 0,0:35:41.40,0:35:43.60,Default,NTP,0000,0000,0000,,为什么你要这样做  你可能会成为攻击目标\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Why would you do that? Now you could be a target.
+Dialogue: 0,0:35:43.60,0:35:46.58,Default,NTP,0000,0000,0000,,那就是成为英雄的代价\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Well, that's just the cost of being a hero.
+Dialogue: 0,0:35:46.95,0:35:48.88,Default,NTP,0000,0000,0000,,布莱尼  那\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, Brainy, that's...
+Dialogue: 0,0:35:50.16,0:35:52.83,Default,NTP,0000,0000,0000,,那真是很英勇\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}That's actually very heroic.
+Dialogue: 0,0:35:53.50,0:35:57.12,Default,NTP,0000,0000,0000,,你说得对  我应该像你说的那样预见未来\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You were right. I should've looked into the future like you'd asked.
+Dialogue: 0,0:35:58.16,0:36:01.19,Default,NTP,0000,0000,0000,,在这个问题上  我有了新的想法\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I have evolved my views on this topic.
+Dialogue: 0,0:36:01.41,0:36:05.00,Default,NTP,0000,0000,0000,,考虑到预见未来的后果\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}The consequences of seeing the future under consideration,
+Dialogue: 0,0:36:05.90,0:36:09.20,Default,NTP,0000,0000,0000,,做正确的事才是当务之急\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}doing the right thing is an imperative.
+Dialogue: 0,0:36:09.20,0:36:11.73,Default,NTP,0000,0000,0000,,再说了  我被捕的几率其实非常低\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Besides, the odds of my arrest are actually quite low
+Dialogue: 0,0:36:11.73,0:36:15.19,Default,NTP,0000,0000,0000,,考虑到你还不擅长理解你的梦\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}seeing as how you're not very good at interpreting your dreams.
+Dialogue: 0,0:36:15.20,0:36:17.67,Default,NTP,0000,0000,0000,,我想最多只有三分之二的可能\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I give it 40/60 at best.
+Dialogue: 0,0:36:22.22,0:36:23.75,Default,NTP,0000,0000,0000,,改成二分之三吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Make that 60/40.
+Dialogue: 0,0:36:24.04,0:36:24.81,Default,NTP,0000,0000,0000,,布莱尼\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Brainy?
+Dialogue: 0,0:36:27.86,0:36:29.93,Default,NTP,0000,0000,0000,,你的总统命令  上校\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Your presidential order, Colonel.
+Dialogue: 0,0:36:33.29,0:36:35.45,Default,NTP,0000,0000,0000,,这足够了  沃克女士\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}This will suffice, Miss Walker.
+Dialogue: 0,0:36:36.93,0:36:38.63,Default,NTP,0000,0000,0000,,很好很好很好\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, yeah. Yeah, yeah, yeah.
+Dialogue: 0,0:36:38.63,0:36:41.67,Default,NTP,0000,0000,0000,,看看这对超女有没有用  很好\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}See if this won't work on Supergirl. Good.
+Dialogue: 0,0:36:42.01,0:36:44.06,Default,NTP,0000,0000,0000,,别害羞  先生们  这是个好东西\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Don't be shy, gentlemen. This is the good stuff.
+Dialogue: 0,0:36:44.97,0:36:47.68,Default,NTP,0000,0000,0000,,没有我直接命令  任何人不得开枪\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Nobody fires without my direct order.
+Dialogue: 0,0:36:47.68,0:36:50.83,Default,NTP,0000,0000,0000,,如果她够聪明  她会悄悄地来\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And if she's smart, she'll come quietly.
+Dialogue: 0,0:36:54.07,0:36:54.98,Default,NTP,0000,0000,0000,,来吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Okay.
+Dialogue: 0,0:36:56.66,0:36:58.51,Default,NTP,0000,0000,0000,,召唤超女\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Summon Supergirl.
+Dialogue: 0,0:37:10.53,0:37:12.35,Default,NTP,0000,0000,0000,,这要花多长时间\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}So how long is this supposed to take?
+Dialogue: 0,0:37:12.36,0:37:14.07,Default,NTP,0000,0000,0000,,一般不超过一分钟\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Normally less than a minute.
+Dialogue: 0,0:37:14.69,0:37:16.97,Default,NTP,0000,0000,0000,,但看起来她好像是切断联系了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But it would appear as though she has gone dark.
+Dialogue: 0,0:37:16.60,0:37:18.23,Default,NTP,0000,0000,0000,,{\an8}{\fn微软雅黑\fs18\b0\bord1\shad1\3c&H2F2F2F&}信号离线
+Dialogue: 0,0:37:19.36,0:37:20.28,Default,NTP,0000,0000,0000,,好吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Okay.
+Dialogue: 0,0:37:21.75,0:37:23.88,Default,NTP,0000,0000,0000,,你做了什么\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What did you do?
+Dialogue: 0,0:37:23.88,0:37:25.51,Default,NTP,0000,0000,0000,,我遵循了你的指示\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I followed your orders.
+Dialogue: 0,0:37:29.51,0:37:30.70,Default,NTP,0000,0000,0000,,收拾东西\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Let's pack it up.
+Dialogue: 0,0:37:32.74,0:37:34.97,Default,NTP,0000,0000,0000,,快点  收拾东西  所有东西\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Come on, pack it up. All of it.
+Dialogue: 0,0:37:37.30,0:37:39.50,Default,NTP,0000,0000,0000,,我们就把这些武器拿走\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We'll just be taking the weapons with us.
+Dialogue: 0,0:37:47.22,0:37:49.98,Default,NTP,0000,0000,0000,,-你按了两次  -我这样做不是为了你\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- You pressed twice. - I didn't do it for you.
+Dialogue: 0,0:37:51.49,0:37:55.55,Default,NTP,0000,0000,0000,,我女儿昨晚恐慌症发作了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}My daughter had a panic attack last night.
+Dialogue: 0,0:37:55.87,0:38:00.35,Default,NTP,0000,0000,0000,,她害怕戒严令和宵禁\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}She is scared of martial law and the curfew
+Dialogue: 0,0:38:01.59,0:38:04.49,Default,NTP,0000,0000,0000,,而且她最喜欢的老师失踪了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and the fact that her favorite teacher has gone missing.
+Dialogue: 0,0:38:06.01,0:38:07.13,Default,NTP,0000,0000,0000,,那老师是个外星人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}He's an alien.
+Dialogue: 0,0:38:08.39,0:38:11.66,Default,NTP,0000,0000,0000,,大概是藏起来了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And presumably in hiding.
+Dialogue: 0,0:38:12.87,0:38:14.91,Default,NTP,0000,0000,0000,,但我连这点也不能向她保证  是吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But I can't promise her that, can I?
+Dialogue: 0,0:38:15.47,0:38:16.65,Default,NTP,0000,0000,0000,,是的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}No, you can't.
+Dialogue: 0,0:38:17.03,0:38:19.70,Default,NTP,0000,0000,0000,,我不喜欢被你操纵\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I don't like being manipulated by you
+Dialogue: 0,0:38:20.29,0:38:22.32,Default,NTP,0000,0000,0000,,或是那条渴望权力的毒蛇\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}or that power-hungry snake.
+Dialogue: 0,0:38:22.32,0:38:23.77,Default,NTP,0000,0000,0000,,你做得没错\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You made the right choice.
+Dialogue: 0,0:38:24.71,0:38:27.41,Default,NTP,0000,0000,0000,,我为自己对国家的忠诚而自豪\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I prided myself on my loyalty to this country.
+Dialogue: 0,0:38:28.83,0:38:31.16,Default,NTP,0000,0000,0000,,我想要什么不重要  这都是为\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What I wanted didn't matter, it was about
+Dialogue: 0,0:38:32.46,0:38:34.07,Default,NTP,0000,0000,0000,,社会大众谋福祉\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}serving the greater good.
+Dialogue: 0,0:38:38.18,0:38:40.12,Default,NTP,0000,0000,0000,,现在  我在想\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Now, I wonder about
+Dialogue: 0,0:38:41.21,0:38:42.18,Default,NTP,0000,0000,0000,,那少部分人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}the few...
+Dialogue: 0,0:38:44.14,0:38:45.55,Default,NTP,0000,0000,0000,,那部分被舍弃的人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}the ones left behind.
+Dialogue: 0,0:38:47.94,0:38:49.66,Default,NTP,0000,0000,0000,,我女儿会是其中的一员吗\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Will my daughter be one of them?
+Dialogue: 0,0:38:50.88,0:38:52.45,Default,NTP,0000,0000,0000,,她向我寻求帮助\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}She is looking to me for help
+Dialogue: 0,0:38:52.45,0:38:56.20,Default,NTP,0000,0000,0000,,寻求道德指引\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and moral guidance
+Dialogue: 0,0:38:56.20,0:38:57.79,Default,NTP,0000,0000,0000,,但如果我自己也参与了这件事\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}but how can I protect her
+Dialogue: 0,0:38:59.39,0:39:00.93,Default,NTP,0000,0000,0000,,那我该如何保护她\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}if I am party to this?
+Dialogue: 0,0:39:09.20,0:39:11.68,Default,NTP,0000,0000,0000,,政府已经确认超女就是\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Authorities have identified Supergirl as the attacker
+Dialogue: 0,0:39:11.68,0:39:14.12,Default,NTP,0000,0000,0000,,企图释放斯特赖克岛囚犯的袭击者\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}in an attempt to free prisoners of Stryker's Island.
+Dialogue: 0,0:39:14.12,0:39:15.88,Default,NTP,0000,0000,0000,,企图释放囚犯吗\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Attempt to free prisoners?
+Dialogue: 0,0:39:15.95,0:39:17.07,Default,NTP,0000,0000,0000,,荒唐\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}That's ridiculous.
+Dialogue: 0,0:39:17.07,0:39:19.02,Default,NTP,0000,0000,0000,,看到人们用这些创造性的新方式\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It's always a joy to see the new and creative ways
+Dialogue: 0,0:39:19.02,0:39:20.85,Default,NTP,0000,0000,0000,,来憎恨好人  就觉得好笑\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}people find to hate the good guys.
+Dialogue: 0,0:39:21.28,0:39:25.14,Default,NTP,0000,0000,0000,,那个囚犯  斯蒂夫  他没错\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}That prisoner, Steve, he wasn't wrong.
+Dialogue: 0,0:39:27.35,0:39:28.84,Default,NTP,0000,0000,0000,,我确实恶化了事态\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I did make things worse.
+Dialogue: 0,0:39:29.67,0:39:32.01,Default,NTP,0000,0000,0000,,有多少囚犯差点因为我而死\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}How many prisoners almost died today because of me?
+Dialogue: 0,0:39:32.01,0:39:34.05,Default,NTP,0000,0000,0000,,我让你在监狱里面临危险\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I put you in jeopardy at the prison.
+Dialogue: 0,0:39:34.05,0:39:35.67,Default,NTP,0000,0000,0000,,我让你在超查部里面临危险\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And you were in jeopardy at the DEO.
+Dialogue: 0,0:39:35.67,0:39:37.24,Default,NTP,0000,0000,0000,,很显然  我现在所做的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It's clear I am doing
+Dialogue: 0,0:39:37.73,0:39:39.94,Default,NTP,0000,0000,0000,,利大于弊\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}more harm than good right now.
+Dialogue: 0,0:39:42.83,0:39:44.67,Default,NTP,0000,0000,0000,,所以我认为超女是时候该\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}So I think it's time Supergirl
+Dialogue: 0,0:39:45.11,0:39:46.00,Default,NTP,0000,0000,0000,,保持低调了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}lay low.
+Dialogue: 0,0:39:46.90,0:39:48.55,Default,NTP,0000,0000,0000,,还有其他办法能得到真相\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}There are other ways to get to the truth.
+Dialogue: 0,0:39:58.14,0:40:00.40,Default,NTP,0000,0000,0000,,詹姆斯  我收到了你的消息\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}James, I got your message.
+Dialogue: 0,0:40:00.60,0:40:02.24,Default,NTP,0000,0000,0000,,听起来很紧急  怎么了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It sounded urgent. What's up?
+Dialogue: 0,0:40:02.56,0:40:03.59,Default,NTP,0000,0000,0000,,又发生了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It happened again.
+Dialogue: 0,0:40:04.53,0:40:06.45,Default,NTP,0000,0000,0000,,这次我可以看见500英尺远\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But this time I could see 500 feet.
+Dialogue: 0,0:40:06.45,0:40:08.01,Default,NTP,0000,0000,0000,,感觉就在我眼前\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Like it was right in front of me.
+Dialogue: 0,0:40:08.21,0:40:09.74,Default,NTP,0000,0000,0000,,我还能听见一些\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And I could hear things
+Dialogue: 0,0:40:10.48,0:40:12.37,Default,NTP,0000,0000,0000,,常人不该听见的声音\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}that nobody should be able to hear.
+Dialogue: 0,0:40:12.43,0:40:16.04,Default,NTP,0000,0000,0000,,这些可能是幻觉  都是已知的症状\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It could be a hallucination. Those are known symptoms.
+Dialogue: 0,0:40:16.04,0:40:17.42,Default,NTP,0000,0000,0000,,我也希望如此\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I would love to believe that.
+Dialogue: 0,0:40:17.43,0:40:20.30,Default,NTP,0000,0000,0000,,真的  但是这次太真实了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I would, but this was too real.
+Dialogue: 0,0:40:24.86,0:40:26.17,Default,NTP,0000,0000,0000,,我们必须要告诉莉娜\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We have to talk to Lena.
+Dialogue: 0,0:40:26.59,0:40:28.66,Default,NTP,0000,0000,0000,,这不只是创伤后应激障碍了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}This is more than PTSD.
+Dialogue: 0,0:40:30.90,0:40:32.58,Default,NTP,0000,0000,0000,,她摧毁了一个监狱\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}She destroyed a prison.
+Dialogue: 0,0:40:33.17,0:40:34.72,Default,NTP,0000,0000,0000,,她打败了超查部\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}She outsmarted the DEO.
+Dialogue: 0,0:40:34.72,0:40:36.46,Default,NTP,0000,0000,0000,,不知怎地  她知道我们要来\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Somehow she knew we were coming.
+Dialogue: 0,0:40:36.46,0:40:38.75,Default,NTP,0000,0000,0000,,她似乎总是比我们快一步\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}She always seems to be one step ahead of us.
+Dialogue: 0,0:40:38.75,0:40:41.84,Default,NTP,0000,0000,0000,,如果你想我抓住她  我需要能相信的人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I need people I can trust if you want me to bring her down.
+Dialogue: 0,0:40:41.84,0:40:42.55,Default,NTP,0000,0000,0000,,去吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Go ahead.
+Dialogue: 0,0:40:43.35,0:40:46.13,Default,NTP,0000,0000,0000,,授权自由之子\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Deputize the Children of Liberty.
+Dialogue: 0,0:40:54.02,0:40:56.24,Default,NTP,0000,0000,0000,,是的  你是被引爆了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Yes, you were detonated.
+Dialogue: 0,0:40:56.31,0:40:58.89,Default,NTP,0000,0000,0000,,但我们又把你装好了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But we put you back together again.
+Dialogue: 0,0:41:02.33,0:41:04.68,Default,NTP,0000,0000,0000,,谢谢你来见我\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Thank you for meeting with me.
+Dialogue: 0,0:41:05.35,0:41:08.03,Default,NTP,0000,0000,0000,,很荣幸能接受卡拉·丹弗斯的采访\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Ah! What an honor to be interviewed by Kara Danvers.
+Dialogue: 0,0:41:08.59,0:41:10.65,Default,NTP,0000,0000,0000,,一定要保密  好吗\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Just make sure it stays off the record, okay?
+Dialogue: 0,0:41:10.65,0:41:13.36,Default,NTP,0000,0000,0000,,绝对严严实实的  我保证\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, deep, deep background, I promise.
+Dialogue: 0,0:41:13.46,0:41:16.18,Default,NTP,0000,0000,0000,,真可惜莱克斯的秘密监狱实验室\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It's a shame Lex's secret prison lab
+Dialogue: 0,0:41:16.18,0:41:18.58,Default,NTP,0000,0000,0000,,被奥蒂斯·格雷夫斯摧毁了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}was destroyed by that Otis Graves.
+Dialogue: 0,0:41:19.75,0:41:23.36,Default,NTP,0000,0000,0000,,但因为我这里没有安全的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But since there's no such thing as a secure Wi-Fi network
+Dialogue: 0,0:41:23.36,0:41:24.48,Default,NTP,0000,0000,0000,,无线网络\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}with me in the building...
+Dialogue: 0,0:41:28.01,0:41:29.29,Default,NTP,0000,0000,0000,,莱克斯的硬盘\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Lex's hard drive.
+Dialogue: 0,0:41:29.29,0:41:31.92,Default,NTP,0000,0000,0000,,那个密室里的电脑上的一切\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Everything that was on the computer in that secret room.
+Dialogue: 0,0:41:32.75,0:41:33.66,Default,NTP,0000,0000,0000,,谢谢你  斯蒂夫\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Thank you, Steve.
+Dialogue: 0,0:41:33.67,0:41:35.99,Default,NTP,0000,0000,0000,,你能把他绳之以法我就很感谢了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm just grateful you're bringing him to justice.
+Dialogue: 0,0:41:36.12,0:41:38.45,Default,NTP,0000,0000,0000,,能有这样的工具我就很感谢了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm grateful I have the tools to do it.
+Dialogue: 0,0:41:39.49,0:41:41.48,Default,NTP,0000,0000,0000,,追求正义的过程中  最强大的力量\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}There's nothing more powerful in the pursuit of justice
+Dialogue: 0,0:41:41.48,0:41:42.79,Default,NTP,0000,0000,0000,,就是媒体的力量\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}than the power of the press.
+Dialogue: 0,0:41:43.87,0:41:44.93,Default,NTP,0000,0000,0000,,有句老话叫什么\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What do they say?
+Dialogue: 0,0:41:45.09,0:41:47.33,Default,NTP,0000,0000,0000,,笔头强于剑\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}The pen is mightier than the sword.
+Dialogue: 0,0:41:50.39,0:41:52.31,Default,NTP,0000,0000,0000,,或许比披风还强大\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Maybe even mightier than a cape.
+
