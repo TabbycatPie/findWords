@@ -6,6 +6,12 @@ import Output
 #KeyStr = input("the key string: ")
 #KeyStr = '<dd class="info"><span>执业证号：'
 
+def mergeStringList(Stringmlist):
+    result = ""
+    for _str in Stringmlist:
+        result = result +","+ _str
+    return result
+
 def getFiletype(filename):
     temp=filename.split(".")
     return temp[len(temp)-1]
@@ -58,7 +64,9 @@ def findKeyStringInFile(KeyStr,FileName):
                 temp_list=LineTemp.split(",")
                 if temp_list[0] == "Dialogue: 0" and len(temp_list)>9:
                     time=temp_list[1]+"-->"+temp_list[2]+"\n"
-                    content = temp_list[9]+"\n"
+                    content = mergeStringList(temp_list[9:]).replace("\n"," ") + "\n"
+                else:
+                    content = "SUBTITLE ERROR: "+content
 
             #输出到文件
             Output.outPut(time,content,line_num,FileName,KeyStr)
