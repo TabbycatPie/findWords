@@ -52,7 +52,7 @@ def outPut(time,text,line_num,filename,word):
     logFound(word,convertFilenameToMoviename(filename),"\nline number:"+str(line_num)+"\ntime:"+time + "content:"+ text + "\n")
 
 def logFound(word,movie,content):
-    FileObj = codecs.open(output_path + word +"_Found.txt", 'a')
+    FileObj = codecs.open(output_path + word +"_Found.txt", 'a','utf-8')
     try:
         FileObj.write("movie:"+movie + content)
     except Exception:

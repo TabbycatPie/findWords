@@ -1,7 +1,11 @@
 import os
 import Output
 
+#正式库
 lib_path=r'./subtitlelib/'
+#测试库
+#lib_path=r'./testLIB/'
+
 #是否询问删除
 asking = True
 

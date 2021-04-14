@@ -2,6 +2,9 @@
 
 import codecs
 import Output
+import chardet
+
+
 #FileName = r'c:\ls\1'
 #KeyStr = input("the key string: ")
 #KeyStr = '<dd class="info"><span>执业证号：'
@@ -40,7 +43,12 @@ def findKeyStringInFile(KeyStr,FileName):
     #FoundFlag = False
     #用utf-8格式打开文件
 
-    FileObj = codecs.open(FileName, 'r','utf-8')
+    FileObj = open(FileName,'rb')
+    #获取文件类型
+    data = FileObj.read(100)
+    result = chardet.detect(data)
+    FileObj = codecs.open(FileName,'r',result['encoding'])
+
     try:
         LineTemp = FileObj.readline()
     except Exception:

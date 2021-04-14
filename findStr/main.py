@@ -2,7 +2,10 @@ import findWords2
 import os
 import Output
 
+#正式库
 lib_path=r'./subtitlelib/'
+#测试库
+#lib_path=r'./testlib/'
 
 def getWordList():
     _input=input("Input words(split with ',' eg:hello,good):")
