@@ -131,7 +131,11 @@ def main():
         
         file_name = getFileName(movie)
         num = getLineNumber(line_num)
-        time1,time2 = getTime(time)
+        if(findWords2.isTime(time)):
+            time1,time2 = getTime(time)
+        else:
+            time1 = "00:00:00.00"
+            time2 = "00:00:00.00"
     
         try:
             #获取文件
@@ -144,7 +148,7 @@ def main():
             print(e)
             print("Can not open file!\n")
             os.system("pause")
-            return
+            continue
         
         content = list()
         #分情况处理srt和ass
