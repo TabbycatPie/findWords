@@ -86,7 +86,7 @@ def assGettime(sub_str):
       t2 = parts[2]
       if(findWords2.isTime(t1) and findWords2.isTime(t1)):
          #两个时间格式正常
-         return t1.replace(",","."),t2.replace(",",".")
+         return "0"+t1.replace(",","."),"0"+t2.replace(",",".")
       else:
          return "00:00:00.00","00:00:00.00"
 #合并字符串list(被split之后的)
