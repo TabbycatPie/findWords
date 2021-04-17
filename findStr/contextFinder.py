@@ -59,8 +59,20 @@ def getTimeStringWithAddition(time,min_60):
             m = (m+min_60)%60
     else:
         m = m + min_60      
-    h = h + overflow    
-    return str(h)+":"+str(m)+":"+_list[2]
+    h = h + overflow   
+    h_out="00"
+    m_out="00" 
+    if(h<10):
+        h_out = "0"+str(h)
+    else:
+        h_out = str(h)
+    if(m<10):
+        m_out = "0"+str(m)
+    else:
+        m_out = str(m)
+
+
+    return h_out+":"+m_out+":"+_list[2]
 
 #合并字符串list(被split之后的)
 def mergeStringList(Stringmlist,spiliter):
@@ -104,8 +116,11 @@ def main():
         result = chardet.detect(data)
         FileObj = codecs.open(file_name,'r',result['encoding'])
         lines = FileObj.readlines()
-    except:
+    except Exception as e:
+        print(e)
         print("Can not open file!\n")
+        os.system("pause")
+        return
     
     content = list()
     #分情况处理srt和ass
@@ -135,9 +150,10 @@ def main():
         #ass文件
         print("ass 处理程序还没有写。。。\n")
 
-
-    line = lines[num-1]
-    print("content:"+line+"\nlen:"+str(len(lines)))
+    #显示上下文
+    for con in content:
+        print(con)
+    
     os.system("pause")
    
 if __name__ == '__main__':
