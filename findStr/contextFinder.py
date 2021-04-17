@@ -197,7 +197,6 @@ def main():
                 else:
                     content.append(assGetContent(sub))
                 cur = cur + 1
-            content.reverse()
 
         #显示上下文
         for con in content:
