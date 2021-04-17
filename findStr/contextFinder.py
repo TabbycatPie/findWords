@@ -2,6 +2,7 @@ import findWords2
 import codecs
 import chardet
 import os
+import re
 
 #正式库
 lib_path=r'./subtitlelib/'
@@ -74,6 +75,20 @@ def getTimeStringWithAddition(time,min_60):
 
     return h_out+":"+m_out+":"+_list[2]
 
+#获取ass字幕的时间字符串
+def assGettime(sub_str):
+   parts = sub_str.split(",")
+   if(len(parts)<10):
+      print("This line do not has content!\n")
+      return "00:00:00.00","00:00:00.00"
+   else:
+      t1 = parts[1]
+      t2 = parts[2]
+      if(findWords2.isTime(t1) and findWords2.isTime(t1)):
+         #两个时间格式正常
+         return t1.replace(",","."),t2.replace(",",".")
+      else:
+         return "00:00:00.00","00:00:00.00"
 #合并字符串list(被split之后的)
 def mergeStringList(Stringmlist,spiliter):
     result = ""
@@ -87,74 +102,110 @@ def srtGetContent(index,lines):
     while(lines[index]!="\r\n" and index < len(lines)):
         temp.append(lines[index])
         index = index + 1
-    return mergeStringList(temp,"\n")
+    return mergeStringList(temp,"").replace("\r\n","\n")
 
+def assGetContent(sub):
+   parts = sub.split(",")
+   if(len(parts)<10):
+      print("Syntax Error!\n")
+      return ""
+   else: 
+      return re.sub(u"\\(.*?\\)|\\{.*?}|\\[.*?]", "", mergeStringList(parts[9:],"")).replace("\\N","\n")
 
 
 
     
 
 def main():
-    movie = input("Paste your output here:\n")
-    while(movie==""):
-        movie = input()
-    line_num = input()
-    time = input()
-    #抵消剩下行
-    temp = input()
-    while temp!="":
+    exit_flag = False
+    while(not exit_flag):
+        movie = input("Paste your output here:\n")
+        while(movie==""):
+            movie = input()
+        line_num = input()
+        time = input()
+        #抵消剩下行
         temp = input()
+        while temp!="":
+            temp = input()
+        
+        file_name = getFileName(movie)
+        num = getLineNumber(line_num)
+        time1,time2 = getTime(time)
     
-    file_name = getFileName(movie)
-    num = getLineNumber(line_num)
-    time1,time2 = getTime(time)
-  
-    try:
-         #获取文件
-        FileObj = open(file_name,'rb')
-        data = FileObj.read(100)
-        result = chardet.detect(data)
-        FileObj = codecs.open(file_name,'r',result['encoding'])
-        lines = FileObj.readlines()
-    except Exception as e:
-        print(e)
-        print("Can not open file!\n")
-        os.system("pause")
-        return
-    
-    content = list()
-    #分情况处理srt和ass
-    if(findWords2.getFiletype(file_name)=="srt"):  
-        #找到1分钟之前的行
-        cur = num - 1
-        while (cur>0):
-            if(findWords2.isTime(lines[cur])):
-                t1,t2 = getTime(lines[cur])
-                if(t1<getTimeStringWithAddition(time1,1)):
+        try:
+            #获取文件
+            FileObj = open(file_name,'rb')
+            data = FileObj.read(100)
+            result = chardet.detect(data)
+            FileObj = codecs.open(file_name,'r',result['encoding'])
+            lines = FileObj.readlines()
+        except Exception as e:
+            print(e)
+            print("Can not open file!\n")
+            os.system("pause")
+            return
+        
+        content = list()
+        #分情况处理srt和ass
+        if(findWords2.getFiletype(file_name)=="srt"):  
+            #找到1分钟之前的行
+            cur = num - 1
+            while (cur>0):
+                if(findWords2.isTime(lines[cur])):
+                    t1,t2 = getTime(lines[cur])
+                    if(t1<getTimeStringWithAddition(time1,-1)):
+                        break
+                    else:
+                        content.append(srtGetContent(cur+1,lines)) #将搜索到的字幕 入栈
+                cur = cur - 1
+            content.reverse() #反转
+            #找到1分钟之后的行
+            cur = num 
+            while (cur<len(lines)):
+                if(findWords2.isTime(lines[cur])):
+                    t1,t2 = getTime(lines[cur])
+                    if(t1>getTimeStringWithAddition(time1,1)):
+                        break
+                    else:
+                        content.append(srtGetContent(cur+1,lines)) #入队列
+                cur = cur + 1
+        else:
+            #ass文件
+            #获取前1分钟的字幕
+            cur = num - 1
+            while(cur>0):
+                sub = lines[cur]
+                t1,t2 = assGettime(sub)
+                if(t1 < getTimeStringWithAddition(time1,-1)):
+                    #时间超界
                     break
                 else:
-                    content.append(srtGetContent(cur,lines)) #入栈
-            cur = cur - 1
-        content.reverse() #反转
-        #找到1分钟之后的行
-        cur = num 
-        while (cur>0):
-            if(findWords2.isTime(lines[cur])):
-                t1,t2 = getTime(lines[cur])
-                if(t1>getTimeStringWithAddition(time1,-1)):
-                    break
-                else:
-                    content.append(srtGetContent(cur,lines)) #入队列
-            cur = cur + 1
-    else:
-        #ass文件
-        print("ass 处理程序还没有写。。。\n")
+                    content.append(assGetContent(sub))
+                cur = cur - 1
 
-    #显示上下文
-    for con in content:
-        print(con)
+            content.reverse()
+
+            #获取后1分钟的字幕
+            cur = num
+            while(cur<len(lines)):
+                sub = lines[cur]
+                t1,t2 = assGettime(sub)
+                if(t2 > getTimeStringWithAddition(time1,1)):
+                    #时间超界
+                    break
+                else:
+                    content.append(assGetContent(sub))
+                cur = cur + 1
+            content.reverse()
+
+        #显示上下文
+        for con in content:
+            print(con)
+        char = input("Exit?('y' to exit):")
+        if(char.upper == "Y"):
+            break
     
-    os.system("pause")
    
 if __name__ == '__main__':
     main()
